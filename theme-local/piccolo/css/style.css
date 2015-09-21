@@ -45,7 +45,6 @@
     color: #FFF;
 }
 
-
 .carousel-inner .active.left  { left: -33%;             }
 .carousel-inner .active.right { left: 33%;              }
 .carousel-inner .next         { left: 33%               }

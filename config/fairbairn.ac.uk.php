@@ -3,13 +3,15 @@
 $config['skylight_appname'] = 'fairbairn';
 
 // Uncomment this if you are using a url of the form http://.../art/...
-$config['skylight_url_prefix'] = 'fairbairn';
+//$config['skylight_url_prefix'] = 'fairbairn';
 
 // set the base url and ga code
 if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
+    $config['base_url'] = 'http://www.fairbairn.ac.uk/';
     $config['skylight_ga_code'] = '';
 }
 else {
+    $config['base_url'] = 'http://test.fairbairn.ac.uk/';
     $config['skylight_ga_code'] = 'UA-25737241-19';
 }
 $config['skylight_repository_type'] = 'archivesspace'; // Demo 'dspace'

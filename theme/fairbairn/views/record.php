@@ -5,6 +5,7 @@ $type_field = $this->skylight_utilities->getField("Type");
 $date_field = $this->skylight_utilities->getField("Date");
 $parent_id_field = $this->skylight_utilities->getField("Parent_Id");
 $parent_type_field = $this->skylight_utilities->getField("Parent_Type");
+$id_field = $this->skylight_utilities->getField("Identifier");
 $filters = array_keys($this->config->item("skylight_filters"));
 $link_uri_field = $this->skylight_utilities->getField("Link");
 
@@ -47,10 +48,11 @@ $bitstreamLinks = array();
                             }
                             else {
                                 echo $metadatavalue;
+
                             }
 
                             if($index < sizeof($solr[$element]) - 1) {
-                                echo '<br/> ';
+                                echo '<br/>';
                             }
                         }
                         echo '</td></tr>';
@@ -59,7 +61,19 @@ $bitstreamLinks = array();
             }
             ?>
 
-
+            <tr><th>Consult at</th>
+                    <?php
+                    if (isset($solr[$id_field]) && 0 === strpos($solr[$id_field][0], 'MS'))
+                    {
+                        echo '<td><a href="http://www.nls.uk/" target="_blank" title="National Library of Scotland">National Library of Scotland</a></td>';
+                    }
+                    else
+                    {
+                        echo '<td><a href="http://www.ed.ac.uk/information-services/library-museum-gallery/crc" target="_blank"
+                        title="University of Edinburgh, Centre for Research Collections">University of Edinburgh, Centre for Research Collections</a></td>';
+                    }
+                    ?>
+                </tr>
             </tbody>
         </table>
     </div>

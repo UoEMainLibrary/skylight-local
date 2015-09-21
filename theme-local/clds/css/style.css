@@ -395,7 +395,7 @@ table								{ width: 100%; margin-bottom: 20px;}
 table caption						{ text-align: left; background: #333333; color: #fff; font-size: 12px; text-transform: uppercase; font-weight: bold; padding: 0px 17px; border-bottom: 1px solid #fff; line-height: 26px; }
 
 table td,
-table th							{ padding: 8px 17px; text-align: left; color: #005784; }
+table th							{ padding: 8px 17px; text-align: left; color: #005784; white-space: pre-line;}
 table th                            { border-right: 1px dashed #D6D3C4; width: 20%; }
 table td                            { width: auto; color: #333333;}
 table tr                            { border-bottom: 1px dashed #D6D3C4; }
@@ -476,12 +476,11 @@ table tr:last-child                 { border: 0; border-bottom: none; }
     /* filter: alpha(opacity=80); /* IE transparency */
 }
 
-.caption-art                { top: 6%; right: 59%; bottom: 81%; left: 2%;}
-.caption-iconic             { top: 6%; right: 59%; bottom: 81%; left: 2%;}
-.caption-mimed              { top: 6%; right: 59%; bottom: 81%; left: 2%;}
-.caption-russell            { top: 6%; right: 59%; bottom: 81%; left: 2%;}
-.caption-calendars          { top: 6%; right: 63%; bottom: 81%; left: 2%;}
-.caption-exhibitions        { top: 6%; right: 63%; bottom: 81%; left: 2%;}
+.caption-art                { top: 6%; right: 75%; bottom: 81%; left: 2%;}
+.caption-rarebooks          { top: 6%; right: 75%; bottom: 81%; left: 2%;}
+.caption-mimed              { top: 6%; right: 75%; bottom: 81%; left: 2%;}
+.caption-archives           { top: 6%; right: 75%; bottom: 81%; left: 2%;}
+.caption-museums            { top: 6%; right: 75%; bottom: 81%; left: 2%;}
 
 .pagenotfound {
     border-top: 1px solid #333;

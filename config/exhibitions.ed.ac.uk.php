@@ -19,7 +19,7 @@ $config['skylight_theme'] = 'exhibitions';
 
 $config['skylight_fullname'] = 'Library and University Collections Exhibitions';
 
-$config['skylight_adminemail'] = 'lddt@mlist.is.ed.ac.uk';
+$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
 
 $config['skylight_oaipmhcollection'] = 'hdl_10683_23132';
 
@@ -45,7 +45,7 @@ $config['skylight_fields'] = array('Title' => 'dc.title.en',
     'Rights' => 'dc.rights.en',
     'Link' => 'dc.identifier.uri.en',
     'Alternative' => 'dc.title.alternative.en',
-    'Identifier' => 'dc.identifier',
+    'Identifier' => 'dc.identifier.en',
     'Tags' => 'dc.subject.crowdsourced.en',
     'Exhibition' => 'dc.relation.ispartofexhibition.en'
 );
@@ -62,7 +62,7 @@ $config['skylight_meta_fields'] = array('Title' => 'dc.title.en',
     'Bitstream'=> 'dc.format.original',
     'Thumbnail'=> 'dc.format.thumbnail');
 
-$config['skylight_recorddisplay'] = array('Title','Alternative','Creator','Exhibition','Subject','Type','Description','Date','Collection','Rights');
+$config['skylight_recorddisplay'] = array('Title','Alternative','Creator','Exhibition','Subject','Type','Description','Date','Collection','Rights', 'Identifier');
 
 $config['skylight_searchresult_display'] = array('Title','Creator','Subject','Type','Exhibition');
 
