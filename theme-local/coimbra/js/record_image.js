@@ -11,7 +11,6 @@ window.onload = function(){
 
     $('.cover-image-container').addClass("loaded");
     $('.record-info').addClass("showing");
-
     // Starts the code that checks which images are visible
     // Calling in a timeout in order to make sure that the images are ordered before checking for visibility
     setTimeout(function(){

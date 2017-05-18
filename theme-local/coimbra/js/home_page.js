@@ -15,6 +15,7 @@ var slideshow = new Function()
         if (!hovered) {
             $('.main-categories a.active').removeClass('active');
             $('.main-categories a:nth-child(' + (i+1) + ')').addClass('active');
+
             $('.parallax.active').removeClass('active').addClass('inactive');
             $('.parallax.img' + (i)).removeClass('inactive').addClass('active');
         }

@@ -49,7 +49,7 @@ $config['skylight_fields'] = array(
     'Photographic Credits'                  => 'dc.contributor.en',
     'Metadata Rights'                       => 'dc.rights.en',
     'Image File Name'                       => 'dc.format.bitstream.en',
-    'Logo URL'                              => 'dc.format.original.en',
+    'Logo'                                  => 'dc.format.original.en',
     'Image URL'                             => 'dc.identifier.uri.en',
     'Tags'                                  => 'dc.subject.en',
     'Category'                              => 'dc.relation.ispartofexhibition.en',
@@ -104,7 +104,7 @@ $config['skylight_search_fields'] = array(
     'Accession Number' => 'dc.identifier.en'
 );
 
-$config['skylight_related_fields'] = array('Instrument' => 'dc.type.en', 'Genus' => 'dc.type.genus.en');
+$config['skylight_related_fields'] = array('Institution' => 'dc.relation.ispartof');
 
 //only by title, no date at the moment
 $config['skylight_sort_fields'] = array(
