@@ -16,6 +16,7 @@ $image_name = isset( $solr[$coverImageName][0] ) ? $solr[$coverImageName][0] : "
 
 //Image variables setup
 $coverImageJSON = $imageServer . "/iiif/2/" . $image_name;
+
 $coverImageURL = $coverImageJSON . '/full/full/0/default.jpg';
 $coverImage = '<img class="record-image" src ="' .$coverImageURL .'"/>';
 
@@ -38,6 +39,9 @@ $jsonwidth = $jobj['width'];
 </div>
 
 <div id="openseadragon" class="cover-image-container full-width">
+    <button class="show-info visible-xs" onclick="$('html, body').animate({scrollTop: $('.record-info').offset().top-50},1000);">
+        Show info
+    </button>
 </div>
 
 
@@ -54,7 +58,7 @@ $jsonwidth = $jobj['width'];
 <div class="record-info">
     <h1 class="itemtitle">
         <div class="backbtn">
-            <i class="fa fa-arrow-left" aria-hidden="true" type="button" value="Back to Search Results" onClick="history.go(-1);"></i>
+            <i class="fa fa-arrow-left" aria-hidden="true" type="button" value="Back to Search Results" title="Back to Search Results" onClick="history.go(-1);"></i>
         </div>
         <?php echo $title ?>
     </h1>
@@ -95,13 +99,13 @@ $jsonwidth = $jobj['width'];
                 $(window).bind("load", function() {
                     <?php
                     echo 'initMap(convertToCoordinates("' . $solr[$location][0] . '"));';
-                    $addLocation = $solr[$location][0] . '", "' . addslashes($title) . '", 0, "../theme/coimbra/images/pinpoint.png", 1';
+                    $addLocation = $solr[$location][0] . '", "' . addslashes($title) . '", 0, "../theme/coimbra/images/google-pinpoint.png", 1';
                     echo 'addLocation("' . $addLocation . ');';
                     ?>
                 });
             </script>
         </div>
-        <div class="instituion-logo">
+        <div class="institution-logo row">
             <?php
             if (isset($solr[$logoImageName]))
             {
