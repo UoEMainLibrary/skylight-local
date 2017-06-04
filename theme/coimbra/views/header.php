@@ -48,13 +48,6 @@
     <script src="<?php echo base_url()?>assets/jquery-1.11.0/jcarousel/jquery.jcarousel.min.js"></script>
     <script src="<?php echo base_url()?>assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/pace.js"></script>
-
-
-    <!--    Scripts added by Kristiyan Tsvetanov-->
-    <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/visible.js"></script>
-    <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/viewportchecker.js"></script>
-
-
     <script src="http://www.google-analytics.com/analytics.js"></script>
 
     <!-- Google Analytics -->
@@ -118,6 +111,8 @@
                 <ul class="nav navbar-nav">
                     <li class="active dropdown"><a href="#">Home</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><a href="./about">About</a></li>
+                    <li><a href="./intro">Intro</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="./search">All records</a></li>
