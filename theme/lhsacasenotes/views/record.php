@@ -20,17 +20,26 @@ $bitstreamLinks = array();
 
 <div class="col-md-9 col-sm-9 col-xs-12" xmlns="http://www.w3.org/1999/html">
     <div class="row">
-        <h1 class="itemtitle"><?php echo $record_title ?></h1>
+        <h1 class="itemtitle"><?php echo strip_tags($record_title) ?></h1>
     </div>
 
-    <div class="row">
+    <!--<div class="row">
     <button class="btn btn-info"><a href ="<?php echo $link_uri_prefix ?><?php echo $solr[$id][0] ?>"
                                     title="Full record at archives online " target="_blank">
             View full record in University of Edinburgh Archives Online <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></button>
-    </div>
+    </div>-->
     <div class="row full-metadata">
         <table class="table">
             <tbody>
+
+            <?php
+            if(isset($solr[$parent_id_field])) {
+                echo '<tr><th>Heirarchy</th><td>';
+                echo '<a href ="./record/' . $solr[$parent_id_field][0] .'/'. $solr[$parent_type_field][0] . '" > Parent Record </a>';
+                echo '</td><tr>';
+            }
+            ?>
+
             <?php $excludes = array("");
 
             foreach($recorddisplay as $key) {
@@ -66,8 +75,8 @@ $bitstreamLinks = array();
             <tr><th>Consult at</th>
                     <?php
 
-                        echo '<td><a href="http://www.ed.ac.uk/information-services/library-museum-gallery/crc/visitor-information/opening-times-location" target="_blank"
-                        title="University of Edinburgh, Centre for Research Collections">University of Edinburgh, Centre for Research Collections</a></td>';
+                        echo '<td><a href="http://www.lhsa.lib.ed.ac.uk/" target="_blank"
+                        title="Lothian Health Services Archive">Lothian Health Services Archive</a></td>';
                     ?>
                 </tr>
             </tbody>

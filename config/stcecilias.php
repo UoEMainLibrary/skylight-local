@@ -1,9 +1,9 @@
 <?php
 
-$config['skylight_appname'] = 'stcecilia';
+$config['skylight_appname'] = 'stcecilias';
 
 // Uncomment this if you are using a url of the form http://.../art/...
-$config['skylight_url_prefix'] = 'stcecilia';
+$config['skylight_url_prefix'] = 'stcecilias';
 
 $config['skylight_theme'] = 'stcecilia';
 
