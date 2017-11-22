@@ -1,9 +1,10 @@
 <footer id="footer" style="background-color: #FFF;border-top: 1px solid #ccc;padding: 20px;text-align: center;margin: 0 auto;">
+    <p class="go-to-bottom"><a href="#" id="gobottom"><img id="gotobottom" src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/backtotop.svg"/></a></p>
     <div class="container" >
         <div class="row">
             <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"style="text-align: right;">
                 <a href="http://www.ed.ac.uk/schools-departments/information-services/about/organisation/library-and-collections" target="_blank" title="Library &amp; University Collections Home">
-                    <img src="img/LUC.png"/></a>
+                    <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/LUC.png"/></a>
             </div>
             <div class="col-lg-8 col-md-8" style="">
                 <h3><a href="#" title="University Collections Home">University Collections</a></h3>
@@ -15,20 +16,19 @@
             </div>
             <div class="col-lg-2 col-md-2 hidden-sm hidden-xs" style="text-align: left;">
                 <a href="http://www.is.ed.ac.uk" target="_blank"  title="University of Edinburgh Information Services Home">
-                    <img src="img/is.png"/></a>
+                    <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/is.png"/></a>
             </div>
         </div>
     </div>
-    <p class="back-to-top"><a href="#" id="gotop"><img src="img/backtotop.svg"/></a></p>
+    <p class="back-to-top"><a href="#" id="gotop"><img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/backtotop.svg"/></a></p>
 </footer>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
-    //轮播自动播放
+
     $('#myCarousel').carousel({
-        //自动4秒播放
         interval : 4000,
     });
 
@@ -52,24 +52,47 @@
 
 <script>
     $(document).ready(function(){
-        $(window).scroll( function() {               //滚动时触发
-            var top = $(document).scrollTop();       //获取滚动条到顶部的垂直高度
-            if(top > 100){                           //到一定高度显示
-                var height = $(window).height();     //获得可视浏览器的高度
+        $(window).scroll( function() {
+            var height = $(window).height();
+
+            var top = $(document).scrollTop();
+
+            if(top > 100){
                 $("#gotop").fadeIn(300).css({
-                    top: height-80
+                    top: height-108
                 });
             }
-            if(top < 100){                            //小于100消失
+
+            if(top < 100){
                 $("#gotop").fadeOut(200);
             }
+
+            //var bottom = $(window).scrollTop() + $(window).height();
+
+            if(top > 100){
+
+                $("#gobottom").fadeIn(300).css({
+                    top: height-108
+                });
+            }
+            if(top < 100){
+                $("#gobottom").fadeOut(200);
+            }
         });
-        /*点击回到顶部*/
+
         $('#gotop').click(function(){
             $('html, body').animate({
                 scrollTop: 0
             }, 500);
         });
+
+        $('#gobottom').click(function(){
+            $('html, body').animate({
+                scrollTop: $(window).scrollTop() + $(window).height() + $(document).height()
+            }, 500);
+        });
+
+
     });
 </script>
 

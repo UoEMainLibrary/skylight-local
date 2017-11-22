@@ -1,6 +1,6 @@
 <div class="container" style="background-color: #FAEBD7;width: 100%;padding: 0;">
     <div class="sub-menu">
-        <ul class="snip1555" >
+        <ul class="cldmenu" >
             <li class="current" ><a href="http://collections.ed.ac.uk/search/*/Type:%22archives%7C%7C%7CArchives%22/Header:%22archives%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ARCHIVES">ARCHIVES</a></li>
             <li><a href="http://collections.ed.ac.uk/search/*/Type:%22rare+books|||Rare+Books%22/Header:%22rarebooks%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="RARE BOOKS">RARE BOOKS</a></li>
             <li><a href="http://collections.ed.ac.uk/search/*/Type:%22mimed%7C%7C%7CMIMEd%22/Header:%22mimed%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSICAL INSTRUMENTS">MUSICAL INSTRUMENTS</a></li>
@@ -20,7 +20,7 @@
             <!-- First Slide -->
             <div class="item active">
                 <!-- Slide Background -->
-                <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/archives.png" alt="Archives">
+                <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/slides/archives.png" alt="Archives">
                 <div class="container">
                     <div class="row">
                         <!-- Slide Text Layer -->
@@ -35,7 +35,7 @@
             <!-- Second Slide -->
             <div class="item">
                 <!-- Slide Background -->
-                <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/rarebooks.png" alt="Rare books">
+                <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/slides/rarebooks.png" alt="Rare books">
                 <div class="container">
                     <div class="row">
                         <!-- Slide Text Layer -->
@@ -50,7 +50,7 @@
             <!-- Third Slide -->
             <div class="item">
                 <!-- Slide Background -->
-                <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/musicalinstruments.png" alt="Musical Instruments">
+                <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/slides/musicalinstruments.png" alt="Musical Instruments">
                 <div class="container">
                     <div class="row">
                         <!-- Slide Text Layer -->
@@ -65,7 +65,7 @@
             <!-- Fourth Slide -->
             <div class="item">
                 <!-- Slide Background -->
-                <img class="fourth-slide" src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/artcollections.png" alt="Art Collections"/>
+                <img class="fourth-slide" src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/slides/artcollections.png" alt="Art Collections"/>
                 <div class="container">
                     <div class="row">
                         <!-- Slide Text Layer -->
@@ -80,7 +80,7 @@
             <!-- Fifth Slide -->
             <div class="item">
                 <!-- Slide Background -->
-                <img class="fifth-slide" src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/museums.png" alt="Museums"/>
+                <img class="fifth-slide" src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/slides/museums.png" alt="Museums"/>
                 <div class="container">
                     <div class="row">
                         <!-- Slide Text Layer -->
@@ -105,13 +105,12 @@
 
     <div class="tab1">
         <div class="container">
-            <h2 class="tab-h2"><a class="address" href="http://collections.ed.ac.uk/" target="_blank">COLLECTIONS.ED.AC.UK</a>
-            </h2>
-            <p class="tab-p">&nbsp;The University of Edinburgh's rare and unique collections now online.</p>
+            <!--h2 class="tab-h2"><a class="address" href="http://collections.ed.ac.uk/" target="_blank">COLLECTIONS.ED.AC.UK</a></h2-->
+            <p class="tab-p">&nbsp;The University of Edinburgh's rare and unique collections are now online.</p>
             <div class="form-group hidden-xs">
-                <form action="#" method="post">
+                <form action="./redirect/" method="post">
                     <div class="icon-addon addon-lg">
-                        <input type="text" placeholder="Search the Collection Level Descriptions" class="form-control" name="q" >
+                        <input type="text" placeholder="Search the Collection Level Descriptions" class="form-control" name="q" id="q" >
                         <label class="glyphicon glyphicon-search" rel="tooltip"></label>
                         <input type="submit" name="submit_search" class="btn" value="Search" id="submit_search" />
                     </div>
@@ -123,112 +122,660 @@
 
 
 
+
     <div class="tab2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <figure class="snip0024">
-                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/artcollection.jpg" alt="artcollection">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/art.jpg" alt="Art Collection" />
                         <div>
-                            <h2><span>ART</span> COLLECTION</h2>
+                            <h2><span>Art</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
                             <i class="ion-ios-arrow-thin-right"></i>
                             <div class="curl"></div>
-                            <a href="http://collections.ed.ac.uk/art"></a>
+                            <a href="http://collections.ed.ac.uk/art" title="Art Collection"></a>
                         </div>
                     </figure>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <figure class="snip0024">
-                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/imagecollection.jpg" alt="imagecollection">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/mimed.jpg" alt="Musical Instruments">
                         <div>
-                            <h2><span>IMAGES</span> COLLECTION</h2>
+                            <h2><span>Musical</span> Instruments</h2>
+                            <i class="fa fa-camera"></i>
                             <i class="ion-ios-arrow-thin-right"></i>
                             <div class="curl"></div>
-                            <a href="http://images.is.ed.ac.uk/"></a>
+                            <a href="http://collections.ed.ac.uk/mimed" title="Musical Instruments"></a>
                         </div>
                     </figure>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <figure class="snip0024">
-                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/iconics.jpg" alt="iconics">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/archives.jpg" alt="Archives">
                         <div>
-                            <h2><span>ICONICS</span> COLLECTION</h2>
+                            <h2><span>Archives</span></h2>
+                            <i class="fa fa-external-link"></i>
                             <i class="ion-ios-arrow-thin-right"></i>
                             <div class="curl"></div>
-                            <a href="http://collections.ed.ac.uk/iconics"></a>
+                            <a href="http://archives.collections.ed.ac.uk/" title="Archives"></a>
                         </div>
                     </figure>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <figure class="snip0024">
-                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/memidcollection.jpg" alt="memidcollection">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/iconics.jpg" alt="Iconics Collection">
                         <div>
-                            <h2><span>MEMID</span> COLLECTION</h2>
+                            <h2><span>Iconics</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
                             <i class="ion-ios-arrow-thin-right"></i>
                             <div class="curl"></div>
-                            <a href="http://collections.ed.ac.uk/mimed"></a>
+                            <a href="http://collections.ed.ac.uk/iconics" title="Iconics Collection"></a>
                         </div>
                     </figure>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <figure class="snip0024">
-                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/calendars.jpg" alt="calendars">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/alumni.jpg" alt="Alumni">
                         <div>
-                            <h2><span>CALENDARS</span> COLLECTION</h2>
+                            <h2><span>Alumni</span> </h2>
                             <i class="ion-ios-arrow-thin-right"></i>
                             <div class="curl"></div>
-                            <a href="http://collections.ed.ac.uk/calendars"></a>
+                            <a href="http://collections.ed.ac.uk/alumni" title="Alumni"></a>
                         </div>
                     </figure>
                 </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/guardbook.jpg" alt="Guardbook">
+                        <div>
+                            <h2><span>Guardbook</span> </h2>
+                            <i class="fa fa-file-pdf-o"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="http://collections.ed.ac.uk/guardbook" title="Guardbook"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/calendars.jpg" alt="Calendars Collection">
+                        <div>
+                            <h2><span>Calendars</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://collections.ed.ac.uk/calendars" title="Calendars Collection"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/wmmanuscripts.jpg" alt="Western Medieval Manuscripts">
+                        <div>
+                            <h2><span>Western Medieval</span> Manuscripts</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEwmm~1~1" title="Western Medieval Manuscripts"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/anatomy.jpg" alt="Anatomy Collection">
+                        <div>
+                            <h2><span>Anatomy</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcha~4~4" title="Anatomy Collection"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/architectural.jpg" alt="Architectural Drawings">
+                        <div>
+                            <h2><span class="longword">Architectural</span> Drawings</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcar~3~3" title="Architectural Drawings"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/carmichael.jpg" alt="Carmichael Watson">
+                        <div>
+                            <h2><span>Carmichael</span> Watson</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcar~1~1" title="Carmichael Watson"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/gallimaufry.jpg" alt="CRC Gallimaufry">
+                        <div>
+                            <h2><span>CRC Gallimaufry</span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEgal~5~5" title="CRC Gallimaufry"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/rarebooks.jpg" alt="ECA Rare Books">
+                        <div>
+                            <h2><span>ECA Rare</span> Books</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEwmm~3~3" title="ECA Rare Books"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/ecaphotography.jpg" alt="ECA Photography Collection">
+                        <div>
+                            <h2><span>ECA Photography</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEecp~1~1" title="ECA Photography Collection"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/geology.jpg" alt="Geology and Geologists">
+                        <div>
+                            <h2><span>Geology and Geologists</span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~5~5" title="Geology and Geologists"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/hillandadmson.jpg" alt="Hill and Adamson">
+                        <div>
+                            <h2><span>Hill and Adamson</span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcar~4~4" title="Hill and Adamson"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/incunabula.jpg" alt="Incunabula">
+                        <div>
+                            <h2><span>Incunabula</span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEgal~2~2" title="Incunabula"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/laing.jpg" alt="Laing Collection">
+                        <div>
+                            <h2><span>Laing</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEwmm~2~2" title="Laing Collection"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/maps.jpg" alt="Maps Collection">
+                        <div>
+                            <h2><span>Maps</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcha~1~1" title="Maps Collection"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/museums.jpg" alt="Museums Collection">
+                        <div>
+                            <h2><span>Museums</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEhal~2~2" title="Museums Collection"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/newcollege.jpg" alt="New College">
+                        <div>
+                            <h2><span>New College</span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~3~3" title="New College"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/orientalmanuscripts.jpg" alt="Oriental Manuscripts">
+                        <div>
+                            <h2><span>Oriental</span> Manuscripts</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~4~4" title="Oriental Manuscripts"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/uoeppe.jpg" alt="University of Edinburgh - People, Places &amp; Events">
+                        <div>
+                            <h2><span>University</span> People, Places &amp; Events</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEgal~4~4" title="University of Edinburgh - People, Places &amp; Events"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/roslin.jpg" alt="Roslin Institute">
+                        <div>
+                            <h2><span>Roslin</span> Institute</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEgal~6~6" title="Roslin Institute"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/salvesen.jpg" alt="Salvesen">
+                        <div>
+                            <h2><span>Salvesen</span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcar~2~2" title="Salvesen"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/shakespeare.jpg" alt="Shakespeare">
+                        <div>
+                            <h2><span>Shakespeare</span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~1~1" title="Shakespeare"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/uoeteaching.jpg" alt="Edinburgh University Image Teaching Collections Home">
+                        <div>
+                            <h2><span>University</span> Image Teaching Collections</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images-teaching.is.ed.ac.uk/luna/servlet" title="Edinburgh University Image Teaching Collections Home"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/thomsonwalker.jpg" alt="Thomson-Walker">
+                        <div>
+                            <h2><span>Thomson-Walker</span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~2~2" title="Thomson-Walker"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/walterscott.jpg" alt="Walter Scott Collection">
+                        <div>
+                            <h2><span>Walter Scott</span> Collection</h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://images.is.ed.ac.uk/luna/servlet/UoEwal~1~1" title="Walter Scott Collection"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/era.jpg" alt="Edinburgh Research Archive">
+                        <div>
+                            <h2><span>Edinburgh Research Archive</span> </h2>
+                            <i class="fa fa-file-pdf-o"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://www.era.lib.ed.ac.uk/" title="Edinburgh Research Archive"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/fairbairn.jpg" alt="Fairbairn">
+                        <div>
+                            <h2><span>Fairbairn</span> </h2>
+                            <i class="fa fa-file-text-o"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="http://www.fairbairn.ac.uk/" title="Fairbairn"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/towardsdolly.jpg" alt="Towards Dolly">
+                        <div>
+                            <h2><span>Towards Dolly</span> </h2>
+                            <i class="fa fa-file-text-o"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://collections.ed.ac.uk/towardsdolly" title="Towards Dolly"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/openbooks.jpg" alt="Open Books">
+                        <div>
+                            <h2><span>Open Books</span> </h2>
+                            <i class="fa fa-file-pdf-o"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://openbooks.is.ed.ac.uk/" title="Open Books"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/lhsa.jpg" alt="LHSA Case Notes">
+                        <div>
+                            <h2><span>LHSA Case Notes</span> </h2>
+                            <i class="fa fa-file-text-o"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://collections.ed.ac.uk/lhsacasenotes" title="LHSA Case Notes"></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <!--div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/.jpg" alt="">
+                        <div>
+                            <h2><span></span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="https://librarylabs.ed.ac.uk/" title=""></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/.jpg" alt="">
+                        <div>
+                            <h2><span></span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="" title=""></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/.jpg" alt="">
+                        <div>
+                            <h2><span></span> </h2>
+                            <i class="fa fa-camera"></i>
+                            <i class="ion-ios-arrow-thin-right"></i>
+                            <div class="curl"></div>
+                            <a href="" title=""></a>
+                        </div>
+                    </figure>
+                </div-->
 
             </div>
         </div>
     </div>
 
     <div class="tab3">
-        <div class="container" style="width: 80%;padding: 40px 15px">
+        <a href="./directory" class="caption" title="View the University of Edinburgh Collections Directory">
+            <span>Directory of Collections</span>
+            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/0016491cropped.jpg" title="Robert Barker, Panorama of Edinburgh, 1792" alt="Robert Barker, Panorama of Edinburgh, 1792">
+        </a>
+    </div>
+    
+    <div class="tab4" id="collapseGroup">
+
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12" style="margin: 0 auto;">
-                    <h3>JOIN&nbsp;US</h3>
+                <div class="col-lg-12">
+                    <h3>How to visit us & get involved</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <figure class="snip0024" >
-                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/exhibitions.jpg"/>
+                    <figure class="clickbox" >
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/exhibitions.jpg" alt="Exhibitions"/>
                         <div>
-                            <h2>EXHIBITIONS</h2>
+                            <h2>Exhibitions</h2>
                             <i class="ion-ios-arrow-thin-right"></i>
                             <div class="curl"></div>
-                            <a href="https://exhibitions.ed.ac.uk/"></a>
+                            <a href="https://exhibitions.ed.ac.uk/" title="Exhibitions" target="_blank"></a>
                         </div>
                     </figure>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <figure class="snip0024">
-                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/visitus.jpg" />
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/visitus.jpg" alt="Visit Us"/>
                         <div>
-                            <h2>VISIT US</h2>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <h2>Visit Us</h2>
+                            <i class="ion-ios-arrow-thin-down"></i>
                             <div class="curl"></div>
-                            <a href="http://www.ed.ac.uk/information-services/library-museum-gallery/crc"></a>
+                            <a href="#visitus" data-toggle="collapse" data-parent="#collapseGroup" title="Visit Us"></a>
                         </div>
                     </figure>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <figure class="snip0024">
-                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/participateus.jpg" />
+                    <figure class="clickbox">
+                        <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/participate.jpg" alt="Participate"/>
                         <div>
-                            <h2>PARTICIPATE US</h2>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <h2>Participate</h2>
+                            <i class="ion-ios-arrow-thin-down"></i>
                             <div class="curl"></div>
-                            <a href="http://collections.ed.ac.uk/participate"></a>
+                            <a href="#participate" data-toggle="collapse" data-parent="#collapseGroup" title="Participate"></a>
                         </div>
                     </figure>
                 </div>
             </div>
         </div>
+
+        <div class="tab5 collapse" id="visitus">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox" >
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/crc.jpg"/>
+                            <div>
+                                <h2><span>Centre for Research Collections</span> </h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="https://exhibitions.ed.ac.uk/"></a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox">
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/stcecilias.jpg"/>
+                            <div>
+                                <h2><span>St Cecilia's</span> Hall</h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="http://www.ed.ac.uk/information-services/library-museum-gallery/crc"></a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox">
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/talbotrice.jpg"/>
+                            <div>
+                                <<h2><span>Talbot Rice</span> Gallery</h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="http://collections.ed.ac.uk/participate"></a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox">
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/anatomymuseum.jpg"/>
+                            <div>
+                                <h2><span>Anatomy</span> Museum</h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="http://collections.ed.ac.uk/participate"></a>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab6 collapse" id="participate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox" >
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/volunteering.jpg" alt="Volunteering"/>
+                            <div>
+                                <h2><span>Volunteering</span> </h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/volunteers-interns" title="Volunteering" target="_blank"></a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox">
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/donate.jpg" alt="Donate"/>
+                            <div>
+                                <h2><span>Donate</span> </h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/transfers-donations" title="Donate" target="_blank"></a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox">
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/librarylabs.jpg" alt="Library Labs"/>
+                            <div>
+                                <<h2><span>Library Labs</span> </h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="https://librarylabs.ed.ac.uk/" title="Library Labs" target="_blank"></a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox">
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/metadatagames.jpg" alt="Metadata Games"/>
+                            <div>
+                                <h2><span>Metadata</span> Games</h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="https://librarylabs.ed.ac.uk/games/" title="Metadata Games" target="_blank"></a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <figure class="clickbox">
+                            <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/libraryblogs.jpg" alt="Library Blogs"/>
+                            <div>
+                                <h2><span>Library </span> Blogs</h2>
+                                <i class="ion-ios-arrow-thin-right"></i>
+                                <div class="curl"></div>
+                                <a href="http://libraryblogs.is.ed.ac.uk/" title="Library BLogs" target="_blank"></a>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+

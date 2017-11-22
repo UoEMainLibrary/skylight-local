@@ -31,7 +31,7 @@ body {
     padding: 0;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     height: 40px;
     margin: 5px 0;
 }
@@ -117,7 +117,25 @@ body {
     width: 100%;
     height: 100%;
 }
-.tab3 {
+
+.tab3 span {
+    position: absolute;
+    width: 100%;
+}
+
+.tab3 a:hover {
+    color: #A50034;
+}
+
+.tab3 a {
+    color: #004F71;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+}
+/*
+.tab4 {
     background: url(../img/visit_bg.jpg) no-repeat center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -125,19 +143,30 @@ body {
     background-size: cover;
     text-align: center;
 }
-.tab3 img {
+*/
+.tab4 img {
     width: 100%;
     height: 100%;
-    margin: 20px 0;
 }
-.tab3 h3 {
+
+.tab3 span, .tab4 h3 {
+    text-transform: uppercase;
+    font-weight: bold;
     font-size: 42px;
-    color: #F3E3D4;
-    margin: 0 0 20px 0;
+    text-align: center;
 }
-.tab3 p {
+
+.tab4 h3 {
+    color: #004F71;
+}
+
+.tab4 p {
     color: #F3E3D4;
     font-size: 14px;
+}
+
+.tab5, .tab6 {
+    background-color: #f1e5dc;
 }
 
 #footer {
@@ -152,6 +181,15 @@ body {
     position: fixed;
     right: 20px;
     bottom: 30px;
+}
+
+.go-to-bottom {
+    position: fixed;
+    left: 20px;
+    bottom: 30px;
+}
+#gotobottom {
+    transform: rotate(180deg);
 }
 
 @media (min-width: 320px) {
@@ -171,6 +209,16 @@ body {
     }
     .sub-menu {
         display: none;
+    }
+    .tab3 img {
+        width: 100%;
+    }
+    .tab3 span, .tab4 h3 {
+        font-size: 36px;
+    }
+
+    #footer .container {
+        width: 320px;
     }
 }
 
@@ -196,6 +244,9 @@ body {
     .sub-menu {
         display: none;
     }
+    #footer .container {
+        width: 360px;
+    }
 
 }
 
@@ -219,6 +270,9 @@ body {
     }
     .sub-menu {
         display: block;
+    }
+    #footer .container {
+        width: 500px;
     }
 }
 
@@ -245,10 +299,10 @@ body {
     .tab-p {
         font-size: 16px;
     }
-    .tab3 h3 {
-        font-size: 52px;
+    .tab3 span, .tab4 h3 {
+        font-size: 44px;
     }
-    .tab3 p {
+    .tab4 p {
         font-size: 15px;
     }
     .tab2-text {
@@ -257,11 +311,14 @@ body {
     .tab2-img {
         float: right;
     }
-    .footer-policies h3{
+    .footer-policies h3 {
         font-size: 20px;
     }
-    .footer-policies p{
+    .footer-policies p {
         font-size: 11px;
+    }
+    #footer .container {
+        width: 600px;
     }
 }
 
@@ -292,10 +349,10 @@ body {
     .tab-p {
         font-size: 17px;
     }
-    .tab3 h3 {
-        font-size: 62px;
+    .tab3 span, .tab4 h3 {
+        font-size: 48px;
     }
-    .tab3 p {
+    .tab4 p {
         font-size: 16px;
     }
     .footer-policies h3 {
@@ -303,6 +360,9 @@ body {
     }
     .footer-policies p {
         font-size: 13px;
+    }
+    #footer .container {
+        width: 870px;
     }
 }
 
@@ -336,10 +396,10 @@ body {
     .tab-p {
         font-size: 18px;
     }
-    .tab3 h3 {
-        font-size: 72px;
+    .tab3 span, .tab4 h3 {
+        font-size: 50px;
     }
-    .tab3 p {
+    .tab4 p {
         font-size: 18px;
     }
     .footer-policies h3 {
@@ -347,5 +407,8 @@ body {
     }
     .footer-policies p {
         font-size: 15px;
+    }
+    #footer .container {
+        width: 920px;
     }
 }

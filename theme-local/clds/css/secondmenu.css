@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Muli);
-.snip1555 {
+.cldmenu {
 	padding: 0;
 	text-align: center;
     font-size: 8px;
@@ -8,19 +8,19 @@
     margin: 5px 40px;
     text-transform: uppercase;
 }
-.snip1555 li {
+.cldmenu li {
     display: inline-block;
     list-style: outside none none;
     margin: 0 0.6em;
     padding: 12px 10px;
     position: relative;
 }
-.snip1555 li a {
+.cldmenu li a {
     color: #7B7777;
     text-decoration: none;
 }
-.snip1555 li:before,
-.snip1555 li:after {
+.cldmenu li:before,
+.cldmenu li:after {
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
     height: 2px;
@@ -30,47 +30,45 @@
     content: '';
     opacity: 0;
 }
-.snip1555 li:before {
+.cldmenu li:before {
     top: 0;
     left: 0;
 }
-.snip1555 li:after {
+.cldmenu li:after {
     bottom: 0;
     right: 0;
 }
-.snip1555 li:hover:before,
-.snip1555 li.hover:before,
-.snip1555 li:hover:after,
-.snip1555 li.hover:after {
+.cldmenu li:hover:before,
+.cldmenu li.hover:before,
+.cldmenu li:hover:after,
+.cldmenu li.hover:after {
     opacity: 1;
 }
-.snip1555 li:hover:before,
-.snip1555 li.hover:before {
+.cldmenu li:hover:before,
+.cldmenu li.hover:before {
     left: 65%;
 }
-.snip1555 li:hover:after,
-.snip1555 li.hover:after {
+.cldmenu li:hover:after,
+.cldmenu li.hover:after {
     right: 65%;
 }
 
-/* 中等屏幕（桌面显示器，大于等于992px） */
 
 @media (min-width: 768px) {
-    .snip1555 {
+    .cldmenu {
         font-size: 12px;
     }
 }
 
 
 @media (min-width: 992px) {
-	.snip1555 {
+	.cldmenu {
 		font-size: 12px;
 	}
 }
 
-/* 大屏幕（大桌面显示器，大于等于1200px） */
 @media (min-width: 1200px) {
-	.snip1555 {
+	.cldmenu {
 		font-size: 16px;
 	}
 }
