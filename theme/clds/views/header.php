@@ -127,5 +127,15 @@
     </div>
 </nav>
 
-
+<div class="container" style="background-color: #FAEBD7;width: 100%;padding: 0;">
+    <div class="sub-menu">
+        <ul class="cldmenu" >
+            <li class="current" ><a href="http://collections.ed.ac.uk/search/*/Type:%22archives%7C%7C%7CArchives%22/Header:%22archives%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ARCHIVES">ARCHIVES</a></li>
+            <li><a href="http://collections.ed.ac.uk/search/*/Type:%22rare+books|||Rare+Books%22/Header:%22rarebooks%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="RARE BOOKS">RARE BOOKS</a></li>
+            <li><a href="http://collections.ed.ac.uk/search/*/Type:%22mimed%7C%7C%7CMIMEd%22/Header:%22mimed%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSICAL INSTRUMENTS">MUSICAL INSTRUMENTS</a></li>
+            <li><a href="http://collections.ed.ac.uk/search/*/Type:%22art%7C%7C%7CArt%22/Header:%22art%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ART">ART</a></li>
+            <li><a href="http://collections.ed.ac.uk/search/*/Type:%22museums%7C%7C%7CMuseums%22/Header:%22museums%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSEUMS">MUSEUMS</a></li>
+        </ul>
+    </div>
+</div>
 

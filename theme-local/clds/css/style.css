@@ -16,6 +16,14 @@ body {
     margin-top: 0;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #004F71;
+}
+
 .navbar .container {
     padding-left: 15px;
     padding-right: 0;
@@ -158,6 +166,8 @@ body {
 
 .tab4 h3 {
     color: #004F71;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .tab4 p {

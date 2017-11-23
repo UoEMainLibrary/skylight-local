@@ -28,10 +28,6 @@
 
 <script type="text/javascript">
 
-    $('#myCarousel').carousel({
-        interval : 4000,
-    });
-
     $(window).load(function () {
         $('.text').eq(0).css('margin-top', ($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 + 'px');
     });
@@ -46,6 +42,29 @@
 
     $(window).resize(function () {
         $('.text').eq(1).css('margin-top', ($('.auto').eq(1).height() - $('.text').eq(1).height()) / 2 + 'px');
+    });
+
+    $(function() {
+        /* Initialize Carousel */
+        var paused = 0;
+        $('#myCarousel').carousel({
+            interval: 8000,
+            pause: 0
+        });
+
+        /* Play trigger */
+        $('#toggleCarousel').click(function() {
+            var state = (paused) ? 'cycle' : 'pause';
+            paused = (paused) ? 0 : 1;
+            $('#myCarousel').carousel(state);
+            $(this).find('i').toggleClass('fa-play fa-pause');
+            if ($(this).attr("title") === "Pause Slides") {
+                $(this).attr("title", "Play Slides");
+            }
+            else {
+                $(this).attr("title", "Pause Slides");
+            }
+        });
     });
 
 </script>
