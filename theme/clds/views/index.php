@@ -129,7 +129,7 @@
                         <div>
                             <h2><span>Art</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="http://collections.ed.ac.uk/art" title="Art Collection" target="_blank"></a>
                         </div>
@@ -142,7 +142,7 @@
                         <div>
                             <h2><span>Musical</span> Instruments</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="http://collections.ed.ac.uk/mimed" title="Musical Instruments" target="_blank"></a>
                         </div>
@@ -155,7 +155,7 @@
                         <div>
                             <h2><span>Archives</span></h2>
                             <i class="fa fa-external-link"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="http://archives.collections.ed.ac.uk/" title="Archives" target="_blank"></a>
                         </div>
@@ -168,7 +168,7 @@
                         <div>
                             <h2><span>Iconics</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="http://collections.ed.ac.uk/iconics" title="Iconics Collection" target="_blank"></a>
                         </div>
@@ -180,7 +180,7 @@
                         <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/clickboxes/alumni.jpg" alt="Alumni">
                         <div>
                             <h2><span>Alumni</span> </h2>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="http://collections.ed.ac.uk/alumni" title="Alumni" target="_blank"></a>
                         </div>
@@ -193,7 +193,7 @@
                         <div>
                             <h2><span>Guardbook</span> </h2>
                             <i class="fa fa-file-pdf-o"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="http://collections.ed.ac.uk/guardbook" title="Guardbook" target="_blank"></a>
                         </div>
@@ -206,7 +206,7 @@
                         <div>
                             <h2><span>Calendars</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://collections.ed.ac.uk/calendars" title="Calendars Collection" target="_blank"></a>
                         </div>
@@ -219,7 +219,7 @@
                         <div>
                             <h2><span>Western Medieval</span> Manuscripts</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEwmm~1~1" title="Western Medieval Manuscripts" target="_blank"></a>
                         </div>
@@ -232,7 +232,7 @@
                         <div>
                             <h2><span>Anatomy</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcha~4~4" title="Anatomy Collection" target="_blank"></a>
                         </div>
@@ -245,7 +245,7 @@
                         <div>
                             <h2><span class="longword">Architectural</span> Drawings</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcar~3~3" title="Architectural Drawings" target="_blank"></a>
                         </div>
@@ -258,7 +258,7 @@
                         <div>
                             <h2><span>Carmichael</span> Watson</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcar~1~1" title="Carmichael Watson" target="_blank"></a>
                         </div>
@@ -271,7 +271,7 @@
                         <div>
                             <h2><span>CRC Gallimaufry</span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEgal~5~5" title="CRC Gallimaufry" target="_blank"></a>
                         </div>
@@ -284,7 +284,7 @@
                         <div>
                             <h2><span>ECA Rare</span> Books</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEwmm~3~3" title="ECA Rare Books" target="_blank"></a>
                         </div>
@@ -297,7 +297,7 @@
                         <div>
                             <h2><span>ECA Photography</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEecp~1~1" title="ECA Photography Collection" target="_blank"></a>
                         </div>
@@ -310,7 +310,7 @@
                         <div>
                             <h2><span>Geology and Geologists</span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~5~5" title="Geology and Geologists" target="_blank"></a>
                         </div>
@@ -323,7 +323,7 @@
                         <div>
                             <h2><span>Hill and Adamson</span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcar~4~4" title="Hill and Adamson" target="_blank"></a>
                         </div>
@@ -336,7 +336,7 @@
                         <div>
                             <h2><span>Incunabula</span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEgal~2~2" title="Incunabula" target="_blank"></a>
                         </div>
@@ -349,7 +349,7 @@
                         <div>
                             <h2><span>Laing</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEwmm~2~2" title="Laing Collection" target="_blank"></a>
                         </div>
@@ -362,7 +362,7 @@
                         <div>
                             <h2><span>Maps</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcha~1~1" title="Maps Collection" target="_blank"></a>
                         </div>
@@ -375,7 +375,7 @@
                         <div>
                             <h2><span>Museums</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEhal~2~2" title="Museums Collection" target="_blank"></a>
                         </div>
@@ -388,7 +388,7 @@
                         <div>
                             <h2><span>New College</span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~3~3" title="New College" target="_blank"></a>
                         </div>
@@ -401,7 +401,7 @@
                         <div>
                             <h2><span>Oriental</span> Manuscripts</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~4~4" title="Oriental Manuscripts" target="_blank"></a>
                         </div>
@@ -414,7 +414,7 @@
                         <div>
                             <h2><span>University</span> People, Places &amp; Events</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEgal~4~4" title="University of Edinburgh - People, Places &amp; Events" target="_blank"></a>
                         </div>
@@ -427,7 +427,7 @@
                         <div>
                             <h2><span>Roslin</span> Institute</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEgal~6~6" title="Roslin Institute" target="_blank"></a>
                         </div>
@@ -440,7 +440,7 @@
                         <div>
                             <h2><span>Salvesen</span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEcar~2~2" title="Salvesen" target="_blank"></a>
                         </div>
@@ -453,7 +453,7 @@
                         <div>
                             <h2><span>Shakespeare</span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~1~1" title="Shakespeare" target="_blank"></a>
                         </div>
@@ -466,7 +466,7 @@
                         <div>
                             <h2><span>University</span> Image Teaching Collections</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images-teaching.is.ed.ac.uk/luna/servlet" title="Edinburgh University Image Teaching Collections Home" target="_blank"></a>
                         </div>
@@ -479,7 +479,7 @@
                         <div>
                             <h2><span>Thomson-Walker</span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEsha~2~2" title="Thomson-Walker" target="_blank"></a>
                         </div>
@@ -492,7 +492,7 @@
                         <div>
                             <h2><span>Walter Scott</span> Collection</h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://images.is.ed.ac.uk/luna/servlet/UoEwal~1~1" title="Walter Scott Collection" target="_blank"></a>
                         </div>
@@ -505,7 +505,7 @@
                         <div>
                             <h2><span>Edinburgh Research Archive</span> </h2>
                             <i class="fa fa-file-pdf-o"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://www.era.lib.ed.ac.uk/" title="Edinburgh Research Archive" target="_blank"></a>
                         </div>
@@ -518,7 +518,7 @@
                         <div>
                             <h2><span>Fairbairn</span> </h2>
                             <i class="fa fa-file-text-o"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="http://www.fairbairn.ac.uk/" title="Fairbairn" target="_blank"></a>
                         </div>
@@ -531,7 +531,7 @@
                         <div>
                             <h2><span>Towards Dolly</span> </h2>
                             <i class="fa fa-file-text-o"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://collections.ed.ac.uk/towardsdolly" title="Towards Dolly" target="_blank"></a>
                         </div>
@@ -544,7 +544,7 @@
                         <div>
                             <h2><span>Open Books</span> </h2>
                             <i class="fa fa-file-pdf-o"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://openbooks.is.ed.ac.uk/" title="Open Books"></a>
                         </div>
@@ -557,7 +557,7 @@
                         <div>
                             <h2><span>LHSA Case Notes</span> </h2>
                             <i class="fa fa-file-text-o"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://collections.ed.ac.uk/lhsacasenotes" title="LHSA Case Notes" target="_blank"></a>
                         </div>
@@ -570,7 +570,7 @@
                         <div>
                             <h2><span></span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://librarylabs.ed.ac.uk/" title=""></a>
                         </div>
@@ -583,7 +583,7 @@
                         <div>
                             <h2><span></span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="" title=""></a>
                         </div>
@@ -596,7 +596,7 @@
                         <div>
                             <h2><span></span> </h2>
                             <i class="fa fa-camera"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="" title=""></a>
                         </div>
@@ -629,7 +629,7 @@
                         <div>
                             <h2><span>Exhibitions</span> </h2>
                             <i class="fa fa-external-link"></i>
-                            <i class="ion-ios-arrow-thin-right"></i>
+                            <i class="ion-arrow-right-c"></i>
                             <div class="curl"></div>
                             <a href="https://exhibitions.ed.ac.uk/" title="Exhibitions" target="_blank"></a>
                         </div>
@@ -667,7 +667,7 @@
                             <div>
                                 <h2><span>Centre for Research Collections</span> </h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="https://exhibitions.ed.ac.uk/"></a>
                             </div>
@@ -679,7 +679,7 @@
                             <div>
                                 <h2><span>St Cecilia's</span> Hall</h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="http://www.ed.ac.uk/information-services/library-museum-gallery/crc"></a>
                             </div>
@@ -691,7 +691,7 @@
                             <div>
                                 <<h2><span>Talbot Rice</span> Gallery</h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="http://collections.ed.ac.uk/participate"></a>
                             </div>
@@ -703,7 +703,7 @@
                             <div>
                                 <h2><span>Anatomy</span> Museum</h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="http://collections.ed.ac.uk/participate"></a>
                             </div>
@@ -722,7 +722,7 @@
                             <div>
                                 <h2><span>Volunteering</span> </h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/volunteers-interns" title="Volunteering" target="_blank"></a>
                             </div>
@@ -734,7 +734,7 @@
                             <div>
                                 <h2><span>Donate</span> </h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/transfers-donations" title="Donate" target="_blank"></a>
                             </div>
@@ -746,7 +746,7 @@
                             <div>
                                 <<h2><span>Library Labs</span> </h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="https://librarylabs.ed.ac.uk/" title="Library Labs" target="_blank"></a>
                             </div>
@@ -758,7 +758,7 @@
                             <div>
                                 <h2><span>Metadata</span> Games</h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="https://librarylabs.ed.ac.uk/games/" title="Metadata Games" target="_blank"></a>
                             </div>
@@ -770,7 +770,7 @@
                             <div>
                                 <h2><span>Library </span> Blogs</h2>
                                 <i class="fa fa-external-link"></i>
-                                <i class="ion-ios-arrow-thin-right"></i>
+                                <i class="ion-arrow-right-c"></i>
                                 <div class="curl"></div>
                                 <a href="http://libraryblogs.is.ed.ac.uk/" title="Library BLogs" target="_blank"></a>
                             </div>
