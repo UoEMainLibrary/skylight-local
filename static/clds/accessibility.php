@@ -89,7 +89,7 @@
             <li>Not fully compatible with screen readers<br>
                 <a href="https://www.w3.org/TR/WCAG21/#compatible" alt-text="4.1 - Compatible" title="4.1 - Compatible" target="_blank">4.1 - Compatible</a></li>
         </ul>
-        <p>Unless specified otherwise a complete solution or significant improvement will be in place by September 2020.</p>
+        <p>Unless specified otherwise a complete solution or significant improvement will be in place by April 2022.</p>
         <h2>How we tested this website</h2>
         <p>This website was last tested in November 2019. The website was tested by the University of Edinburgh’s Disability Information Officer on a PC using Internet Explorer (11.0.9600.19236) browser
         and also using the automated Webaim WAVE tool. Internet Explorer was chosen as the browser due to it being the most commonly used browser by disabled people as shown in the government survey:
