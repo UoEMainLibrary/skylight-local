@@ -14,7 +14,6 @@
                         <h2><span>Archives</span> Online</h2>
                         <i class="fa fa-external-link"></i>
                         <i class="ion-arrow-right-c"></i>
-
                         <div class="curl"></div>
                         <a href="https://archives.collections.ed.ac.uk/" title="Archives" target="_blank"></a>
                     </div>
@@ -915,8 +914,7 @@
                             <i class="ion-arrow-right-c"></i>
 
                             <div class="curl"></div>
-                            <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/volunteers-interns"
-                               title="Volunteering" target="_blank"></a>
+                            <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/cultural-heritage-collections/crc/volunteers-interns-fellowships/volunteers-interns" title="Volunteering" target="_blank"></a>
                         </div>
                     </figure>
                 </div>
