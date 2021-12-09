@@ -14,7 +14,6 @@
                         <h2><span>Archives</span> Online</h2>
                         <i class="fa fa-external-link"></i>
                         <i class="ion-arrow-right-c"></i>
-
                         <div class="curl"></div>
                         <a href="https://archives.collections.ed.ac.uk/" title="Archives" target="_blank"></a>
                     </div>
