@@ -1,6 +1,6 @@
 <div class="col-md-9 col-sm-9 col-xs-12">
     <div class="content byEditor">
-        <h1 class="itemtitle">About</h1>
+        <h1 class="itemtitle">About</h1> git tiip
 
 
         <div style="float: left; max-width: 490px;"><p>The European Ethnological Research Centre was established in 1989, its primary concern the promotion of research into the everyday life of the people of Scotland as it has changed through time.</p>

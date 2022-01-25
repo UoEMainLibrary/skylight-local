@@ -8,27 +8,27 @@ $config['skylight_url_prefix'] = 'eerc';
 if(ENVIRONMENT == 'development') {
     if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
         $config['skylight_ga_code'] = '';
-        $config['skylight_solrbase'] = 'http://lac-archives-live.is.ed.ac.uk:8090/';
-        $config['skylight_link_url'] = 'http://lac-archives-live.is.ed.ac.uk:8081';
+        $config['skylight_solrbase'] = 'http://localhost:9123/';
+        $config['skylight_link_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8081';
     } else if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
         $config['skylight_ga_code'] = '';
-        $config['skylight_solrbase'] = 'http://lac-archives-live.is.ed.ac.uk:8090/';
-        $config['skylight_link_url'] = 'http://lac-archives-live.is.ed.ac.uk:8081';
-        //$config['skylight_solrbase'] = 'http://lac-repo-live14.is.ed.ac.uk:8090/';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:9123/';
+        $config['skylight_link_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8081';
+        //$config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:9123/';
         //$config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
     }
 }
 else {
     $config['skylight_ga_code'] = 'UA-25737241-9';
-    $config['skylight_solrbase'] = 'http://lac-archives-live.is.ed.ac.uk:8090/';
-    $config['skylight_link_url'] = 'http://lac-archives-live.is.ed.ac.uk:8081';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:9123/';
+    $config['skylight_link_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8081';
     //$config['skylight_solrbase'] = 'http://lac-repo-live11.is.ed.ac.uk:8090/';
     //    $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
 }
 
-$config['skylight_archivesspace_user'] = 'admin';
-$config['skylight_archivesspace_password'] = '?';
-$config['skylight_archivesspace_url'] = 'http://lac-archives-live.is.ed.ac.uk:8089';
+$config['skylight_archivesspace_user'] = 'apiread';
+$config['skylight_archivesspace_password'] = 'Auxilium1';
+$config['skylight_archivesspace_url'] = 'https://aspaceoai.collections.ed.ac.uk';
 $config['skylight_archivesspace_tree'] = '/repositories/15/resources/86984/tree';
 
 $config['skylight_repository_type'] = 'archivesspace'; // Demo 'dspace'
