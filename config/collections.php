@@ -19,57 +19,56 @@ $config['skylight_container_field'] = 'location.comm';
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if (ENVIRONMENT == 'development') {
     $config['skylight_link_colls'] = array(
-        3   => base_url() ."art/",
-        11  => base_url() ."mimed/",
-        1   => base_url() ."colllevel/",
-        14  => base_url() ."calendars/",
-        17  => "https://test.exhibitions.ed.ac.uk/",
-        64  => base_url() ."public-art/",
-        48  => base_url() ."iconics/",
-        51  => base_url() ."iconicsdeepzoom/",
-        50  => base_url() ."anatomy/",
-        84  => base_url() ."stcecilias/",
-        91  => base_url() ."speccoll/",
-        49  => base_url() ."cockburn/"
+        '55da8679-0e59-473c-9c2f-41c69448ed0a'   => base_url() ."art/",
+        '21f59b48-a294-4960-b926-e1f56d32d90b'  => base_url() ."mimed/",
+        '7f32ba59-795e-40e8-b869-5b2a5114a4be'   => base_url() ."colllevel/",
+        'dde7662b-e357-4a4a-8c14-4d08b858bfe9' => base_url() ."calendars/",
+        '8b29daa7-16dd-4217-8366-5576cce3e79f'  => base_url() ."exhibitions/",
+        '10b6ab37-9abc-4036-9f64-edfe4b4a984c' => base_url() ."public-art/",
+        'e9122b44-420c-4247-9fe7-364214db5f94'  => base_url() ."iconics/",
+        'bac433ed-36a9-4660-b49c-49d3fd0bed2c'  => base_url() ."stcecilias/",
+        '89c89f7c-a883-443e-8bf4-431234e91d3e'  => base_url() ."speccoll/"
+        'c7bc550e-8bb5-44aa-9ac3-128832466067' => base_url() ."cockburn/"
     );
 
     $config['skylight_link_titles'] = array(
-        3   => "Art Collection",
-        11  => "MIMEd Collection",
-        1   => "a collection",
-        14  => "Calendars",
-        17  => "Exhibitions",
-        64  => "Public Art Collection",
-        48  => "Iconics Collection",
-        51  => "Iconics Collection",
-        50  => "Anatomy Collection",
-        84  => "St Cecilia's Hall",
-        91  => "Archives, Rare Books & Manuscripts",
-        49  => "Cockburn Collection"
+        '55da8679-0e59-473c-9c2f-41c69448ed0a'  => "Art Collection",
+        '21f59b48-a294-4960-b926-e1f56d32d90b'  => "MIMEd Collection",
+        '7f32ba59-795e-40e8-b869-5b2a5114a4be'   => "a collection",
+        'dde7662b-e357-4a4a-8c14-4d08b858bfe9'  => "Calendars",
+        '8b29daa7-16dd-4217-8366-5576cce3e79f'  => "Exhibitions",
+        '10b6ab37-9abc-4036-9f64-edfe4b4a984c'  => "Public Art Collection",
+        'e9122b44-420c-4247-9fe7-364214db5f94'  => "Iconics Collection",        
+        'bac433ed-36a9-4660-b49c-49d3fd0bed2c'  => "St Cecilia's Hall",
+        '89c89f7c-a883-443e-8bf4-431234e91d3e'  => "Archives, Rare Books & Manuscripts",
+        'c7bc550e-8bb5-44aa-9ac3-128832466067' => "Cockburn Collection"
     );
 }
 else{
     $config['skylight_link_colls'] = array(
-        3   => base_url() ."art/",
-        11  => base_url() ."mimed/",
-        1   => base_url() ."colllevel/",
-        14  => base_url() ."calendars/",
-        17  => "https://exhibitions.ed.ac.uk/",
-        67  => base_url() ."public-art/",
-        30  => base_url() ."iconics/",
-        49  => base_url() ."stcecilias/",
-        69  => base_url() ."speccoll/"
+        '55da8679-0e59-473c-9c2f-41c69448ed0a'   => base_url() ."art/",
+        '21f59b48-a294-4960-b926-e1f56d32d90b'  => base_url() ."mimed/",
+        '7f32ba59-795e-40e8-b869-5b2a5114a4be'   => base_url() ."colllevel/",
+        'dde7662b-e357-4a4a-8c14-4d08b858bfe9' => base_url() ."calendars/",
+        '8b29daa7-16dd-4217-8366-5576cce3e79f'  => base_url() ."exhibitions/",
+        '10b6ab37-9abc-4036-9f64-edfe4b4a984c' => base_url() ."public-art/",
+        'e9122b44-420c-4247-9fe7-364214db5f94'  => base_url() ."iconics/",
+        'bac433ed-36a9-4660-b49c-49d3fd0bed2c'  => base_url() ."stcecilias/",
+        '89c89f7c-a883-443e-8bf4-431234e91d3e'  => base_url() ."speccoll/"
+        'c7bc550e-8bb5-44aa-9ac3-128832466067' => base_url() ."cockburn/"
     );
 
     $config['skylight_link_titles'] = array(
-        3   => "Art Collection",
-        11  => "MIMEd Collection",
-        1   => "CLDs",
-        14  => "Calendars",
-        17  => "Exhibitions",
-        67  => "Public Art Collection",
-        30  => "Iconics Collection",
-        49  => "St Cecilia's Hall"
+        '55da8679-0e59-473c-9c2f-41c69448ed0a'  => "Art Collection",
+        '21f59b48-a294-4960-b926-e1f56d32d90b'  => "MIMEd Collection",
+        '7f32ba59-795e-40e8-b869-5b2a5114a4be'   => "a collection",
+        'dde7662b-e357-4a4a-8c14-4d08b858bfe9'  => "Calendars",
+        '8b29daa7-16dd-4217-8366-5576cce3e79f'  => "Exhibitions",
+        '10b6ab37-9abc-4036-9f64-edfe4b4a984c'  => "Public Art Collection",
+        'e9122b44-420c-4247-9fe7-364214db5f94'  => "Iconics Collection",        
+        'bac433ed-36a9-4660-b49c-49d3fd0bed2c'  => "St Cecilia's Hall",
+        '89c89f7c-a883-443e-8bf4-431234e91d3e'  => "Archives, Rare Books & Manuscripts",
+        'c7bc550e-8bb5-44aa-9ac3-128832466067' => "Cockburn Collection"
     );
 }
 
