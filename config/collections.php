@@ -27,7 +27,7 @@ if (ENVIRONMENT == 'development') {
         '10b6ab37-9abc-4036-9f64-edfe4b4a984c' => base_url() ."public-art/",
         'e9122b44-420c-4247-9fe7-364214db5f94'  => base_url() ."iconics/",
         'bac433ed-36a9-4660-b49c-49d3fd0bed2c'  => base_url() ."stcecilias/",
-        '89c89f7c-a883-443e-8bf4-431234e91d3e'  => base_url() ."speccoll/"
+        '89c89f7c-a883-443e-8bf4-431234e91d3e'  => base_url() ."speccoll/",
         'c7bc550e-8bb5-44aa-9ac3-128832466067' => base_url() ."cockburn/"
     );
 
@@ -54,7 +54,7 @@ else{
         '10b6ab37-9abc-4036-9f64-edfe4b4a984c' => base_url() ."public-art/",
         'e9122b44-420c-4247-9fe7-364214db5f94'  => base_url() ."iconics/",
         'bac433ed-36a9-4660-b49c-49d3fd0bed2c'  => base_url() ."stcecilias/",
-        '89c89f7c-a883-443e-8bf4-431234e91d3e'  => base_url() ."speccoll/"
+        '89c89f7c-a883-443e-8bf4-431234e91d3e'  => base_url() ."speccoll/",
         'c7bc550e-8bb5-44aa-9ac3-128832466067' => base_url() ."cockburn/"
     );
 
