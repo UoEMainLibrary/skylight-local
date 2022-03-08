@@ -13,7 +13,7 @@ $config['skylight_oaipmhcollection'] = 'hdl_10683_4';
 
 
 // Container ID and the field used in solr index to store this ID. Used for restricting search/browse scope.
-$config['skylight_container_id'] = '1';
+$config['skylight_container_id'] = 'decde3c4-04ac-458a-8e46-95b3a14a6040';
 $config['skylight_container_field'] = 'location.comm';
 
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
