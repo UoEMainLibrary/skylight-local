@@ -7,8 +7,8 @@ This is done in a live realtime environment meaning you don't need to rebuild/re
 First off you need to clone both Skylight repos.
 
 Cd into their shared parent direcotry ../ and do one of either:
-* `cp skylight-local-docker/Dockerfile .` for PHP5
-* `cp skylight-local-docker/Dockerfile-php7 ./Dockerfile` for PHP7
+* `cp skylight-local/docker/Dockerfile .` for PHP5
+* `cp skylight-local/docker/Dockerfile-php7 ./Dockerfile` for PHP7
 resulting in this structure:
 
 ```
