@@ -99,14 +99,14 @@
         <li><a href="https://www.w3.org/TR/WCAG21/#help">3.3.5 - Help</a></li>
     </ul>
 </ul>
-<p>&nbsp;Unless specified otherwise a complete solution or significant improvement will be in place by April 2022 for the issues within our control.</p>
+<p>&nbsp;Unless specified otherwise a complete solution or significant improvement will be in place by July 2022 for the issues within our control.</p>
 <h3>Disproportionate burden</h3>
 <p>We are not currently claiming that any accessibility problems would be a disproportionate burden to fix.</p>
 <h2>Content that&rsquo;s not within the scope of the accessibility regulations</h2>
 <h3>Reproduction of Heritage Collections</h3>
 <p>There are representations of <a href="https://collections.ed.ac.uk/coimbra-colls/search">the heritage collections and its institutional location</a> across the website. There is technical information about the images of these items, including titles and description. However, reproducing items within heritage collections would be <a href="https://www.legislation.gov.uk/uksi/2018/952/regulation/4/made">exempt from meeting the accessibility regulations</a>, but all effort has been made to make the reproduction of these heritage collections as accessible as possible.</p>
 <h2>What we&rsquo;re doing to improve accessibility</h2>
-<p>We will continue to work to address these issues and deliver a solution or suitable workaround. Where issues are under our control we will work to rectify to correct issues. We plan to resolve the issues that are within our control by April 2022.</p>
+<p>We will continue to work to address these issues and deliver a solution or suitable workaround. Where issues are under our control we will work to rectify to correct issues. We plan to resolve the issues that are within our control by July 2022.</p>
 <p>We will carry out further accessibility testing if significant changes are made to the user interface or if a service user raises an issue.</p>
 <p>While we are in the process of resolving these accessibility issues, or where we are unable to, we will ensure reasonable adjustments are in place to make sure no user is disadvantaged.</p>
 <p>Preparation of this accessibility statement</p>

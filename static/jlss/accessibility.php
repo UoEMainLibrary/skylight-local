@@ -146,7 +146,7 @@
         <div class="content-divider-inline"><p>divider</p></div>
         <div class="about-para">
             <p>We will continue to work with the developer to address these issues and deliver a solution or suitable workaround.</p>
-            <p>We will continue to monitor system accessibility and will carry out further accessibility testing as these issues are resolved. However, due to the complex nature of the information displayed it may not be possible to resolve all accessibility issues. If this is the case, we will ensure reasonable adjustments are in place to make sure no user is disadvantaged. We plan to have resolved the majority of accessibility issues by April 2022 at the latest.</p>
+            <p>We will continue to monitor system accessibility and will carry out further accessibility testing as these issues are resolved. However, due to the complex nature of the information displayed it may not be possible to resolve all accessibility issues. If this is the case, we will ensure reasonable adjustments are in place to make sure no user is disadvantaged. We plan to have resolved the majority of accessibility issues by July 2022 at the latest.</p>
         </div>
 
         <h1> Information Services and accessibility</h1>
