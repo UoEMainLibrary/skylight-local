@@ -40,10 +40,10 @@
             dance, physical education and gymnastics in Scotland including: 
         </p>
         <div class="cataglogue-list-index">
-            <h3 class="catelogue-title"><a href="./catelogue#dunfermline-anchor" title="Link to Catelogue Page" class="quick-link">Dunfermline College of Physical Education</a></h3>
-            <h3 class="catelogue-title"><a href="./catelogue#dunfermline-anchor" title="Link to Catelogue Page" class="quick-link">Dunfermline College of Physical Education Old Student’s Association</a></h3>
-            <h3 class="catelogue-title"><a href="./catelogue#sctgymnastics-anchor" title="Link to Catelogue Page" class="quick-link">Scottish Gymnastics Archives</a></h3>
-            <h3 class="catelogue-title"><a href="./catelogue#morris-anchor" title="Link to Catelogue Page" class="quick-link">Margret Morris Movement Collection</a></h3>
+            <h3 class="catalogue-title"><a href="./catalogue#dunfermline-anchor" title="Link to Catalogue Page" class="quick-link">Dunfermline College of Physical Education</a></h3>
+            <h3 class="catalogue-title"><a href="./catalogue#dunfermline-anchor" title="Link to Catalogue Page" class="quick-link">Dunfermline College of Physical Education Old Student’s Association</a></h3>
+            <h3 class="catalogue-title"><a href="./catalogue#sctgymnastics-anchor" title="Link to Catalogue Page" class="quick-link">Scottish Gymnastics Archives</a></h3>
+            <h3 class="catalogue-title"><a href="./catalogue#morris-anchor" title="Link to Catalogue Page" class="quick-link">Margret Morris Movement Collection</a></h3>
         </div>
 
         <div class="big-divider"></div>

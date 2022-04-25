@@ -164,10 +164,10 @@ header				{ position: relative; width: 940px; height: 216px; }
 #collection-search  { width: 660px; padding-left: 10px;}
 
 #menu                           { width: 940px; background-color: #1E61B8; margin: 0 auto; height: 33px; }
-.menu-links li					{ display: inline; float: right; height: 33px; padding-left: 0; padding-right: 0; }
+.menu-links li					{ display: inline; height: 33px; padding-left: 0; padding-right: 0; }
 .menu-links li a 			    { font-weight: bold; font-size: 11px; text-transform: uppercase; float: left;
                                 text-decoration: none; margin-left: 10px; color: #FFFFFF; display: inline-block;
-                                height: 33px; line-height: 2.5em; padding-left: 20px; padding-right: 20px;text-align: center; }
+                                height: 33px; line-height: 2.5em; padding-left: 70px; padding-right: 20px;text-align: center; }
 .menu-links li a:hover		    { background-color: #A0A0A0; }
 
 

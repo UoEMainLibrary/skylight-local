@@ -91,11 +91,11 @@
         <p>
             The project has improved the physical condition of the collections considerably.&nbsp; Over&hellip;..items have been repaired and rehoused, with key items receiving 
             conservation treatment. The project has made a significant impact on the collections&rsquo; accessibility having catalogued over&hellip;.across all three collections.&nbsp; 
-            It is now possible to search across all three collections using our <a class="para-link" href="./catelogue">online portal</a>.
+            It is now possible to search across all three collections using our <a class="para-link" href="./catalogue">online portal</a>.
         </p>
         <p>
             The project was generously funded by the Wellcome Trust&rsquo;s <br />
-            <a class="para-link" href="https://wellcome.ac.uk/grant-funding/schemes/research-resources-awards-humanities-and-social-science">Research Resource Awards Scheme</a>.
+            <a class="para-link" target="_blank" href="https://wellcome.ac.uk/grant-funding/schemes/research-resources-awards-humanities-and-social-science">Research Resource Awards Scheme</a>.
         </p>
         <p>
             Between 2017 and 2020, project archivists Clare Button and Elaine MacGillivray collaborated with academic colleagues, practitioners and community groups to deliver a 
@@ -104,27 +104,9 @@
         <p>From July to October 2019, the University of Edinburgh Main Library Exhibition Gallery hosted the exhibition &lsquo;Body Language&rsquo;.&nbsp; This was curated by Project 
             Archivist Clare Button, and Archives Manager and Deputy Head of Special Collections, Rachel Hosker.&nbsp; The exhibition featured film, photographic images, textiles, 
             printed works and manuscripts from across the three project collections and offered a unique insight into the work and life of Scottish female pioneers in movement, dance 
-            and physical education.&nbsp; The exhibition was generously funded by the <a class="para-link" href="https://wellcome.ac.uk/grant-funding/schemes/research-enrichment-public-engagement">Wellcome Research Enrichment Public Engagement Fund</a>.
+            and physical education.&nbsp; The exhibition was generously funded by the <a class="para-link" target="_blank" href="https://wellcome.ac.uk/grant-funding/schemes/research-enrichment-public-engagement">Wellcome Research Enrichment Public Engagement Fund</a>.
         </p>
         <br />
-        <h4>Project Report</h4>
-        <p>Download the full project report here [insert link to PDF when available]</p>
-
-        <p> Image / Video Content Below
-
-        <div class="flowplayer" data-analytics="<?php echo $ga_code ?>"
-            title="Introduction to Towards Dolly by Clare Button, Project Archivist">
-            <video id="video-archives" title="Introduction to Towards Dolly by Clare Button, Project Archivist" controls preload="true">
-                <?php if ($mp4ok = true) {?>
-                    <source src="<?php echo base_url(); ?>videos/Towards_Dolly_Wellcome_Trust_showreel.mp4" type="video/mp4"/>
-                <?php } else { ?>
-                    <source src="<?php echo base_url(); ?>videos/Towards_Dolly_Wellcome_Trust_showreel.webm" type="video/webm"/>
-                <?php } ?>
-                Video loading...'
-            </video>
-        </div>
-        </p>
-        
 
         <div id="collection-anchor"></div>
         <h1>About The Collection</h1>
@@ -132,30 +114,6 @@
             Body Language: movement, dance and physical education in Scotland, 1890-1990’ preserved, conserved, catalogued, made accessible and virtually united three archive 
             collections held by the University of Edinburgh and Culture Perth and Kinross: Museums.  The archive collections include the archives of Dunfermline College of 
             Physical Education, and Scottish Gymnastics (University of Edinburgh), and the archives of Margaret Morris Movement International (Culture Perth and Kinross: Museums).  
-        </p>
-
-        <p class="quote"> 
-            <q>
-                TBC
-            </q> 
-        </p>
-        <p class="quote-p">
-            - Anonymous, Somewhere.
-        </p>
-        
-        <p>View the <a class="para-link" href="https://exhibitions.ed.ac.uk/bodylanguage">exhibition here<div class="para-overlay"></div></a></p>
-        <p>Image / Video Content Below
-            <div class="flowplayer" data-analytics="<?php echo $ga_code ?>"
-                title="Towards Dolly Exhibition being installed, Video by Univeristy of Edinburgh Digital Imaging Unit">
-                <video id="video-archives" title="Towards Dolly Exhibition being installed, Video by Univeristy of Edinburgh Digital Imaging Unit" controls preload="true">
-                    <?php if ($mp4ok = true) {?>
-                        <source src="<?php echo base_url(); ?>videos/0051021v-001.mp4" type="video/mp4"/>
-                    <?php } else { ?>
-                        <source src="<?php echo base_url(); ?>videos/0051021v-001.webm" type="video/webm"/>
-                    <?php } ?>
-                    Video loading...'
-                </video>
-            </div>
         </p>
 
     </div>

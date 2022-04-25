@@ -59,9 +59,16 @@ $bitstreamLinks = array();
                                         $idset = true;
                                     }
                                 }
-                                else
-                                {
-                                    echo $metadatavalue;
+                                else {
+                                    if($key == 'Dates'){
+                                        echo ($metadatavalue['expression']);
+                                    }
+                                    if($key == 'Extent'){
+                                        echo ($metadatavalue['number']);
+                                    }
+                                    elseif ($key != 'Dates') {
+                                        echo ($metadatavalue);
+                                    }
                                 }
 
                             }
@@ -79,7 +86,7 @@ $bitstreamLinks = array();
             <tr><th>Consult at</th>
                     <?php
 
-                        echo '<td><a href="http://www.ed.ac.uk/information-services/library-museum-gallery/crc/visitor-information/opening-times-location" target="_blank"
+                        echo '<td><a href="https://www.ed.ac.uk/information-services/library-museum-gallery/cultural-heritage-collections/crc/visitor-information/opening-times-location" target="_blank"
                         title="University of Edinburgh, Centre for Research Collections">University of Edinburgh, Centre for Research Collections</a></td>';
                     ?>
                 </tr>

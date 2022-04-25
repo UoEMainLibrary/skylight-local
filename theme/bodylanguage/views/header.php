@@ -99,13 +99,11 @@
             <header>
                 <nav id="menu">
                     <ul class="menu-links">
-                        <li><a href="./contact" title="Contact Us Link">Contact Us</a></li>
-                        <li><a href="./feedback" title="Feedback Form">Feedback</a></li>
-                        <li><a href="http://libraryblogs.is.ed.ac.uk/bodylanguage/" title="Towards Dolly Blog Link" target="_blank">Blog</a></li>
-                        <li><a href="./resources" title="Resources Link">Resources</a></li>
-                        <li><a href="./people" title="People Link">People</a></li>
-                        <li><a href="./catelogue" title="Catelogues Link">Catelogue</a></li>
                         <li><a href="./about" title="About Link">About</a></li>
+                        <li><a href="./catalogue" title="Catalogues Link">Catalogue</a></li>
+                        <li><a href="./people" title="People Link">People</a></li>
+                        <li><a href="./contact" title="Contact Us Link">Contact Us</a></li>
+
                         <li><a href="<?php echo base_url(); ?>bodylanguage"  title="<?php echo $this->config->item('skylight_fullname');?> Home" title="Home Link">Home</a></li>
                     </ul>
                 </nav>
@@ -129,28 +127,14 @@
                                 <a class="quick-link" href="./about#project-anchor">About the Project</a>
                             </li>
                             <li>
-                                <a class="quick-link" href="./about#collection-anchor">About the Collection</a>
-                            </li>
-                            <li>
-                                <a class="quick-link" href="./catelogue">View the Catalogue</a>
+                                <a class="quick-link" href="./catalogue">View the Catalogue</a>
                             </li>
                             <li>
                                 <a class="quick-link" href="./people">Meet the People</a>
                             </li>
-                            <li>
-                                <a class="quick-link" href="./resources">View the Resources</a>
-                            </li>
                         </ul>
                     </div>
 
-            <!--<div id="collection-search">
-                <form action="./redirect/" method="post">
-                    <fieldset class="search">
-                        <input type="text" name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q" />
-                        <input type="submit" name="submit_search" class="btn" value="Search" id="submit_search" />
-                        </fieldset>
-                </form>
-            </div>-->
             </header>
 
         <?php if (strpos($_SERVER['REQUEST_URI'], "bodylanguage/feedback") !== false){
