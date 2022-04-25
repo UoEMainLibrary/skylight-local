@@ -5,19 +5,10 @@
                         <a class="footer-link" href="./about">About</a>
                     </div>
                     <div>
-                        <a class="footer-link" href="./catelogue">Catelogue</a>
+                        <a class="footer-link" href="./catalogue">Catalogue</a>
                     </div>
                     <div>
                         <a class="footer-link" href="./people">People</a>
-                    </div>
-                    <div>
-                        <a class="footer-link" href="./resources">Resources</a>
-                    </div>
-                    <div>
-                        <a class="footer-link" href="http://libraryblogs.is.ed.ac.uk/towardsdolly/" target="_blank">Blog</a>
-                    </div>
-                    <div>
-                        <a class="footer-link" href="./feedback" class="last">Feedback</a>
                     </div>
                     <div>
                         <a class="footer-link" href="./contact" class="last">Contact Us</a>
@@ -36,10 +27,7 @@
                 </div>
                 <a href="http://www.ed.ac.uk" target="_blank"><div class="uoe-logo"></div></a>
             </div>
-            <!--<div class="footer-logos">
-                <a href="http://www.ed.ac.uk" target="_blank"><div class="uoe-logo"></div></a>
-                <a href="http://www.wellcome.ac.uk/" target="_blank"><div class="wellcome-logo"></div></a>
-            </div>-->
+
             
         </footer>
     </div>

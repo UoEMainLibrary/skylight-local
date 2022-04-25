@@ -24,12 +24,12 @@
             Phone: <a class="phone para-link" href="tel:+44131 650 8379">+44 (0)131 650 8379</a><br />
             Fax: <a class="phone para-link" href="tel:+44131 650 2922">+44 (0)131 650 2922</a><br />
             Email: <a class="email para-link" href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a><br/>
-            Web: <a class="para-link" href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/about">https://www.ed.ac.uk/information-services/library-museum-gallery/crc/about</a>
+            Web: <a class="para-link" href="https://www.ed.ac.uk/information-services/library-museum-gallery/cultural-heritage-collections/crc/about">https://www.ed.ac.uk/information-services/library-museum-gallery/cultural-heritage-collections/crc/about</a>
         </p>
         <br />
         <p>For enquiries relating to the archives of Margaret Morris and Margaret Morris Movement International:</p>
-        <p class="contact-details"><strong>University of Edinburgh Library and Digital Development</strong><br />
-            Email: <a class="email para-link" href="mailto:lddt@mlist.is.ed.ac.uk">lddt@mlist.is.ed.ac.uk</a><br/>
+        <p class="contact-details"><strong>?</strong><br />
+            Email: <a class="email para-link" href="">?</a><br/>
         </p>
 
         <div class="big-divider"></div>
