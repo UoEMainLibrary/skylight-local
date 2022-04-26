@@ -185,7 +185,7 @@ $bitstreamLinks = array();
                                 }
                                 else if ($key == 'Audio links and images') {
                                     $json = file_get_contents($solr_base . 'collection1/select?q=id%3A%22'.$metadatavalue.'%22%0A&wt=json&indent=true');
-
+                                    //echo()
                                     $json_array = (array) json_decode($json, TRUE)['response']['docs'][0]['json'];
 
                                     // Iterate through all the digital objects as a PHP array

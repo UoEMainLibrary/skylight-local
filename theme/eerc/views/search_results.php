@@ -1,4 +1,3 @@
-
 <?php
 
 // Set up some variables to easily refer to particular fields you've configured
