@@ -125,6 +125,7 @@
                         <li><a href="./resp" title="Regional Ethnology Scotland Archive Project">RESP Archive Project</a></li>
                         <li><a href="./using" title="Searching and Using the Collection">Searching and Using the Collection</a></li>
                         <li><a href="./contact" title="Contact">Contact</a></li>
+                        <li><a href="./map">Map</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
