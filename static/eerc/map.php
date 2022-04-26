@@ -142,9 +142,10 @@ function request($url, $data = null, $post = true, $session = null)    {
 ?>
 
 <?php
-$url = base_url() . "/files/subjects_out.csv";
+$url = base_url() . "files/subjects_out.csv";
 $data = request($url);
-//print_r($data)
+print_r($data);
+print_r($url);
 
 //use the "/s"(ubject) part in the .csv to separate rows and allow parsing
 $subjects=explode("/s", $data);
