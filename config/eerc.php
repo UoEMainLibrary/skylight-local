@@ -8,7 +8,7 @@ $config['skylight_url_prefix'] = 'eerc';
 if(ENVIRONMENT == 'development') {
     if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
         $config['skylight_ga_code'] = '';
-        $config['skylight_solrbase'] = 'http://localhost:9123/';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
         $config['skylight_link_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8081';
     } else if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
         $config['skylight_ga_code'] = '';
@@ -26,8 +26,8 @@ else {
     //    $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
 }
 
-$config['skylight_archivesspace_user'] = 'apiread';
-$config['skylight_archivesspace_password'] = 'Auxilium1';
+$config['skylight_archivesspace_user'] = 'xxxxxxx';
+$config['skylight_archivesspace_password'] = 'xxxxxxxxx';
 $config['skylight_archivesspace_url'] = 'https://aspaceoai.collections.ed.ac.uk';
 $config['skylight_archivesspace_tree'] = '/repositories/15/resources/86984/tree';
 
@@ -105,6 +105,7 @@ $config['skylight_recorddisplay'] = array('Identifier','Interviewer','Dates','Ex
 $config['skylight_searchresult_display'] = array('Title','Interviewer','Subject','Notable persons/organisations', 'Identifier', 'Interview summary');
 
 $config['skylight_search_fields'] = array('Title' => 'title',
+    'Id' => 'id',
     'Subject' => 'subjects',
     'Notable persons/organisations' => 'agents',
     'Interviewer' => 'creators',
