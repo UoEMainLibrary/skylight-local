@@ -5,7 +5,7 @@ $title_field = $this->skylight_utilities->getField('Title');
 
 <div class="col-md-9 col-sm-9 col-xs-12">
     <br>
-    <h1>Two questions and a short recording …</h3>
+    <h1>Two questions and a short recording …</h1>
     <hr>
     <p>
        At the outbreak of the Covid-19 pandemic usual ways of working halted and uncertainty
@@ -17,7 +17,7 @@ $title_field = $this->skylight_utilities->getField('Title');
         <tr style="text-align: center">
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-street.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-street.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-street.mp4" poster="/theme/eerc/images/CV7-street.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -25,7 +25,7 @@ $title_field = $this->skylight_utilities->getField('Title');
            &nbsp;
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-human.mp4";
-                 $audio = '<video controls width="250" reload="metadata" title="CV7-human.mp4">';
+                 $audio = '<video controls width="250" reload="metadata" title="CV7-human.mp4" poster="/theme/eerc/images/CV7-human.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -33,7 +33,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                   $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-share.mp4";
-                  $audio = '<video controls width="250" preload="metadata" title="CV7-share.mp4">';
+                  $audio = '<video controls width="250" preload="metadata" title="CV7-share.mp4" poster="/theme/eerc/images/CV7-share.png">';
                   $audio .= '<source src="' . $do_url . '">';
                   $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                   echo $audio;
@@ -42,7 +42,7 @@ $title_field = $this->skylight_utilities->getField('Title');
         <tr>
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-strange.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-strange.mp4">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-strange.mp4" poster="/theme/eerc/images/CV7-strange.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -50,7 +50,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-fish.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-fish.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-fish.mp4" poster="/theme/eerc/images/CV7-fish.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -58,7 +58,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-gift.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-gift.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-gift.mp4" poster="/theme/eerc/images/CV7-gift.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -67,7 +67,7 @@ $title_field = $this->skylight_utilities->getField('Title');
         <tr>
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-3am.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-3am.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-3am.mp4" poster="/theme/eerc/images/CV7-3am.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -75,7 +75,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-garden.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-garden.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-garden.mp4" poster="/theme/eerc/images/CV7-garden.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -83,7 +83,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-isolated.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-isolated.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-isolated.mp4" poster="/theme/eerc/images/CV7-isolated.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -92,7 +92,7 @@ $title_field = $this->skylight_utilities->getField('Title');
         <tr>
             <?php
                 $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-focus.mp4";
-                $audio = '<video controls width="250" preload="metadata" title="CV7-focus.mp4 ">';
+                $audio = '<video controls width="250" preload="metadata" title="CV7-focus.mp4" poster="/theme/eerc/images/CV7-focus.png">';
                 $audio .= '<source src="' . $do_url . '">';
                 $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                 echo $audio;
@@ -100,7 +100,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                 $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-salt.mp4";
-                $audio = '<video controls width="250" preload="metadata" title="CV7-salt.mp4 ">';
+                $audio = '<video controls width="250" preload="metadata" title="CV7-salt.mp4" poster="/theme/eerc/images/CV7-salt.png">';
                 $audio .= '<source src="' . $do_url . '">';
                 $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                 echo $audio;
@@ -108,7 +108,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                 $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-hum.mp4";
-                $audio = '<video controls width="250" preload="metadata" title="CV7-hum.mp4 ">';
+                $audio = '<video controls width="250" preload="metadata" title="CV7-hum.mp4" poster="/theme/eerc/images/CV7-hum.png">';
                 $audio .= '<source src="' . $do_url . '">';
                 $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                 echo $audio;
@@ -117,7 +117,7 @@ $title_field = $this->skylight_utilities->getField('Title');
         <tr>
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-birds.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-birds.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-birds.mp4" poster="/theme/eerc/images/CV7-birds.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -125,7 +125,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-experience.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-experience.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-experience.mp4" poster="/theme/eerc/images/CV7-experience.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -133,7 +133,7 @@ $title_field = $this->skylight_utilities->getField('Title');
             &nbsp;
             <?php
                  $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54268/CV7-quiet.mp4";
-                 $audio = '<video controls width="250" preload="metadata" title="CV7-quiet.mp4 ">';
+                 $audio = '<video controls width="250" preload="metadata" title="CV7-quiet.mp4" poster="/theme/eerc/images/CV7-quiet.png">';
                  $audio .= '<source src="' . $do_url . '">';
                  $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                  echo $audio;
@@ -152,7 +152,7 @@ $title_field = $this->skylight_utilities->getField('Title');
     <div style="text-align: center">
         <?php
               $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54269/EL7_The_Past_is_Still_with_Us.mp4";
-              $audio = '<video controls width="480" preload="metadata" title="Embedded video file">';
+              $audio = '<video controls width="480" preload="auto" title="EL7_The_Past_is_Still_with_Us" poster="/theme/eerc/images/EL7_The_Past_is_Still_with_Us.png">';
               $audio .= '<source src="' . $do_url . '">';
               $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
               echo $audio;
@@ -170,7 +170,7 @@ $title_field = $this->skylight_utilities->getField('Title');
     <div style="text-align: center">
     <?php
          $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/54272/EL6-East_Lothian_Digest.mp4";
-         $audio = '<video controls width="480" preload="metadata" title="Embedded video file">';
+         $audio = '<video controls width="480" preload="auto" title="EL6-East_Lothian_Digest" poster="/theme/eerc/images/EL6-East_Lothian_Digest.png">';
          $audio .= '<source src="' . $do_url . '">';
          $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
          echo $audio;
