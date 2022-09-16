@@ -21,9 +21,8 @@
             <ul class="list-group">
                 <?php foreach($facet['terms'] as $term) { ?>
                     <li class="list-group-item">
-                        <span class="badge"><?php echo $term['count']; ?></span><a href='<?php echo $base_search; ?>/<?php echo $facet['name']; ?>
-                            <?php echo $delimiter?>"<?php echo $term['name']; ?>"<?php if(isset($operator)) echo '?operator='.$operator; ?>'>
-                            <?php echo $term['display_name'];?></a>
+                        <span class="badge"><?php echo $term['count']; ?></span>
+                        <a href='<?php echo $base_search; ?>/<?php echo $facet['name']; echo $delimiter; ?>"<?php echo $term['name']; ?>"<?php if(isset($operator)) echo '?operator='.$operator; ?>'><?php echo $term['display_name'];?></a>
                     </li>
                 <?php } ?>
             </ul>

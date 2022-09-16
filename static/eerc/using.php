@@ -21,7 +21,7 @@
 
         <p>You can also search using the thumbnail images located on the ‘Home’ and ‘People’ pages. Click on any image from the montage to link through to that person’s page within the resource.</p>
 
-        <p>The full archival catalogue can also be searched via the <a href="https://archives.collections.ed.ac.uk/" target="_blank">University of Edinburgh Archives on-line catalogue</a>.</p>
+        <!--p>The full archival catalogue can also be searched via the <a href="https://archives.collections.ed.ac.uk/" target="_blank">University of Edinburgh Archives on-line catalogue</a>.</p-->
 
         <img src="<?php echo base_url()?>/theme/eerc/images/resp-montage.png" alt="Montage of interview photographs" class="img-responsive center-block padded_images" style="margin-top: 1em; clear:both;" />
 
