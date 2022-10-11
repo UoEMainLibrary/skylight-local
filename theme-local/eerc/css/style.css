@@ -270,6 +270,16 @@ footer                          { padding-top: 10px; padding-bottom: 10px;}
     margin-top: 10px;
 }
 
+.twitter-logo {
+    display: block;
+    width: 119px;
+    height: 88px;
+    float: right;
+    background: url(../images/twitter.jpg) no-repeat 0 0;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
 .index-img {
     padding-bottom: 20px;
 }

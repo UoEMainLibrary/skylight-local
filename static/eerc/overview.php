@@ -132,7 +132,7 @@
                 $output = '<ul id="ul_' . $branch_count . '_' . $sub_branch_count . '" style="display: none;">';
             }
             else {
-                $output = '<ul id="ul_' . $branch_count . '">';
+                $output = '<ul id="ul_' . $branch_count . '" style="display: none;">';
                 $sub_branch_count = 0;
             }
 

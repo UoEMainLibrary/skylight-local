@@ -13,17 +13,19 @@
 
         <p><strong>Browse the Collections</strong></p>
 
-        <p>The <a href="/eerc/overview">Browse the Collections</a> page will take you to full searchable catalogue of the collection. To browse you can click through a series of drop down lists. The arrangement reflects the full archival catalogue and is by regional study, fieldworker, then individual interviewee.</p>
+        <p>The <a href="/eerc/overview">Browse the Collections</a> page will take you to full searchable catalogue of the collection. To browse you can click through a series of drop down lists by using the + and – buttons. The arrangement reflects the full archival catalogue and is by regional study, fieldworker, then individual interviewee.</p>
 
         <p>All audio recordings relating to individual interviews will be found by clicking on <i>Interviews of</i> pages.</p>
 
         <p>If you know the name of the individual interviewer or interviewee you are looking for, have the unique reference number or an idea of the subject area that you would like to explore you can search using the search box located on the header of each page. For best results when carrying out a name search, use surname only in the first instance. Alternatively you can click through listings of subjects and named persons, which are located on the left of each web page.</p>
 
-        <p>You can also search using the thumbnail images located on the ‘Home’ and ‘People’ pages. Click on any image from the montage to link through to that person’s page within the resource.</p>
+        <p>You can click on the thumbnail images located on the 'Home' and 'People' pages to take you through to the relevant catalogue record.</p>
 
         <!--p>The full archival catalogue can also be searched via the <a href="https://archives.collections.ed.ac.uk/" target="_blank">University of Edinburgh Archives on-line catalogue</a>.</p-->
 
         <img src="<?php echo base_url()?>/theme/eerc/images/resp-montage.png" alt="Montage of interview photographs" class="img-responsive center-block padded_images" style="margin-top: 1em; clear:both;" />
+
+        <p>Alternatively, you can explore the collection geographically via our Interactive Map.  Zoom in and out of the map and click on the pins to link through to a list of relevant interviews.</p>
 
         <p><strong>Access and Restrictions</strong></p>
 
