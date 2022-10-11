@@ -8,10 +8,9 @@ $title_field = $this->skylight_utilities->getField('Title');
     <h1>Two questions and a short recording …</h1>
     <hr>
     <p>
-       At the outbreak of the Covid-19 pandemic usual ways of working halted and uncertainty
-       and fear touched us all. The EERC responded by seeking to record something of that period.
-       This series of films is the product of work by Colin Gateley based upon the recordings made
-       by many folk.
+        Early in the pandemic, while we were still getting used to the idea of lockdown, my colleague Mark Mulhern suggested, as many routine tasks were not possible, that I use my time to “record a creative response to the current situation”. So, between late April and June 2020 I sent out requests for assistance to people in the UK, Ireland the USA and Australia – to get their responses to the situation, and to record something of their current environment.
+        These videos are my response to the contributions. They speak of trepidation, but also of hope. For many there was a sense of potential – a resetting and having time to evaluate how we choose to be. One year on I am not sure how much of that feeling remains.
+        I am grateful to the EERC for this opportunity, and I hope the videos do justice to the generous contributions.  Colin Gateley
     </p>
     <table>
         <tr style="text-align: center">

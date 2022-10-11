@@ -7,7 +7,7 @@
     </div>
     <br />
     <div class="browse_results">
-        <div class="term_search">
+        <!--div class="term_search">
             <form method="get" action="./browse/<?php echo $field; ?>">
                 <div class="input-group">
                     <input name="prefix" class="form-control" id="prefix" value="" placeholder="Starts with: (case sensitive)" />
@@ -15,7 +15,7 @@
                             <span class=" glyphicon glyphicon-search"></span>&nbsp; Search</button></span>
                 </div>
             </form>
-        </div>
+        </div-->
         <br />
         <div class="browse_facets">
             <ul class="list-group">
