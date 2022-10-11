@@ -520,7 +520,7 @@ map.add(clusters)
         <h1 class="itemtitle">Explore our interactive map</h1>
 
 
-        <div style="float: left; max-width: 490px;"><!--p>how to use the map</p>-->
+        <div style="float: left;"><!--p>how to use the map</p>-->
 
             <p>The above map displays the key geographical locations mentioned in RESP interviews. Pan, zoom, and click on a pin to reveal the place name. Click on the link in the pop-up window to view all interviews relating to the chosen pin.</p>
             <p>More places will be added to the map as the digital catalogue grows!</p>
