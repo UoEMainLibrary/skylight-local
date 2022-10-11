@@ -272,9 +272,9 @@ footer                          { padding-top: 10px; padding-bottom: 10px;}
 
 .twitter-logo {
     display: block;
-    width: 119px;
-    height: 88px;
-    float: right;
+    width: 120px;
+    height: 120px;
+    float: left;
     background: url(../images/twitter.jpg) no-repeat 0 0;
     margin-right: 30px;
     margin-top: 5px;
