@@ -156,20 +156,21 @@ foreach ($subjects as $value) {
   //print_r($arra);
   //$record_id = $arra[0];
   if (isset($arra[1])) {
-    $place_name = $arra[1];
 
-    if (isset($arra[2])) {
-      $lon = $arra[2];
+      $place_name = str_replace("'", "&#39;", $arra[1]);
 
-      if (isset($arra[3])) {
-        $lat = $arra[3];
+      if (isset($arra[2])) {
+            $lon = $arra[2];
 
-//echo("locationsArray.push([".$lon.",".$lat.", '".$place_name."']);");
-echo("<script>locationsArray.push([".$lon.",".$lat.", '".$place_name."']);</script>");
+            if (isset($arra[3])) {
+                $lat = $arra[3];
 
+            //echo("locationsArray.push([".$lon.",".$lat.", '".$place_name."']);");
+            echo("<script>locationsArray.push([" . $lon . "," . $lat . ",'" . $place_name . "']);</script>");
+
+            };
+        };
   };
-};
-};
 
 };
 
