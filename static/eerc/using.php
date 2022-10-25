@@ -24,12 +24,12 @@
         <!--p>The full archival catalogue can also be searched via the <a href="https://archives.collections.ed.ac.uk/" target="_blank">University of Edinburgh Archives on-line catalogue</a>.</p-->
 
         <img src="<?php echo base_url()?>/theme/eerc/images/resp-montage.png" alt="Montage of interview photographs" class="img-responsive center-block padded_images" style="margin-top: 1em; clear:both;" />
-
-        <img src="<?php echo base_url()?>/theme/eerc/images/example-map.png" alt="Example Map" width="300" class="img-responsive pull-left padded_images" />
-
-        <br />
-
-        <p>Alternatively, you can explore the collection geographically via our <a href="/eerc/map">Interactive Map</a>.  Zoom in and out of the map and click on the pins to link through to a list of relevant interviews.</p>
+        <span>
+          <img src="<?php echo base_url()?>/theme/eerc/images/example-map.png" alt="Example Map" width="300" class="img-responsive pull-right padded_images" />
+          <br />
+          <p>Alternatively, you can explore the collection geographically via our <a href="/eerc/map">Interactive Map</a>.  Zoom in and out of the map and click on the pins to link through to a list of relevant interviews.</p>
+          <br />
+        </span><br />
 
         <p><strong>Access and Restrictions</strong></p>
 
