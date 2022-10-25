@@ -157,8 +157,6 @@ foreach ($subjects as $value) {
   //$record_id = $arra[0];
   if (isset($arra[1])) {
 
-      $place_name = str_replace("'", "&#39;", $arra[1]);
-
       if (isset($arra[2])) {
             $lon = $arra[2];
 
@@ -166,7 +164,7 @@ foreach ($subjects as $value) {
                 $lat = $arra[3];
 
             //echo("locationsArray.push([".$lon.",".$lat.", '".$place_name."']);");
-            echo("<script>locationsArray.push([" . $lon . "," . $lat . ",'" . $place_name . "']);</script>");
+            echo("<script>locationsArray.push([" . $lon . "," . $lat . ",'" . $arra[1] . "']);</script>");
 
             };
         };
