@@ -5,9 +5,18 @@ $title_field = $this->skylight_utilities->getField('Title');
 
 <div class="col-md-9 col-sm-9 col-xs-12">
     <br>
-    <p>"Early in the pandemic, while we were still getting used to the idea of lockdown, my colleague Mark Mulhern suggested, as many routine tasks were not possible, that I use my time to “record a creative response to the current situation”. So, between late April and June 2020 I sent out requests for assistance to people in the UK, Ireland the USA and Australia – to get their responses to the situation, and to record something of their current environment.</p>
+
+    <p>In this space we present some creative reflections on material recorded for the Regional Ethnology of Scotland Project (RESP). These creative responses show the richness of the recordings as sources and become – in and of themselves – new sources which illuminate life and society.</p>
+
+    <p>This changing space will display material – video, images, sound and text – as the RESP progresses.</p>
+
+    <h1 class="itemtitle">Two questions and a short recording …:</h1>
+
+    <p>“Early in the pandemic, while we were still getting used to the idea of lockdown, my colleague Mark Mulhern suggested, as many routine tasks were not possible, that I use my time to “record a creative response to the current situation”. So, between late April and June 2020 I sent out requests for assistance to people in the UK, Ireland the USA and Australia – to get their responses to the situation, and to record something of their current environment.</p>
+
     <p>These videos are my response to the contributions. They speak of trepidation, but also of hope. For many there was a sense of potential – a resetting and having time to evaluate how we choose to be. One year on I am not sure how much of that feeling remains.</p>
-    <p>I am grateful to the EERC for this opportunity, and I hope the videos do justice to the generous contributions.  Colin Gateley"</p>
+
+    <p>I am grateful to the EERC for this opportunity, and I hope the videos do justice to the generous contributions. Colin Gateley”</p>
 
     <table>
         <tr style="text-align: center">
