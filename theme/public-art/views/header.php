@@ -67,17 +67,15 @@ error_reporting(0);
     <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/lightSlider/js/lightslider.js"></script>
     <link rel="stylesheet" href="https://openlayers.org/en/latest/css/ol.css" type="text/css">
     <!-- Google Analytics -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','<?php echo base_url()?>assets/google-analytics/analytics.js','ga');
+	    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
+    	<script>
+      		window.dataLayer = window.dataLayer || [];
+      		function gtag(){dataLayer.push(arguments);}
+      		gtag('js', new Date());
 
-        ga('create', '<?php echo $ga_code ?>', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-    <!-- End Google Analytics -->
+      		gtag('config', '<?php echo $ga_code ?>');
+    	</script>
+        <!-- End Google Analytics -->   
 
     <script src="<?php echo base_url(); ?>assets/flowplayer-7.0.4/flowplayer.min.js"></script>
 

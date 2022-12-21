@@ -15,7 +15,7 @@ if (ENVIRONMENT == 'development') {
     $config['skylight_container_id'] = '10b6ab37-9abc-4036-9f64-edfe4b4a984c';
 }
 else {
-    $config['skylight_ga_code'] = 'UA-25737241-9';
+    $config['skylight_ga_code'] = 'G-L20JS09H7H';
     $config['skylight_container_id'] = '8c47f237-0884-4044-930b-61d574c63c50';
 }
 

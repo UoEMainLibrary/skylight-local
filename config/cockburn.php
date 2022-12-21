@@ -21,7 +21,7 @@
     }
     else {
         $config['skylight_container_id'] = 'dbf9e7d0-e031-4ed1-bfe5-30d5b450903f';
-        $config['skylight_ga_code'] = 'UA-25737241-9';
+        $config['skylight_ga_code'] = 'G-L20JS09H7H';
     }
 
     $config['skylight_container_field'] = 'location.coll';
