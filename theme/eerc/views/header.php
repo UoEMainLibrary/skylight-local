@@ -75,13 +75,13 @@
         <script src="<?php echo base_url()?>assets/google-analytics/analytics.js"></script>
 
         <!-- Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $skylight_ga_code ?>"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
     	<script>
       		window.dataLayer = window.dataLayer || [];
       		function gtag(){dataLayer.push(arguments);}
       		gtag('js', new Date());
 
-      		gtag('config', '<?php echo $skylight_ga_code ?>');
+      		gtag('config', '<?php echo $ga_code ?>');
     	</script>	
         <!-- End Google Analytics -->
 
