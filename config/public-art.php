@@ -11,7 +11,7 @@ $config['skylight_container_field'] = 'location.coll';
 
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if (ENVIRONMENT == 'development') {
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
     $config['skylight_container_id'] = '10b6ab37-9abc-4036-9f64-edfe4b4a984c';
 }
 else {

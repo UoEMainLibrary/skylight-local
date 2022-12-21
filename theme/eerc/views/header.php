@@ -75,14 +75,14 @@
         <script src="<?php echo base_url()?>assets/google-analytics/analytics.js"></script>
 
         <!-- Google Analytics -->
-	    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
-    	<script>
-      		window.dataLayer = window.dataLayer || [];
-      		function gtag(){dataLayer.push(arguments);}
-      		gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-      		gtag('config', '<?php echo $ga_code ?>');
-    	</script>
+            gtag('config', '<?php echo $ga_code ?>');
+        </script>
         <!-- End Google Analytics -->
 
         <?php if (isset($solr)) { ?><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />

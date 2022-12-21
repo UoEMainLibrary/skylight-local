@@ -62,15 +62,15 @@
     </script>
 
     <!-- Google Analytics -->
-	    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
-    	<script>
-      		window.dataLayer = window.dataLayer || [];
-      		function gtag(){dataLayer.push(arguments);}
-      		gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      		gtag('config', '<?php echo $ga_code ?>');
-    	</script>
-        <!-- End Google Analytics -->   
+        gtag('config', '<?php echo $ga_code ?>');
+    </script>
+    <!-- End Google Analytics -->
 
 </head>
 

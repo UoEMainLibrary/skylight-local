@@ -67,15 +67,15 @@ error_reporting(0);
     <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/lightSlider/js/lightslider.js"></script>
     <link rel="stylesheet" href="https://openlayers.org/en/latest/css/ol.css" type="text/css">
     <!-- Google Analytics -->
-	    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
-    	<script>
-      		window.dataLayer = window.dataLayer || [];
-      		function gtag(){dataLayer.push(arguments);}
-      		gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      		gtag('config', '<?php echo $ga_code ?>');
-    	</script>
-        <!-- End Google Analytics -->   
+        gtag('config', '<?php echo $ga_code ?>');
+    </script>
+    <!-- End Google Analytics -->
 
     <script src="<?php echo base_url(); ?>assets/flowplayer-7.0.4/flowplayer.min.js"></script>
 

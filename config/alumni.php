@@ -20,7 +20,7 @@ $config['skylight_oaipmhallowed'] = true;
 // Container ID and the field used in solr index to store this ID. Used for restricting search/browse scope.
 if (ENVIRONMENT == 'development') {
     $config['skylight_container_id'] = 'dcc42cf5-a713-4dc5-97e1-482a871cf1ea';
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
 }
 else {
     $config['skylight_container_id'] = '8f5e9ab3-98cb-4665-b911-4507a72bb788';

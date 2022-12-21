@@ -11,7 +11,7 @@ $config['skylight_fullname'] = 'University of Edinburgh Anatomical Collection';
 
 // set ga code
 if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
 }
 else {
     $config['skylight_ga_code'] = 'G-L20JS09H7H';

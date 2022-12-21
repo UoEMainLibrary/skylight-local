@@ -3,11 +3,11 @@
 // set the base url and ga code
 //if (ENVIRONMENT == 'development') {
     //$config['base_url'] = 'http://test.stuartsound.is.ed.ac.uk/';
-  //  $config['skylight_ga_code'] = 'UA-25737241-6';
+  //  $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
 //}
 //else {
     //$config['base_url'] = 'http://www.stuartsound.is.ed.ac.uk/';
-  //  $config['skylight_ga_code'] = 'UA-25737241-6';
+  //  $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
 //}
 
 $config['skylight_appname'] = 'audio';

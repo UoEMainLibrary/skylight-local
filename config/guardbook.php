@@ -6,11 +6,11 @@ $config['skylight_url_prefix'] = 'guardbook';
 
 // set the base url and ga code
 if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
     $config['skylight_container_id'] = 'f0c7bb72-ab20-4693-be0d-43918440a8cd';
 }
 else if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
     $config['skylight_container_id'] = 'f0c7bb72-ab20-4693-be0d-43918440a8cd';
 }
 else {
