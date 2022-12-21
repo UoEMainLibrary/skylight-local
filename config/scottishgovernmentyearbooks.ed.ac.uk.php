@@ -8,7 +8,7 @@ $config['skylight_appname'] = 'iog';
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if (ENVIRONMENT == 'development') {
     $config['base_url'] = 'http://test.scottishgovernmentyearbooks.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
 }
 else {
     $config['base_url'] = 'http://www.scottishgovernmentyearbooks.ed.ac.uk/';

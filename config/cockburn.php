@@ -17,11 +17,11 @@
     if (ENVIRONMENT == 'development') 
     {
         $config['skylight_container_id'] = 'c7bc550e-8bb5-44aa-9ac3-128832466067';
-        $config['skylight_ga_code'] = 'UA-25737241-6';
+        $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
     }
     else {
         $config['skylight_container_id'] = 'dbf9e7d0-e031-4ed1-bfe5-30d5b450903f';
-        $config['skylight_ga_code'] = 'UA-25737241-9';
+        $config['skylight_ga_code'] = 'G-L20JS09H7H';
     }
 
     $config['skylight_container_field'] = 'location.coll';

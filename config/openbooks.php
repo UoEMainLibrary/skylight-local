@@ -6,7 +6,7 @@ $config['skylight_url_prefix'] = 'openbooks';
 // set the base url and ga code
 if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
     $config['base_url'] = '';
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
     $config['skylight_container_id'] = 'ca96f537-4877-4ddb-8d17-63b65433b9d3';
 }
 else {
