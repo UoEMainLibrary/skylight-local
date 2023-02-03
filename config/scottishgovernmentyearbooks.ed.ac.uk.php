@@ -12,7 +12,7 @@ if (ENVIRONMENT == 'development') {
 }
 else {
     $config['base_url'] = 'http://www.scottishgovernmentyearbooks.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-11';
+    $config['skylight_ga_code'] = 'G-ZVNHDNS1YT';
 }
 
 $config['skylight_theme'] = 'iog';

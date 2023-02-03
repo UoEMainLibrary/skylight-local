@@ -12,7 +12,7 @@ if (ENVIRONMENT == 'development') {
 }
 else {
     $config['base_url'] = 'https://exhibitions.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-8';
+    $config['skylight_ga_code'] = '';
 }
 
 $config['skylight_theme'] = 'exhibitions';

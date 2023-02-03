@@ -10,7 +10,7 @@ if (ENVIRONMENT == 'development') {
 }
 else {
     $config['base_url'] = 'https://sopacollection.ph.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-10';
+    $config['skylight_ga_code'] = 'G-9FSG51QXZL';
     $config['skylight_container_id'] = 'df0d9c26-2b73-4cce-8ed7-d047b1a0884e';
 }
 

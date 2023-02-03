@@ -3,11 +3,11 @@
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if (ENVIRONMENT == 'development') {
     $config['base_url'] = 'https://test.exampapers.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-22';
+    $config['skylight_ga_code'] = 'G-GQ6HXJHMGN';
 }
 else {
     $config['base_url'] = 'https://exampapers.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-12';
+    $config['skylight_ga_code'] = '';
 }
 
 $config['skylight_appname'] = 'exams';

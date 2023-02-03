@@ -8,7 +8,7 @@ if (ENVIRONMENT == 'development') {
 }
 else {
     $config['base_url'] = 'https://lac-projects.is.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-14';
+    $config['skylight_ga_code'] = 'G-RYHXTMGMHR';
     $config['skylight_container_id'] = '32';
 }
 
