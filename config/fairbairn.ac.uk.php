@@ -8,12 +8,12 @@ $config['skylight_appname'] = 'fairbairn';
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if (ENVIRONMENT == 'development') {
     $config['base_url'] = 'http://test.fairbairn.ac.uk/';
-    $config['skylight_ga_code'] = '';
+    $config['skylight_ga_code'] = 'G-X4CRLZFCQM';
     $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
 }
 else {
     $config['base_url'] = 'http://www.fairbairn.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-19';
+    $config['skylight_ga_code'] = 'G-1HP342X330';
     $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
 }
 

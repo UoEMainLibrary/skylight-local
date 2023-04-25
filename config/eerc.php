@@ -7,7 +7,7 @@ $config['skylight_url_prefix'] = 'eerc';
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if(ENVIRONMENT == 'development') {
     if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
-        $config['skylight_ga_code'] = '';
+        $config['skylight_ga_code'] = 'G-RYHXTMGMHR';
         $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
         $config['skylight_link_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8081';
     } else if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
