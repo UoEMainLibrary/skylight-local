@@ -1,121 +1,219 @@
 <div class="container">
     <div class="content byEditor">
-        <h1>Accessibility statement for the University of Edinburgh Collections Website</h1>
-        <h3>https://collections.ed.ac.uk</h3>
-        <h4>Website accessibility statement inline with Public Sector Body (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018</h4>
+        <h1>Accessibility statement for the University of Edinburgh <a href="https://collections.ed.ac.uk/">Main Collections website</a></h1>
+        <p>Website accessibility statement in line with Public Sector Body (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018</p>
+        <p>This accessibility statement applies to: <a href="https://collections.ed.ac.uk/">https://collections.ed.ac.uk/</a></p>
 
-        <p>The University of Edinburgh Collections website is run by the University of Edinburgh. It links to a number of sub sites which have their own accessibility statements
-        We want as many people as possible to be able to read the journal content hosted on the platform. For example, that means you should be able to:</p>
+        <p>This website is run by Library and University Collections Directorate, Information Services Group at the University of Edinburgh. We want as many people as possible to be able to use this website. For example, that means you should be able to:</p>
         <ul>
-            <li>change colours, contrast levels and fonts</li>
-            <li>magnify the content</li>
-            <li>Experience no time limits to content</li>
-            <li>navigate most of the website using just a keyboard</li>
-            <li>navigate most of the website using speech recognition software</li>
-            <li>listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)</li>
+            <li>using your browser settings, change most colours, contrast levels and fonts;</li>
+            <li>navigate all of the website using just a keyboard;</li>
+            <li>navigate most of the website using speech recognition software;</li>
+            <li>listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver);</li>
+            <li>use the website without encountering any time limits;</li>
+            <li>use the website without encountering any flashing, scrolling or moving text.</p>
         </ul>
 
-        <p>We’ve also made the website text as simple as possible to understand.</p>
-
         <h2>Customising the website</h2>
-        <p>AbilityNet has advice on making your device easier to use if you have a disability.</p>
-        <a href="https://mcmw.abilitynet.org.uk/" alt-text="AbilityNet - My computer my way"  title="AbilityNet - My computer my way" target="_blank">AbilityNet - My computer my way</a>
-        <p>With a few simple steps you can customise the appearance of our website to make it easier to read and navigate.</p>
-        <a href="https://www.ed.ac.uk/about/website/accessibility/customising-site" alt-text="Additional information on how to customise our website appearance"  title="Additional information on how to customise our website appearance" target="_blank">Additional information on how to customise our website appearance</a>
+        <p>AbilityNet has advice on making your device easier to use if you have a disability. This is an external site with suggestions to make your computer more accessible:</p>
+        <p><a href="https://mcmw.abilitynet.org.uk/">AbilityNet - My computer my way</a></p>
+        <p>With a few simple steps you can customise the appearance of our website using your browser settings to make it easier to read and navigate:</p>
+        <p><a href="https://www.ed.ac.uk/about/website/accessibility/customising-site">Additional information on how to customise our website appearance</a></p>
+        <p>If you are a member of University staff or a student, you can use the free SensusAccess accessible document conversion service:</p>
+        <p><a href="https://www.ed.ac.uk/student-disability-service/staff/supporting-students/accessible-technology">Information on SensusAccess</a></p>
+
         <h2>How accessible this website is</h2>
         <p>We know some parts of this website are not fully accessible:</p>
         <ul>
-            <li>some parts may not be fully compatible with screen readers</li>
-            <li>sometimes it can be hard to tell where you have navigated too by keyboard</li>
-            <li>some colour contrasts do not meet recommended guidance</li>
-            <li>some non-text content does not have text alternatives</li>
-            <li>There is some use of italics and continuous capitals</li>
+            <li>not all colour contrasts meet the recommended Web Content Accessibility Guidelines 2.1 AA standard;</li>
+            <li>some body text is smaller than 12 point;</li>
+            <li>it can sometimes be hard to tell where you have navigated to using a keyboard;</li>
+            <li>you may not be able to access all content by using the keyboard alone;</li>
+            <li>some links open in new windows or tabs without warning;</li>
+            <li>there are instances of non-text content not containing alternative text;</li>
+            <li>there is no skip to main content function;</li>
+            <li>some parts of the website are not able to be customised depending on the browser used;</li>
+            <li>text may not reflow in a single column when you change the size of the browser window and at certain levels of magnification;</li>
+            <li>all older PDF documents are not fully accessible to screen reader software;</li>
+            <li>zoom in/out buttons only appear on mouse hover over item images.</li>
         </ul>
-        <h2>What to do if you cannot access parts of this website</h2>
-        <p>If you need information on this website in a different format like accessible PDF, large print, audio recording or braille please contact the website team by
-            emailing <a href="mailto:is-crc@ed.ac.uk" alt-text="mail to CRC" title="mail to CRC">is-crc@ed.ac.uk</a>, by phoning +44(0)131 650 8379 or by writing to us at:</p>
-        <p>Centre for Research Collections<br>
-            Edinburgh University Library,<br>
-            George Square,<br>
-            Edinburgh,<br>
-            EH8 9LJ<br></p>
-        <p>We’ll consider your request and get back to you in 5 working days.</p>
+
+        <h2>Feedback and contact information</h2>
+        <p>If you need information on this website in a different format, including accessible PDF, large print, audio recording or braille:</p>
+        <ul>
+            <li>Email: <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a></li>
+            <li>Telephone: +44 (0)131 650 8379</li>
+            <li>British Sign Language (BSL) users can contact us via Contact Scotland BSL, the on-line BSL interpreting service: <a href="https://contactscotland-bsl.org/">Contact Scotland BSL</a></li>
+        </ul>
 
         <h2>Reporting accessibility problems with this website</h2>
-        <p>We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements please let us know by contacting:</p>
+        <p>We are always looking to improve the accessibility of this website. If you find any problems not listed on this page, or think we're not meeting accessibility requirements, please contact:</p>
         <ul>
-            <li>Email: <a href="mailto:is-crc@ed.ac.uk" alt-text="mail to CRC" title="mail to CRC">is-crc@ed.ac.uk</a></li>
-            <li>Phone: 0131 6508379</li>
-            <li>Write: Centre for Research Collections<br>
-                Edinburgh University Library,<br>
-                George Square,<br>
-                Edinburgh,<br>
-                EH8 9LJ</li>
+            <li>Email: <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a></li>
+            <li>Telephone: +44 (0)131 650 8379</li>
+            <li>British Sign Language (BSL) users can contact us via Contact Scotland BSL, the on-line BSL interpreting service: <a href="https://contactscotland-bsl.org/">Contact Scotland BSL</a></li>
         </ul>
-        <p><We’ll consider your request and get back to you in 5 working days./p>
-        <h2>Enforcement procedure</h2>
-        <p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018
-            (the ‘accessibility regulations’). If you’re not happy with how we respond to your complaint please contact the Equality Advisory and Support Service (EASS) directly.</p>
+        <p>We will consider your request and get back to you in 5 working days.</p>
 
-        <a href="https://www.equalityadvisoryservice.com" alt-text="Contact details for the Equality Advisory and Support Service (EASS)"  title="Contact details for the Equality Advisory and Support Service (EASS)" target="_blank">Contact details for the Equality Advisory and Support Service (EASS)</a>
+        <h2>Enforcement procedure</h2>
+        <p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the 'accessibility regulations'). If you're not happy with how we respond to your complaint please contact the Equality Advisory and Support Service (EASS) directly:</p>
+        <p><a href="https://www.equalityadvisoryservice.com/">Contact details for the Equality Advisory and Support Service (EASS)</a></p>
+        <p>The government has produced information on how to report accessibility issues:</p>
+        <p><a href="https://www.gov.uk/reporting-accessibility-problem-public-sector-website">Reporting an accessibility problem on a public sector website</a></p>
+
         <h2>Contacting us by phone using British Sign Language</h2>
-        <h3>British Sign Language service</h3>
-        <p>British Sign Language Scotland runs a service for British Sign Language users and all of Scotland’s public bodies using video relay. This enables sign language users to contact
-            public bodies and vice versa. The service operates from 8am to 12 midnight, 7 days a week.</p>
-        <a href="https://contactscotland-bsl.org" alt-text="British Sign Language Scotland service details"  title="British Sign Language Scotland service details" target="_blank">British Sign Language Scotland service details</a>
-        <h2>Technical information about this website’s accessibility</h2>
-        <p>The University of Edinburgh is committed to making its website accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
-        <p>When an issue is identified with the website we will liaise with the developers to highlight the issue and seek a solution. While investigation is underway, we will ensure reasonable adjustments are in place to make sure no user is disadvantaged</p>
-        <p>This website is partially compliant with the Web Content Accessibility Guidelines 2.1 AA standard, due to the non-compliances listed below.</p>
+        <p>British Sign Language service Contact Scotland BSL runs a service for British Sign Language users and all of Scotland’s public bodies using video relay. This enables sign language users to contact public bodies and vice versa. The service operates 24 hours a day, 7 days a week.</p>
+        <p><a href="https://contactscotland-bsl.org/">Contact Scotland BSL service details</a></p>
+
+        <h2>Technical information about this website&rsquo;s accessibility</h2>
+        <p>The University of Edinburgh is committed to making its websites and applications accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
+        <p>This website is partially compliant with the Web Content Accessibility Guidelines (WCAG) 2.1 AA standard, due to the non-compliances listed below.</p>
         <p>The full guidelines are available at:</p>
-        <a href="https://www.w3.org/TR/WCAG21/" alt-text="Web Content Accessibility Guidelines version 2.1"  title="Web Content Accessibility Guidelines version 2.1" target="_blank">Web Content Accessibility Guidelines version 2.1</a>
+        <p>&nbsp;<a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines version 2.1</a></p>
         <h3>Non accessible content</h3>
         <p>The content listed below is non-accessible for the following reasons.</p>
-        <h4>Noncompliance with the accessibility regulations</h4>
+        <h3>Noncompliance with the accessibility regulations</h3>
         <p>The following items to not comply with the WCAG 2.1 AA success criteria:</p>
         <ul>
-            <li>Information is conveyed as an image of text rather than as text itself so that it's not compatible with screen readers and other assistive technology<br>
-                <a href="https://www.w3.org/TR/WCAG21/#images-of-text" alt-text="1.4.5 - Images of text" title="1.4.5 - Images of text" target="_blank">1.4.5 - Images of text</a></li>
-            <li>Most tooltips disappear as soon as the cursor moves. Also tooltips are not always present for all icons and images.<br>
-                <a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus" alt-text="1.4.13 - Content on Hover or Focus" title="1.4.13 - Content on Hover or Focus" target="_blank">1.4.13 - Content on Hover or Focus</a></li>
-            <li>There may not be sufficient colour contrast between font and background colours especially where the text size is very small.<br>
-                <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" alt-text="1.4.3 - Contrast (Minimum)" title="1.4.3 - Contrast (Minimum)" target="_blank">1.4.3 - Contrast (Minimum)</a></li>
-            <li>Visual information to identify user interface components, such as keyboard focus, do not always have a sufficient contrast ratio<br>
-                <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast" alt-text="1.4.11 - Non-text contrast" title="1.4.11 - Non-text contrast" target="_blank">1.4.11 - Non-text contrast</a></li>
-            <li>Some content cannot be presented without loss of information when magnified to the maximum browser level<br>
-                <a href="https://www.w3.org/TR/WCAG21/#reflow" alt-text="1.4.10 - Reflow" title="1.4.10 - Reflow" target="_blank">1.4.10 - Reflow</a></li>
-            <li>Not all non-text content has text alternatives<br>
-                <a href="https://www.w3.org/TR/WCAG21/#text-alternatives" alt-text="1.1.1 – Non Text Content" title="1.1.1 – Non Text Content" target="_blank">1.1.1 – Non Text Content</a></li>
-            <li>Not fully compatible with screen readers<br>
-                <a href="https://www.w3.org/TR/WCAG21/#compatible" alt-text="4.1 - Compatible" title="4.1 - Compatible" target="_blank">4.1 - Compatible</a></li>
+            <li>Not all non-text content presented to users has alternative text
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#non-text-content">1.1.1 - Non-text Content</a></li>
+                </ul>
+            </li>
+            <li>•	Some body text items are incorrectly labelled as headings and some heading levels are skipped (e.g., an < h1 > is followed by an < h4 >, with no intermediate < h2 > or < h3 >).
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships">1.3.1 - Info and Relationships</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-levels">2.4.6 Headings and Labels (Level AA)</a></li>
+                </ul>
+            </li>
+            <li>•	Some content in the sidebar is not read sequentially by screen readers
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#meaningful-sequence">o	1.3.2 – Meaningful Sequence</a></li>
+                </ul>
+            </li>
+            <li>There may not be sufficient colour contrast between font and background colours, especially where the text size is small
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></li>
+                </ul>
+            </li>
+            <li>•	It is not possible to resize text to 200% without assistive technology
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4. Resize Text</a></li>
+                </ul>
+            </li>
+            <li>•	Information is conveyed as an image of text rather than as text itself, making it not compatible with screen readers and other assistive technology and is not fully customisable
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#images-of-text">o	1.4.5 - Images of text</a></li>
+                </ul>
+            </li>
+            <li>Site is not fully compatible with browser customisation meaning that users do not have full control and functionality when customising the site (WCAG 2.1 AAA)
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.8 - Visual Presentation (AAA) </a></li>
+                </ul>
+            </li>
+            <li>•	Content cannot be presented without requiring scrolling in two dimensions at 100%
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#reflow">1.4.10 - Reflow</a></li>
+                </ul>
+            </li>
+            <li>•	Zoom in/out buttons appear on mouse hover over item images and these cannot be dismissed without moving pointer hover or keyboard focus. Additionally, tooltips appear using mouse hover but not via keyboard
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus">1.4.13 - Content on Hover or Focus</a></li>
+                </ul>
+            </li>
+            <li>It is not possible to use a keyboard to access all the content
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1 - Keyboard</a></li>
+                </ul>
+            </li>
+            <li>•	It is not always possible to bypass blocks of content that are repeated on multiple Web pages
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 Bypass Blocks</a></li>
+                </ul>
+            </li>
+            <li>•	Some of our page titles do not fully describe the page content whereas others are missing altogether
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#page-titled">2.4.2 - Page Titled</a></li>
+                </ul>
+            </li>
+            <li>•	Link purpose is not always clear
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#link-purpose-in-context">2.4.4 - Link Purpose (In Context)</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#section-headings">o	2.4.10 – Section Headings (Level AAA)</a></li>
+                </ul>
+            </li>
+            <li>•	Information, structure and relationships conveyed through presentation cannot always be programmatically determined. This includes missing heading labels
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels">2.4.6 – Headings and Labels</a></li>
+                </ul>
+            </li>
+            <li>•	Visual information to identify user interface components, such as keyboard focus, do not always have a sufficient contrast ratio
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#focus-visible">2.4.7 – Focus Visible</a></li>
+                </ul>
+            </li>
+            <li>Some links open in a new browser window without warning
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#on-input">3.2.2 - On Input</a></li>
+                </ul>
+            </li>
+            <li>•	There are missing labels present in the website that fail to describe the purpose of the input form
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">o	3.3.2 - Labels or Instructions</a></li>
+                </ul>
+            </li>
+            <li>•	Screen readers are not able to identify some parts of the page
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#parsing">4.1.1 Parsing</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#name-role-valuet">4.1.2 - Name, Role, Value</a></li>
+                </ul>
+            </li>
+            <li>Not all our PDF’s and Word documents meet accessibility standards documents
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#non-test-content">1.1.1 - Non-text Content</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#meaningful-sequence">1.3.2 - Meaningful Sequence</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#images-of-text">1.4.5 - Images of Text</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#multiple-ways">2.4.5 - Multiple Ways</a></li>
+                </ul>
+            </li>
         </ul>
-        <p>Unless specified otherwise a complete solution or significant improvement will be in place by July 2022.</p>
-        <h2>How we tested this website</h2>
-        <p>This website was last tested in November 2019. The website was tested by the University of Edinburgh’s Disability Information Officer on a PC using Internet Explorer (11.0.9600.19236) browser
-        and also using the automated Webaim WAVE tool. Internet Explorer was chosen as the browser due to it being the most commonly used browser by disabled people as shown in the government survey:
-        the Government Assistive Technology Browser Survey</p>
-        <p>We tested:</p>
-        <ul>
-            <li>Spellcheck functionality</li>
-            <li>Data validation</li>
-            <li>Scaling using different screen resolutions</li>
-            <li>Options to customise the interface (magnification, font, background colour etc.)</li>
-            <li>Keyboard navigation</li>
-            <li>Warning of links opening in a new tab or window</li>
-            <li>Information conveyed in colour or sound only</li>
-            <li>Flashing or scrolling text</li>
-            <li>Operability if Javascript is disabled</li>
-            <li>Use with screen reading software (eg. JAWS)</li>
-            <li>Assistive Software such as TextHelp Read and Write, and Zoomtext</li>
-            <li>Tooltips and text alternatives for any non-text content</li>
-            <li>Time limits</li>
-        </ul>
-        <h2>What we're doing to improve accessibility</h2>
-        <p>We will continue to work with developers to address these issues and deliver a solution or suitable workaround and correct issues directly. We hope to have the majority of issues resolved by July 2022.</p>
-        <p>We will continue to monitor the website will carry out further accessibility testing if significant changes are made to the user interface or if a service user raises an issue.</p>
-        <p>Whist we are in the process of resolving these accessibility issues we will of course ensure reasonable adjustments are in place to make sure no user is disadvantaged.</p>
+        <p>At this time, we believe all items are within our control. Unless specified otherwise, a complete solution, or significant improvement, will be in place for those items within our control by March 2024.</p>
+        <h3>Disproportionate burden</h3>
+        <p>We are not currently claiming that any accessibility problems would be a disproportionate burden to fix.</p>
+        <h3>Content that's not within the scope of the accessibility regulations</h3>
+        <p>At this time, we do not believe that any content is outside the scope of the accessibility regulations.</p>
 
-        <p>This statement was prepared in September 2021. It was last updated on 15th September 2021.</p>
+        <h2>What we're doing to improve accessibility</h2>
+        <p>At this time, we believe all items are within our control. We will continue to address the accessibility issues highlighted to deliver a solution or suitable workaround. We are looking to move this site to a new content management system within the next 12 months and will be working to ensure this resolves the accessibility issues. Unless specified otherwise, a complete solution or significant improvement will be in place for those items within our control by March 2024.</p>
+        <p>While we are in the process of resolving these accessibility issues, or where we are unable, we will ensure reasonable adjustments are in place to make sure no user is disadvantaged. As changes are made, we will continue to review accessibility and retest the accessibility of this website.</p>
+
+        <h2>Preparation of this accessibility statement</h3>
+        <p><strong>This statement was first prepared in November 2019. It was last reviewed on 1st March 2023.</strong></p>
+        <p>This website was first tested in November 2019 and reviewed on 15th September 2021 and again on 1st March 2023.  The testing was initially carried out by The University of Edinburgh Library and University Collections Digital Library Development team using the automated <a href="https://wave.webaim.org/">Wave WEBAIM</a> and <a href="https://littleforest.co.uk/">Little Forest</a> testing tool. The testing in October 2022 included full manual as well as automated testing.</p>
+        <p>The website was last tested by the Digital Library team, Library and University Collections, University of Edinburgh in March 2023. This was primarily using Internet Explorer (OS Build 19043.1586) alongside Mozilla Firefox (91.8.0esr), Microsoft Edge (100.0.1185.36) and Google Chrome (100.0.4896.88) for comparative purposes.</p>
+        <p>Recent world-wide usage levels survey for different screen readers and browsers shows that Chrome, Mozilla Firefox and Microsoft Edge are increasing in popularity and Google Chrome is now the favoured browser for screen readers:</p>
+        <p><a href="https://webaim.org/projects/screenreadersurvey9/">WebAIM: Screen Reader User Survey</a></p>
+        <p>The aforementioned three browsers have been used in certain questions for reasons of breadth and variety.</p>
+        <p>We ran automated testing using <a href="https://wave.webaim.org/">Wave WEBAIM</a> and <a href="https://littleforest.co.uk/">Little Forest</a> then manual testing that included:</p>
+        <ul>
+            <li>Spell check functionality;</li>
+            <li>Scaling using different resolutions and reflow;</li>
+            <li>Options to customise the interface (magnification, font, background colour, etc);</li>
+            <li>Keyboard navigation and keyboard traps;</li>
+            <li>Data validation;</li>
+            <li>Warning of links opening in a new tab or window;</li>
+            <li>Information conveyed in colour or sound only;</li>
+            <li>Flashing, moving or scrolling text;</li>
+            <li>Operability if JavaScript is disabled;</li>
+            <li>Use with screen reading software (for example, JAWS);</li>
+            <li>Assistive software (TextHelp Read and Write, Windows Magnifier, ZoomText, Dragon NaturallySpeaking, TalkBack and VoiceOver);</li>
+            <li>Tooltips and text alternatives for any non-text content;</li>
+            <li>Time limits;</li>
+            <li>Compatibility with mobile accessibility functionality (Android and iOS).</li>
+        </ul>
+
+        <h2>Change Log</h2>
+        <p>Since our first evaluation and statement, which was based on automated testing, we have undertaken extensive manual testing. This includes utilising a range of assistive technology to ensure we have a clear picture of the accessibility issues and how best to resolve them.</p>
     </div>
 </div>
 
