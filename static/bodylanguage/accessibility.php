@@ -1,19 +1,18 @@
 <div class="container">
     <div class="content byEditor">
-        <h1>Accessibility Statement for the <a href="https://collections.ed.ac.uk/art">Art Collection website</a></h1>
-        <p><strong>Website accessibility statement inline with Public Sector Body (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018</strong></p>
-        <p>This accessibility statement applies to  <a href="https://collections.ed.ac.uk/art">https://collections.ed.ac.uk/art</a></p>
+        <h1>Accessibility statement for the <a href="https://collections.ed.ac.uk/bodylanguage">Body Language website</a></h1>
+        <p>Website accessibility statement in line with Public Sector Body (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018</p>
+        <p>This accessibility statement applies to: <a href="https://collections.ed.ac.uk/bodylanguage">https://collections.ed.ac.uk/bodylanguage</a></p>
 
         <p>This website is run by the Library and University Collections Directorate which is part of Information Services Group at the University of Edinburgh. We want as many people as possible to be able to use this website. For example, that means you should be able to:</p>
         <ul>
-            <li>using your browser settings, change colours, contrast levels and fonts</li>
-            <li>zoom in up to 400% without the text spilling off the screen</li>
-            <li>navigate most of the website using just a keyboard</li>
-            <li>navigate most of the website using speech recognition software</li>
+            <li>using your browser settings, change colours, contrast levels and fonts to some extent;</li>
+            <li>zoom in up to 400%  (but without reflow);</li>
+            <li>navigate most of the website using just a keyboard;</li>
+            <li>navigate most of the website using speech recognition software;</li>
             <li>listen to most of the website using a screen reader (including the most recent versions of Job Access with Speech (JAWS), NonVisual Desktop Access (NVDA) and VoiceOver);</li>
-            <li>experience no time limits when using the site, and not encounter any flashing, scrolling or moving text.</li>
+            <li>experience no time limits when using the site, and not encounter any flashing, scrolling or moving text.</p>
         </ul>
-        <p>We&rsquo;ve also made the website text as simple as possible to understand.</p>
 
         <h2>Customising the website</h2>
         <p>AbilityNet has advice on making your device easier to use if you have a disability. This is an external site with suggestions to make your computer more accessible:</p>
@@ -26,18 +25,16 @@
         <h2>How accessible this website is</h2>
         <p>We know some parts of this website are not fully accessible:</p>
         <ul>
-            <li>not all colour contrasts meet the recommended Web Content Accessibility Guidelines 2.1 AA standard;</li>
+            <li>some parts of the site may not be fully compatible with screen readers;</li>
+            <li>some parts of the website are not able to be fully customised;</li>
+            <li>not all non-text content presented to users has alternative text;</li>
+            <li>there is no ‘skip to main content’ function;</li>
             <li>some body text is smaller than 12 point;</li>
-            <li>some images are oversized or blurry;</li>
-            <li>some links open in new windows or tabs without warning;</li>
-            <li>some content cannot be navigated to via keyboard;</li>
-            <li>there are instances of non-text content not containing alternative text;</li>
-            <li>there are instances of overlapping text when scaling the page or viewing in portrait mode via mobile;</li>
-            <li>the image carousel on the homepage does not have control buttons to pause or stop and the 'previous' and 'next' arrows are difficult to see;</li>
-            <li>most older PDF documents are not fully accessible to screen reader software;</li>
-            <li>there is no skip to main content function;</li>
-            <li>it can sometimes be hard to tell where you have navigated to using a keyboard;</li>
-            <li>some content is inaccessible using speech recognition software, including the image carousel buttons and collection record image zoom icons.</li>
+            <li>compatibility with screen readers and other assistive technology could be improved;</li>
+            <li>keyboard navigation could be clearer in informing users where they have reached on a page;</li>
+            <li>some links and pop-ups open in new windows or tabs without warning;</li>
+            <li>there are instances of text displayed as an image;</li>
+            <li>some text may not reflow in a single column when you change the size of the browser window and at certain levels of magnification.</li>
         </ul>
 
         <h2>Feedback and contact information</h2>
@@ -82,20 +79,20 @@
                     <li><a href="https://www.w3.org/TR/WCAG21/#non-text-content">1.1.1 - Non-text Content</a></li>
                 </ul>
             </li>
-            <li>Information, structure and relationships conveyed through presentation cannot always be programmatically determined. This includes a missing < h1 > on the homepage.
+            <li>Information, structure and relationships conveyed through presentation cannot always be programmatically determined. This includes missing, and skipping, page level tags
                 <ul>
                     <li><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships">1.3.1 - Info and Relationships</a></li>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels">2.4.6 - Headings and Labels</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-levels">2.4.6 Headings and Labels (Level AA)</a></li>
                 </ul>
             </li>
-            <li>On mobile devices it is not possible to view the information in portrait as the text becomes jumbled on the search page. Content will only display correctly  in a single page orientation
+            <li>It is not possible to resize text to 200% without assistive technology
                 <ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#orientation">1.3.4 - Orientation</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4. Resize Text</a></li>
                 </ul>
             </li>
-            <li>There may not be sufficient colour contrast between font and background colours, especially where the text size is small
+            <li>Information is conveyed as an image of text rather than as text itself, making it incompatible with screen readers and other assistive technology
                 <ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#images-of-text">1.4.5 - Images of text</a></li>
                 </ul>
             </li>
             <li>Site is not fully compatible with browser customisation meaning that users do not have full control and functionality when customising the site (WCAG 2.1 AAA)
@@ -103,37 +100,47 @@
                     <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.8 - Visual Presentation (AAA) </a></li>
                 </ul>
             </li>
-            <li>Visual information to identify user interface components, such as keyboard focus, do not always have a sufficient contrast ratio
+            <li>Content cannot be presented without requiring scrolling in two dimensions beyond 150%, with some content being lost altogether
                 <ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#focus-visible">2.4.7 - Focus Visible</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#reflow">1.4.10 - Reflow</a></li>
                 </ul>
             </li>
-            <li>It is not possible to use a keyboard to access all the content
+            <li>Tooltips do not appear when using the keyboard and are not hoverable
                 <ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1 Keyboard</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus">1.4.13 - Content on Hover or Focus</a></li>
                 </ul>
             </li>
-            <li>It is not always possible to bypass blocks of content that are repeated on multiple Web pages
+            <li>There is no ‘skip to main content’ option available throughout the website
                 <ul>
                     <li><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 Bypass Blocks</a></li>
                 </ul>
             </li>
-            <li>Some of our page titles do not fully describe the page content whereas others are missing altogether
+            <li>Some of our page titles do not fully describe the page content
                 <ul>
                     <li><a href="https://www.w3.org/TR/WCAG21/#page-titled">2.4.2 - Page Titled</a></li>
                 </ul>
             </li>
-            <li>Information, structure and relationships conveyed through presentation cannot always be programmatically determined. This includes missing heading labels
+            <li>Information, structure and relationships conveyed through presentation cannot always be programmatically determined
                 <ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels">2.4.6 - Headings and Labels</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels">2.4.6 – Headings and Labels</a></li>
                 </ul>
             </li>
-            <li>Some links open in a new browser window without warning
+            <li>Visual information to identify user interface components, such as keyboard focus, do not always have a sufficient contrast ratio
                 <ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#change-on-request">3.2.5 Change on Request</a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#focus-visible">2.4.7 – Focus Visible</a></li>
                 </ul>
             </li>
-            <li>There are issues with compatibility with text to speech software and screen readers
+            <li>Some links open in new tabs or open pop-ups without warning
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#on-input">3.2.2 - On Input</a></li>
+                </ul>
+            </li>
+            <li>The search bar is missing a corresponding form label and the fieldset does not have a legend
+                <ul>
+                    <li><a href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">3.3.2 - Labels or Instructions</a></li>
+                </ul>
+            </li>
+            <li>The site is not fully compatible with screen readers and voice recognition software 
                 <ul>
                     <li><a href="https://www.w3.org/TR/WCAG21/#parsing">4.1.1 Parsing</a></li>
                 </ul>
@@ -143,36 +150,25 @@
                     <li><a href="https://www.w3.org/TR/WCAG21/#name-role-valuet">4.1.2 - Name, Role, Value</a></li>
                 </ul>
             </li>
-            <li>Not all our PDF's and Word documents meet accessibility standards.
-                <ul>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#non-text-content">1.1.1 Non-text Content</a></li>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#meaningful-sequence">1.3.2 - Meaningful Sequence</a></li>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#images-of-text">1.4.5 - Images of text</a></li>
-                    <li><a href="https://www.w3.org/TR/WCAG21/#multiple-ways">2.4.5 - Multiple Ways</a></li>
-                </ul>
-            </li>
         </ul>
         <p>At this time, we believe all items are within our control. Unless specified otherwise, a complete solution, or significant improvement, will be in place for those items within our control by March 2024.</p>
         <h3>Disproportionate burden</h3>
         <p>We are not currently claiming that any accessibility problems would be a disproportionate burden to fix.</p>
         <h3>Content that's not within the scope of the accessibility regulations</h3>
-        <p>At this stage we do not believe anything is out of scope of the regulations</p>
+        <p>At this time, we do not believe that any content is outside the scope of the accessibility regulations.</p>
 
         <h2>What we're doing to improve accessibility</h2>
         <p>At this time, we believe all items are within our control. We will continue to address the accessibility issues highlighted to deliver a solution or suitable workaround. We are looking to move this site to a new content management system within the next 12 months and will be working to ensure this resolves the accessibility issues. Unless specified otherwise, a complete solution or significant improvement will be in place for those items within our control by March 2024.</p>
         <p>While we are in the process of resolving these accessibility issues, or where we are unable, we will ensure reasonable adjustments are in place to make sure no user is disadvantaged. As changes are made, we will continue to review accessibility and retest the accessibility of this website.</p>
 
         <h2>Preparation of this accessibility statement</h3>
-        <p><strong>This statement was first prepared on 15th September 2021. It was last reviewed on 01 March 2023.</strong></p>
-        <p>This website was first tested by the Digital Library & Development team on 15th September 2021 and last reviewed on 01 March 2023. The testing was initially carried out by The University of Edinburgh Library and University Collections Digital Library Development team using the automated <a href="https://littleforest.co.uk/">Little Forest</a> testing tool.
-        <p>This website was last manually tested by the Digital Library team, Library and University Collections, University of Edinburgh in <strong>February 2023</strong>. This was primarily using Mozilla Firefox (91.7.1esr), Microsoft Edge (99.0.1150.55) and Google Chrome (99.0.4844.84), browsers for comparative purposes.</p>
+        <p><strong>This statement was first prepared on 2nd March 2023.</strong></p>
+        <p>This website was first tested on 2nd March 2023 by the University of Edinburgh Library and University Collections Digital Library Development team using the automated <a href="https://wave.webaim.org/">Wave WEBAIM</a> and <a href="https://littleforest.co.uk/">Little Forest</a> testing tool and manual testing.</p>
+        <p>This was primarily using the Google Chrome (100.0.4896.127), Mozilla Firefox (91.8.0esr), Internet Explorer (11.0) and Microsoft Edge (100.0.1185.39) browsers for comparative purposes.</p>
         <p>Recent world-wide usage levels survey for different screen readers and browsers shows that Chrome, Mozilla Firefox and Microsoft Edge are increasing in popularity and Google Chrome is now the favoured browser for screen readers:</p>
         <p><a href="https://webaim.org/projects/screenreadersurvey9/">WebAIM: Screen Reader User Survey</a></p>
         <p>The aforementioned three browsers have been used in certain questions for reasons of breadth and variety.</p>
-        <p>We ran automated testing using <a href="https://littleforest.co.uk/">Little Forest</a> then manual testing that included:</p>
-
-        <h3>Manual Testing</h3>
-        <p>we tested:</p>
+        <p>We ran automated testing using <a href="https://wave.webaim.org/">Wave WEBAIM</a> and <a href="https://littleforest.co.uk/">Little Forest</a> then manual testing that included:</p>
         <ul>
             <li>Spell check functionality;</li>
             <li>Scaling using different resolutions and reflow;</li>
