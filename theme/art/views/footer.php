@@ -81,7 +81,7 @@
                         <a href="https://collections.ed.ac.uk/art/licensing">Licensing & Copyright</a>
                     </li>
                     <li>
-                        <a href="https://collections.ed.ac.uk/art/accessibility">Acessibility</a>
+                        <a href="https://collections.ed.ac.uk/art/accessibility">Accessibility</a>
                     </li>
                 </ul>
 

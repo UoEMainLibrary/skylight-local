@@ -1,996 +1,189 @@
-<html><h1>Accessibility statement for <a href="http://www.fairbairn.ac.uk/">Fairbairn</a> website</h1>
-<p>Website accessibility statement in line with Public Sector Body (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018</p>
-<p><a href="http://www.fairbairn.ac.uk/">Fairbairn</a> <a href="http://www.fairbairn.ac.uk/">http://www.fairbairn.ac.uk/</a> is a website hosted by the University of Edinburgh Library on behalf of the University of Edinburgh. It holds collection information and images from W. Ronald D. Fairbairn including his personal library, held by Edinburgh University Library and his papers, diaries and correspondence held in the National Library of Scotland.</p>
-<p>We want as many people as possible to be able to use our website. For example, this means you should be able to:</p>
-<ul>
-    <li>change colours, contrast levels and fonts.</li>
-    <li>experience no time limits to content</li>
-    <li>navigate most of the website using just a keyboard</li>
-    <li>Magnify up to 200%</li>
-</ul>
-<p>We&rsquo;ve also made the website text as simple as possible to understand.</p>
-<h2>Customising the website</h2>
-<p>AbilityNet has advice on making your device easier to use if you have a disability.</p>
-<p><a href="https://mcmw.abilitynet.org.uk/">AbilityNet - My computer my way</a></p>
-<p>With a few simple steps you can customise the appearance of our website to make it easier to read and navigate.</p>
-<p><a href="https://www.ed.ac.uk/about/website/accessibility/customising-site">Additional information on how to customise our website appearance</a></p>
-<p>If you are a member of the University staff or a student you can use the free Sensus Access accessible document conversion service.</p>
-<p><a href="https://www.ed.ac.uk/student-disability-service/staff/supporting-students/accessible-technology">SenusAccess Information</a></p>
-<h2>How accessible this website is</h2>
-<p>We know some parts of this website are not fully accessible:</p>
-<ul>
-    <li>Some content may not be fully compatible with screen readers e.g. a screen reader may not be able to determine what the content is and how it relates to other content</li>
-    <li>When navigating by keyboard you might become trapped &ndash; you may not always be able to move the focus away from an item</li>
-    <li>Not all our web pages have a title that clearly describes their purpose</li>
-    <li>User interface elements may not be compatible with assistive technology</li>
-    <li>Not all our colour contrasts meet recommend colour contrast guidance</li>
-</ul>
-<h3>Feedback and contact information</h3>
-<p>If you need information on this website in a different format like accessible PDF, large print, audio recording or braille please contact the website team by contacting us:</p>
-<p>By using the IS Helpline online contact form</p>
-<p><a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline contact form</a></p>
-<p>Or phoning</p>
-<p>+44 (0)131 651 5151</p>
-<p>Or email</p>
-<p>Information.systems@ed.ac.uk</p>
-<p>We&rsquo;ll consider your request and get back to you in 5 working days.</p>
-<h2>Reporting accessibility problems with this website</h2>
-<p>We&rsquo;re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we&rsquo;re not meeting accessibility requirements please let us know by contacting:</p>
-<p>By using the IS Helpline online contact form</p>
-<p><a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline contact form</a></p>
-<p>Or phoning</p>
-<p>+44 (0)131 651 5151</p>
-<p>Or email</p>
-<p>Information.systems@ed.ac.uk</p>
-<p>We&rsquo;ll consider your request and get back to you in 5 working&nbsp;days.</p>
-<h2>Enforcement procedure</h2>
-<p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the &lsquo;accessibility regulations&rsquo;). If you&rsquo;re not happy with how we respond to your complaint please contact the Equality Advisory and Support Service (EASS) directly.</p>
-<p><a href="https://www.equalityadvisoryservice.com/">Contact details for the Equality Advisory and Support Service (EASS)</a></p>
-<p>The government has produced information on how to report accessibility issues:</p>
-<p><a href="https://www.gov.uk/reporting-accessibility-problem-public-sector-website">Reporting an accessibility problem on a public sector website</a></p>
-<h2>Contacting us by phone using British Sign Language</h2>
-<h3>British Sign Language service</h3>
-<p>British Sign Language Scotland runs a service for British Sign Language users and all of Scotland&rsquo;s public bodies using video relay. This enables sign language users to contact public bodies and vice versa. The service operates from 8am to 12 midnight, 7 days a week.&nbsp;</p>
-<p><a href="https://contactscotland-bsl.org/">British Sign Language Scotland service details</a></p>
-<h2>Technical information about this website&rsquo;s accessibility</h2>
-<p>The University of Edinburgh is committed to making its websites accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
-<h3>Compliance Status</h3>
-<p>This website is partially compliant with the Web Content Accessibility Guidelines 2.1 AA standard, due to the non-compliances listed below</p>
-<p>The full guidelines are available at</p>
-<p>&nbsp;<a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines version 2.1</a></p>
-<h3>Non accessible content</h3>
-<p>The content listed below is non-accessible for the following reasons.</p>
-<p>The following items to not comply with the WCAG 2.1 AA success criteria</p>
-<ul>
-    <li>Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.</li>
+<html>
+    <h1>Accessibility statement for <a href="http://www.fairbairn.ac.uk/">Fairbairn</a> website</h1>
+    <p><strong>Website accessibility statement inline with Public Sector Body (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018</strong></p>
+    <p>This accessibility statement applies to  <a href="http://www.fairbairn.ac.uk/">http://www.fairbairn.ac.uk/</a></p>
+    <p><a href="http://www.fairbairn.ac.uk/">Fairbairn</a> (http://www.fairbairn.ac.uk/) is a website hosted by the University of Edinburgh Library on behalf of the University of Edinburgh. It holds collection information and images from W. Ronald D. Fairbairn including his personal library, held by Edinburgh University Library and his papers, diaries and correspondence held in the National Library of Scotland.</p>
+
+    <p><strong>We want as many people as possible to be able to use our website. For example, this means you should be able to:</strong></p>
     <ul>
-        <li><u><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships">1.3.1 Info and Relationships</a></u></li>
+        <li>using your browser settings, change colours, contrast levels and fonts</li>
+        <li>zoom in up to 500%</li>
+        <li>navigate most of the website using just a keyboard</li>
+        <li>listen to most of the website using a screen reader (including the most recent versions of JAWS, and NVDA)</li>
+        <li>interact with the website without encountering any time limits</li>
+        <li>interact with the website without encountering any flashing, moving or scrolling text.</li>
     </ul>
-</ul>
-<ul>
-    <li>There may not be sufficient colour contrast between font and background colours especially where the text size is very small.</li>
+    <p>We&rsquo;ve also made the website text as simple as possible to understand.</p>
+
+    <h2>Customising the website</h2>
+    <p>AbilityNet has advice on making your device easier to use if you have a disability. This is an external site with suggestions to make your computer more accessible:</p>
+    <p><a href="https://mcmw.abilitynet.org.uk/">AbilityNet - My computer my way</a></p>
+    <p>With a few simple steps you can customise the appearance of our website using your browser settings to make it easier to read and navigate:</p>
+    <p><a href="https://www.ed.ac.uk/about/website/accessibility/customising-site">Additional information on how to customise our website appearance</a></p>
+    <p>If you are a member of University staff or a student, you can use the free SensusAccess accessible document conversion service:</p>
+    <p><a href="https://www.ed.ac.uk/student-disability-service/staff/supporting-students/accessible-technology">Information on SensusAccess</a></p>
+
+    <h2>How accessible this website is</h2>
+    <p>We know some parts of this website are not fully accessible:</p>
     <ul>
-        <li><u><a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast">1.4.3 -Contrast (Minimum)</a></u></li>
+        <li>Keyboard navigation does not follow a logical order e.g. the footer is read before the sidebar menu</li>
+        <li>It could be clearer to keyboard users where they have navigated to on a page</li>
+        <li>There is no skip to main content option </li>
+        <li>Pages do not reflow above 200%</li>
+        <li>Users are not alerted when a link will open a new browser tab</li>
+        <li>Link text does not always give a clear indication of link purpose</li>
+        <li>There are some cases where text is an image</li>
+        <li>Not all colour contrasts meet recommend colour contrast guidance </li>
+        <li>Not all non-text items have alt text.</li> 
     </ul>
-</ul>
-<ul>
-    <li>When using a keyboard you may become trapped and unable to move focus away from an item</li>
+
+    <h2>Feedback and contact information</h2>
+    <p>If you need information on this website in a different format like accessible PDF, large print, audio recording or braille please contact the website team by contacting us:</p>
     <ul>
-        <li><u><a href="https://www.w3.org/TR/WCAG21/#no-keyboard-trap">2.1.2 Keyboard Trap</a></u></li>
+        <li>By using the IS Helpline online contact form: <a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline contact form</a></li>
+        <li>Or phoning: +44 (0)131 651 5151</li>
+        <li>Or email: <a href="mailto:Information.systems@ed.ac.uk">Information.systems@ed.ac.uk</a>
+        <li>British Sign Language (BSL) users can contact us via Contact Scotland BSL, the on-line BSL interpreting service: <a href="https://contactscotland-bsl.org/">Contact Scotland BSL</a></li>
     </ul>
-</ul>
-<ul>
-    <li><a href="https://www.w3.org/TR/WCAG21/#dfn-web-page-s">Web pages</a> have titles that describe topic or purpose.</li>
+    <p>We will consider your request and get back to you in 5 working days.</p>
+
+    <h2>Reporting accessibility problems with this website</h2>
+    <p>We are always looking to improve the accessibility of this website. If you find any problems not listed on this page, or think we're not meeting accessibility requirements, please contact:</p>
     <ul>
-        <li><u><a href="https://www.w3.org/TR/WCAG21/#page-titled">2.4.2 Page Titled</a></u></li>
+        <li>By using the IS Helpline online contact form: <a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline contact form</a></li>
+        <li>Or phoning: +44 (0)131 651 5151</li>
+        <li>Or email: <a href="mailto:Information.systems@ed.ac.uk">Information.systems@ed.ac.uk</a>
+        <li>British Sign Language (BSL) users can contact us via Contact Scotland BSL, the on-line BSL interpreting service: <a href="https://contactscotland-bsl.org/">Contact Scotland BSL</a></li>
     </ul>
-</ul>
-<ul>
-    <li>Some input elements do not have a name available to an accessibility API.</li>
+    <p>We will consider your request and get back to you in 5 working days.</p>
+
+    <h2>Enforcement procedure</h2>
+    <p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the 'accessibility regulations'). If you're not happy with how we respond to your complaint please contact the Equality Advisory and Support Service (EASS) directly:</p>
+    <p><a href="https://www.equalityadvisoryservice.com/">Contact details for the Equality Advisory and Support Service (EASS)</a></p>
+    <p>The government has produced information on how to report accessibility issues:</p>
+    <p><a href="https://www.gov.uk/reporting-accessibility-problem-public-sector-website">Reporting an accessibility problem on a public sector website</a></p>
+
+    <h2>Contacting us by phone using British Sign Language</h2>
+    <p>British Sign Language service Contact Scotland BSL runs a service for British Sign Language users and all of Scotland’s public bodies using video relay. This enables sign language users to contact public bodies and vice versa. The service operates 24 hours a day, 7 days a week.</p>
+    <p><a href="https://contactscotland-bsl.org/">Contact Scotland BSL service details</a></p>
+
+    <h2>Technical information about this website&rsquo;s accessibility</h2>
+    <p>The University of Edinburgh is committed to making its websites and applications accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
+    <p>This website is partially compliant with the Web Content Accessibility Guidelines (WCAG) 2.1 AA standard, due to the non-compliances listed below.</p>
+    <p>The full guidelines are available at:</p>
+    <p>&nbsp;<a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines version 2.1</a></p>
+    <h3>Non accessible content</h3>
+    <p>The content listed below is non-accessible for the following reasons.</p>
+    <h3>Noncompliance with the accessibility regulations</h3>
+    <p>The following items to not comply with the WCAG 2.1 AA success criteria:</p>
     <ul>
-        <li><u><a href="https://www.w3.org/TR/WCAG21/#name-role-value">4.1.2 Name, Role, Value</a></u></li>
+        <li>Not all non-text content presented to users has alternative text
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#non-text-content">1.1.1 - Non-text Content</a></li>
+            </ul>
+        </li>
+        <li>Information, structure and relationships conveyed through presentation cannot always be programmatically determined. This includes a missing < h1 > on the homepage.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships">1.3.1 - Info and Relationships</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels">2.4.6 - Headings and Labels</a></li>
+            </ul>
+        </li>
+        <li>There may not be sufficient colour contrast between font and background colours, especially where the text size is small
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></li>
+            </ul>
+        </li>
+        <li>Information is conveyed as an image of text rather than as text itself, making it not compatible with screen readers and other assistive technology and is not fully customisable
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#images-of-text">1.4.5 - Images of text</a></li>
+            </ul>
+        </li>
+        <li>Site is not fully compatible with browser customisation meaning that users do not have full control and functionality when customising the site (WCAG 2.1 AAA)
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">1.4.8 - Visual Presentation (AAA) </a></li>
+            </ul>
+        </li>
+        <li>Site does not require scrolling in two dimensions up to 500% but there is some distortion or loss of content above 150%
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#reflow">1.4.10 - Reflow</a></li>
+            </ul>
+        </li>
+        <li>It is not always possible to bypass blocks of content that are repeated on multiple Web pages
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 Bypass Blocks</a></li>
+            </ul>
+        </li>
+        <li>Keyboard navigation through pages does not always follow a logical sequence
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#focus-order">2.4.3 Focus Order</a></li>
+            </ul>
+        </li>
+        <li>Link purpose is not always clear
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#link-purpose-in-context">2.4.4 - Link Purpose (In Context)</a></li>
+            </ul>
+        </li>
+        <li>Information, structure and relationships conveyed through presentation cannot always be programmatically determined. This includes missing heading labels
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels">2.4.6 - Headings and Labels (Level AA)</a></li>
+            </ul>
+        </li>
+        <li>Visual information to identify user interface components, such as keyboard focus, do not always have a sufficient contrast ratio
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#focus-visible">2.4.7 – Focus Visible</a></li>
+            </ul>
+        </li>
+        <li>Some links open in a new browser window without warning
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG21/#on-input">3.2.2 On input</a></li>
+            </ul>
+        </li>
     </ul>
-</ul>
-<p><u></u>A complete solution or significant improvement will be in place by July 2022 where the issues are within our control.</p>
-<h3>Disproportionate burden</h3>
-<p>We are not currently claiming that any&nbsp;accessibility problems would be a disproportionate burden to fix.&nbsp;</p>
-<h3>Content that is not within the Scope of the Accessibility Regulations</h3>
-<p>At this time we are not claiming any material is out of scope.</p>
-<h2>What we're doing to improve accessibility</h2>
-<p>We will continue to work with our in house developers to address these issues and deliver a solution or suitable workaround and correct issues directly where they are under our control.</p>
-<p>We will continue to monitor accessibility and will carry out further accessibility testing if significant changes are made to the user interface or if a service user raises an issue. To plan to resolve the issues that are within our control by July 2022. We plan to manual review the accessibility of the site and make improvements and update this statement before July 2022. Whilst we are resolving issues or where we are unable to resolve an issue we will ensure reasonable adjustments are in place to ensure no user is placed at a disadvantage.</p>
-<h3>Information Services and accessibility</h3>
-<p>Information Services (IS) has further information on accessibility including assistive technology, creating accessible documents, and services IS provides for disabled users.</p>
-<p><a href="https://www.ed.ac.uk/information-services/help-consultancy/accessibility">Assistive technology, creating accessible documents, and services IS provides for disabled users</a></p>
-<h2>Preparation of this accessibility statement</h2>
-<p><strong>This statement was</strong><strong> prepared on 15<sup>th</sup> September 2021. It was last reviewed on 15<sup>th</sup> September 2021.</strong></p>
-<p>This website was last tested on 7<sup>th</sup> August 2020. The test was carried out by The University Library and University Collections Digital Library team using the automated LittleForest tool.&nbsp; The website is scheduled for manual testing by July 2022.</p>
-<p>We did not use sample pages for testing - all pages were run through LittleForest.</p>
-<p>Little Forrest claims it tests the following WCAG criteria either partially or wholly</p>
-<table width="0">
-<tbody>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.1.1</p>
-    </td>
-    <td width="250">
-        <p>Non-text Content</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.2.1</p>
-    </td>
-    <td width="250">
-        <p>Audio-only and Video-only (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.2.2</p>
-    </td>
-    <td width="250">
-        <p>Captions (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.2.3</p>
-    </td>
-    <td width="250">
-        <p>Audio Description or Media Alternative (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.3.1</p>
-    </td>
-    <td width="250">
-        <p>Info and Relationships</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.3.2</p>
-    </td>
-    <td width="250">
-        <p>Meaningful Sequence</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.3.3</p>
-    </td>
-    <td width="250">
-        <p>Sensory Characteristics</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.4.1</p>
-    </td>
-    <td width="250">
-        <p>Use of Color</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.4.2</p>
-    </td>
-    <td width="250">
-        <p>Audio Control</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.1.1</p>
-    </td>
-    <td width="250">
-        <p>Keyboard</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.1.2</p>
-    </td>
-    <td width="250">
-        <p>No Keyboard Trap</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.2.1</p>
-    </td>
-    <td width="250">
-        <p>Timing Adjustable</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.2.2</p>
-    </td>
-    <td width="250">
-        <p>Pause, Stop, Hide</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.3.1</p>
-    </td>
-    <td width="250">
-        <p>Three Flashes or Below Threshold</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.4.1</p>
-    </td>
-    <td width="250">
-        <p>Bypass Blocks</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.4.2</p>
-    </td>
-    <td width="250">
-        <p>Page Titled</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.4.3</p>
-    </td>
-    <td width="250">
-        <p>Focus Order</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.4.4</p>
-    </td>
-    <td width="250">
-        <p>Link Purpose (In Context)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.1.1</p>
-    </td>
-    <td width="250">
-        <p>Language of Page</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.2.1</p>
-    </td>
-    <td width="250">
-        <p>On Focus</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.2.2</p>
-    </td>
-    <td width="250">
-        <p>On Input</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.3.1</p>
-    </td>
-    <td width="250">
-        <p>Error Identification</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.3.2</p>
-    </td>
-    <td width="250">
-        <p>Labels or Instructions</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>4.4.1</p>
-    </td>
-    <td width="250">
-        <p>Parsing</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.0</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>4.4.2</p>
-    </td>
-    <td width="250">
-        <p>Name, Role, Value</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.2.4</p>
-    </td>
-    <td width="250">
-        <p>Captions (Live)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.2.5</p>
-    </td>
-    <td width="250">
-        <p>Audio Description (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.4.3</p>
-    </td>
-    <td width="250">
-        <p>Contrast (Minimum)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.4.4</p>
-    </td>
-    <td width="250">
-        <p>Resize Text</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.4.5</p>
-    </td>
-    <td width="250">
-        <p>Images of Text</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>2.4.5</p>
-    </td>
-    <td width="250">
-        <p>Multiple Ways</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>2.4.6</p>
-    </td>
-    <td width="250">
-        <p>Headings and Labels</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>2.4.7</p>
-    </td>
-    <td width="250">
-        <p>Focus Visible</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.1.2</p>
-    </td>
-    <td width="250">
-        <p>Language of Parts</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.2.3</p>
-    </td>
-    <td width="250">
-        <p>Consistent Navigation</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.2.4</p>
-    </td>
-    <td width="250">
-        <p>Consistent Identification</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.3.3</p>
-    </td>
-    <td width="250">
-        <p>Error Suggestion</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.3.4</p>
-    </td>
-    <td width="250">
-        <p>Error Prevention (Legal, Financial, Data)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.2.6</p>
-    </td>
-    <td width="250">
-        <p>Sign Language (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.2.7</p>
-    </td>
-    <td width="250">
-        <p>Extended Audio Description (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.2.8</p>
-    </td>
-    <td width="250">
-        <p>Media Alternative (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.2.9</p>
-    </td>
-    <td width="250">
-        <p>Audio-only (Live)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.4.6</p>
-    </td>
-    <td width="250">
-        <p>Contrast (Enhanced)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.4.7</p>
-    </td>
-    <td width="250">
-        <p>Low or No Background Audio</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.4.8</p>
-    </td>
-    <td width="250">
-        <p>Visual Presentation</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.4.9</p>
-    </td>
-    <td width="250">
-        <p>Images of Text (No Exception)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.1.3</p>
-    </td>
-    <td width="250">
-        <p>Keyboard (No Exception)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.2.3</p>
-    </td>
-    <td width="250">
-        <p>No Timing</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.2.4</p>
-    </td>
-    <td width="250">
-        <p>Interruptions</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.2.5</p>
-    </td>
-    <td width="250">
-        <p>Re-authenticating</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.3.2</p>
-    </td>
-    <td width="250">
-        <p>Three Flashes</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.4.8</p>
-    </td>
-    <td width="250">
-        <p>Location</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.4.9</p>
-    </td>
-    <td width="250">
-        <p>Link Purpose (Link Only)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.4.10</p>
-    </td>
-    <td width="250">
-        <p>Section Headings</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.1.3</p>
-    </td>
-    <td width="250">
-        <p>Unusual Words</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.1.4</p>
-    </td>
-    <td width="250">
-        <p>Abbreviations</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.1.5</p>
-    </td>
-    <td width="250">
-        <p>Reading</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.1.6</p>
-    </td>
-    <td width="250">
-        <p>Pronunciation</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.2.5</p>
-    </td>
-    <td width="250">
-        <p>Change on Request</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.3.5</p>
-    </td>
-    <td width="250">
-        <p>Help</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.3.6</p>
-    </td>
-    <td width="250">
-        <p>Error Prevention (All)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.3.4</p>
-    </td>
-    <td width="250">
-        <p>Orientation</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.3.5</p>
-    </td>
-    <td width="250">
-        <p>Identify Input Purpose</p>
-    </td>
-</tr>
-</tbody>
-</table>
+    <p>At this time, we believe all items are within our control. Unless specified otherwise, a complete solution, or significant improvement, will be in place for those items within our control by March 2024.</p>
+    <h3>Disproportionate burden</h3>
+    <p>We are not currently claiming that any accessibility problems would be a disproportionate burden to fix.</p>
+    <h3>Content that's not within the scope of the accessibility regulations</h3>
+    <p><strong>Interactive maps</strong></p>
+    <p>This website hosts a mapping service. Currently, online mapping and mapping services sit outwith the 2018 accessibility regulations.</p>
+    <p>“These Regulations do not apply to the following content of a website or mobile application of a public sector body—
+        (d)online maps and mapping services, as long as essential information is provided in an accessible digital manner for maps intended for navigational use;” 
+        (The Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018)”
+    </p>
+    <p>The mapping service is not fully accessible, as it is not possible to interact with individual map features using assistive technologies. Although maps are currently not within the scope of the regulations, we will continue to strive to make the site as accessible as possible.</p>
+    <p>There is additional information available in different formats, including maps, to download and information in the AccessAble - UoE app available for iOS and Android:</p>
+    <p><a href="https://www.ed.ac.uk/estates/buildings-information/disability">AccessAble Information</a>.</p>
+
+
+    <h2>What we're doing to improve accessibility</h2>
+    <p>We will continue to address the accessibility issues highlighted, either through delivery of a solution or suitable workaround. Unless specified otherwise, a complete solution or significant improvement will be in place for those items within our control by March 2024.</p>
+    <p>Whilst we are in the process of resolving these accessibility issues, or where we are unable, we will ensure reasonable adjustments are in place to make sure no user is disadvantaged. As changes are made, we will continue to review accessibility and retest the accessibility of this website.</p>
+
+    <h2>Preparation of this accessibility statement</h3>
+    <p><strong>This statement was prepared on 20th February 2023. It was last reviewed on 20th February 2023.</strong></p>
+    <p>This website was first tested in August 2020 and last tested in June 2022.</p>
+    <p>The testing was carried out by The University Library and University Collections Digital Library Development team using the automated <a href="https://wave.webaim.org/">Wave WEBAIM</a> and <a href="https://littleforest.co.uk/">Little Forest</a> testing tool.</p>
+    <p>This website was last tested by the Library and University Collections Digital Library team, University of Edinburgh on the 4th July 2022 using automated and manual methods (following on from previous automated testing of the system the previous year.) This was primarily using the Google Chrome (100.0.4896.127), Mozilla Firefox (91.8.0esr), and Microsoft Edge (100.0.1185.39) browsers for comparative purposes.</p>
+    <p>Recent world-wide usage levels survey for different screen readers and browsers shows that Chrome, Mozilla Firefox and Microsoft Edge are increasing in popularity and Google Chrome is now the favoured browser for screen readers:</p>
+    <p><a href="https://webaim.org/projects/screenreadersurvey9/">WebAIM: Screen Reader User Survey</a></p>
+    <p>The aforementioned three browsers have been used in certain questions for reasons of breadth and variety.</p>
+    <p>We ran automated testing using <a href="https://wave.webaim.org/">Wave WEBAIM</a> and<a href="https://littleforest.co.uk/">Little Forest</a> then manual testing that included:</p>
+    <ul>
+        <li>Spell check functionality;</li>
+        <li>Scaling using different resolutions and reflow;</li>
+        <li>Options to customise the interface (magnification, font, background colour, etc);</li>
+        <li>Keyboard navigation and keyboard traps;</li>
+        <li>Data validation;</li>
+        <li>Warning of links opening in a new tab or window;</li>
+        <li>Information conveyed in colour or sound only;</li>
+        <li>Flashing, moving or scrolling text;</li>
+        <li>Operability if JavaScript is disabled;</li>
+        <li>Use with screen reading software (for example, JAWS);</li>
+        <li>Assistive software (TextHelp Read and Write, Windows Magnifier, ZoomText, Dragon NaturallySpeaking, TalkBack and VoiceOver);</li>
+        <li>Tooltips and text alternatives for any non-text content;</li>
+        <li>Time limits;</li>
+        <li>Compatibility with mobile accessibility functionality (Android and iOS).</li>
+    </ul>
+
+    <h2>Change Log</h2>
+    <p>Since our first evaluation and statement, which was based on automated testing, we have undertaken extensive manual testing. This includes utilising a range of assistive technology to ensure we have a clear picture of the accessibility issues and how best to resolve them.</p>
 </html>
