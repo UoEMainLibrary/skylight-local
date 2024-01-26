@@ -147,6 +147,40 @@ $title_field = $this->skylight_utilities->getField('Title');
     </table>
     <br>
     <br>
+    <h1>“This was a right industrial wee town!”</h1>
+    <hr>
+    <h3>A film about life and work in the Musselburgh Mills</h3>
+    <p>
+       The ‘Honest Toun’ is a place that, to some extent, sits on its own. Part of Midlothian until its governance transferred to East Lothian in 1975.
+       The size of Musselburgh’s population and the scale and range of its economy has, for long, reflected its historic status as a burgh.
+       Industry having been a key aspect of that large and diverse economy. Beginning in the nineteenth century through to the late twentieth century,
+       three large industrial endeavours were based in the town: Stuarts Net Mill; Bruntons Wire Mill and Inveresk Paper Mill.
+    </p>
+    <p>
+    This film tells the story of these mills through the words of those who worked and lived in the town and beyond. In partnership with the John Gray
+    Centre and Musselburgh Museum, the EERC interviewed a number of folk about their experiences in the mills. This film provides an introduction into
+    these very different workplaces which were such a significant part of the Town’s life for well over 100 years.<br>
+    <em>Mark Mulhern, 2024</em>
+    </p>
+    <br>
+    <div style="text-align: center">
+        <?php
+              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/56448/MILLS-revised-720.mp4";
+              $audio = '<video controls width="600" preload="auto" title="MILLS-revised" poster="/theme/eerc/images/MILLS-revised-720.png">';
+              $audio .= '<source src="' . $do_url . '">';
+              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
+              echo $audio;
+        ?>
+    </div>
+    <br>
+    <p>
+    Editor: <em>Colin Gateley</em> <br>
+    Music by: <em>Enid Forsyth</em> <br>
+    Moving images: <em>Courtesy of moving Image Archive, National Library of Scotland</em>
+    </p>
+
+
+    <!--
     <h1>The Past is Still with Us</h1>
     <hr>
     <p>
@@ -181,6 +215,7 @@ $title_field = $this->skylight_utilities->getField('Title');
          echo $audio;
     ?>
     </div>
+    -->
 
     <!--
       <div style="float: left; max-width: 490px;">
