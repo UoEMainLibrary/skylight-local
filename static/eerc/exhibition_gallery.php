@@ -6,6 +6,7 @@ $title_field = $this->skylight_utilities->getField('Title');
 <div class="col-md-9 col-sm-9 col-xs-12">
     <br>
 
+<!--
     <p>In this space we present some creative reflections on material recorded for the Regional Ethnology of Scotland Project (RESP). These creative responses show the richness of the recordings as sources and become – in and of themselves – new sources which illuminate life and society.</p>
 
     <p>This changing space will display material – video, images, sound and text – as the RESP progresses.</p>
@@ -145,10 +146,11 @@ $title_field = $this->skylight_utilities->getField('Title');
             ?>
         </tr>
     </table>
+    -->
     <br>
-    <br>
-    <h1>“This was a right industrial wee town!”</h1>
+    <h1 style="text-align: center">“This was a right industrial wee town!”</h1>
     <hr>
+    <br>
     <h3>A film about life and work in the Musselburgh Mills</h3>
     <p>
        The ‘Honest Toun’ is a place that, to some extent, sits on its own. Part of Midlothian until its governance transferred to East Lothian in 1975.
@@ -230,5 +232,4 @@ $title_field = $this->skylight_utilities->getField('Title');
       </div>
       -->
 </div>
-<br>
-<br>
+
