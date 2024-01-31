@@ -149,9 +149,10 @@ $title_field = $this->skylight_utilities->getField('Title');
     -->
     <br>
     <h1 style="text-align: center">“This was a right industrial wee town!”</h1>
+    <h3 style="text-align: center" >A film about life and work in the Musselburgh Mills</h3>
     <hr>
     <br>
-    <h3>A film about life and work in the Musselburgh Mills</h3>
+
     <p>
        The ‘Honest Toun’ is a place that, to some extent, sits on its own. Part of Midlothian until its governance transferred to East Lothian in 1975.
        The size of Musselburgh’s population and the scale and range of its economy has, for long, reflected its historic status as a burgh.
