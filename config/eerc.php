@@ -27,8 +27,8 @@ else {
     //    $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
 }
 
-$config['skylight_archivesspace_user'] = 'apiread';
-$config['skylight_archivesspace_password'] = 'Auxilium1';
+$config['skylight_archivesspace_user'] = 'xxxxxxxxx';
+$config['skylight_archivesspace_password'] = 'xxxxxxxxx';
 $config['skylight_archivesspace_url'] = 'https://aspaceoai.collections.ed.ac.uk';
 $config['skylight_archivesspace_tree'] = '/repositories/15/resources/86984/tree';
 
