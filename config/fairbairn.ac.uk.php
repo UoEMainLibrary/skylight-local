@@ -1,6 +1,7 @@
 <?php
 
 $config['skylight_appname'] = 'fairbairn';
+$config['skylight_solr_core'] = 'archivesspace'
 
 // Uncomment this if you are using a url of the form http://.../art/...
 //$config['skylight_url_prefix'] = 'fairbairn';
@@ -9,12 +10,12 @@ $config['skylight_appname'] = 'fairbairn';
 if (ENVIRONMENT == 'development') {
     $config['base_url'] = 'http://test.fairbairn.ac.uk/';
     $config['skylight_ga_code'] = 'G-X4CRLZFCQM';
-    $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8090/';
 }
 else {
     $config['base_url'] = 'http://www.fairbairn.ac.uk/';
     $config['skylight_ga_code'] = 'G-1HP342X330';
-    $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8090/';
 }
 
 $config['skylight_repository_type'] = 'archivesspace'; // Demo 'dspace'
