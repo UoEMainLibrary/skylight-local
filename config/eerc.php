@@ -1,6 +1,7 @@
 <?php
 $config['skylight_appname'] = 'eerc';
-$config['skylight_solr_core'] = 'solr/archivesspace';
+//$config['skylight_solr_core'] = 'solr/archivesspace';
+$config['skylight_solr_core'] = 'collection1';
 
 // Uncomment this if you are using a url of the form http://.../art/...
 $config['skylight_url_prefix'] = 'eerc';
@@ -9,11 +10,11 @@ $config['skylight_url_prefix'] = 'eerc';
 if(ENVIRONMENT == 'development') {
     if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
         $config['skylight_ga_code'] = 'G-RYHXTMGMHR';
-        $config['skylight_solrbase'] = 'http://localhost:9123/';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
         $config['skylight_link_url'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8081';
     } else if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
         $config['skylight_ga_code'] = '';
-        $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
         $config['skylight_link_url'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8081';
         //$config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:9123/';
         //$config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
@@ -21,7 +22,7 @@ if(ENVIRONMENT == 'development') {
 }
 else {
     $config['skylight_ga_code'] = 'G-L20JS09H7H';
-    $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
     $config['skylight_link_url'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8081';
     //$config['skylight_solrbase'] = 'http://lac-repo-live11.is.ed.ac.uk:8090/';
     //    $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';

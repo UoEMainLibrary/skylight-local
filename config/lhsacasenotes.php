@@ -1,7 +1,8 @@
 <?php
 
 $config['skylight_appname'] = 'lhsacasenotes';
-$config['skylight_solr_core'] = 'solr/archivesspace';
+//$config['skylight_solr_core'] = 'solr/archivesspace';
+$config['skylight_solr_core'] = 'collection1';
 
 // Uncomment this if you are using a url of the form http://.../art/...
 $config['skylight_url_prefix'] = 'lhsacasenotes';
@@ -10,20 +11,20 @@ $config['skylight_url_prefix'] = 'lhsacasenotes';
 if(ENVIRONMENT == 'development') {
     if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
         $config['skylight_ga_code'] = '';
-        $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
-        $config['skylight_link_url'] = 'http://lac-archivesspace-test4.is.ed.ac.uk:8081';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
+        $config['skylight_link_url'] = 'http//lac-archivesspace-live1.is.ed.ac.uk:8081';
     } else if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
         $config['skylight_ga_code'] = '';
-        $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
-        $config['skylight_link_url'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8081';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
+        $config['skylight_link_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8081';
         //$config['skylight_solrbase'] = 'http://lac-repo-live14.is.ed.ac.uk:8090/';
         //$config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
     }
 }
 else {
     $config['skylight_ga_code'] = 'G-L20JS09H7H';
-    $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
-    $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
+    $config['skylight_link_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8081';
 }
 
 $config['skylight_repository_type'] = 'archivesspace'; // Demo 'dspace'
