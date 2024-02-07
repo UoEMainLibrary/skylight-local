@@ -99,6 +99,7 @@ $id = $this->skylight_utilities->getField("Id");
 
 $solr_base = $this->config->item("skylight_solrbase");
 $link_uri_prefix  = $this->config->item("skylight_link_url");
+$solr_collection = $this->config->item("skylight_solr_core");
 
 
 $mainImageTest = false;
@@ -184,7 +185,7 @@ $bitstreamLinks = array();
 
                                 }
                                 else if ($key == 'Audio links and images') {
-                                    $json = file_get_contents($solr_base . 'collection1/select?q=id%3A%22'.$metadatavalue.'%22%0A&wt=json&indent=true');
+                                    $json = file_get_contents($solr_base . $solr_collection.'/select?q=id%3A%22'.$metadatavalue.'%22%0A&wt=json&indent=true');
                                     //echo()
                                     $json_array = (array) json_decode($json, TRUE)['response']['docs'][0]['json'];
 
