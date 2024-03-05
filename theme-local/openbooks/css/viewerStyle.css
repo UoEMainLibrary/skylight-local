@@ -1,0 +1,74 @@
+.viewer {
+    background: gray;
+  height: 900px;
+  width: 100%;
+  position: relative;
+}
+
+.canvasdiv {
+    position: absolute;
+    top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.NavButtons {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 870px;
+  height: 30px;
+  width: 100%;
+  background: #111111;
+  display: flex;
+  align-items: center;
+  
+}
+
+.NavButtons button {
+  border: none;
+  font-size: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0px 15px;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease; 
+}
+
+
+#prev {
+  border-right: 1px solid white;
+}
+
+#next {
+  border-left: 1px solid white;
+}
+
+.NavButtons button:hover {
+  background-color: #333333;
+  cursor: pointer;
+} 
+
+.pageDisplayText {
+  color: #fff;
+  margin: 0;  
+  padding: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+.canvasdiv ::selection { color: transparent;}
