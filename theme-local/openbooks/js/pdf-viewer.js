@@ -14,21 +14,37 @@ function loadPdf(url){
         renderPage(pageNum, pdf);
         document.getElementById('page_count').textContent = pdf.numPages;
                     
+    }).then(function() {
+      document.getElementById("loadingbox").style = "display:none;"
     });
-
 }
 
 function renderPage(pageNum) {
   pageRendering = true;
     document.getElementById("textlayer").innerHTML = ""
     this.pdf.getPage(pageNum).then(function(page) {
-        let viewport = page.getViewport({ scale: this.scale });
+      
+      // Get original viewport
+      let originalViewport = page.getViewport({ scale: this.scale });
+
+      let adjustedScale = this.scale;
+      const MAX_WIDTH = 695;
+      const MAX_HEIGHT = 865;
+
+      if (originalViewport.width > MAX_WIDTH) {
+        adjustedScale = Math.min(adjustedScale, MAX_WIDTH / originalViewport.width);
+      }
+
+      if (originalViewport.height > MAX_HEIGHT) {
+        adjustedScale = Math.min(adjustedScale, MAX_HEIGHT / originalViewport.height);
+      }
+      
+      let viewport = page.getViewport({ scale: adjustedScale });
 
         let canvas = document.getElementById('pdfCanvas');
         let context = canvas.getContext('2d');
         canvas.height = viewport.height;
         canvas.width = viewport.width;
-            
 
         let renderTask = page.render({
             canvasContext: context,

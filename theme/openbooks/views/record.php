@@ -247,17 +247,26 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
 
         else if ((strpos($b_filename, ".pdf") > 0) or (strpos($b_filename, ".PDF") > 0))
         {
-            $b_uri = './record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
+            $b_uri = '/record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
             $bitstreamLink = $this->skylight_utilities->getBitstreamURI($bitstream);
             ?>
             <br>
                 <div role="region" aria-live="polite" aria-label="pdf-Viewer" class="viewer" id="viewer" tabindex="0">
                     
-                    <div id="canvasdiv" class="canvasdiv" aria-labelledby="pageDesctiption" tabindex="0">
+                <div class="loading_box" id="loadingbox">
+                    <div class="loader"></div>
+                    <p id="loadingText"></p>
+
+                    <script>
+                        document.getElementById("loadingText").innerHTML = "Loading...";
+                    </script>
+                </div>
+
+                        <div id="canvasdiv" class="canvasdiv" aria-labelledby="pageDesctiption" tabindex="0">
                         <canvas id="pdfCanvas"></canvas>
                         <div id="textlayer" class="textLayer"></div>
                     </div>
-                    <p id="pageDescription" class="sr-only"></p>
+                    <p id="pageDescription" class="sr-only">Loadiing pages...</p>
                     <div class="NavButtons">
                         <button id="prev" aria-label="Previous page">&#8592;</button>
                         <span class="pageDisplayText">Page: <span id="page_num"></span> / <span id="page_count"></span></span>
@@ -267,7 +276,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
                     <span class="sr-only">Use left and right arrow keys to navigate through the pages.</span>
                     <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/pdf-viewer.js"></script>
                     <script>
-                        var url = '<?php echo $b_uri ?>';
+                        var url = '<?php base_url();?><?php echo $b_uri ?>';
                         loadPdf(url);
 
                         document.getElementById('viewer').addEventListener('keydown', function (event) {
