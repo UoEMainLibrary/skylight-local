@@ -276,7 +276,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
                     <span class="sr-only">Use left and right arrow keys to navigate through the pages.</span>
                     <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/pdf-viewer.js"></script>
                     <script>
-                        var url = '<?php base_url();?><?php echo $b_uri ?>';
+                        var url = '<?php echo base_url();?><?php echo $b_uri ?>';
                         loadPdf(url);
 
                         document.getElementById('viewer').addEventListener('keydown', function (event) {
