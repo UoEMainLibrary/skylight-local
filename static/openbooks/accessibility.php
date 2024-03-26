@@ -196,5 +196,5 @@
 
     <h2>Change Log</h2>
     <p>Since our first evaluation and statement, which was based on automated testing, we have undertaken extensive manual testing. This includes utilising a range of assistive technology to ensure we have a clear picture of the accessibility issues and how best to resolve them.</p>
-
+    <p><span style="font-weight:bold;">February 2024</span> - We have aimed to improve accessibility of the PDF’s so they open in a custom PDF viewer intended to improve accessibility with screen readers by making it easy to tab through/keyboard navigate, adding any text on a page in HTML. We also added aria-labels to assist screen reader users.</p>
 </html>
