@@ -24,7 +24,7 @@
 </head>
 <body lang="en-GB" link="#0563c1" vlink="#954f72" dir="ltr"><p style="letter-spacing: -0.5pt; line-height: 100%; margin-bottom: 0cm">
 <font face="Calibri Light, serif"><font size="6" style="font-size: 28pt"><font face="Arial, serif"><font size="5" style="font-size: 20pt"><span lang="en-US"><b>Accessibility
-statement for </b></span></font></font><span style="display: inline-block; border: none; padding: 0cm"><a href="https://sopacollection.ph.ed.ac.uk/"><font color="#0563c1"><font face="Arial, serif"><font size="5" style="font-size: 20pt"><span style="letter-spacing: normal"><u><b>School
+statement for </b></span></font></font><span style="display: inline-block; border: none; padding: 0cm"><a href="https://sopacollection.ph.ed.ac.uk/"><font color="#0563c1"><font face="Arial, serif"><font size="5" style="font-size: 20pt"><span style="letter-spacing: normal; line-height:1.1;"><u><b>School
 of Physics and Astronomy Image Archive (SOPA)</span></b></u></span></font></font></font></a></font></font></p>
 <p lang="en-US" style="line-height: 100%; margin-bottom: 0cm"><br/>
 
