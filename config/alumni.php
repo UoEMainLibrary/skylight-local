@@ -9,7 +9,7 @@ $config['skylight_url_prefix'] = 'alumni';
 
 $config['skylight_fullname'] = 'University of Edinburgh Historical Alumni';
 
-$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_oaipmhcollection'] = 'hdl_10683_47417';
 

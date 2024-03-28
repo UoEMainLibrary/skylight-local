@@ -41,7 +41,7 @@
     <h2>Feedback and contact information</h2>
     <p>If you need information on this website in a different format, including accessible PDF, large print, audio recording or braille:</p>
     <ul>
-        <li>Email: <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a></li>
+        <li>Email: <a href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a></li>
         <li>Telephone: +44 (0)131 650 8379</li>
         <li>British Sign Language (BSL) users can contact us via Contact Scotland BSL, the on-line BSL interpreting service: <a href="https://contactscotland-bsl.org/">Contact Scotland BSL</a></li>
     </ul>
@@ -49,7 +49,7 @@
     <h2>Reporting accessibility problems with this website</h2>
     <p>We are always looking to improve the accessibility of this website. If you find any problems not listed on this page, or think we're not meeting accessibility requirements, please contact:</p>
     <ul>
-        <li>Email: <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a></li>
+        <li>Email: <a href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a></li>
         <li>Telephone: +44 (0)131 650 8379</li>
         <li>British Sign Language (BSL) users can contact us via Contact Scotland BSL, the on-line BSL interpreting service: <a href="https://contactscotland-bsl.org/">Contact Scotland BSL</a></li>
     </ul>
