@@ -45,7 +45,6 @@
     <script src="<?php echo base_url()?>assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url()?>assets/jquery-1.11.0/jcarousel/jquery.jcarousel.min.js"></script>
     <script src="<?php echo base_url()?>assets/google-analytics/analytics.js"></script>
-    <script src="https://kit.fontawesome.com/3321181a33.js" crossorigin="anonymous"></script>
     <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/pdf.js"></script>
     <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/pdf.worker.js"></script>
 
