@@ -34,7 +34,7 @@
         <h1>Display, loan and access</h1>
 
         <p>A large portion of the Art Collection is on view throughout the University campus, and we actively lend to other venues where possible. Viewing works held in store,
-            or enquiring about borrowing a work, can be arranged by contacting <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a></p>
+            or enquiring about borrowing a work, can be arranged by contacting <a href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a></p>
 
         <h1>Online</h1>
 
@@ -52,7 +52,7 @@
             30 George Square,<br />
             Edinburgh,<br />
             EH8 9LJ<br />
-            <a class="email" href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a><br />
+            <a class="email" href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a><br />
         </p>
 
 

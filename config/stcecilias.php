@@ -20,7 +20,7 @@ else {
     $config['skylight_container_id'] = '5f407bc8-1f6c-4ab7-830a-66fac8e07c7f'; // This is the correct container_id mate, seriously
 }
 
-$config['skylight_adminemail'] = 'lddt@mlist.is.ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_oaipmhcollection'] = 'hdl_10683_14558';
 

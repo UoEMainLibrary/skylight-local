@@ -19,7 +19,7 @@ else {
     $config['base_url'] = 'https://sjac-collection.is.ed.ac.uk/';
 }
 
-$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_theme'] = 'jlss';
 

@@ -16,7 +16,7 @@
             30 George Square,<br />
             Edinburgh,<br />
             EH8 9LJ<br />
-            Email: <a class="email" href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a><br/>
+            Email: <a class="email" href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a><br/>
 
     </div>
 </div>

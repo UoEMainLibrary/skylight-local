@@ -26,7 +26,7 @@
             EH8 9LJ<br />
             Tel:: +44(0)131 650 8379<br />
             Fax: +44(0)131 650 2922<br />
-            <a class="email" href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a><br />
+            <a class="email" href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a><br />
 
         </p>
         <br />
