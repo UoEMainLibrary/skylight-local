@@ -11,7 +11,7 @@
                 <h5 class="mb-1">For more information on borrowing, gifting or of viewing artwork</h5>
             </li>
             <li class="list-inline-item">
-                <a href="mailto:is-crc@ed.ac.uk" class="btn btn-danger btn-rounded">Contact us!</a>
+                <a href="mailto:HeritageCollections@ed.ac.uk" class="btn btn-danger btn-rounded">Contact us!</a>
             </li>
         </ul>
         <!-- Call to action -->
