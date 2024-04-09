@@ -170,7 +170,7 @@
     <p>While we are in the process of resolving these accessibility issues, or where we are unable, we will ensure reasonable adjustments are in place to make sure no user is disadvantaged. As changes are made, we will continue to review accessibility and retest the accessibility of this website.</p>
 
     <h2>Preparation of this accessibility statement</h3>
-    <p><strong>This statement was first prepared on 7th August 2020. It was last reviewed on 13th February 2023.</strong></p>
+    <p><strong>This statement was first prepared on 7th August 2020. It was last reviewed on 13th February 2024.</strong></p>
     <p>This website was first tested on 7th August 2020, reviewed on 15th September 2021 and then again on 12th September 2022. The testing was initially carried out by The University of Edinburgh Library and University Collections Digital Library Development team using the automated <a href="https://wave.webaim.org/">Wave WEBAIM</a> and <a href="https://littleforest.co.uk/">Little Forest</a> testing tool.</p>
     <p>This website was last manually tested by the Digital Library team, Library and University Collections, University of Edinburgh in September 2022 following on from automated testing of the system the previous two years. This was primarily using Mozilla Firefox (91.7.1esr), Microsoft Edge (99.0.1150.55), Google Chrome (99.0.4844.84), and Internet Explorer (IE) (19043.1586) browsers for comparative purposes.</p>
     <p>Recent world-wide usage levels survey for different screen readers and browsers shows that Chrome, Mozilla Firefox and Microsoft Edge are increasing in popularity and Google Chrome is now the favoured browser for screen readers:</p>
