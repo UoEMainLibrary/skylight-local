@@ -247,7 +247,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
 
         else if ((strpos($b_filename, ".pdf") > 0) or (strpos($b_filename, ".PDF") > 0))
         {
-            $b_uri = '/record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
+            $b_uri = 'record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
             $bitstreamLink = $this->skylight_utilities->getBitstreamURI($bitstream);
             ?>
             <br>
