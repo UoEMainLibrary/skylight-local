@@ -34,7 +34,7 @@
         <p>Main University Library, George Square, Edinburgh EH8 9LJ</p>
         <h3>Opening hours:</h3>
         <p>Opening times are based on the academic timetables due to its use in teaching and research. For specific opening information, visit <a href="https://www.ed.ac.uk/visit/museums-galleries/research-collections" target="_blank"  title="Research Collections">https://www.ed.ac.uk/visit/museums-galleries/research-collections</a></p>
-        <p>To use the facility, you&rsquo;ll need to make an appointment. Please contact them on <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a></p>
+        <p>To use the facility, you&rsquo;ll need to make an appointment. Please contact them on <a href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a></p>
         <h3>Getting there:</h3>
         <p>There are a limited number of disabled parking spaces adjacent to George Square. In addition, there is ample pay and display parking in the square and surrounding streets.</p>
         <p>To find out about bus links, visit <a href="http://www.lothianbuses.com"  target="_blank" title="Lothian Buses">www.lothianbuses.com</a></p>

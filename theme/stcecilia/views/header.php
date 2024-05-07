@@ -112,7 +112,7 @@
         <div class="col-lg-8 col-md-8 col-sm-9 hidden-xs">
             <div class="nav-logo">
                     <!-- WILL NEED CHANGED WHEN SWITCH TO LIVE -->
-                    <a class="nav-logo-link" href="https://test.stcecilias.ed.ac.uk" title="Return to the home page">
+                    <a class="nav-logo-link" href="https://www.stcecilias.ed.ac.uk" title="Return to the home page">
                         <img class="nav-logo-img" src="<?php echo base_url()?>theme/stcecilia/images/StCsNavLogo.png">
                     </a>
             </div>
@@ -130,24 +130,24 @@
             </form>
             <div class="navbar-right sch-link" id="full-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="xtra-smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
         </div>
         <div class="hidden-lg hidden-md hidden-sm col-xs-7">
             <div class="nav-logo">
                     <!-- WILL NEED CHANGED WHEN SWITCH TO LIVE -->
-                    <a class="nav-logo-link" href="https://test.stcecilias.ed.ac.uk">
+                    <a class="nav-logo-link" href="https://www.stcecilias.ed.ac.uk">
                         <img class="nav-logo-img" src="<?php echo base_url()?>theme/stcecilia/images/StCsNavLogo.png">
                     </a>
             </div>
@@ -165,17 +165,17 @@
             </form>
             <div class="navbar-right sch-link" id="full-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="xtra-smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
         </div>

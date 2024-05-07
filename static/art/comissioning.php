@@ -6,7 +6,7 @@
             Historically this included paying artists to create statues, religious iconography or portraits of family
             members, but in the present day it covers an ever-expanding range of materials, processes and possibilities.<br><br>
             The University Art Collection manages both permanent and temporary commissions for University buildings and
-            as part of research, and the University Commissioning Guidelines can be viewed <a href="<?php echo base_url(); ?>theme/art/images/UoE_Commissioning _Guidelines.pdf">here</a>, with
+            as part of research, and the University Commissioning Guidelines can be viewed <a href="<?php echo base_url(); ?>theme/art/images/University_of_Edinburgh_Commissioning_Guidelines_V2_Single_Page_2024.pdf">here</a>, with
             physical copies available on <a href="#contact">request</a>.
         </p>
     </div>

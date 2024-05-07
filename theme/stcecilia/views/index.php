@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div id="sch_banner">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <a href="https://test.stcecilias.ed.ac.uk/about/" title="About St Cecilia's Hall"><img class="img-responsive sch-logo" alt="St_Cecilias_Hall_logo" src="<?php echo base_url(); ?>theme/stcecilia/images/Instrument-Collection-logo.gif"></a>
+            <a href="https://www.stcecilias.ed.ac.uk/about/" title="About St Cecilia's Hall"><img class="img-responsive sch-logo" alt="St_Cecilias_Hall_logo" src="<?php echo base_url(); ?>theme/stcecilia/images/Instrument-Collection-logo.gif"></a>
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
