@@ -1,7 +1,7 @@
 <div class="col-md-9 col-sm-9 col-xs-12">
     <div class="content byEditor">
         <h1 class="itemtitle">Contact</h1>
-        <p>Enquiries regarding the RESP Archive should be directed in the first instance to: <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a>. Please address your enquiry to ‘<i>RESP Archive</i>’.</p>
+        <p>Enquiries regarding the RESP Archive should be directed in the first instance to: <a href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a>. Please address your enquiry to ‘<i>RESP Archive</i>’.</p>
 
         <p><strong>Privacy Statement:</strong></p>
 

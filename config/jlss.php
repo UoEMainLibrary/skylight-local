@@ -17,7 +17,7 @@ else {
     $config['skylight_image_server'] = 'https://cantaloupe.is.ed.ac.uk';
 }
 
-$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_theme'] = 'jlss';
 
