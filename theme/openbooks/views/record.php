@@ -251,49 +251,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             $bitstreamLink = $this->skylight_utilities->getBitstreamURI($bitstream);
             ?>
             <br>
-                <div role="region" aria-live="polite" aria-label="pdf-Viewer" class="viewer" id="viewer" tabindex="0">
-                    
-                <div class="loading_box" id="loadingbox">
-                    <div class="loader"></div>
-                    <p id="loadingText"></p>
-
-                    <script>
-                        document.getElementById("loadingText").innerHTML = "Loading...";
-                    </script>
-                </div>
-
-                        <div id="canvasdiv" class="canvasdiv" aria-labelledby="pageDesctiption" tabindex="0">
-                        <canvas id="pdfCanvas"></canvas>
-                        <div id="textlayer" class="textLayer"></div>
-                    </div>
-                    <p id="pageDescription" class="sr-only">Loadiing pages...</p>
-                    <div class="NavButtons">
-                        <button id="prev" aria-label="Previous page">&#8592;</button>
-                        <span class="pageDisplayText">Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-                        <button id="next" aria-label="Next page">&#8594;</button>
-                    </div>
-
-                    <span class="sr-only">Use left and right arrow keys to navigate through the pages.</span>
-                    <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/pdf-viewer.js"></script>
-                    <script>
-                        var url = '<?php echo base_url();?><?php echo $b_uri ?>';
-                        loadPdf(url);
-
-                        document.getElementById('viewer').addEventListener('keydown', function (event) {
-                          switch (event.key || event.keyCode) {
-                              case 'ArrowLeft': // Left arrow
-                                onPrevPage();
-                                  break;
-                              case 'ArrowRight': // Right arrow
-                                onNextPage();
-                                  break;
-                              default:
-                                  // Ignore other keys
-                                  break; 
-                          }
-                        });
-                    </script>
-                </div>
+            <iframe src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/addons/PDF_Viewer/pdf_reader.php?url=<?php echo base_url() . $b_uri ?>" title="PDF Viewer" width="700" height="900"></iframe>
             <br>
             Click <?php echo '<a href ="'.$bitstreamLink.'" target="_blank">'.$b_filename.'</a>' ?> to download.
             (<span class="bitstream_size"><?php echo getBitstreamSize($bitstream); ?></span>)<br><br>
