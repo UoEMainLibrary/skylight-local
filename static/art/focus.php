@@ -104,6 +104,25 @@
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
+                    <h3>SOUTH ASIAN ARTWORKS IN THE COLLECTIONS</h3>
+                    <p class="desc-text">A project initiated in 2023, in collaboration with Dr Yashaswini Chandra at Edinburgh 
+                        College of Art, has sought to make visible significant examples of artworks produced in South Asia between 
+                        the 17th and 19th centuries C.E. that are catalogued within the Manuscripts of the Islamicate World and South 
+                        Asia (MIWSA) Collection. These works and more information on the project can be found <a href="https://archives.collections.ed.ac.uk/subjects/30128">here</a>.
+                        <br><br>
+                        Other works within the Art Collection connected to South Asia include ancient <a href="https://collections.ed.ac.uk/art/search/gandharan">Gandharan sculptures</a>
+                        from the Peshawar Valley and the contemporary installation work of British-Pakistani artist <a href="https://collections.ed.ac.uk/art/record/122466?highlight=AMMNA+SHEIKH">Ammna Sheikh</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="<?php echo base_url(); ?>theme/art/images/PhotoLaurenceWinram_2.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <img src="<?php echo base_url(); ?>theme/art/images/ECA_CAST.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <div class="centered-text">
                     <h3>ECA CAST COLLECTION</h3>
                     <p class="desc-text">The Cast Collection is comprised of 265 plaster casts of Antique, Renaissance,
                         and Gothic statues, bas reliefs, and architectural passages held at the ECA and the University
@@ -114,12 +133,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/ECA_CAST.jpg" class="img-fluid">
-            </div>
-            <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/MOVING_IMAGE.jpg" class="img-fluid">
-            </div>
+            
             <div class="col-lg-6">
                 <div class="centered-text">
                     <h3>MOVING IMAGE AND PERFORMANCE</h3>
@@ -134,6 +148,9 @@
                         ECA. Staff and students at the University can view all of the works via
                         <a href="https://media.ed.ac.uk/channel/Moving%2BImage%2BWorks/96102512">Mediahopper</a>.
                     </p></div>
+            </div>
+            <div class="col-lg-6">
+                <img src="<?php echo base_url(); ?>theme/art/images/MOVING_IMAGE.jpg" class="img-fluid">
             </div>
         </div>
     </div>
