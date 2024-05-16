@@ -91,15 +91,11 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
 
         if ((strpos($b_filename, ".pdf") > 0) or (strpos($b_filename, ".PDF") > 0))
         {
-            $b_uri = './record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
+            $b_uri = 'record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
             $bitstreamLink = $this->skylight_utilities->getBitstreamURI($bitstream);
             ?>
             <br>
-            <object class="pdfviewer" width="800" height="928" data="<?php echo $b_uri ?>"
-                    type="application/pdf">
-                <p><span class="label">It appears you do not have a PDF plugin for this browser.</span>
-                </p>
-            </object>
+            <iframe src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/addons/PDF_Viewer/pdf_reader.php?url=<?php echo base_url() . $b_uri ?>" title="PDF Viewer" width="700" height="900"></iframe>
             <br>
             Click <?php echo '<a href ="'.$bitstreamLink.'" target="_blank">'.$b_filename.'</a>'?> to download.
             (<span class="bitstream_size"><?php echo getBitstreamSize($bitstream); ?></span>)<br><br>
