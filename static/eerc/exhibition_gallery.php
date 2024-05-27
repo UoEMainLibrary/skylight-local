@@ -148,11 +148,26 @@ $title_field = $this->skylight_utilities->getField('Title');
     </table>
     -->
     <br>
-    <h1 style="text-align: center">“This was a right industrial wee town!”</h1>
-    <h3 style="text-align: center" >A film about life and work in the Musselburgh Mills</h3>
+    <h1 style="text-align: center">“Animal Encounters in the RESP Archive’”</h1>
+    <h3 style="text-align: center" >Exploring animal-human relationships across the Regional Ethnology of Scotland Project</h3>
+    <br>
+    <div style="text-align: center">
+        <img src="<?php echo base_url()?>/theme/eerc/images/animal_encounters_resp.png" style="width: 80%"><br>
+        <a href='https://exhibitions.ed.ac.uk/exhibitions/animal-encounters' >https://exhibitions.ed.ac.uk/exhibitions/animal-encounters</a><br>
+    </div>
+    <br>
+    <p>
+        To explore RESP’s online exhibition Animal Encounters in the RESP Archive please click on the link above.  The exhibition,
+        curated and illustrated by Rebekah Day, reveals the varied and complex relationships that can exist between people and animals.
+        Through carefully selected audio recordings, images, and videos the exhibition highlights how connections between humans and
+        animals have shifted in recent decades: reflecting wider culture and environmental concerns present in Scottish society today.
+    </p>
+    <br>
     <hr>
     <br>
-
+    <h1 style="text-align: center">“This was a right industrial wee town!”</h1>
+    <h3 style="text-align: center" >A film about life and work in the Musselburgh Mills</h3>
+    <br>
     <p>
        The ‘Honest Toun’ is a place that, to some extent, sits on its own. Part of Midlothian until its governance transferred to East Lothian in 1975.
        The size of Musselburgh’s population and the scale and range of its economy has, for long, reflected its historic status as a burgh.
@@ -181,6 +196,7 @@ $title_field = $this->skylight_utilities->getField('Title');
     Music by: <em>Enid Forsyth</em> <br>
     Moving images: <em>Courtesy of moving Image Archive, National Library of Scotland</em>
     </p>
+    <hr>
 
 
     <!--
