@@ -148,11 +148,12 @@ $title_field = $this->skylight_utilities->getField('Title');
     </table>
     -->
     <br>
-    <h1 style="text-align: center">“Animal Encounters in the RESP Archive’”</h1>
+    <h1 style="text-align: center">“<i>Animal Encounters in the RESP Archive</i>”</h1>
     <h3 style="text-align: center" >Exploring animal-human relationships across the Regional Ethnology of Scotland Project</h3>
     <br>
     <div style="text-align: center">
         <img src="<?php echo base_url()?>/theme/eerc/images/animal_encounters_resp.png" style="width: 80%"><br>
+        <br>
         <a href='https://exhibitions.ed.ac.uk/exhibitions/animal-encounters' >https://exhibitions.ed.ac.uk/exhibitions/animal-encounters</a><br>
     </div>
     <br>
@@ -165,7 +166,7 @@ $title_field = $this->skylight_utilities->getField('Title');
     <br>
     <hr>
     <br>
-    <h1 style="text-align: center">“This was a right industrial wee town!”</h1>
+    <h1 style="text-align: center">“<i>This was a right industrial wee town!</i>”</h1>
     <h3 style="text-align: center" >A film about life and work in the Musselburgh Mills</h3>
     <br>
     <p>
