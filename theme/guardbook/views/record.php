@@ -95,7 +95,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             $bitstreamLink = $this->skylight_utilities->getBitstreamURI($bitstream);
             ?>
             <br>
-            <iframe src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/addons/PDF_Viewer/pdf_reader.php?url=<?php echo base_url() . $b_uri ?>" title="PDF Viewer" width="700" height="900"></iframe>
+            <iframe src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/addons/PDF_Viewer/pdf_reader.php?url=<?php echo base_url() .$this->config->item('skylight_theme')."/". $b_uri ?>" title="PDF Viewer" width="700" height="900"></iframe>
             <br>
             Click <?php echo '<a href ="'.$bitstreamLink.'" target="_blank">'.$b_filename.'</a>'?> to download.
             (<span class="bitstream_size"><?php echo getBitstreamSize($bitstream); ?></span>)<br><br>
