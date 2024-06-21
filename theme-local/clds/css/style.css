@@ -874,6 +874,44 @@ a {
     text-decoration: underline;
 }
 
-a:focus {
-    outline-color: ;
+a:focus-visible {
+    outline: 4px solid red;
+    outline-offset: -4px;
+    margin: 4px;
+    padding: 4px;
+    box-shadow: 0px 0px 0px 4px black;
+}
+
+.screen-reader-text {
+    position: absolute !important;
+    clip-path: circle(0%);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    word-wrap: normal!important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+    z-index: 100000;
+    top: 5px;
+    left: 5px;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    background-color: #F3E3D4;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: normal;
+    clip-path: circle(100%);
+    padding: 8px;
+}
+
+#content {
+    scroll-margin-top: 191px;
 }

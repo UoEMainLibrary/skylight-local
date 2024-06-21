@@ -914,7 +914,7 @@
                             <i class="ion-arrow-right-c"></i>
 
                             <div class="curl"></div>
-                            <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/cultural-heritage-collections/crc/volunteers-interns-fellowships/volunteers-interns" title="Volunteering" target="_blank" onclick="return warnNewTab()"></a>
+                            <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/heritage-collections/skills-volunteers-interns-fellowships/volunteers-interns" title="Volunteering" target="_blank" onclick="return warnNewTab()"></a>
                         </div>
                     </figure>
                 </div>

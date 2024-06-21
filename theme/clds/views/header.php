@@ -98,6 +98,9 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
+        <div class="skip-links">
+            <a class="screen-reader-text" href="<?php echo current_url(); ?>#content">Skip to content</a>
+        </div>
         <div class="navbar-header">
             <div id="collection-title">
                 <a href="https://www.ed.ac.uk" class="navbar-brand logo" title="The University of Edinburgh Home" target="_blank" onclick="return warnNewTab()"><img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/UoELogo.gif" alt="The University of Edinburgh Logo"/></a>
@@ -130,7 +133,7 @@
     </div>
 </nav>
 
-<div class="tab-heading">
+<div id="content" class="tab-heading">
     <div class="container">
         <ul class="cldmenu" >
             <li class="current" ><a href="https://collections.ed.ac.uk/search/*/Type:%22archives+%7C%7C%7C+Archives%22/Header:%22archives%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ARCHIVES" title="Archive and Manuscript Collections">Archives</a></li>
