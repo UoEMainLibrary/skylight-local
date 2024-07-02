@@ -17,7 +17,7 @@
 
 
 
-        <div class="main-categories">
+        <div class="main-categories" id="content">
             <a class="col-xs-6 col-md-6" href='./search/*:*/Category:%22anthropology+%7C%7C%7C+Anthropology%22'>Anthropology</a>
             <a class="col-xs-6 col-md-6" href='./search/*:*/Category:%22antiquities+%7C%7C%7C+Antiquities%22'><div class="border-top"></div>Antiquities</a>
             <a class="col-xs-6 col-md-6" href='./search/*:*/Category:%22art+%7C%7C%7C+Art%22'><div class="border-top"></div>Art</a>

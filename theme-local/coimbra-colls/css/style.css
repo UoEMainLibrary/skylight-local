@@ -1002,57 +1002,6 @@ nav #overflow li a:hover {
 }
 /* ---------------------
 
-        LOADER
-
-------------------------*/
-#loader {
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height:100vh;
-  line-height: 100vh;
-  text-align: center;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-  background: rgba(30, 87, 153, 0.8); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(30, 87, 153, 0.8) 0%, rgba(41, 137, 216, 0.8) 50%, rgba(32, 124, 202, 0.8) 51%, rgba(125, 185, 232, 0.8) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(30, 87, 153, 0.8) 0%,rgba(41, 137, 216, 0.8) 50%,rgba(32, 124, 202, 0.8) 51%,rgba(125, 185, 232, 0.8) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(30, 87, 153, 0.8) 0%,rgba(41, 137, 216, 0.8) 50%,rgba(32, 124, 202, 0.8) 51%,rgba(125, 185, 232, 0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-}
-#loader .logo {
-  display: block;
-  width: 231px;
-  height: 177px;
-  margin: auto;
-  margin-top: calc(45vh - 100px);
-  animation-name: rotate-logo;
-  animation-duration: 6s;
-  animation-iteration-count: 3;
-}
-#loader h1 {
-  text-transform: uppercase;
-  display: block;
-  margin: 0px auto;
-  color: white;
-}
-@-webkit-keyframes rotate-logo {
-  0%   {-webkit-filter: brightness(100%); -webkit-filter: saturate(100%); -webkit-transform: rotate(0deg);}
-  25%  {-webkit-filter: brightness(150%); -webkit-filter: saturate(200%); -webkit-transform: rotate(20deg);}
-  50%  {-webkit-filter: brightness(200%); -webkit-filter: saturate(300%); -webkit-transform: rotate(-20deg);}
-  75%  {-webkit-filter: brightness(250%); -webkit-filter: saturate(400%); -webkit-transform: rotate(20deg);}
-  100% {-webkit-filter: brightness(300%); -webkit-filter: saturate(500%); -webkit-transform: rotate(0deg);}
-}
-@keyframes rotate-logo {
-  0%   {filter: brightness(100%); filter: saturate(100%); transform: rotate(0deg);}
-  25%  {filter: brightness(150%); filter: saturate(200%); transform: rotate(20deg);}
-  50%  {filter: brightness(200%); filter: saturate(300%); transform: rotate(-20deg);}
-  75%  {filter: brightness(250%); filter: saturate(400%); transform: rotate(20deg);}
-  100% {filter: brightness(300%); filter: saturate(500%); transform: rotate(0deg);}
-}
-/* ---------------------
-
         FEEDBACK
 
 ------------------------*/
@@ -1129,4 +1078,39 @@ nav #overflow li a:hover {
 .intro img {
   width: 100%;
   margin-top: 15px;
+}
+
+/* ---------------------
+
+    Skip to Content
+
+------------------------*/
+.screen-reader-text {
+  position: absolute !important;
+  clip-path: circle(0%);
+  border: 0;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  word-wrap: normal!important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+  z-index: 100000;
+  top: 5px;
+  left: 5px;
+  display: block;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  background-color: #205675;
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: normal;
+  clip-path: circle(100%);
+  padding: 8px;
 }

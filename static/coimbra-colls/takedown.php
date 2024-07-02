@@ -1,4 +1,4 @@
-<div class="content">
+<div id="content" class="content">
     <div class="container">
         <h2>Takedown Policy</h2>
 
