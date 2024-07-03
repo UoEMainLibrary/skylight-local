@@ -21,7 +21,7 @@
 
                         $solr[$element][0] = "https://". $solr[$element][0];
                     }
-                      echo '<a href="' . $solr[$element][0] . '" title="URL Links for item" target="_blank">' . $solr[$element][0] . '</a>';
+                      echo '<a title="URL Links for item" target="_blank" data-toggle="modal" data-target="#newTabNotice" data-href="' . $solr[$element][0] . '">' . $solr[$element][0] . '</a>';
 
                 }
                 else {

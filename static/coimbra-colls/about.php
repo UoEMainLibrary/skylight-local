@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content" id="content">
     <div class="about-container">
 
         <div class="information-container col-xs-12 col-md-8 col-md-offset-2">
