@@ -1,4 +1,4 @@
-<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3 intro">
+<div id="content" class="col-xs-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3 intro">
     <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/lady.jpg" class="lady" alt="">
 
     <div class="intro-text">
