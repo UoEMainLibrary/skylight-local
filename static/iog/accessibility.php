@@ -985,4 +985,6 @@
 </tr>
 </tbody>
 </table>
+<h2>Change Log</h2>
+<p><span style="font-weight:bold;">May 2024</span> - We have aimed to improve accessibility of the PDF’s so they open in a custom PDF viewer intended to improve accessibility with screen readers by making it easy to tab through/keyboard navigate, adding any text on a page in HTML. We also added aria-labels to assist screen reader users. For further accessibility we have added a simple zoom feature and a page navigation text box to easily navigate to any page.</p>
 </html>
