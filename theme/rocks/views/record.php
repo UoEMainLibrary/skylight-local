@@ -7,6 +7,22 @@ $thumbnail_field = $this->skylight_utilities->getField("Thumbnail");
 $filters = array_keys($this->config->item("skylight_filters"));
 
 $media_uri = $this->config->item("skylight_media_url_prefix");
+$image_uri_field = $this->skylight_utilities->getField('ImageUri');
+$permalink_field = $this->skylight_utilities->getField('Permalink');
+$acc_no_field = $this->skylight_utilities->getField("Accession Number");
+
+$type = 'Unknown';
+$mainImageTest = false;
+$numBitstreams = 0;
+$bitstreamLinks = array();
+$mainImage = false;
+$numThumbnails = 0;
+$bitstreamLinks = array();
+$image_id = "";
+$accno = '';
+//Insert Schema.org
+$schema = $this->config->item("skylight_schema_links");
+
 
 $type = 'Unknown';
 
@@ -33,6 +49,228 @@ if(isset($solr[$type_field])) {
 </div>
 
 <div class="content">
+    <?php
+    $numThumbnails = 0;
+    $imageCounter = 0;
+    if (isset($solr[$image_uri_field])) {
+        foreach($solr[$image_uri_field] as $linkURI)
+        {
+            if (strpos($linkURI, 'luna') > 0) {
+                $tileSource[$imageCounter] = str_replace('full/full/0/default.jpg', 'info.json', $linkURI);
+                $tileSource[$imageCounter] = str_replace('http', 'https', $tileSource[$imageCounter]);
+
+                list($width, $height) = getimagesize($linkURI);
+                $portrait = true;
+                if ($width > $height) {
+                    $portrait = false;
+                }
+
+                $imageCounter++;
+            }
+        }
+        echo "<div id='imageCounter' style='display:none;'>$imageCounter</div>";
+        echo "<div class ='imageContainer'>";
+        $divCounter = 0;
+        $freshIn = true;
+        while ($divCounter < $imageCounter) {
+            if (!$mainImage) {
+                $mainImageTest = true;
+                ?>
+                <div class="full-image">
+                    <div id="openseadragon<?php echo $divCounter; ?>" class="image-toggle"<?php if (!$freshIn) {
+                        echo ' style="display:none;"';
+                    } else {
+                        echo ' style="display:block; "';
+                    } ?>>
+                        <script type="text/javascript">
+                            OpenSeadragon({
+                                id: "openseadragon<?php echo $divCounter; ?>",
+                                prefixUrl: "<?php echo base_url();?>theme/mimed/images/buttons/",
+
+                                visibilityRatio: 1,
+                                minZoomLevel: 0,
+                                defaultZoomLevel: 0,
+                                panHorizontal: true,
+                                sequenceMode: true,
+                                preserveViewport: false,
+                                tileSources: ["<?php echo $tileSource[$divCounter]; ?>"]
+                            });
+                        </script>
+                    </div>
+                </div>
+
+                <?php
+            }
+            $divCounter++;
+            $freshIn = false;
+        }
+        echo "</div>";
+        if(isset($solr[$acc_no_field])) {
+            $accno =  $solr[$acc_no_field][0];
+        }
+
+        $numThumbnails = 0;
+        $imageset = false;
+        $thumbnailLink = array();
+        $countThumbnails = count($solr[$image_uri_field]);
+        echo "<!--<br>-->";
+
+        $widthtotal = 0;
+        $i = 0;
+        foreach ($solr[$image_uri_field] as $imageURI)
+        {
+            $imageURI = str_replace('http://', 'https://', $imageURI);
+            $imagefull[$i] = $imageURI;
+            list($fullwidth, $fullheight) = getimagesize($imagefull[$i]);
+            //echo 'WIDTH'.$width.'HEIGHT'.$height
+            if ($fullwidth > $fullheight) {
+                $parms = '/150,/0/';
+            } else {
+                $parms = '/,150/0/';
+            }
+
+            $imagesmall[$i] = str_replace('/full/0/', $parms, $imagefull[$i]);
+            echo '<span itemprop="thumbnailUrl" style="display:none;">'. $imagesmall[$i]. '</span>';
+            list($width, $height) = getimagesize($imagesmall[$i]);
+            $widthtotal = $widthtotal + $width;
+
+            $i++;
+        }
+        if ($countThumbnails > 1)
+        {
+            if ($widthtotal > 660)
+            {
+                echo '<div class="jcarousel-wrapper">
+               <div class="jcarousel" data-jcarousel="true">
+               <ul  <!--id = "jcar-record"-->>';
+            }
+            else
+            {
+                echo ' <div class="thumb-strip">';
+            }
+
+            for ($numThumbnails = 0; $numThumbnails<$countThumbnails; $numThumbnails++)
+            {
+                if ($widthtotal > 660)
+                {
+                    $thumbnailLink[$numThumbnails] = '<li>';
+                }
+                else
+                {
+                    $thumbnailLink[$numThumbnails] = '';
+                }
+                $thumbnailLink[$numThumbnails] .= '<label class="image-toggler" data-image-id="#openseadragon' . $numThumbnails . '">';
+                $thumbnailLink[$numThumbnails] .= '<input type="radio" name="options" id="option' . $numThumbnails . '">';
+
+                $thumbnailLink[$numThumbnails] .= '<img src = "' . $imagesmall[$numThumbnails] . '" class="record-thumb-strip" alt="' . $solr[$title_field][0];
+
+
+
+                $manifest = str_replace("iiif/", "iiif/m/", $imagefull[$numThumbnails]);
+                $manifest = str_replace("full/full/0/default.jpg", "manifest", $manifest);
+
+                $json = file_get_contents($manifest);
+
+                $jobj = json_decode($json, true);
+                //print_r ($jobj);
+                $error = json_last_error();
+                $jsonMD = $jobj['sequences'][0]['canvases'][0]['metadata'];
+                $rights = '';
+                $photographer = '';
+                $photoline = '';
+                foreach ($jsonMD as $jsonMDPair)
+                {
+
+                    if ($jsonMDPair['label'] == 'Repro Creator Name')
+                    {
+                        $photographer = str_replace("<span>", "", $jsonMDPair['value']);
+                        $photographer = str_replace("</span>", "", $photographer);
+                    }
+                    if ($jsonMDPair['label'] == 'Repro Rights Statement')
+                    {
+                        $rights = str_replace("<span>", "", $jsonMDPair['value']);
+                        $rights = str_replace("</span>", "", $rights);
+                    }
+
+                }
+                if ($photographer !== '')
+                {
+                    $photoline = ' Photo by '.$photographer;
+                }
+                $thumbnailLink[$numThumbnails] .= '. '. $photoline.' '.$rights.'"/></label>';
+
+                if ($widthtotal > 660)
+                {
+                    $thumbnailLink[$numThumbnails] .= '</li>';
+                }
+                else
+                {
+                    $thumbnailLink[$numThumbnails] .= '';
+                }
+                echo $thumbnailLink[$numThumbnails];
+
+                $imageset = true;
+
+            }
+
+            if ($widthtotal > 660)
+            {
+                echo '</ul>
+                </div>
+                <a class="jcarousel-control-prev" href="'.$_SERVER['REQUEST_URI'].'/#" data-jcarouselcontrol="true">‹</a>
+                <a class="jcarousel-control-next" href="'.$_SERVER['REQUEST_URI'].'/#" data-jcarouselcontrol="true">›</a>';
+            }
+            echo '</div>';
+        }
+
+        else
+        {
+            echo '<div class="json-link">';
+            $imageUri = $solr[$image_uri_field] ;
+            $manifest = str_replace("iiif/", "iiif/m/", $imageURI);
+            $manifest = str_replace("full/full/0/default.jpg", "manifest", $manifest);
+
+            $json = file_get_contents($manifest);
+
+            $jobj = json_decode($json, true);
+            //print_r ($jobj);
+            $error = json_last_error();
+            $jsonMD = $jobj['sequences'][0]['canvases'][0]['metadata'];
+            $rights = '';
+            $photographer = '';
+            $photoline = '';
+            foreach ($jsonMD as $jsonMDPair)
+            {
+
+                if ($jsonMDPair['label'] == 'Repro Creator Name')
+                {
+                    $photographer = str_replace("<span>", "", $jsonMDPair['value']);
+                    $photographer = str_replace("</span>", "", $photographer);
+                }
+                if ($jsonMDPair['label'] == 'Repro Rights Statement')
+                {
+                    $rights = str_replace("<span>", "", $jsonMDPair['value']);
+                    $rights = str_replace("</span>", "", $rights);
+                }
+
+            }
+            if ($photographer !== '')
+            {
+                $photoline = ' Photo by '.$photographer;
+            }
+            echo '<p>'.$photoline.' '.$rights.'</p>';
+            echo '</div>';
+        }
+        ?>
+
+
+    <?php } ?>
+
+    <div class = "json-link">
+        <p>
+            <?php if (isset($jsonLink)){echo $jsonLink;} ?>
+        </p>
+    </div>
 
     <table>
         <tbody>
