@@ -219,6 +219,8 @@ header .container   { padding: 0;}
 .list-group-item.active:hover,
 .list-group-item.active:focus-visible  { background-color: #4B2F42; color: #FFFFFF !important;}
 
+.list-group-item.active h4       { color: #FFFFFF; letter-spacing: 1px;}
+
 .list-group-item a { font-size: 16px; text-decoration: none;}
 .list-group-item.active a       { color: #FFFFFF; letter-spacing: 1px;}
 .list-group-item.active a:hover,
@@ -528,5 +530,10 @@ a:focus-visible {
 a div:focus-visible {
     outline: 4px solid #00526F;
     outline-offset: 4px;
+    box-shadow: 0 0 0 8px #ffd900;
+}
+
+.form-control:focus-visible {
+    outline: 4px solid #00526F;
     box-shadow: 0 0 0 8px #ffd900;
 }
