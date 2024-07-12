@@ -125,7 +125,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
             $bitstreamUri = $this->skylight_utilities->getBitstreamUri($bitstream);
             $manifest  = base_url().'art/record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
             $jsonLink  = '<span class ="json-link-item"><a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest='.$manifest.'" target="_blank" class="uvlogo" title="View in UV"></a></span>';
-            $jsonLink .= '<span class ="json-link-item"><a target="_blank" href="https://librarylabs.ed.ac.uk/iiif/mirador/?manifest='.$manifest.'" class="miradorlogo" title="View in Mirador"></a></span>';
+            $jsonLink .= '<span class ="json-link-item"><a target="_blank" href="'.base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/display.php?manifest='.$manifest.'" class="miradorlogo" title="View in Mirador"></a></span>';
             $jsonLink .= '<span class ="json-link-item"><a href="https://images.is.ed.ac.uk/luna/servlet/view/search?search=SUBMIT&q='.$accno.'" class="lunalogo" title="View in LUNA" target="_blank"></a></span>';
             $jsonLink .= '<span class ="json-link-item"><a href="'.$manifest.'" target="_blank"  class="iiiflogo" title="View IIIF manifest"></a></span>';
             //$jsonLink .= '<span class ="json-link-item"><a href="https://www.example.com/'.$manifest.'" target="_blank"  class="iiifdndlogo" title="Drag and drop IIIF manifest"></a></span>'; $jsonLink .= '<span class ="json-link-item"><a href="http://www.example.com/'.$manifest.'" target="_blank"  class="iiifdndlogo" title="Drag and drop IIIF manifest"></a></span>';
@@ -184,7 +184,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
             ?>
         
         <div class="img-container">
-            <iframe calss="img-frame" src="https://librarylabs.ed.ac.uk/iiif/mirador/?manifest=<?php echo $manifest?>" height="100%" width="100%" title="Image Showcase" allowfullscreen="true"></iframe>
+            <iframe calss="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
         </div>
         
             <div class = "json-link">
