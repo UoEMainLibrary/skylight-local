@@ -148,7 +148,9 @@ $title_field = $this->skylight_utilities->getField('Title');
     </table>
     -->
     <br>
-    <h1 style="text-align: center">“<i>Animal Encounters in the RESP Archive</i>”</h1>
+    <blockquote>
+    <h1 style="text-align: center">“Animal Encounters in the RESP Archive”</h1>
+    </blockquote>
     <h3 style="text-align: center" >Exploring animal-human relationships across the Regional Ethnology of Scotland Project</h3>
     <br>
     <div style="text-align: center">
@@ -166,7 +168,9 @@ $title_field = $this->skylight_utilities->getField('Title');
     <br>
     <hr>
     <br>
-    <h1 style="text-align: center">“<i>This was a right industrial wee town!</i>”</h1>
+    <blockquote>
+    <h1 style="text-align: center">“This was a right industrial wee town!”</h1>
+    </blockquote>
     <h3 style="text-align: center" >A film about life and work in the Musselburgh Mills</h3>
     <br>
     <p>
@@ -179,7 +183,7 @@ $title_field = $this->skylight_utilities->getField('Title');
     This film tells the story of these mills through the words of those who worked and lived in the town and beyond. In partnership with the John Gray
     Centre and Musselburgh Museum, the EERC interviewed a number of folk about their experiences in the mills. This film provides an introduction into
     these very different workplaces which were such a significant part of the Town’s life for well over 100 years.<br>
-    <em>Mark Mulhern, 2024</em>
+    Mark Mulhern, 2024
     </p>
     <br>
     <div style="text-align: center">
@@ -193,9 +197,9 @@ $title_field = $this->skylight_utilities->getField('Title');
     </div>
     <br>
     <p>
-    Editor: <em>Colin Gateley</em> <br>
-    Music by: <em>Enid Forsyth</em> <br>
-    Moving images: <em>Courtesy of moving Image Archive, National Library of Scotland</em>
+    Editor: Colin Gateley <br>
+    Music by: Enid Forsyth <br>
+    Moving images: Courtesy of moving Image Archive, National Library of Scotland
     </p>
     <hr>
 
