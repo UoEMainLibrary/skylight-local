@@ -7,6 +7,15 @@ h1 h2 h3 h4{
     font-family: 'Playfair Display', serif;
 }
 
+a{
+    color: #0060C7;
+    text-decoration: underline;
+}
+
+a:hover, a:focus-visible {
+    color: #dc3545;
+}
+
 header {
     background-color: white;
 }
@@ -46,7 +55,7 @@ img{
     background-color: #f0f5f9;
 }
 
-.list-group :hover{
+.list-group :hover, .list-group:focus-visible{
     background-color: #e8e8e8;
 }
 
@@ -182,8 +191,6 @@ iframe {
         flex: 0 0 25%;
         max-width: 25%;
     }
-
-
 }
 
 .carousel-caption {
@@ -204,23 +211,23 @@ iframe {
     margin-bottom: 2rem;
 }
 
-button a:hover{
+button a:hover, button a:focus-visible{
     color: #04315F;
 }
 
 
 
-.btn-outline-second a:hover {
+.btn-outline-second a:hover,.btn-outline-second a:focus-visible {
     text-decoration: none !important;
     background-color: white;
 }
 
-a.advanced_search:hover{
+a.advanced_search:hover, a.advanced_search:focus-visible{
     text-decoration: none !important;
     color: white;
 }
 
-.advanced_search:hover{
+.advanced_search:hover, .advanced_search:focus-visible{
     color: white;
 }
 
@@ -255,32 +262,37 @@ a.advanced_search:hover{
 .listing li.first                   { padding-top: 30px; border: none; }
 .listing li.last					{ padding-bottom: 30px; border-bottom: 1px solid #b8baba; }
 .listing li a 						{ text-decoration: none; }
-.listing li a:hover					{ text-decoration: underline; }
-.listing li .tags a:hover			{ text-decoration: none; }
+.listing li a:hover,
+.listing li a:focus-visible			{ text-decoration: underline; }
+.listing li .tags a:hover,
+.listing li .tags a:focus-visible	{ text-decoration: none; }
 .listing li h3 						{ margin-bottom: 8px; }
 .listing li p 						{ font-size: 12px; margin: 0; }
 
 .tags					            { margin-top: 5px; }
-.tags a 				            { color: #fff; font-size: 13px; background: #58A09D; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; text-decoration: none; display:inline-block; }
+.tags a 				            { color: #fff; font-size: 13px; background: #3C6D6C; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; text-decoration: none; display:inline-block; }
 .tags a.bold			            { font-weight: bold; }
-.tags a:hover			            { background: #00315F; color: #fff; text-decoration: none; }
+.tags a:hover,
+.tags a:focus-visible	            { background: #00315F; color: #fff; text-decoration: none; }
 .tags a.artist                      { display:inline-block; line-height: 15px; margin-bottom: 5px; }
 
 .crowd-tag					        { margin-top: 5px;   }
 .crowd-tag	 a 				        { color: #333; font-size: 13px; background: #e1dfd4; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; margin-top: 5px; text-decoration: none; display:inline-block; }
 .crowd-tag	 a.bold			        { font-weight: bold; }
-.crowd-tag	 a:hover		        { background: #00315F; color: #fff; text-decoration: none; }
-.crowd-title                        { color: #58A09D; font-weight: bold;}
+.crowd-tag	 a:hover,
+.crowd-tag	 a:focus-visible		        { background: #00315F; color: #fff; text-decoration: none; }
+.crowd-title                        { color: #3C6D6C; font-weight: bold;}
 .crowd-info                         { color: #00315F; margin-top: 10px;}
 
-.listing-filter						{ padding: 0; border: none; border-bottom: 1px solid #b8baba; line-height: 33px; text-align: right; position: relative; margin-left:5.5rem;}
-.listing-filter .no-results			{ position: absolute; top: 0; left: 0; }
+.listing-filter						{ padding: 0; border: none; border-bottom: 1px solid #b8baba; line-height: 33px; text-align: right; position: relative; margin-left:5.5rem; display: flex; justify-content: space-between; flex-wrap: wrap;}
+.listing-filter .no-results			{ top: 0; left: 0; }
 .ie7 .listing-filter .no-results	{ top: -10px; }
-.listing-filter .sort				{ font-size: 10px; text-transform: uppercase; color: #666; padding-right: 10px; }
+.listing-filter .sort				{ font-size: 16px; color: #666; padding-right: 10px; }
 .listing-filter .sort a 			{ text-decoration: none; }
-.listing-filter .sort a:hover		{ text-decoration: underline; }
+.listing-filter .sort a:hover,
+.listing-filter .sort a:focus-visible	{ text-decoration: underline; }
 .listing-filter .sort strong		{ color: #333; }
-.listing-filter .sort em			{ padding-left: 10px; font-style: normal; }
+.listing-filter .sort em			{ padding-left: 16px; font-style: normal; }
 .search-thumbnail                   { max-width: 120px; max-height: 120px; }
 
 .icon 								{ display: inline-block; width: 54px; height: 32px; background: url(../images/bg-icons.png) no-repeat 0px 0px; top: 0; left: -54px; background-position: -908px 0; }
@@ -307,22 +319,24 @@ h1 .icon							{ top: -5px; left: -65px; }
 .small-icon.media-img				{ background-position: 0px -40px; }
 .small-icon.media-book				{ background-position: 0px -60px; }
 
-.pagination							{ line-height: 33px; text-align: center; position: relative; font-size: 11px; font-weight: bold; margin-bottom: -15px; min-height: 33px; margin-left:5.5rem;}
+.pagination							{ line-height: 33px; text-align: center; position: relative; font-size: 16px; font-weight: bold; margin-bottom: -15px; min-height: 33px; margin-left:5.5rem;}
 .pagination a 						{ color: #666; text-decoration: none; display: inline-block; padding: 0 5px; }
 .pagination a.selected 				{ background: #e8e8e8; color: #333; }
-.pagination a:hover					{ color: #333; text-decoration: underline; }
+.pagination a:hover,
+.pagination a:focus-visible			{ color: #333; text-decoration: underline; }
 .pagination .prev,
-.pagination .next					{ display: block; position: absolute; top: 0; font-size: 11px; background: url(../images/bg-arrows.png) no-repeat 0px 0px; }
+.pagination .next					{ display: block; position: absolute; top: 0; font-size: 16px; background: url(../images/bg-arrows.png) no-repeat 0px 0px; }
 .pagination .prev					{ left: 0; padding: 0 10px 0 25px; }
 .pagination .next					{ right: 0; padding: 0 25px 0 10px; background-position: 100% -33px !important; }
 .pagination .prev:hover,
-.pagination .next:hover 			{ background: #def5fb url(../images/bg-arrows.png) no-repeat; }
+.pagination .next:hover,
+.pagination .prev:focus-visible,
+.pagination .next:focus-visible		{ background: #def5fb url(../images/bg-arrows.png) no-repeat; }
 
 .pagination .no-results {
     left: 0;
-    position: absolute;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .curpage                            { color: #58A09D; display: inline-block; padding: 0 5px; }
@@ -335,7 +349,7 @@ h1 .icon							{ top: -5px; left: -65px; }
 .content ul 						{ margin: 0 0 18px 1.2em; }
 
 table								{ width: 100%; }
-table caption						{ text-align: left; background: #00315F; color: #fff; font-size: 12px; text-transform: uppercase; font-weight: bold; padding: 0px 17px; border-bottom: 1px solid #fff; line-height: 26px; }
+table caption						{ text-align: left; background: #00315F; color: #fff; font-size: 12px; font-weight: bold; padding: 0px 17px; border-bottom: 1px solid #fff; line-height: 26px; }
 
 table td,
 table th							{ padding: 8px 17px; text-align: left; color: #58A09D; }
@@ -362,15 +376,31 @@ table tr:last-child                 { border: 0; border-bottom: none; }
 
 .search-facets ul li{
     padding-top: 12px;
-    font-size: 12px;
+    font-size: 16px;
     list-style-type: none;
 }
 
 
-.list-group-item.d-flex.justify-content-between.align-items-center {
-    font-size: 16px;
+.list-group-item.d-flex.justify-content-between.align-items-center a{
+    font-size: 18px;
+    text-decoration: none !important;
 }
 
+.list-group-item.d-flex.justify-content-between.align-items-center a:hover
+.list-group-item.d-flex.justify-content-between.align-items-center a:focus-visible{
+    font-size: 18px;
+    text-decoration: underline !important;
+}
+
+.list-group-item.d-flex.justify-content-between.align-items-center{
+    padding: 12px;
+    background-color: #fff;
+}
+
+.list-group-item.d-flex.justify-content-between.align-items-center:hover
+.list-group-item.d-flex.justify-content-between.align-items-center:focus-visible{
+    background-color: #e8e8e8;
+}
 
 #index{
     background-color: white;
@@ -664,7 +694,8 @@ h3.record-title {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, .5);
+    color: #616161;
+    text-decoration: none;
     margin-left: 0 !important;
     padding-left: 0 !important;
 }
@@ -673,13 +704,11 @@ h3.record-title {
     text-align: left;
     margin-bottom: 2rem;
     color: rgba(0, 0, 0, .5);
-    text-transform: uppercase;
 }
 
 .date{
     margin-top: -1rem;
     margin-bottom: 2rem;
-    font-style: italic;
     text-align: left;
 }
 
@@ -691,9 +720,17 @@ h3.record-title {
     margin: 6rem auto;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:active {
-    color: rgba(0,0,0,1);
+.nav-link {
+    
 }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:active, .navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus-visible {
+    color: rgba(0,0,0,1);
+    text-decoration: underline;
+}
+
+
 
 .artists{
     margin-top: 1.5rem !important;
@@ -726,8 +763,8 @@ h3.record-title {
 }
 
 .iteminfo .artist {
-    font-size: 14px;
-    color: #58a09d;
+    font-size: 16px;
+    color: #3C6D6C;
     font-weight: bold;
 }
 
@@ -749,7 +786,9 @@ h3.record-title {
 }
 
 .pagination.search{
-    display:block!important;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .imageContainer{
@@ -804,4 +843,148 @@ h3.record-title {
 
 .suggestion {
     display: none;
+}
+
+.btn-danger {
+    text-decoration: none;
+}
+
+@media (min-width: 992px)
+{
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0 !important;
+        padding: 0 10px !important;
+        border-left: 1px solid #616161;
+    }
+    
+    .b-right {
+        border-right: 1px solid #616161 !important;
+    }
+}
+
+
+/* ---------------------
+
+        Hilighter
+
+------------------------*/
+
+.form-control:focus-visible, 
+button:focus-visible, 
+button:focus, 
+input:focus-visible, 
+a:focus-visible {
+    position: relative !important;
+}
+
+.form-control:focus-visible:after, 
+button:focus-visible:after, 
+button:focus:after, 
+input:focus-visible:after, 
+a:focus-visible:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    outline: 4px solid #ffd900;
+    outline-offset: -3px;
+    box-shadow: 0 0 0 4px #00315F;
+    pointer-events: none;
+    z-index: 1;
+    display: block;
+}
+
+a:focus-visible {
+    display: inline-block;
+    overflow: visible;
+}
+
+a div:focus-visible {
+    outline: 4px solid #ffd900;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 8px #00315F;
+}
+
+.form-control:focus-visible,
+input:focus-visible,
+select:focus-visible,
+input:focus {
+    outline: 4px solid #ffd900 !important;
+    box-shadow: 0 0 0 8px #00315F !important;
+}
+
+/* ---------------------
+
+      Skip to Main
+
+------------------------*/
+.screen-reader-text {
+    position: absolute !important;
+    clip-path: circle(0%);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    word-wrap: normal!important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+    z-index: 100000;
+    top: 5px;
+    left: 5px;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #00315F;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: normal;
+    clip-path: circle(100%);
+    padding: 8px;
+}
+
+
+@media (max-width: 992px)
+{
+    .listing-filter {
+        margin: 0 5%;
+        padding: 0;
+    }
+
+    .listing {
+        margin: 0 5%;
+        padding: 0;
+    }
+
+    .pagination {
+        margin: 0 5%;
+        padding: 0;
+    }
+
+    .search-facets {
+        margin: 10px;
+        padding: 0;
+    }
+
+    .facets {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .list-group {
+        margin: 0;
+    }
+
+    .list-group-item:last-child {
+        width: auto;
+    }
 }

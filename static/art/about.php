@@ -57,12 +57,12 @@
 
 
 
-        <p>Visit Centre for Research Collections <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank">webpage</a>
+        <p>Visit Centre for Research Collections <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank" onclick="return warnNewTab()">webpage</a>
             for further information about access.</p>
 
-        <a href="https://twitter.com/UoEArtArchives" title="Art Collections on Twitter" target="_blank">Art Collections on Twitter</a><br />
+        <a href="https://twitter.com/UoEArtArchives" title="Art Collections on Twitter" target="_blank" onclick="return warnNewTab()">Art Collections on Twitter</a><br />
 
-        <a href="https://artuk.org/visit/venues/university-of-edinburgh-5095"  title="Art Collections on ArtUK"  target="_blank">Art Collections on Art UK</a>
+        <a href="https://artuk.org/visit/venues/university-of-edinburgh-5095"  title="Art Collections on ArtUK"  target="_blank" onclick="return warnNewTab()">Art Collections on Art UK</a>
 
     </div>
 </div>

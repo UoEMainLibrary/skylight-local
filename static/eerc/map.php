@@ -523,7 +523,7 @@ map.add(clusters)
 
             <p>The above map displays key geographical locations mentioned in RESP interviews. Pan, zoom, and click on a pin to reveal the place name. Click on the link in the pop-up window to view all interviews relating to the chosen pin.</p>
             <p>More places will be added to the map as the digital catalogue grows.</p>
-            <p span style="color:red; text-align:center;">Please bear with us if you find the map is running a little slow. We have been experiencing some technical difficulties but we are working on it.</span></p>
+            <p span style="color:#C20000; text-align:center;">Please bear with us if you find the map is running a little slow. We have been experiencing some technical difficulties but we are working on it.</span></p>
 
         </div>
 

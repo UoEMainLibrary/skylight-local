@@ -11,9 +11,9 @@
                 ?>
                 <ul class="list-group">
                     <li class="list-group-item active">
-                        <a href="./browse/<?php echo $facet['name']; ?>">
+                        <h4 href="./browse/<?php echo $facet['name']; ?>">
                             <?php echo $facet['name'] ?>
-                        </a></li>
+                        </h4></li>
 
 
                     <?php if(preg_match('/Date/',$base_search) && $facet['name'] == 'Date') {
