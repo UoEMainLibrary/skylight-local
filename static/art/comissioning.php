@@ -33,7 +33,7 @@
                 <div class="centered-text">
                     <h3>SHONA MACNAUGHTON</h3>
                     <p class="date">Here to Deliver 2019-2021</p>
-                    <p class="desc-text"><em>Here to Deliver</em> was a live cycle of performances by artist Shona
+                    <p class="desc-text">Here to Deliver was a live cycle of performances by artist Shona
                         Macnaughton, produced over October and November of 2020. Footage and audio from the performances
                         will become a new moving image work, set to join the Contemporary Art Research strand of the Art
                         Collection in 2021.<br><br>

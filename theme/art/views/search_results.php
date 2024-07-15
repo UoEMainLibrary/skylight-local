@@ -172,11 +172,11 @@
         <span class="no-results">
             <strong><?php echo $startrow ?>-<?php echo $endrow ?></strong> of
             <strong><?php echo $rows ?></strong> results </span>
-            <?php echo $pagelinks ?>
+            <div class="page-links"><?php echo $pagelinks ?></div>
         </div>
 
         <br/>
         <br/>
     </div>
-    <div class="col-lg-3 search">
+    <div class="col-lg-3 search facets">
 
