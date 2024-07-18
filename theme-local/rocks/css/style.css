@@ -102,8 +102,9 @@ button 				{  width: auto; overflow: visible; } /* Make buttons play nice in IE:
 /* Default Styles --------------------------------------------------------------------------------------------------------*/
 
 html 							{ -webkit-font-smoothing: antialiased; }
+
 body 							{ background: #ECF2F2; }
-body, select, input, textarea 	{ color: #254d32; line-height: 18px; font-family: Arial, Helvetica, sans-serif; }
+body, select, input, textarea 	{ color: #000000; line-height: 18px; font-family: Arial, Helvetica, sans-serif; }
 
 h1, h2, h3, h4, h5, h6          { text-rendering: optimizeLegibility; color: #000000; font-weight: bold; }
 h1 								{ font-size: 18px; line-height: 24px; margin: 5px 0 17px 0px; position: relative; }
@@ -140,7 +141,8 @@ input.backbtn:hover				{ color: #fff; background: #71c53d; }
 #container 			{ width: 940px; margin: auto auto; }
 header				{ position: relative; width: 940px;}
 .col-main			{ float: left; margin-right: 40px; width: 660px; }
-.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #F1D8D0; position: relative; z-index: 2;}
+/*.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #F1D8D0; position: relative; z-index: 2;}*/
+.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #d8b3c1; position: relative; z-index: 2;}
 .ie7 .col-sidebar	{ padding-bottom: 30px; }
 
 /* Common Containers & Subclasses ----------------------------------------------------------------------------------------*/
@@ -201,13 +203,15 @@ span[id^="video-"]              { margin: 5px 0; }
 .col-sidebar ul.selected a:hover			{ background: none; }
 .col-sidebar ul.selected a.deselect			{ display: block; width: 13px; height: 13px; background: url(../images/bg-deselect.png) no-repeat 0px 0px; text-indent: -9999px; position: absolute; top: 0; right: 0; }
 .col-sidebar ul.selected a.deselect:hover	{ background-position: 0px -15px; }
-
-.col-sidebar ul.related li 					{ padding: 0 20px 0 20px; position: relative; margin-bottom: 18px; zoom: 1; }
+/* not sure why but changing col sidebar ul.related li down to 30 works on page but not through here*/
+.col-sidebar ul.related li 					{ padding: 0 5px 30px 10px; position: relative; margin-bottom: 18px; zoom: 1; }
 .col-sidebar ul.related li a 				{ padding: 0; }
 .col-sidebar ul.related li a:hover			{ background: none; text-decoration: underline; }
 .col-sidebar ul.related .tags				{ margin: 0px 0 0 0; }
 .col-sidebar ul.related .tags a 			{ padding: 2px 5px; display: inline-block; background: #771301; color: #ecf2f2;}
 .col-sidebar ul.related .tags a:hover		{ text-decoration: none; color: #771301; background: #ecf2f2; }
+/* trying to fix related image previews*/
+.col-sidebar ul.related .thumbnail-image    { padding: 0 20px 0 20px; float: right; }
 
 .col-sidebar ul.related li a.related-record { font-size: 14px; padding-bottom: 5px;}
 
@@ -459,3 +463,16 @@ div[id^="openseadragon"] {
     }
 
 }
+
+.json-link
+{
+    vertical-align: middle;
+    margin: auto;
+    text-align:center;
+    padding-top: 15px;
+}
+.iiiflogo                        { display: inline-block; width: 50px; height: 50px;  background: url(../images/iiiflogo.png) no-repeat 0px 0px;}
+.ccbylogo                        { display: inline-block; width: 150px; height: 50px; background: url(../images/cc-by.png) no-repeat 0px 0px;}
+.lunalogo                        { display: inline-block; width: 50px; height: 50px;  background: url(../images/LUNAIIIF.png) no-repeat 0px 0px;}
+.uvlogo                          { display: inline-block; width: 50px; height: 50px;  background: url(../images/uv.png) no-repeat 0px 0px;}
+.miradorlogo                     { display: inline-block; width: 50px; height: 50px;  background: url(../images/mirador-logo.png) no-repeat 0px 0px;}

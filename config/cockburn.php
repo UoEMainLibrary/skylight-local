@@ -31,8 +31,10 @@
                                         'Subject' => 'dc.subject.en',
                                         'Type' => 'dc.type.en',
                                         'Abstract' => 'dc.description.en',
-                                        'Place' => 'dc.coverage.spatialpath.en',
+                                        //trying to recreate mimed's treatment of place
+                                        'Place' => 'dc.coverage.spatial.en',
                                         'Date' => 'dc.date.issued',
+                                        'Accession Number' => 'dc.identifier.en',
                                         'Accession Date' => 'dc.date.accessioned_dt',
                                         'Bitstream'=> 'dc.format.original.en',
                                         'Thumbnail'=> 'dc.format.thumbnail.en',
@@ -40,7 +42,8 @@
                                         );
 
     $config['skylight_date_filters'] = array();
-    $config['skylight_filters'] = array('Author' => 'author_filter', 'Type' => 'type_filter');
+    //added place to filter
+    $config['skylight_filters'] = array('Author' => 'author_filter', 'Type' => 'type_filter', 'Place' => 'place_filter', 'Date' => 'date_filter');
     $config['skylight_filter_delimiter'] = ':';
 
     $config['skylight_meta_fields'] = array('Title' => 'dc.title',
@@ -49,15 +52,17 @@
                                               'Subject' => 'dc.subject',
                                               'Date' => 'dc.date.issued',
                                               'Type' => 'dc.type');
-
-    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Abstract','Place');
+//added accession number to display
+    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Abstract','Place', 'Accession Number');
 
     $config['skylight_searchresult_display'] = array('Title','Author','Subject','Type','Abstract');
 
     $config['skylight_search_fields'] = array('Title' => 'dc.title.en',
-                                                  'Subject' => 'dc.subject.en',
-                                                  'Type' => 'dc.type.en',
-                                                  'Author' => 'dc.contributor.author'
+                                                'Subject' => 'dc.subject.en',
+                                                'Type' => 'dc.type.en',
+                                                //mimed place copying
+                                                'Place' => 'dc.coverage.spatial',
+                                                'Author' => 'dc.contributor.author'
                                                   );
 
     $config['skylight_sort_fields'] = array('Title' => 'title_sort');
