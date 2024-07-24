@@ -63,6 +63,7 @@ pre, code, kbd, samp                    { font-family: monospace, sans-serif; } 
 /* Minimal base styles -----------------------------------------------------------------------------------------------------------------*/
 
 html                                 { overflow-y: scroll; } /* Always force a scrollbar in non-IE */
+a                                    {color: #275D8B}
 a:hover, a:active         { outline: none; } /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
 ul, ol                    { margin-left: 2em; }
 ol                                         { list-style-type: decimal; }
@@ -113,7 +114,7 @@ h1.itemtitle                    { font-size: 22px; line-height: 24px; margin: 0 
 
 p                               { font-size: 12pt; margin-bottom: 18px; }
 
-a, a:active, a:visited          { color: #4e004a; }
+a:active, a:visited          { color: #4e004a; }
 a:hover                         { color: #033a5f; }
 
 input[type=text], input[type=password]                                {
