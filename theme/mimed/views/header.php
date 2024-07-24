@@ -131,10 +131,12 @@
         </div>
         <header>
             <div id="collection-title">
-                <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Homepage Link"
-                    target="_blank" onclick="return warnNewTab()"></a>
-                <a href="<?php echo base_url(); ?>mimed" class="mimedlogo"
-                    title="Musical Instrument Museums Edinburgh Home"></a>
+                <div class="logo-title-group">
+                    <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Homepage Link"
+                        target="_blank" onclick="return warnNewTab()"></a>
+                    <a href="<?php echo base_url(); ?>mimed" class="mimedlogo"
+                        title="Musical Instrument Museums Edinburgh Home"></a>
+                </div>
                 <a href="http://www.stcecilias.ed.ac.uk/" class="menulogo" title="St Cecilia's Hall Link"
                     target="_blank" onclick="return warnNewTab()"></a>
             </div>
