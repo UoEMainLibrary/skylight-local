@@ -518,7 +518,7 @@ a:focus-visible:after {
     outline-offset: -4px;
     box-shadow: 0 0 0 4px #ffd900;
     pointer-events: none;
-    z-index: 1;
+    z-index: 5;
     display: block;
 }
 
@@ -533,7 +533,16 @@ a div:focus-visible {
     box-shadow: 0 0 0 8px #ffd900;
 }
 
-.form-control:focus-visible {
+.form-control:focus-visible, 
+.photo-container:focus-within, 
+audio:focus-visible{
+    z-index: 5;
     outline: 4px solid #00526F;
     box-shadow: 0 0 0 8px #ffd900;
+}
+
+video:focus-visible {
+    z-index: 5;
+    outline: 4px solid #ffd900;
+    box-shadow: 0 0 0 8px #00526F;
 }

@@ -513,6 +513,15 @@ map.add(clusters)
 */
   </script>
 </div>
+    <!-- Warn new tab for embeded links -->
+<script>
+  window.onload = function(){
+    const links = document.querySelectorAll('a[target="_blank"]');
+    links.forEach(link => {
+    link.setAttribute('onclick', 'return warnNewTab()');
+  })
+}
+</script>
 <br>
 <br>
     <div class="content byEditor">
