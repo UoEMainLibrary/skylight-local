@@ -42,8 +42,6 @@
         href="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/apple-touch-icon.png">
 
     <!-- CSS: implied media="all" -->
-    <link rel="stylesheet"
-        href="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/css/style.css?v=2">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fancybox/source/jquery.fancybox.css?v=2.1.4"
         type="text/css" media="screen" />
     <link rel="stylesheet"
@@ -55,7 +53,9 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/flowplayer-7.0.4/skin/skin.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css" type="text/css" media="screen">
-
+    <link rel="stylesheet"
+        href="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/css/style.css?v=2">
+        
     <!-- Uncomment if you are specifically targeting less enabled mobile browsers
     <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
 
