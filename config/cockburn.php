@@ -38,7 +38,8 @@
                                         'Accession Date' => 'dc.date.accessioned_dt',
                                         'Bitstream'=> 'dc.format.original.en',
                                         'Thumbnail'=> 'dc.format.thumbnail.en',
-                                        'ImageUri' => 'dc.identifier.imageUri.en'
+                                        'ImageUri' => 'dc.identifier.imageUri.en',
+                                        'ArchivesSpace Number' => 'dc.identifier.archive'
                                         );
 
     $config['skylight_date_filters'] = array();
@@ -49,9 +50,9 @@
     $config['skylight_meta_fields'] = array('Title' => 'dc.title',
                                               'Author' => 'dc.contributor.author',
                                               'Description' => 'dc.description.en',
-                                              'Subject' => 'dc.subject',
+                                              'Subject' => 'dc.subject.en',
                                               'Date' => 'dc.date.issued',
-                                              'Type' => 'dc.type');
+                                              'Type' => 'dc.type.en');
 //added accession number to display
     $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Abstract','Place', 'Accession Number');
 
@@ -62,7 +63,8 @@
                                                 'Type' => 'dc.type.en',
                                                 //mimed place copying
                                                 'Place' => 'dc.coverage.spatial',
-                                                'Author' => 'dc.contributor.author'
+                                                'Author' => 'dc.contributor.author',
+                                                'Accession Number' => 'dc.identifier.en'
                                                   );
 
     $config['skylight_sort_fields'] = array('Title' => 'title_sort');
@@ -75,6 +77,10 @@
 
     $config['skylight_results_per_page'] = 10;
     $config['skylight_share_buttons'] = false;
+
+    //related items
+    $config['skylight_related_fields'] = array('Artist' => 'dc.contributor.authorfull.en', 'Subject' => 'dc.subject.en', 'Type' => 'dc.type.en');
+    $config['skylight_related_number'] = 5;
 
     // $config['skylight_homepage_recentitems'] = false;
 

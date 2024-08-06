@@ -207,11 +207,11 @@ span[id^="video-"]              { margin: 5px 0; }
 .col-sidebar ul.related li 					{ padding: 0 5px 30px 10px; position: relative; margin-bottom: 18px; zoom: 1; }
 .col-sidebar ul.related li a 				{ padding: 0; }
 .col-sidebar ul.related li a:hover			{ background: none; text-decoration: underline; }
-.col-sidebar ul.related .tags				{ margin: 0px 0 0 0; }
+.col-sidebar ul.related .tags				{ margin: 0px 0 0 0; float: left}
 .col-sidebar ul.related .tags a 			{ padding: 2px 5px; display: inline-block; background: #771301; color: #ecf2f2;}
 .col-sidebar ul.related .tags a:hover		{ text-decoration: none; color: #771301; background: #ecf2f2; }
 /* trying to fix related image previews*/
-.col-sidebar ul.related .thumbnail-image    { padding: 0 20px 0 20px; float: right; }
+.col-sidebar ul.related .thumbnail-image    { padding: 0; float: right; }
 
 .col-sidebar ul.related li a.related-record { font-size: 14px; padding-bottom: 5px;}
 
