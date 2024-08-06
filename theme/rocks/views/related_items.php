@@ -152,21 +152,18 @@
                         } //end if there are bitstreams ?>
                     </div>
                     <div class="tags">
-                        <!-- replaced author with place to see if that makes more sense-->
-                        <?php if(array_key_exists($author_field,$doc)) { ?>
+                        
+                        <?php if(array_key_exists($type_field,$doc)) { 
+                            $num_types = 0;
+                            foreach ($doc[$type_field] as $type) {
 
-                            <?php
-                            $num_authors = 0;
-                            foreach ($doc[$author_field] as $author) {
-
-                                $orig_filter = ucwords(urlencode($author));
-
-                                $lower_orig_filter = strtolower($author);
+                                $orig_filter = ucwords(urlencode($type));
+                                $lower_orig_filter = strtolower($type);
                                 $lower_orig_filter = urlencode($lower_orig_filter);
 
-                                echo '<a href="./search/*:*/Author:%22'.$lower_orig_filter.'+%7C%7C%7C+'.$orig_filter.'%22">'.$author.'</a>';
-                                $num_authors++;
-                                if($num_authors < sizeof($doc[$author_field])) {
+                                echo '<a href="./search/*:*/Type:%22'.$lower_orig_filter.'+%7C%7C%7C+'.$orig_filter.'%22">'.$type.'</a>';
+                                $num_types++;
+                                if($num_types < sizeof($doc[$type_field])) {
                                     echo ' ';
                                 }
                             }
