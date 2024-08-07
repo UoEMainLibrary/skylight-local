@@ -31,15 +31,16 @@ input, select { vertical-align: middle; }
 /* Default Styles --------------------------------------------------------------------------------------------------------*/
 
 html 							{ -webkit-font-smoothing: antialiased; }
-body 							{ background: #EEEEEE; }
+body 							{ background: #EEEEEE; font-size: 22px;}
 body, select, input, textarea 	{ color: #555; font-family: 'Source Sans Pro', sans-serif; }
 
 h1, h2, h3, h4, h5, h6          { text-rendering: optimizeLegibility; color: #000000; font-weight: bold; }
-h1 								{ font-size: 20px; line-height: 24px; margin: 18px 0 17px 0; position: relative; color: #373B41;}
-h2 								{ font-size: 18px; line-height: 36px; margin: 0 0 0 0; }
-h3 								{ color: #373B41; font-size: 16px; line-height: 18px; margin: 0 0 9px 0; }
+h1 								{ font-size: 25px; line-height: 24px; margin: 18px 0 17px 0; position: relative; color: #373B41;}
+h2 								{ font-size: 23px; line-height: 36px; margin: 0 0 0 0; }
+h3 								{ color: #373B41; font-size: 21px; line-height: 18px; margin: 0 0 9px 0; }
+h5                              {font-size: 16px;}
 
-h1.itemtitle 					{ font-family: 'Special Elite', cursive; font-size: 22px; line-height: 30px;
+h1.itemtitle 					{ font-family: 'Special Elite', cursive; font-size: 27px; line-height: 30px;
     margin: 15px 0 10px 0; position: relative; color: #373B41; }
 .left-title h1.itemtitle, .full-title h1.itemtitle
 { margin-top: 0; padding-top: 10px; }
@@ -47,8 +48,9 @@ h1.itemtitle 					{ font-family: 'Special Elite', cursive; font-size: 22px; line
 h1 a.heading-link               { color: #999; text-decoration: none; }
 h1 a.heading-link:hover         { text-decoration: underline; }
 
-p 								{ font-size: 17px; margin-bottom: 18px; }
+p 								{ font-size: 22px; margin-bottom: 18px; }
 
+a                               {text-decoration: underline;}
 a, a:active, a:visited          { color: #163772; }
 a:hover 						{ text-decoration: underline; color: #999; }
 
@@ -63,9 +65,10 @@ header .container   { padding: 0;}
 /* header */
 .navbar             { margin-bottom: 0;}
 
+.navbar-default .navbar-nav > li > a { color: #3c3c3c;  text-decoration: none;}
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover { background-color: #a50034; color: #FFFFFF;  }
 
-.navbar-default     { background-color: #999; border: 0;  }
+.navbar-default     { background-color: #999; border: 0;}
 
 .uoe-logo {
     display: block;
@@ -87,12 +90,12 @@ header .container   { padding: 0;}
     font-family: 'IM Fell DW Pica', serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 42px;
+    font-size: 47px;
     line-height: 30px;
     padding-top: 15px;
     padding-left: 30px;}
 
-#collection-sub-title       { font-size: 24px;  line-height: 28px;  }
+#collection-sub-title       { font-size: 29px;  line-height: 28px;  }
 #collection-title a         { text-decoration: none; color: #a50034;}
 #collection-title a:hover   { text-decoration: none; color: #008046;}
 #collection-search          { float: right; }
@@ -104,9 +107,21 @@ header .container   { padding: 0;}
     padding-left: 0;
 }
 
+.list-group-item>.badge {
+    background-color: #3c3c3c;
+}
+
+.text-muted {
+    color: #3c3c3c;
+}
+
+.form-control {
+    font-size: 19px;
+}
+
 #menu                           { width: 940px; background-color: #EEEDE8; margin: 0 auto; height: 33px; }
 .menu-links li					{ display: inline; float: right; height: 33px; padding-left: 0; padding-right: 0; }
-.menu-links li a 			    { font-weight: bold; font-size: 11px; text-transform: uppercase; float: left;
+.menu-links li a 			    { font-weight: bold; font-size: 16px; text-transform: uppercase; float: left;
     text-decoration: none; margin-left: 10px; color: #666666; display: inline-block;
     height: 33px; line-height: 2.5em; padding-left: 20px; padding-right: 20px;text-align: center; }
 .menu-links li a:hover		    { background-color: #a50034; color: #FFFFFF;}
@@ -125,7 +140,7 @@ header .container   { padding: 0;}
 
 .item-div                       { width: 660px; text-align: left; display: block; }
 .iteminfo                       { display: block; min-height:40px; text-align: left; width: 100%; float:left; }
-.iteminfo h3                    { font-size: 20px; margin-top: 5px; }
+.iteminfo h3                    { font-size: 25px; margin-top: 5px; }
 .sort                           { float: right;  text-align: right; }
 
 /** side panel */
@@ -156,11 +171,11 @@ footer                          { padding-top: 10px; padding-bottom: 10px;}
 
 .footer-logos                   { padding-bottom: 20px; }
 
-.footer-policies                { font-size: 14px; margin-bottom: 5px; color: #555555;  text-align: center;}
+.footer-policies                { font-size: 19px; margin-bottom: 5px; color: #555555;  text-align: center;}
 
-.footer-policies a, a:active, a:visited         { color: #a50034; text-decoration: none;}
+.footer-policies a, a:active, a:visited         { color: #a50034;}
 .footer-policies a:hover 						{ text-decoration: underline; color: #008046;}
-.footer-copyright                               { font-size: 11px;}
+.footer-copyright                               { font-size: 16px;}
 
 .index-img {
     padding-bottom: 20px;
@@ -178,7 +193,7 @@ footer                          { padding-top: 10px; padding-bottom: 10px;}
 /* Custom Containers & Subclasses ----------------------------------------------------------------------------------------*/
 
 .tags					            { margin-top: 5px;  }
-.tags a 				            { color: #fff; font-size: 15px; background: #999; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; margin-top: 6px; text-decoration: none; display:inline-block; }
+.tags a 				            { color: #fff; font-size: 20px; background: #999; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; margin-top: 6px; text-decoration: none; display:inline-block; }
 .tags a.bold			            { font-weight: bold; }
 .tags a:hover			            { background: #a50034; color: #ffffff; text-decoration: none; }
 .tags a:visited			            { background: #a50034; color: #ffffff; text-decoration: none; }
@@ -251,4 +266,90 @@ q:after                             { content: close-quote;  }
     h2, h3{ page-break-after: avoid; }
 }
 
+/* ---------------------
 
+        Hilighter
+
+------------------------*/
+
+.form-control:focus-visible, 
+button:focus-visible, 
+button:focus, 
+input:focus-visible, 
+a:focus-visible {
+    position: relative;
+}
+
+.form-control:focus-visible:after, 
+button:focus-visible:after, 
+button:focus:after, 
+input:focus-visible:after, 
+a:focus-visible:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    outline: 4px solid #ffd900;
+    outline-offset: -3px;
+    box-shadow: 0 0 0 4px #a50034;
+    pointer-events: none;
+    z-index: 1;
+    display: block;
+}
+
+a:focus-visible {
+    display: inline-block;
+    overflow: visible;
+}
+
+a div:focus-visible {
+    outline: 4px solid #ffd900;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 8px #a50034;
+}
+
+.form-control:focus-visible,
+input:focus-visible,
+select:focus-visible,
+input:focus,
+.pdfviewer:focus-within {
+    outline: 4px solid #ffd900;
+    box-shadow: 0 0 0 8px #a50034;
+}
+
+/* ---------------------
+
+      Skip to Main
+
+------------------------*/
+.screen-reader-text {
+    position: absolute !important;
+    clip-path: circle(0%);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    word-wrap: normal!important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+    z-index: 100000;
+    top: 5px;
+    left: 5px;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: normal;
+    clip-path: circle(100%);
+    padding: 8px;
+}
