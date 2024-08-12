@@ -13,11 +13,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/JAMIE_CREWE.jpg" class="img-fluid">
+                <img src="<?php echo base_url(); ?>theme/art/images/JAMIE_CREWE.jpg" class="img-fluid" alt="Artwork: ‘Identity Deception’ - Jamie Crewe, 2020-2022">
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>JAMIE CREWE</h3>
+                    <h3>Jamie Crewe</h3>
                     <p class="date">Identity Deception 2020-2022</p>
                     <p class="desc-text">
                         Glasgow-based artist Jamie Crewe is working alongside the Art Collection and Dr Chloë Kennedy in
@@ -31,7 +31,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>SHONA MACNAUGHTON</h3>
+                    <h3>Shona Macnaughton</h3>
                     <p class="date">Here to Deliver 2019-2021</p>
                     <p class="desc-text">Here to Deliver was a live cycle of performances by artist Shona
                         Macnaughton, produced over October and November of 2020. Footage and audio from the performances
@@ -45,13 +45,13 @@
                     </p></div>
             </div>
             <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/SHONA.jpg" class="img-fluid">
+                <img src="<?php echo base_url(); ?>theme/art/images/SHONA.jpg" class="img-fluid" alt="Image from the performance ‘Here to Deliver’ - Shona Macnaughton, 2019-2021">
             </div>
             <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/MANUAL_LABOURS.jpg" class="img-fluid"></div>
+                <img src="<?php echo base_url(); ?>theme/art/images/MANUAL_LABOURS.jpg" class="img-fluid" alt="The Global Staffroom podcast logo"></div>
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>MANUAL LABOURS</h3>
+                    <h3>Manual Labours</h3>
                     <p class="date">The Global Staffroom 2020 -2021</p>
                     <p class="desc-text">
                         <a href="https://www.manuallabours.co.uk/">Manual Labours</a> (ML) is a research project exploring physical and emotional relationships to work, initiated by Jenny Richards and Sophie Hope.  During the first lockdown period they hosted the live podcast series The Global Staffroom. Each of the 14 episodes consists of conversations and interviews with people about what it feels like to care, be cared for, and not be able to care at work.  <br><br>
@@ -61,7 +61,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>NATHAN COLEY</h3>
+                    <h3>Nathan Coley</h3>
                     <p class="date">The Basic Material is Not the Word but the Letter 2018 </p>
                     <p class="desc-text">To mark the 50th anniversary of the Main Library at George Square, artist
                         Nathan Coley was commissioned to make a new work for the building.<br><br>
@@ -71,7 +71,7 @@
                     </p></div>
             </div>
             <div class="col-lg-6">
-                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~75984~214492/full/full/0/default.jpg" class="img-fluid"></div>
+                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~75984~214492/full/full/0/default.jpg" class="img-fluid" alt="Image of the artwork: ‘The Basic Material is Not the Word but the Letter’ - Nathan Coley, 2018"></div>
         </div>
     </div>
 </section>
