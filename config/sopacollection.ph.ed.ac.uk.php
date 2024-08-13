@@ -5,12 +5,12 @@ $config['skylight_appname'] = 'physics';
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if (ENVIRONMENT == 'development') {
     $config['base_url'] = 'https://test.sopacollection.ph.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
     $config['skylight_container_id'] = 'e4988bc0-6c32-4f3e-a280-92a222158789';
 }
 else {
     $config['base_url'] = 'https://sopacollection.ph.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-10';
+    $config['skylight_ga_code'] = 'G-9FSG51QXZL';
     $config['skylight_container_id'] = 'df0d9c26-2b73-4cce-8ed7-d047b1a0884e';
 }
 

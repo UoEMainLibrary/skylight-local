@@ -17,11 +17,11 @@
     if (ENVIRONMENT == 'development') 
     {
         $config['skylight_container_id'] = 'c7bc550e-8bb5-44aa-9ac3-128832466067';
-        $config['skylight_ga_code'] = 'UA-25737241-6';
+        $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
     }
     else {
         $config['skylight_container_id'] = 'dbf9e7d0-e031-4ed1-bfe5-30d5b450903f';
-        $config['skylight_ga_code'] = 'UA-25737241-9';
+        $config['skylight_ga_code'] = 'G-L20JS09H7H';
     }
 
     $config['skylight_container_field'] = 'location.coll';
@@ -31,31 +31,40 @@
                                         'Subject' => 'dc.subject.en',
                                         'Type' => 'dc.type.en',
                                         'Abstract' => 'dc.description.en',
+                                        //trying to recreate mimed's treatment of place
+                                        'Place' => 'dc.coverage.spatial.en',
                                         'Date' => 'dc.date.issued',
+                                        'Accession Number' => 'dc.identifier.en',
                                         'Accession Date' => 'dc.date.accessioned_dt',
                                         'Bitstream'=> 'dc.format.original.en',
-                                        'Thumbnail'=> 'dc.format.thumbnail.en'
+                                        'Thumbnail'=> 'dc.format.thumbnail.en',
+                                        'ImageUri' => 'dc.identifier.imageUri.en',
+                                        'ArchivesSpace Number' => 'dc.identifier.archive'
                                         );
 
     $config['skylight_date_filters'] = array();
-    $config['skylight_filters'] = array('Author' => 'author_filter', 'Type' => 'type_filter');
+    //added place to filter
+    $config['skylight_filters'] = array('Author' => 'author_filter', 'Type' => 'type_filter', 'Place' => 'place_filter', 'Date' => 'date_filter');
     $config['skylight_filter_delimiter'] = ':';
 
     $config['skylight_meta_fields'] = array('Title' => 'dc.title',
                                               'Author' => 'dc.contributor.author',
                                               'Description' => 'dc.description.en',
-                                              'Subject' => 'dc.subject',
+                                              'Subject' => 'dc.subject.en',
                                               'Date' => 'dc.date.issued',
-                                              'Type' => 'dc.type');
-
-    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Abstract');
+                                              'Type' => 'dc.type.en');
+//added accession number to display
+    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Abstract','Place', 'Accession Number');
 
     $config['skylight_searchresult_display'] = array('Title','Author','Subject','Type','Abstract');
 
     $config['skylight_search_fields'] = array('Title' => 'dc.title.en',
-                                                  'Subject' => 'dc.subject.en',
-                                                  'Type' => 'dc.type.en',
-                                                  'Author' => 'dc.contributor.author'
+                                                'Subject' => 'dc.subject.en',
+                                                'Type' => 'dc.type.en',
+                                                //mimed place copying
+                                                'Place' => 'dc.coverage.spatial',
+                                                'Author' => 'dc.contributor.author',
+                                                'Accession Number' => 'dc.identifier.en'
                                                   );
 
     $config['skylight_sort_fields'] = array('Title' => 'title_sort');
@@ -68,6 +77,10 @@
 
     $config['skylight_results_per_page'] = 10;
     $config['skylight_share_buttons'] = false;
+
+    //related items
+    $config['skylight_related_fields'] = array('Artist' => 'dc.contributor.authorfull.en', 'Subject' => 'dc.subject.en', 'Type' => 'dc.type.en');
+    $config['skylight_related_number'] = 5;
 
     // $config['skylight_homepage_recentitems'] = false;
 

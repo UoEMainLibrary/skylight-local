@@ -25,7 +25,7 @@
 
         <div class="clearfix"></div>
 
-        <p class="quote"> 
+        <!--p class="quote"> 
             <q>
                 TBC
             </q> 
@@ -44,10 +44,17 @@
             <h3 class="catalogue-title"><a href="./catalogue#dunfermline-anchor" title="Link to Catalogue Page" class="quick-link">Dunfermline College of Physical Education Old Student’s Association</a></h3>
             <h3 class="catalogue-title"><a href="./catalogue#sctgymnastics-anchor" title="Link to Catalogue Page" class="quick-link">Scottish Gymnastics Archives</a></h3>
             <h3 class="catalogue-title"><a href="./catalogue#morris-anchor" title="Link to Catalogue Page" class="quick-link">Margret Morris Movement Collection</a></h3>
-        </div>
+        </div-->
 
         <div class="big-divider"></div>
-
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     </div>
     
 

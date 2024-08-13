@@ -17,7 +17,7 @@
                 EH8 9LJ <br>
                 Phone: +44 (0)131 650 8379 <br>
                 Fax: +44 (0)131 650 2922 <br>
-                Email: <a href="mailto:is-crc@ed.ac.uk" title = "Mail Edinburgh CRC">is-crc@ed.ac.uk</a> <br>
+                Email: <a href="mailto:HeritageCollections@ed.ac.uk" title = "Mail Edinburgh CRC">HeritageCollections@ed.ac.uk</a> <br>
                 Web: <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/about" target="_blank" title="Edinburgh CRC" alt-text="Edinburgh CRC">https://www.ed.ac.uk/information-services/library-museum-gallery/crc/about</a><br><br>
             </td>
         </tr>

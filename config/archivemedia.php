@@ -4,11 +4,11 @@ $config['skylight_appname'] = 'archivemedia';
 
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if (ENVIRONMENT == 'development') {
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
     $config['skylight_container_id'] = '607a78cc-f5c7-4261-98c6-df3fb6d41184';
 }
 else {
-    $config['skylight_ga_code'] = 'UA-25737241-9';
+    $config['skylight_ga_code'] = 'G-L20JS09H7H';
     $config['skylight_container_id'] = '656322c0-3cfd-453f-8d2b-1aa94bc0b082';
 }
 

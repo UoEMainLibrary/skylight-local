@@ -1,4 +1,4 @@
-<div class="content">
+<div id="content" class="content">
     <div class="container">
         <h2>Takedown Policy</h2>
 
@@ -12,7 +12,7 @@
         <p>Centre for Research Collections (Library & University Collections)<br/>
             Main Library, George Square<br/>
             Edinburgh, EH8 9LJ<br/>
-            Email: <a class="email" href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a><br/>
+            Email: <a class="email" href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a><br/>
 
         <p>Please note the Library is staffed 9-5pm Monday-Friday.</p>
 

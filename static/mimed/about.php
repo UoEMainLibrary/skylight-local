@@ -21,7 +21,7 @@
          </p>
         <h1>Centre for Research Collections</h1>
         <p>
-            Further information about the <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank">Centre for Research Collections</a>.
+            Further information about the <a href="https://www.ed.ac.uk/visit/museums-galleries" title="Centre for Research Collections" target="_blank" onclick="return warnNewTab()">Centre for Research Collections</a>.
         </p>
         <h1>Contact</h1>
         <p>For further information about the St Cecilia's Hall collection of musical instruments and Musical Instrument Museum Edinburgh please contact </p>
@@ -33,6 +33,6 @@
             Cowgate, <br />
             Edinburgh <br />
             EH1 1NQ</p>
-        <p>or <strong></strong> visit <a href="http://www.ed.ac.uk/schools-departments/information-services/services/library-museum-gallery/museums-and-galleries/musical-instrument-museums title="MIME" target="_blank">Musical Instruments Museums Edinburgh</a></p>
+        <p>or <strong></strong> visit <a href="https://www.ed.ac.uk/visit/museums-galleries/st-cecilias" title="MIME" target="_blank" onclick="return warnNewTab()">Musical Instruments Museums Edinburgh</a></p>
     </div>
 </div>

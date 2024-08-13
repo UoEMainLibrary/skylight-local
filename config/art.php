@@ -9,7 +9,7 @@ $config['skylight_theme'] = 'art';
 
 $config['skylight_fullname'] = 'University of Edinburgh Art Collection';
 
-$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_oaipmhcollection'] = 'hdl_10683_6';
 
@@ -20,11 +20,11 @@ $config['skylight_oaipmhallowed'] = true;
 // Container ID and the field used in solr index to store this ID. Used for restricting search/browse scope.
 if (ENVIRONMENT == 'development') {
 	$config['skylight_container_id'] = '55da8679-0e59-473c-9c2f-41c69448ed0a';
-	$config['skylight_ga_code'] = 'UA-25737241-6';
+	$config['skylight_ga_code'] = 'G-8VP4HF0K5M';
 }
 else {
 	$config['skylight_container_id'] = '75dce59d-3693-4450-b062-4b0e6b158584';
-	$config['skylight_ga_code'] = 'UA-25737241-9';
+	$config['skylight_ga_code'] = 'G-L20JS09H7H';
 }
 
 $config['skylight_container_field'] = 'location.coll';
