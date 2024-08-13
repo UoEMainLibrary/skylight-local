@@ -8,7 +8,7 @@
         </p>
         <h1>Centre for Research Collections</h1>
         <p>
-            Further information about the <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank">Centre for Research Collections</a>.
+            Further information about the <a href="https://www.ed.ac.uk/visit/museums-galleries/heritage-collections" title="Centre for Research Collections" target="_blank">Centre for Research Collections</a>.
         </p>
         <h1>The Scottish Court of Session Papers</h1>
         <p>The case papers of the Scottish Court of Session (Scotland’s supreme civil court) are perhaps the most significant – yet still unstudied –

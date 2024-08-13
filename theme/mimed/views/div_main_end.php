@@ -20,7 +20,7 @@
                 <div class="footer-policies">
                     <p>This collection is part of <a href="<?php echo base_url(); ?>" title="University Collections Home">University Collections</a>.</p>
                     <p><a href="https://www.ed.ac.uk/about/website/privacy" title="Privacy and Cookies Link"  target="_blank" onclick="return warnNewTab()">Privacy &amp; Cookies</a>
-                        &nbsp;&nbsp;<a href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/services/copying-and-digitisation/image-licensing/takedown-policy" target="_blank" onclick="return warnNewTab()" title="Takedown Policy Link">Takedown Policy</a>
+                        &nbsp;&nbsp;<a href="https://www.ed.ac.uk/library/heritage-collections/using-the-collections/digitisation/image-licensing/takedown-policy" target="_blank" onclick="return warnNewTab()" title="Takedown Policy Link">Takedown Policy</a>
                         &nbsp;&nbsp;<a href="./licensing" title="Licensing and Copyright Link">Licensing &amp; Copyright</a>
                         &nbsp;&nbsp;<a href="./accessibility" title="Website Accessibility Link" target="_blank" onclick="return warnNewTab()">Accessibility</a></p>
                     <p>Unless explicitly stated otherwise, all material is copyright &copy; <?php echo date("Y"); ?> <a href="https://www.ed.ac.uk" title="University of Edinburgh Home" target="_blank" onclick="return warnNewTab()">University of Edinburgh</a>.</p>
