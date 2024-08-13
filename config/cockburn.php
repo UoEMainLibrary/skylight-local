@@ -31,10 +31,12 @@
                                         'Subject' => 'dc.subject.en',
                                         'Type' => 'dc.type.en',
                                         'Abstract' => 'dc.description.en',
+                                        'Place' => 'dc.coverage.spatialpath.en',
                                         'Date' => 'dc.date.issued',
                                         'Accession Date' => 'dc.date.accessioned_dt',
                                         'Bitstream'=> 'dc.format.original.en',
-                                        'Thumbnail'=> 'dc.format.thumbnail.en'
+                                        'Thumbnail'=> 'dc.format.thumbnail.en',
+                                        'ImageUri' => 'dc.identifier.imageUri.en'
                                         );
 
     $config['skylight_date_filters'] = array();
@@ -48,7 +50,7 @@
                                               'Date' => 'dc.date.issued',
                                               'Type' => 'dc.type');
 
-    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Abstract');
+    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Abstract','Place');
 
     $config['skylight_searchresult_display'] = array('Title','Author','Subject','Type','Abstract');
 

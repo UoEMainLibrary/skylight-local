@@ -1,5 +1,5 @@
 <html>
-    <h1>Accessibility Statement for the <a href="https://collections.ed.ac.uk/coimbra-colls/">Coimbra Group Collections website</a></h1>
+    <h1 id="content">Accessibility Statement for the <a href="https://collections.ed.ac.uk/coimbra-colls/">Coimbra Group Collections website</a></h1>
     <p><strong>Website accessibility statement inline with Public Sector Body (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018</strong></p>
     <p>This accessibility statement applies to  <a href="https://collections.ed.ac.uk/coimbra-colls/">https://collections.ed.ac.uk/coimbra-colls/</a></p>
 

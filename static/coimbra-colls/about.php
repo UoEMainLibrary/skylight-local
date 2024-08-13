@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content" id="content">
     <div class="about-container">
 
         <div class="information-container col-xs-12 col-md-8 col-md-offset-2">
@@ -31,7 +31,7 @@
             <div class="content">
                 <p>The Platform is currently being hosted by the University of Edinburgh and is being developed with the support of the Coimbra Group Heritage Working Group.  If you have any comments or questions about the platform
                 please contact Jeremy Upton, Director of Library & University Collections at the University of Edinburgh (jeremy.upton@ed.ac.uk)</p>
-                <p><a href="https://www.coimbra-group.eu" target="_blank">Link to the heritage Website</a></p>
+                <p><a target="_blank" href="" data-toggle="modal" data-target="#newTabNotice" data-href="https://www.coimbra-group.eu">Link to the heritage Website</a></p>
 
         </div>
         <div>

@@ -38,6 +38,7 @@ if (isset($solr[$coverImageName][0]))
 
 <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/openseadragon.min.js"></script>
 
+<div id="content"></div>
 <div id="openseadragon" class="cover-image-container full-width" >
     <script type="text/javascript">
         OpenSeadragon({
@@ -91,7 +92,7 @@ if (isset($solr[$coverImageName][0]))
                                 $solr[$element][$n] = "https://". $solr[$element][$n];
                             }
 
-                            echo '<a href="' . $solr[$element][$n] . '" title="URL Links for item" target="_blank">' . $solr[$element][$n] . '</a>';
+                            echo '<a title="URL Links for item" target="_blank" href="" data-toggle="modal" data-target="#newTabNotice" data-href="' . $solr[$element][$n] . '">' . $solr[$element][$n] . '</a>';
 
                         }
                         else
@@ -130,7 +131,7 @@ if (isset($solr[$coverImageName][0]))
                 $t_handle_id = preg_replace('/^.*\//', '',$t_handle);
                 $t_seq = $t_segments[4];
                 $t_uri = './record/' . $t_handle_id . '/' . $t_seq . '/' . $t_filename;
-                $LogoLink = '<a href="' . $institutionUri . '" title="Link to Institution" target="_blank"><img src = "' . $t_uri . '" class="uni-thumbnail" /></a>';
+                $LogoLink = '<a title="Link to Institution" target="_blank" href="" data-toggle="modal" data-target="#newTabNotice" data-href="' . $institutionUri . '"><img src = "' . $t_uri . '" class="uni-thumbnail" /></a>';
 
                 echo $LogoLink;
             }
