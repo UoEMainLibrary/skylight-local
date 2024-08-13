@@ -862,6 +862,16 @@ h3.record-title {
     }
 }
 
+.btn-outline-secondary {
+    color: #616161;
+    border-color: #616161;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus-visible {
+    color: #fff;
+    background-color: #616161;
+    border-color: #616161;
+}
 
 /* ---------------------
 
@@ -913,6 +923,11 @@ select:focus-visible,
 input:focus {
     outline: 4px solid #ffd900 !important;
     box-shadow: 0 0 0 8px #00315F !important;
+}
+
+.w-100:focus-visible,
+a:focus-visible .record-thumbnail-search{
+    width: 100%;
 }
 
 /* ---------------------

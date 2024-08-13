@@ -25,7 +25,7 @@
             <div class="col-md-4 mx-auto">
 
                 <!-- Content -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Art Collections Curator</h5>
+                <h5 class="font-weight-bold mt-3 mb-4">Art Collections Curator</h5>
                 <p>University of Edinburgh<br/>
                     Main Library<br/>
                     30 George Square<br/>
@@ -42,7 +42,7 @@
             <div class="col-md-2 mx-auto">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                <h5 class="font-weight-bold mt-3 mb-4">Links</h5>
 
                 <ul class="list-unstyled">
                     <li>
@@ -68,7 +68,7 @@
             <div class="col-md-2 mx-auto">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                <h5 class="font-weight-bold mt-3 mb-4">Links</h5>
 
                 <ul class="list-unstyled">
                     <li>
