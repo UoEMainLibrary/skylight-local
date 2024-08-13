@@ -11,7 +11,7 @@ if (ENVIRONMENT == 'development') {
     $config['base_url'] = 'https://test.pointsofarrival.is.ed.ac.uk/';
 }
 else {
-    $config['skylight_ga_code'] = 'G-L20JS09H7H';
+    $config['skylight_ga_code'] = 'G-NTXY7KPHMD';
     $config['skylight_container_id'] = '49';
     $config['base_url'] = 'https://pointsofarrival.is.ed.ac.uk/';
 }

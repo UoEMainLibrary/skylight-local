@@ -12,14 +12,14 @@ if (ENVIRONMENT == 'development') {
 }
 else {
     $config['base_url'] = 'https://exhibitions.ed.ac.uk/';
-    $config['skylight_ga_code'] = 'UA-25737241-8';
+    $config['skylight_ga_code'] = '';
 }
 
 $config['skylight_theme'] = 'exhibitions';
 
 $config['skylight_fullname'] = 'Library and University Collections Exhibitions';
 
-$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_oaipmhcollection'] = 'hdl_10683_23132';
 

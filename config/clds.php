@@ -8,7 +8,7 @@ $config['skylight_fullname'] = 'Edinburgh University Collections';
 
 $config['skylight_tagline'] = 'Explore the University of Edinburgh Collections';
 
-$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_oaipmhcollection'] = 'hdl_10683_4';
 

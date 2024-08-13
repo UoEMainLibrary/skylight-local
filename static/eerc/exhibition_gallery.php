@@ -6,6 +6,7 @@ $title_field = $this->skylight_utilities->getField('Title');
 <div class="col-md-9 col-sm-9 col-xs-12">
     <br>
 
+<!--
     <p>In this space we present some creative reflections on material recorded for the Regional Ethnology of Scotland Project (RESP). These creative responses show the richness of the recordings as sources and become – in and of themselves – new sources which illuminate life and society.</p>
 
     <p>This changing space will display material – video, images, sound and text – as the RESP progresses.</p>
@@ -145,8 +146,65 @@ $title_field = $this->skylight_utilities->getField('Title');
             ?>
         </tr>
     </table>
+    -->
     <br>
+    <blockquote>
+    <h1 style="text-align: center">“Animal Encounters in the RESP Archive”</h1>
+    </blockquote>
+    <h3 style="text-align: center" >Exploring animal-human relationships across the Regional Ethnology of Scotland Project</h3>
     <br>
+    <div style="text-align: center">
+        <img src="<?php echo base_url()?>/theme/eerc/images/animal_encounters_resp.png" style="width: 80%"><br>
+        <br>
+        <a href='https://exhibitions.ed.ac.uk/exhibitions/animal-encounters' >https://exhibitions.ed.ac.uk/exhibitions/animal-encounters</a><br>
+    </div>
+    <br>
+    <p>
+        To explore RESP’s online exhibition Animal Encounters in the RESP Archive please click on the link above.  The exhibition,
+        curated and illustrated by Rebekah Day, reveals the varied and complex relationships that can exist between people and animals.
+        Through carefully selected audio recordings, images, and videos the exhibition highlights how connections between humans and
+        animals have shifted in recent decades: reflecting wider culture and environmental concerns present in Scottish society today.
+    </p>
+    <br>
+    <hr>
+    <br>
+    <blockquote>
+    <h1 style="text-align: center">“This was a right industrial wee town!”</h1>
+    </blockquote>
+    <h3 style="text-align: center" >A film about life and work in the Musselburgh Mills</h3>
+    <br>
+    <p>
+       The ‘Honest Toun’ is a place that, to some extent, sits on its own. Part of Midlothian until its governance transferred to East Lothian in 1975.
+       The size of Musselburgh’s population and the scale and range of its economy has, for long, reflected its historic status as a burgh.
+       Industry having been a key aspect of that large and diverse economy. Beginning in the nineteenth century through to the late twentieth century,
+       three large industrial endeavours were based in the town: Stuarts Net Mill; Bruntons Wire Mill and Inveresk Paper Mill.
+    </p>
+    <p>
+    This film tells the story of these mills through the words of those who worked and lived in the town and beyond. In partnership with the John Gray
+    Centre and Musselburgh Museum, the EERC interviewed a number of folk about their experiences in the mills. This film provides an introduction into
+    these very different workplaces which were such a significant part of the Town’s life for well over 100 years.<br>
+    Mark Mulhern, 2024
+    </p>
+    <br>
+    <div style="text-align: center">
+        <?php
+              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/56448/MILLS-revised-720.mp4";
+              $audio = '<video controls width="600" preload="auto" title="MILLS-revised" poster="/theme/eerc/images/MILLS-revised-720.png">';
+              $audio .= '<source src="' . $do_url . '">';
+              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
+              echo $audio;
+        ?>
+    </div>
+    <br>
+    <p>
+    Editor: Colin Gateley <br>
+    Music by: Enid Forsyth <br>
+    Moving images: Courtesy of moving Image Archive, National Library of Scotland
+    </p>
+    <hr>
+
+
+    <!--
     <h1>The Past is Still with Us</h1>
     <hr>
     <p>
@@ -181,6 +239,7 @@ $title_field = $this->skylight_utilities->getField('Title');
          echo $audio;
     ?>
     </div>
+    -->
 
     <!--
       <div style="float: left; max-width: 490px;">
@@ -195,5 +254,4 @@ $title_field = $this->skylight_utilities->getField('Title');
       </div>
       -->
 </div>
-<br>
-<br>
+
