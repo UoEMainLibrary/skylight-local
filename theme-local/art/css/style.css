@@ -988,3 +988,8 @@ input:focus {
         width: auto;
     }
 }
+
+.img-normal {
+    height: auto;
+    width: auto;
+}
