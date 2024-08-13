@@ -12,6 +12,7 @@ $bitstream_field = $this->skylight_utilities->getField('Bitstream');
 $thumbnail_field = $this->skylight_utilities->getField('Thumbnail');
 $abstract_field = $this->skylight_utilities->getField('Abstract');
 $subject_field = $this->skylight_utilities->getField('Subject');
+$image_uri_field = $this->skylight_utilities->getField('ImageUri');
 
 $base_parameters = preg_replace("/[?&]sort_by=[_a-zA-Z+%20. ]+/","",$base_parameters);
 if($base_parameters == "") {
@@ -87,7 +88,8 @@ else {
                             $lower_orig_filter = strtolower($author);
                             $lower_orig_filter = urlencode($lower_orig_filter);
 
-                            echo '<a class="artist" href="./search/*:*/Artist:%22'.$lower_orig_filter.'+%7C%7C%7C+'.$orig_filter.'%22">'.$author.'</a>';
+                            //echo '<a class="artist" href="./search/*:*/Artist:%22'.$lower_orig_filter.'+%7C%7C%7C+'.$orig_filter.'%22">'.$author.'</a>';
+                            echo '<a class="author" href="./search/*:*/Author:%22'.$lower_orig_filter.'+%7C%7C%7C+'.$orig_filter.'%22">'.$author.'</a>';
                             $num_authors++;
                             if($num_authors < sizeof($doc[$author_field])) {
                                 echo ' ';
@@ -127,8 +129,47 @@ else {
                     </div> <!-- close tags div -->
 
                 </div> <!-- close item-info -->
-
+                <!--thumbnails copied from mimed -->
                 <div class = "thumbnail-image">
+                    <?php
+                    $numThumbnails = 0;
+                    $imageset = false;
+                    $thumbnailLink = array();
+                    if (isset($doc[$image_uri_field]))
+                    {
+                        foreach ($doc[$image_uri_field] as $imageUri)
+                        {
+                            //change to stop LUNA erroring on redirect
+                            $imageUri = str_replace('http://', 'https://', $imageUri);
+                            list($width, $height) = getimagesize($imageUri);
+                            //echo 'WIDTH'.$width.'HEIGHT'.$height
+                            $portrait = true;
+                            if ($width > $height)
+                            {
+                                $parms = '/120,/0/';
+                            }
+                            else
+                            {
+                                $parms = '/,120/0/';
+                            }
+
+                            if (strpos($imageUri, 'luna') > 0)
+                            {
+                                $iiifurlsmall = str_replace('/full/0/', $parms, $imageUri);
+                                $thumbnailLink[$numThumbnails]  = '<a title = "' . $doc[$title_field][0] . '" class="fancybox" rel="group" href="' . $imageUri . '"> ';
+                                $thumbnailLink[$numThumbnails] .= '<img src = "' . $iiifurlsmall . '" class="record-thumbnail-search" title="' . $doc[$title_field][0] . '" /></a>';
+                                $numThumbnails++;
+                                $imageset = true;
+                            }
+                        }
+                        if ($imageset == true) {
+                            echo $thumbnailLink[0];
+                        }
+                    }
+                    ?>
+                    <?php
+                    ?>
+                    <!-- this is where bitstream code i temporarily pasted out goes. now pasted back in-->
                     <?php
 
                     $bitstream_array = array();

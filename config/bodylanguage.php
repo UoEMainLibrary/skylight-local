@@ -1,6 +1,7 @@
 <?php
 
 $config['skylight_appname'] = 'bodylanguage';
+$config['skylight_solr_core'] = 'solr/archivesspace';
 
 // Uncomment this if you are using a url of the form http://.../art/...
 $config['skylight_url_prefix'] = 'bodylanguage';
@@ -8,18 +9,18 @@ $config['skylight_url_prefix'] = 'bodylanguage';
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if(ENVIRONMENT == 'development') {
     $config['skylight_ga_code'] = '';
-    $config['skylight_link_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8081';
+    $config['skylight_link_url'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8081';
 
     if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
-        $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
 
     } else {
-        $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
     }
 }
 else {
     $config['skylight_ga_code'] = 'G-L20JS09H7H';
-    $config['skylight_solrbase'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8090/';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
     $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
 }
 

@@ -10,15 +10,16 @@ if (ENVIRONMENT == 'development') {
     $config['skylight_container_id'] = 'e78a064c-8d18-4e96-a160-f4e58a58cb39';
     $config['skylight_image_server'] = 'https://test.cantaloupe.is.ed.ac.uk';
     $config['base_url'] = 'https://test.sjac-collection.is.ed.ac.uk/';
+    $config['skylight_ga_code'] = 'G-V013BY5C7D';
 }
 else {
-    $config['skylight_ga_code'] = 'UA-25737241-14';
+    $config['skylight_ga_code'] = 'G-1JKP69ESME';
     $config['skylight_container_id'] = '6d02c71d-c4f3-4385-a963-26186e66d78b';
     $config['skylight_image_server'] = 'https://cantaloupe.is.ed.ac.uk';
     $config['base_url'] = 'https://sjac-collection.is.ed.ac.uk/';
 }
 
-$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_theme'] = 'jlss';
 

@@ -14,7 +14,7 @@
         <h3>Volunteer with us</h3>
         <p>There are a range of ways to get involved with our collections, and we have a number of volunteer opportunities
             to suit all abilities and areas of interest.  If you would like to volunteer with us, please go to:
-            <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc/volunteers-interns" target="_blank">volunteers and interns</a> for more information.
+            <a href="https://www.ed.ac.uk/visit/museums-galleries/heritage-collections/volunteers-interns" target="_blank" onclick="return warnNewTab()">volunteers and interns</a> for more information.
         </p>
         <h3>Library Foundation Fund</h3>
       <p>The <a href="http://www.ed.ac.uk/schools-departments/information-services/about/organisation/library-and-collections/library-foundation-fund" title="Library Foundation Fund">Library Foundation Fund</a>

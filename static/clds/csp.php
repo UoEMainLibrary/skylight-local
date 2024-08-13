@@ -47,7 +47,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/EUL0011.json" title="CSP/11"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -65,7 +65,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/EUL0281.json" title="CSP/281"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -87,7 +87,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/690_1811-196911821-28.json" title="690:1811-19 691:1821-28"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -105,7 +105,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/1801785-1800.json" title="180:1785-1800"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -123,7 +123,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/F_XXXIII_1741-42.json" title="F XXXIII: 1741-42"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -141,7 +141,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/Miscellaneous_Coll_x_Summer_Sess_813-814.json" title="Miscellaneous Coll x Summer Sess (813-814)"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -159,7 +159,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/General_Collection_of_Session_Papers_1831_12_FEB_-23_FEB_221_224-257.json" title="General Collection of Session Papers 1831 (12 FEB -23 FEB) 221; 224-753"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -177,7 +177,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/Chalmers_1765-1769" title="Chalmers 1765-1769"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -196,7 +196,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/Erskine_1_Vol._22.json" title="Erskine 1, Vol. 22"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>
@@ -218,7 +218,7 @@
 
                         <div class="curl"></div>
                         <a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/sessionpapers/volumes/IA_-_466A.json" title="IA - 466A"
-                           target="_blank"></a>
+                           target="_blank" onclick="return warnNewTab()"></a>
                     </div>
                 </figure>
             </div>

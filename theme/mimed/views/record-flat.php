@@ -213,7 +213,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
                             echo '<tr><td><h4>Zoomable Image(s)</h4>';
                         }
 
-                        echo '<a href="'. $linkURI . '" target="_blank"><i class="fa fa-file-image-o fa-2x">&nbsp;</i></a>';
+                        echo '<a href="'. $linkURI . '" target="_blank" onclick="return warnNewTab()"><i class="fa fa-file-image-o fa-2x">&nbsp;</i></a>';
 
                         $i++;
                     }

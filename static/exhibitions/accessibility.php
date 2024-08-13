@@ -88,7 +88,7 @@
 
             <h1 alt="exhibition title" class="access-h">What to do if you cannot access parts of this website</h1>
             <p id="" class="privacy-p" alt="exhibitions accessability details">
-                If you need information on this website in a different format like accessible PDF, large print, audio recording or braille please contact the Universities Collection team Helpline by emailing <a href="mailto: is-crc@ed.ac.uk">is-crc@ed.ac.uk</a> or phone <a href="tel: 0131 6502600">0131 6502600</a> (Tue-Sat) 
+                If you need information on this website in a different format like accessible PDF, large print, audio recording or braille please contact the Universities Collection team Helpline by emailing <a href="mailto: HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a> or phone <a href="tel: 0131 6502600">0131 6502600</a> (Tue-Sat) 
             </p>
             <p id="" class="privacy-p" alt="exhibitions accessability details">
                 We’ll consider your request and get back to you in 5 working days.
@@ -97,7 +97,7 @@
                 Reporting accessibility problems with this website
             </p>
             <p id="" class="privacy-p" alt="exhibitions accessability details">
-                We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements please let us know: by emailing <a href="mailto: is-crc@ed.ac.uk">is-crc@ed.ac.uk</a> or phone <a href="tel: 0131 6502600">0131 6502600</a> (Tue-Sat) 
+                We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements please let us know: by emailing <a href="mailto: HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a> or phone <a href="tel: 0131 6502600">0131 6502600</a> (Tue-Sat) 
             </p>
             <p id="" class="privacy-p" alt="exhibitions accessability details">
                 We’ll consider your request and get back to you in 5 working days.

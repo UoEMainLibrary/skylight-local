@@ -11,7 +11,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6">
-                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~75338~168228/full/500,/0/default.jpg" class="img-fluid">
+                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~75338~168228/full/500,/0/default.jpg" class="img-fluid" alt="Image of artwork: ‘Painted Lady 14’ - Jessica Harrison">
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
@@ -28,7 +28,7 @@
                     </p></div>
             </div>
             <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/Internal_loans.jpg" class="img-fluid">
+                <img src="<?php echo base_url(); ?>theme/art/images/Internal_loans.jpg" class="img-fluid" alt="Image of artwork: ‘Timepieces (Solar System)’ - Katie Paterson, 2014">
             </div>
         </div>
     </div>

@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
     color: #333;
+    font-size: 12pt;
 }
 
 #myCarousel {
@@ -58,7 +59,6 @@ body {
 }
 
 #navbar-smallword {
-    text-transform: uppercase;
     padding: 10px 0;
     font-weight: bold;
 }
@@ -171,14 +171,12 @@ body {
 
 .tab-col a {
     color: #004F71;
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 42px;
     text-align: center;
 }
 
 .tab-col span, .tab-visit h2, .tab-participate h2 {
-    text-transform: uppercase;
     font-size: 42px;
     text-align: center;
     word-spacing: -0.1em;
@@ -194,7 +192,6 @@ body {
 
 
 .tab-visit h4{
-    text-transform: uppercase;
     font-size: 26px;
     text-align: center;
     word-spacing: -0.1em;
@@ -421,7 +418,7 @@ fieldset[disabled] .btn-custom.active {
 .footer {
     background-color: #252525;
     font-size: 16px;
-    color: #ccc;
+    color: #fff;
     font-family: "Source Sans Pro", sans-serif;
     padding-top :10px;
     margin:0 0 0 0}
@@ -437,8 +434,8 @@ fieldset[disabled] .btn-custom.active {
 }
 
 .footer a {
-    color: #ccc;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .footer a.hover {
@@ -455,7 +452,6 @@ fieldset[disabled] .btn-custom.active {
     font-size: 1.8em;
     font-weight: 400;
     color: #ffffff;
-    text-transform: uppercase;
 }
 
 .container-footer-copyright
@@ -611,7 +607,7 @@ fieldset[disabled] .btn-custom.active {
         background-color: #F3E3D4;
     }
     #navbar-middle li {
-        font-size: 12px;
+        font-size: 12pt;
     }
     #navbar-right {
         position: relative;
@@ -642,7 +638,7 @@ fieldset[disabled] .btn-custom.active {
         font-size: 20px;
     }
     .footer p {
-        font-size: 11px;
+        font-size: 12pt;
     }
     #footer .container {
         width: 600px;
@@ -669,7 +665,7 @@ fieldset[disabled] .btn-custom.active {
         padding-top: 190px;
     }
     #navbar-middle li {
-        font-size: 14px;
+        font-size: 14pt;
     }
     #navbar-right {
         position: relative;
@@ -697,7 +693,7 @@ fieldset[disabled] .btn-custom.active {
         font-size: 25px;
     }
     .footer p {
-        font-size: 13px;
+        font-size: 13pt;
     }
     #footer .container {
         width: 870px;
@@ -742,7 +738,7 @@ fieldset[disabled] .btn-custom.active {
     }
 
     #navbar-middle li {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     #navbar-collapse ul li a {
@@ -842,9 +838,12 @@ fieldset[disabled] .btn-custom.active {
     
 }
 
-.banimage {
-    height:65% !important;
-    width:65% !important;
+.bantext {
+    font-family: inherit;
+    font-size: 50pt;
+    font-weight: bold;
+    color: #1A4367;
+    text-align: center;
 }
 
 .message {
@@ -858,10 +857,74 @@ fieldset[disabled] .btn-custom.active {
 
 .wrap{
     font-size:15pt;
-    text-align: justify;
 }
 .wrap-bold{
     font-size:15pt;
-    text-align: justify;
     font-weight:bold;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.navbar-nav>li>a {
+    text-decoration: none;
+}
+.navbar-nav>li>a:hover {
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 4px solid red;
+    outline-offset: -4px;
+    margin: 4px;
+    padding: 4px;
+    box-shadow: 0px 0px 0px 4px black;
+}
+
+.screen-reader-text {
+    position: absolute !important;
+    clip-path: circle(0%);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    word-wrap: normal!important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+    z-index: 100000;
+    top: 5px;
+    left: 5px;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    background-color: #F3E3D4;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: normal;
+    clip-path: circle(100%);
+    padding: 8px;
+}
+
+#content {
+    scroll-margin-top: 191px;
+}
+
+.form-control:focus-visible {
+    border: 2px solid #C7002E;
+    box-shadow: 0px -1px 11px 0px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 0, 0, .6)
+}
+
+.icon-addon .form-control:focus + .glyphicon {
+    color: #C7002E;
+}
+
+input:focus-visible {
+    box-shadow: 0px 0px 0px 5px #C7002E;
 }
