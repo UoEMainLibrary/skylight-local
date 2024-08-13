@@ -156,20 +156,19 @@ foreach ($subjects as $value) {
   //print_r($arra);
   //$record_id = $arra[0];
   if (isset($arra[1])) {
-    $place_name = $arra[1];
 
-    if (isset($arra[2])) {
-      $lon = $arra[2];
+      if (isset($arra[2])) {
+            $lon = $arra[2];
 
-      if (isset($arra[3])) {
-        $lat = $arra[3];
+            if (isset($arra[3])) {
+                $lat = $arra[3];
 
-//echo("locationsArray.push([".$lon.",".$lat.", '".$place_name."']);");
-echo("<script>locationsArray.push([".$lon.",".$lat.", '".$place_name."']);</script>");
+            //echo("locationsArray.push([".$lon.",".$lat.", '".$place_name."']);");
+            echo("<script>locationsArray.push([" . $lon . "," . $lat . ",'" . $arra[1] . "']);</script>");
 
+            };
+        };
   };
-};
-};
 
 };
 
@@ -514,16 +513,27 @@ map.add(clusters)
 */
   </script>
 </div>
+    <!-- Warn new tab for embeded links -->
+<script>
+  window.onload = function(){
+    const links = document.querySelectorAll('a[target="_blank"]');
+    links.forEach(link => {
+    link.setAttribute('onclick', 'return warnNewTab()');
+  })
+}
+</script>
 <br>
 <br>
     <div class="content byEditor">
         <h1 class="itemtitle">Explore our interactive map</h1>
 
 
-        <div style="float: left; max-width: 490px;"><!--p>how to use the map</p>-->
+        <div style="float: left;"><!--p>how to use the map</p>-->
 
-            <p>The above map displays the key geographical locations mentioned in RESP interviews. Pan, zoom, and click on a pin to reveal the place name. Click on the link in the pop-up window to view all interviews relating to the chosen pin.</p>
-          <p> More places will be added to the map as the digital catalogue grows!</p>
+            <p>The above map displays key geographical locations mentioned in RESP interviews. Pan, zoom, and click on a pin to reveal the place name. Click on the link in the pop-up window to view all interviews relating to the chosen pin.</p>
+            <p>More places will be added to the map as the digital catalogue grows.</p>
+            <p span style="color:#C20000; text-align:center;">Please bear with us if you find the map is running a little slow. We have been experiencing some technical difficulties but we are working on it.</span></p>
+
         </div>
 
 

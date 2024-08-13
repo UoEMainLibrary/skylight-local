@@ -99,6 +99,7 @@ $id = $this->skylight_utilities->getField("Id");
 
 $solr_base = $this->config->item("skylight_solrbase");
 $link_uri_prefix  = $this->config->item("skylight_link_url");
+$solr_collection = $this->config->item("skylight_solr_core");
 
 
 $mainImageTest = false;
@@ -184,7 +185,7 @@ $bitstreamLinks = array();
 
                                 }
                                 else if ($key == 'Audio links and images') {
-                                    $json = file_get_contents($solr_base . 'collection1/select?q=id%3A%22'.$metadatavalue.'%22%0A&wt=json&indent=true');
+                                    $json = file_get_contents($solr_base . $solr_collection.'/select?q=id%3A%22'.$metadatavalue.'%22%0A&wt=json&indent=true');
                                     //echo()
                                     $json_array = (array) json_decode($json, TRUE)['response']['docs'][0]['json'];
 
@@ -222,7 +223,7 @@ $bitstreamLinks = array();
                                                 $trans .= '<img src="/theme/eerc/images/file-odt-icon.png" alt="Transcript of interiew ' . $do_title_short . ' in ODT format"></a>';
                                             }*/ else if (endsWith($do_file, ['.pdf'])) {
                                                 $do_title_short = substr($do_title_short, 0, -2);
-                                                $trans .= '<a href="' . $do_url . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank">';
+                                                $trans .= '<a href="' . $do_url . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank" onclick="return warnNewTab()">';
                                                 $trans .= '<img src="/theme/eerc/images/file-pdf-icon.png" alt="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '"></a>';
                                                 //$trans .= $file_size;
                                             }
@@ -253,7 +254,7 @@ $bitstreamLinks = array();
                                     $interview_summary .= '<p>' . $metadatavalue . '</p>';
 
                                     if(sizeof($solr[$element])-1 == $index) {
-                                        $value .= '<div id="intsum">' . $interview_summary . '</div><script>$("#intsum").readmore({"collapsedHeight": 50, "moreLink": \'<a href = "#" class="moreless" title="Click to expand the interview summary box">...read more </a>\', "lessLink": \'<a href = "#" title="Click to shrink the interview summary box" class="moreless" >...read less </a >\'});</script>';
+                                        $value .= '<div id="intsum">' . $interview_summary . '</div><script>$("#intsum").readmore({"collapsedHeight": 50, "moreLink": \'<div style="margin: 0;"><p style="margin: 0;">...</p><a href = "#" class="moreless" title="Click to expand the interview summary box">read more</a></div>\', "lessLink": \'<div style="margin: 0;"><a href = "#" title="Click to shrink the interview summary box" class="moreless">read less</a></div>\'});</script>';
                                     }
                                     //$value .= '<div>' . $metadatavalue . '</div><script>$("#intsum").readmore({"collapsedHeight": 50, "moreLink": \'<a href="#" class="moreless">...read more</a>\', "lessLink": \'<a href="#" class="moreless">...read less</a>\'});</script>';
                                 }
@@ -281,7 +282,7 @@ $bitstreamLinks = array();
             <!--<tr><th>Consult at</th>
                     <?php
 
-                        /*echo '<td><a href="http://www.lhsa.lib.ed.ac.uk/" target="_blank"
+                        /*echo '<td><a href="http://www.lhsa.lib.ed.ac.uk/" target="_blank" onclick="return warnNewTab()"
                         title="Lothian Health Services Archive">Lothian Health Services Archive</a></td>';
                         */
                     ?>
@@ -291,14 +292,23 @@ $bitstreamLinks = array();
 
         <div class="row" style="float: right;">
             <button class="btn btn-info" onClick="history.go(-1);"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Back to Search Results</button>
-            <button class="btn btn-info" onClick="location.href= '<?php echo $link_uri_prefix . $solr[$id][0] ?>'"><span title="Full record at archives online">View full record in University of Edinburgh Archives Online</span> <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></button>
+            <!--button class="btn btn-info" onClick="location.href= '<?php echo $link_uri_prefix . $solr[$id][0] ?>'"><span title="Full record at archives online">View full record in University of Edinburgh Archives Online</span> <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></button-->
         </div>
 
-        <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox" style="clear: both; float: right;"></div>
+        <!-- Go to www.addthis.com/dashboard to customize your tools --> <!--div class="addthis_inline_share_toolbox" style="clear: both; float: right;"></div-->
 
         <?php //print_r($solr['dates']) ?>
     </div>
     <!--<div class="row">
 
     </div>-->
+        <!-- Warn new tab for embeded links -->
+    <script>
+        window.onload = function(){
+            const links = document.querySelectorAll('a[target="_blank"]:not([onclick="return warnNewTab()"])');
+            links.forEach(link => {
+            link.setAttribute('onclick', 'return warnNewTab()');
+            })
+        }
+    </script>
 </div>

@@ -11,13 +11,13 @@ $config['skylight_fullname'] = 'University of Edinburgh Collection Level Descrip
 
 // Global CodeIgniter ENVIRONMENT variable is set in skylight/index.php
 if (ENVIRONMENT == 'development') {
-    $config['skylight_ga_code'] = 'UA-25737241-6';
+    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
 }
 else {
-    $config['skylight_ga_code'] = 'UA-25737241-9';
+    $config['skylight_ga_code'] = 'G-L20JS09H7H';
 }
 
-$config['skylight_adminemail'] = 'is-crc@ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_oaipmhcollection'] = 'hdl_10683_6';
 

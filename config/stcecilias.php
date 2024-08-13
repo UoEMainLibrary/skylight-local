@@ -15,12 +15,12 @@ if (ENVIRONMENT == 'development') {
     $config['skylight_container_id'] = 'bac433ed-36a9-4660-b49c-49d3fd0bed2c';
 }
 else {
-    $config['skylight_ga_code'] = 'UA-25737241-9';
+    $config['skylight_ga_code'] = 'G-L20JS09H7H';
 
     $config['skylight_container_id'] = '5f407bc8-1f6c-4ab7-830a-66fac8e07c7f'; // This is the correct container_id mate, seriously
 }
 
-$config['skylight_adminemail'] = 'lddt@mlist.is.ed.ac.uk';
+$config['skylight_adminemail'] = 'HeritageCollections@ed.ac.uk';
 
 $config['skylight_oaipmhcollection'] = 'hdl_10683_14558';
 

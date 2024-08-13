@@ -11,7 +11,7 @@
                 <h5 class="mb-1">For more information on borrowing, gifting or of viewing artwork</h5>
             </li>
             <li class="list-inline-item">
-                <a href="mailto:is-crc@ed.ac.uk" class="btn btn-danger btn-rounded">Contact us!</a>
+                <a href="mailto:HeritageCollections@ed.ac.uk" class="btn btn-danger btn-rounded">Contact us!</a>
             </li>
         </ul>
         <!-- Call to action -->
@@ -25,7 +25,7 @@
             <div class="col-md-4 mx-auto">
 
                 <!-- Content -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Art Collections Curator</h5>
+                <h5 class="font-weight-bold mt-3 mb-4">Art Collections Curator</h5>
                 <p>University of Edinburgh<br/>
                     Main Library<br/>
                     30 George Square<br/>
@@ -42,7 +42,7 @@
             <div class="col-md-2 mx-auto">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                <h5 class="font-weight-bold mt-3 mb-4">Links</h5>
 
                 <ul class="list-unstyled">
                     <li>
@@ -68,7 +68,7 @@
             <div class="col-md-2 mx-auto">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                <h5 class="font-weight-bold mt-3 mb-4">Links</h5>
 
                 <ul class="list-unstyled">
                     <li>
@@ -81,7 +81,7 @@
                         <a href="https://collections.ed.ac.uk/art/licensing">Licensing & Copyright</a>
                     </li>
                     <li>
-                        <a href="https://collections.ed.ac.uk/art/accessibility">Acessibility</a>
+                        <a href="https://collections.ed.ac.uk/art/accessibility">Accessibility</a>
                     </li>
                 </ul>
 
@@ -103,22 +103,22 @@
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-            <a href="https://www.facebook.com/UniversityOfEdinburghFineArtCollection" class="btn-floating btn-fb mx-1">
+            <a href="https://www.facebook.com/UniversityOfEdinburghFineArtCollection" class="btn-floating btn-fb mx-1" title="UoE Fine Art Collection Facebook Page">
                 <i class="fab fa-facebook-f"> </i>
             </a>
         </li>
         <li class="list-inline-item">
-            <a href="https://twitter.com/UoEArtColl" class="btn-floating btn-tw mx-1">
+            <a href="https://twitter.com/UoEArtColl" class="btn-floating btn-tw mx-1" title="UoE Fine Art Collection Twitter Page">
                 <i class="fab fa-twitter"> </i>
             </a>
         </li>
         <li class="list-inline-item">
-            <a href="https://uoeartandarchives.tumblr.com/" class="btn-floating btn-gplus mx-1">
+            <a href="https://uoeartandarchives.tumblr.com/" class="btn-floating btn-gplus mx-1" title="UoE Fine Art Collection Tumblr Page">
                 <i class="fab fa-tumblr"></i>
             </a>
         </li>
         <li class="list-inline-item">
-            <a href="https://podcasts.apple.com/gb/podcast/the-collection-podcast/id1086099131" class="btn-floating btn-dribbble mx-1">
+            <a href="https://podcasts.apple.com/gb/podcast/the-collection-podcast/id1086099131" class="btn-floating btn-dribbble mx-1" title="UoE The Collection Podcast">
                 <i class="fab fa-itunes-note"></i>
             </a>
         </li>

@@ -132,7 +132,7 @@
                 $output = '<ul id="ul_' . $branch_count . '_' . $sub_branch_count . '" style="display: none;">';
             }
             else {
-                $output = '<ul id="ul_' . $branch_count . '">';
+                $output = '<ul id="ul_' . $branch_count . '" style="display: none;">';
                 $sub_branch_count = 0;
             }
 
@@ -186,7 +186,7 @@
         //print($index);
         /* <li class="overview_list" style="margin: 0.5em; font-size: 18px;"><button class="plus-button" onclick="toggleButton(this, '#ul_<?= $index ?>');">+</button>&nbsp;<?= cleanTitle($branch['title']) ?></li> */
         if($index == 0 || $index == 1) { ?>
-        <li class="overview_list" style="margin: 0.5em; font-size: 18px; font-weight: bold;"><button class="plus-button" onclick="toggleButton(this, '#ul_<?= $index ?>');">-</button>&nbsp;<?= cleanTitle($branch['title']) ?></li>
+        <li class="overview_list" style="margin: 0.5em; font-size: 18px; font-weight: bold;"><button class="plus-button" onclick="toggleButton(this, '#ul_<?= $index ?>');">+</button>&nbsp;<?= cleanTitle($branch['title']) ?></li>
         <?= getChildren($branch, $index, null) ?>
 
         <?php  } //print($value['title'] . '<br/>');

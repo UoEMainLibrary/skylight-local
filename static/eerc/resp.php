@@ -13,9 +13,7 @@
 
         <p>It has been our aim to develop a platform which is both user friendly, to allow full and easy interrogation of the collections, and also ensures the long term preservation and stability of the archive. The partnership between the EERC and the CRC means that we have been able to combine the complementary skills of the ethnologists with the curatorial knowledge of CRC archivists and also, very importantly, the development skills of the Digital Library team. The project has a dedicated Archivist and Archives Assistant who work alongside a Systems Developer who has built the user interface and created a dedicated digital preservation system. We have also been working with the CRC’s Digital Archivist who is creating an acquisitions procedure which will ensure a streamlined and sustainable workflow to allow for on-going and sustainable long-term ingest of material.</p>
 
-        <p>The initial stages of the project were focused on development and piloting both the digital preservation system and the user interface alongside catalogue content creation and screening. The first collection is now available to explore and enjoy and we will continue to add content over time as existing collections are prepared for release and new collections are created.</p>
-
-        <p>For further information on the processes behind the development of our Archive project, our digital preservation strategy or if you would simply like to learn more about the project, you can consult the documents attached.</p>
+        <p>The initial stages of the project were focused on development and piloting both the digital preservation system and the user interface alongside catalogue content creation and screening. The first two collections are now available to explore and enjoy and we will continue to add content over time as existing collections are prepared for release and new collections are created.</p>
 
         <p>This RESP Archive and this website are the result of an ongoing collaboration between the Centre for Research Collections (CRC) and the EERC, University of Edinburgh. The RESP Archive is managed and maintained as a University of Edinburgh Collection.</p>
 
@@ -31,7 +29,7 @@
 
         <img src="<?php echo base_url()?>/theme/eerc/images/resp-handwriting.png" alt="Part of a handwritten transcription from an interview" class="img-responsive center-block padded_images" style="margin-top: 1em; clear:both;" />
 
-        <p>Enquiries regarding the RESP Archive should be directed in the first instance to: <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a> Please address your enquiry to ‘<i>RESP Archive</i>’.</p>
+        <p>Enquiries regarding the RESP Archive should be directed in the first instance to: <a href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a> Please address your enquiry to ‘<i>RESP Archive</i>’.</p>
 
         <img src="<?php echo base_url()?>/theme/eerc/images/partnerships-resp.jpg" alt="Partnerships" width="300" class="img-responsive pull-right padded_images" style="margin-top: 1em; clear:both;" />
 

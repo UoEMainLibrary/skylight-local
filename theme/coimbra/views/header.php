@@ -44,15 +44,13 @@
     <script src="<?php echo base_url()?>assets/google-analytics/analytics.js"></script>
 
     <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','<?php echo base_url()?>assets/google-analytics/analytics.js','ga');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        ga('create', '<?php echo $ga_code ?>', 'auto');
-        ga('send', 'pageview');
-
+        gtag('config', '<?php echo $ga_code ?>');
     </script>
     <!-- End Google Analytics -->
 
@@ -86,9 +84,8 @@
 </head>
 
 <body>
-    <div id="loader">
-        <img class="logo" src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/logo.png"  alt="Coimbra Group Logo">
-        <h1>Coimbra Exhibition</h1>
+    <div class="skip-links">
+        <a class="screen-reader-text" href="<?php echo current_url(); ?>#content">Skip to content</a>
     </div>
     <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
@@ -98,7 +95,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="https://www.coimbra-group.eu/" title="Coimbra Group Website link" target="_blank"></a>
+                <a class="navbar-brand" href="" title="Coimbra Group Website link" target="_blank" data-toggle="modal" data-target="#newTabNotice" data-href="https://www.coimbra-group.eu/"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">

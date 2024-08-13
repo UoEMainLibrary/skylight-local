@@ -13,23 +13,30 @@
 
         <p><strong>Browse the Collections</strong></p>
 
-        <p>The <a href="/eerc/overview">Browse the Collections</a> page will take you to full searchable catalogue of the collection. To browse you can click through a series of drop down lists. The arrangement reflects the full archival catalogue and is by regional study, fieldworker, then individual interviewee.</p>
+        <p>The <a href="/eerc/overview">Browse the Collections</a> page will take you to full searchable catalogue of the collection. To browse you can click through a series of drop down lists by using the + and – buttons. The arrangement reflects the full archival catalogue and is by regional study, fieldworker, then individual interviewee.</p>
 
         <p>All audio recordings relating to individual interviews will be found by clicking on <i>Interviews of</i> pages.</p>
 
         <p>If you know the name of the individual interviewer or interviewee you are looking for, have the unique reference number or an idea of the subject area that you would like to explore you can search using the search box located on the header of each page. For best results when carrying out a name search, use surname only in the first instance. Alternatively you can click through listings of subjects and named persons, which are located on the left of each web page.</p>
 
-        <p>You can also search using the thumbnail images located on the ‘Home’ and ‘People’ pages. Click on any image from the montage to link through to that person’s page within the resource.</p>
+        <p>You can click on the thumbnail images located on the 'Home' and 'People' pages to take you through to the relevant catalogue record.</p>
 
-        <!--p>The full archival catalogue can also be searched via the <a href="https://archives.collections.ed.ac.uk/" target="_blank">University of Edinburgh Archives on-line catalogue</a>.</p-->
+        <!--p>The full archival catalogue can also be searched via the <a href="https://archives.collections.ed.ac.uk/" target="_blank" onclick="return warnNewTab()">University of Edinburgh Archives on-line catalogue</a>.</p-->
 
         <img src="<?php echo base_url()?>/theme/eerc/images/resp-montage.png" alt="Montage of interview photographs" class="img-responsive center-block padded_images" style="margin-top: 1em; clear:both;" />
 
+        <span style="clear:both;">
+          <img src="<?php echo base_url()?>/theme/eerc/images/example-map.png" alt="Example Map" width="300" class="img-responsive pull-right padded_images" />
+          <br style="line-height:400%;"/>
+          <p>Alternatively, you can explore the collection geographically via our <a href="/eerc/map">Interactive Map</a>.  Zoom in and out of the map and click on the pins to link through to a list of relevant interviews.</p>
+          <br style="line-height:600%;"/>
+        </span>
+        
         <p><strong>Access and Restrictions</strong></p>
 
         <p>Unless otherwise stated, permission for the material within this collection to be accessed as an on-line educational resource has expressly been given by all contributing parties.</p>
 
-        <p>We give permission for the re-use of our collections material for non-commercial purposes under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution Non-commercial 4.0 International Licence</a>.</p>
+        <p>We give permission for the re-use of our collections material for non-commercial purposes under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" onclick="return warnNewTab()">Creative Commons Attribution Non-commercial 4.0 International Licence</a>.</p>
 
         <p>If you intend to re-use any of the material with this collection please ensure that you attribute appropriately. We suggest use of the following statement ‘Recording courtesy of the Regional Ethnology of Scotland Project, European Ethnological Research Centre, University of Edinburgh. Copyright: Creative Commons Attribution Non-commercial 4.0 International Licence.’ </p>
 
@@ -55,7 +62,7 @@
 
         <p><strong>Takedown Policy</strong></p>
 
-        <p>In making material available online RESP acts in good faith. However, despite appropriate safeguards and due diligence searches prior to the release of any material, we recognise that from time to time material published online may be in breach of GDPR, contain sensitive personal data, or include content that may be regarded by some as offensive or defamatory. If you are concerned that you have found material on this website, which you feel is offensive or defamatory, or you are concerned that material pertaining to yourself is on this website without your permission, please contact us in writing and this issue will be dealt with immediately. For further advice regarding appropriate reporting procedures please follow this link <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/crc/services/copying-and-digitisation/image-licensing/takedown-policy" target="_blank">Takedown Policy</a>.</p>
+        <p>In making material available online RESP acts in good faith. However, despite appropriate safeguards and due diligence searches prior to the release of any material, we recognise that from time to time material published online may be in breach of GDPR, contain sensitive personal data, or include content that may be regarded by some as offensive or defamatory. If you are concerned that you have found material on this website, which you feel is offensive or defamatory, or you are concerned that material pertaining to yourself is on this website without your permission, please contact us in writing and this issue will be dealt with immediately. For further advice regarding appropriate reporting procedures please follow this link <a href="https://www.ed.ac.uk/library/heritage-collections/using-the-collections/digitisation/image-licensing/takedown-policy" target="_blank" onclick="return warnNewTab()">Takedown Policy</a>.</p>
 
         <img src="<?php echo base_url()?>/theme/eerc/images/resp-handwriting3.png" alt="Part of a handwritten transcription from an interview" class="img-responsive center-block padded_images" style="margin-top: 1em; clear:both;" />
 

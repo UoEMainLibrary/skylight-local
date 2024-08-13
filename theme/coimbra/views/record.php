@@ -84,7 +84,7 @@ $jsonwidth = $jobj['width'];
                     }
                     else {
                         if (stripos($element, "uri") !== FALSE) {
-                            echo '<a href="' . $solr[$element][0] . '" title="URL Links for item" target="_blank">' . $solr[$element][0] . '</a>';
+                            echo '<a href="" title="URL Links for item" target="_blank" data-toggle="modal" data-target="#newTabNotice" data-href="' . $solr[$element][0] . '">' . $solr[$element][0] . '</a>';
 
                         }
                         else {
@@ -119,7 +119,7 @@ $jsonwidth = $jobj['width'];
                 $t_handle_id = preg_replace('/^.*\//', '',$t_handle);
                 $t_seq = $t_segments[4];
                 $t_uri = './record/' . $t_handle_id . '/' . $t_seq . '/' . $t_filename;
-                $LogoLink = '<a href="' . $institutionUri . '" title="Link to Institution" target="_blank"><img src = "' . $t_uri . '" class="uni-thumbnail" /></a>';
+                $LogoLink = '<a href="" title="Link to Institution" target="_blank" data-toggle="modal" data-target="#newTabNotice" data-href="' . $institutionUri . '"><img src = "' . $t_uri . '" class="uni-thumbnail" /></a>';
 
                 echo $LogoLink;
             }

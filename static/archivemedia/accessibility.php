@@ -1,996 +1,542 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Accessibility statement for Archives Media website</title>
+	<style type="text/css">
+		p { line-height: 115%; text-align: left; margin: 0.25cm; direction: ltr; background: transparent }
+		h1 { color: #2f5496; text-align: left; page-break-inside: avoid; margin-top: 0.5cm; margin-bottom: 0.07cm; direction: ltr; background: transparent; page-break-after: avoid }
+		h1.western { font-family: "Calibri Light", serif; font-size: 16pt }
+		h1.cjk { font-family: ; font-size: 16pt }
+		h1.ctl { font-family: ; font-size: 16pt }
+		h2 { color: #2f5496; text-align: left; page-break-inside: avoid; margin-top: 0.5; margin-bottom: 0.25cm; direction: ltr; background: transparent; page-break-after: avoid }
+		h2.western { font-family: "Calibri Light", serif; font-size: 13pt }
+		h2.cjk { font-family: ; font-size: 13pt }
+		h2.ctl { font-family: ; font-size: 13pt }
+		h3 { color: #1f3763; text-align: left; page-break-inside: avoid; margin-top: 0.5; margin-bottom: 0.25cm; direction: ltr; background: transparent; page-break-after: avoid }
+		h3.western { font-family: "Calibri Light", serif }
+		h3.cjk { font-family:  }
+		h3.ctl { font-family:  }
+		a:link { color: #0563c1; text-decoration: underline }
+		a:visited { color: #954f72; text-decoration: underline }
+	</style>
 </head>
-<body>
-<h1>Accessibility statement for <a href="https://collections.ed.ac.uk/archivemedia">Archives Media</a></h1>
-<p>Website accessibility statement in line with Public Sector Body (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018</p>
-<p><a href="https://collections.ed.ac.uk/archivemedia">Archives Media</a> - <a href="https://collections.ed.ac.uk/archivemedia">https://collections.ed.ac.uk/archivemedia</a> &nbsp;&nbsp;is a website hosted by the University of Edinburgh Library on behalf of the University of Edinburgh. Archives Media is part of The University Collections it aims to represent all of the University Art Collection online through this resource. This is an ongoing process as the existing collection continues to be catalogued and photographed and also as new acquisitions are brought in.</p>
-<p>We want as many people as possible to be able to use our website. For example, this means you should be able to:</p>
+<body lang="en-GB" link="#0563c1" vlink="#954f72" dir="ltr"><p style="letter-spacing: -0.5pt; line-height: 100%; margin-bottom: 0cm">
+<font face="Calibri Light, serif"><font size="6" style="font-size: 28pt"><font face="Arial, serif"><font size="5" style="font-size: 17pt"><span lang="en-US"><b>Accessibility
+statement for </b></span></font></font><font color="#0563c1"><u><a href="https://collections.ed.ac.uk/archivemedia"><font face="Arial, serif"><font size="5" style="font-size: 17pt"><span lang="en-US"><b>Archives
+Media website</b></span></font></font></a></u></font></font></font></p>
+<p lang="en-US" style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Website
+accessibility statement inline with Public Sector Body (Websites and
+Mobile Applications) (No. 2) Accessibility Regulations 2018</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">This
+accessibility statement applies to:</font></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://collections.ed.ac.uk/archivemedia"><font face="Arial, serif">https://collections.ed.ac.uk/archivemedia</font></a></u></font></p>
+
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">This
+website is run by the </font><font color="#000000"><font face="Arial, serif"><span style="background: #ffffff">Library
+and University Collections Directorate which is part of Information
+Services Group at the University of Edinburgh</span></font></font><font face="Arial, serif">.
+We want as many people as possible to be able to use this
+application. For example, that means you should be able to:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
 <ul>
-    <li>change colours, contrast levels and fonts.</li>
-    <li>experience no time limits to content</li>
-    <li>navigate most of the website using just a keyboard</li>
-    <li>magnify up to 200%</li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Change
+	colours, contrast levels and fonts</font></p></li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Magnify
+	content to 500%</font></p></li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Navigate
+	most of the website using just a keyboard</font></p></li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif"><span lang="en-US">Navigate
+	most of the website using speech recognition software</span></font><font face="Arial, serif">&nbsp;</font></font></p></li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif"><span lang="en-US">Listen
+	to most of the website using a screen reader (including the most
+	recent versions of </span></font><font face="Arial, serif">Job
+	Access with Speech (</font><font face="Arial, serif"><span lang="en-US">JAWS),
+	NonVisual Desktop Access (NVDA) and VoiceOver);</span></font><font face="Arial, serif">&nbsp;</font></font></p></li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif">Experience
+	no time limits when using the site,</font></font></p></li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif">Not
+	encounter any flashing, scrolling or moving text</font></font></p></li>
 </ul>
-<h2>Customising the website</h2>
-<p>AbilityNet has advice on making your device easier to use if you have a disability.</p>
-<p><a href="https://mcmw.abilitynet.org.uk/">AbilityNet - My computer my way</a></p>
-<p>With a few simple steps you can customise the appearance of our website to make it easier to read and navigate.</p>
-<p><a href="https://www.ed.ac.uk/about/website/accessibility/customising-site">Additional information on how to customise our website appearance</a></p>
-<p>If you are a member of the University staff or a student you can use the free Sensus Access accessible document conversion service.</p>
-<p><a href="https://www.ed.ac.uk/student-disability-service/staff/supporting-students/accessible-technology">SenusAccess Information</a></p>
-<h2>How accessible this website is</h2>
-<p>We know some parts of this website are not fully accessible:</p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">We’ve
+also made the website text as simple as possible to understand.
+However, some of our content is technical, and we use technical terms
+where there is no easier wording we could use without changing what
+the text means.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h1 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Customising
+the website</font></font></h1>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">
+AbilityNet
+has advice on making your device easier to use if you have a
+disability. This is an external site with suggestions to make your
+computer more accessible:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://mcmw.abilitynet.org.uk/"><font color="#346dbf"><font face="Arial, serif"><span style="background: #ffffff">AbilityNet
+- My Computer My Way</span></font></font></a></u></font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">With
+a few simple steps you can customise the appearance of our website
+using your browser settings to make it easier to read and navigate:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://www.ed.ac.uk/about/website/accessibility/customising-site" target="Customising our site"><font color="#346dbf"><font face="Arial, serif"><span style="background: #ffffff">Additional
+information on how to customise our website appearance</span></font></font></a></u></font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">If
+you are a member of University staff or a student, you can use the
+free SensusAccess accessible document conversion service:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://www.ed.ac.uk/student-disability-service/staff/supporting-students/accessible-technology"><font color="#346dbf"><font face="Arial, serif"><span style="background: #ffffff">Information
+on SensusAccess</span></font></font></a></u></font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">How
+accessible this website is</font></font></h2>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">We
+know some parts of this website are not fully accessible:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
 <ul>
-    <li>some non-text content does not have text alternatives</li>
-    <li>some parts may not be fully compatible with screen readers &nbsp;</li>
-    <li>some colour contrasts do not meet recommended guidance</li>
-    <li>some of our page titles do not fully describe the page content</li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif">Some
+	colour contrasts do not meet WCAG 2.2 standards</font></font></p></li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif">Reflow
+	is not enabled to 400%</font></font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">Some
+	selection displays on the website lack visibility meaning user may
+	struggle to see where they have navigated to on the site</font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">Keyboard
+	navigation does not follow a logical order</font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">There
+	is no “Skip to main content” link or button</font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">Screen
+	readers are not fully compatible with the site</font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">Tooltips
+	cannot be reached by keyboard navigation or assistive technology</font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">Voice
+	recognition software is not fully compatible with the site</font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">Some
+	hyperlinks open new tabs/windows without warning the user</font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">Missing
+	spellcheck functionality for all free text boxes</font></p></li>
+	<li><p style="line-height: 115%; margin-bottom: 0.35cm"><font face="Arial, serif">Transcriptions,
+	captions, and audio descriptions were all missing from audio content</font></p></li>
 </ul>
-<h3>Feedback and contact information</h3>
-<p>If you need information on this website in a different format like accessible PDF, large print, audio recording or braille please contact the website team by contacting us:</p>
-<p>By using the IS Helpline online contact form</p>
-<p><a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline contact form</a></p>
-<p>Or phoning</p>
-<p>+44 (0)131 651 5151</p>
-<p>Or email</p>
-<p>Information.systems@ed.ac.uk</p>
-<p>We&rsquo;ll consider your request and get back to you in 5 working days.</p>
-<h2>Reporting accessibility problems with this website</h2>
-<p>We&rsquo;re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we&rsquo;re not meeting accessibility requirements please let us know by contacting:</p>
-<p>By using the IS Helpline online contact form</p>
-<p><a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline contact form</a></p>
-<p>Or phoning</p>
-<p>+44 (0)131 651 5151</p>
-<p>Or email</p>
-<p><a href="mailto:Information.systems@ed.ac.uk">Information.systems@ed.ac.uk</a></p>
-<p>We&rsquo;ll consider your request and get back to you in 5 working&nbsp;days.</p>
-<h2>Enforcement procedure</h2>
-<p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the &lsquo;accessibility regulations&rsquo;). If you&rsquo;re not happy with how we respond to your complaint please contact the Equality Advisory and Support Service (EASS) directly.</p>
-<p><a href="https://www.equalityadvisoryservice.com/">Contact details for the Equality Advisory and Support Service (EASS)</a></p>
-<p>The government has produced information on how to report accessibility issues:</p>
-<p><a href="https://www.gov.uk/reporting-accessibility-problem-public-sector-website">Reporting an accessibility problem on a public sector website</a></p>
-<p>&nbsp;</p>
-<h2>Contacting us by phone using British Sign Language</h2>
-<h3>British Sign Language service</h3>
-<p>British Sign Language Scotland runs a service for British Sign Language users and all of Scotland&rsquo;s public bodies using video relay. This enables sign language users to contact public bodies and vice versa. The service operates from 8am to 12 midnight, 7 days a week.&nbsp;</p>
-<p><a href="https://contactscotland-bsl.org/">British Sign Language Scotland service details</a></p>
-<h2>Technical information about this website&rsquo;s accessibility</h2>
-<p>The University of Edinburgh is committed to making its websites accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
-<h3>Compliance Status</h3>
-<p>This website is partially compliant with the Web Content Accessibility Guidelines 2.1 AA standard, due to the non-compliances listed below</p>
-<p>The full guidelines are available at</p>
-<p>&nbsp;<a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines version 2.1</a></p>
-<h3>Non accessible content</h3>
-<p>The content listed below is non-accessible for the following reasons.</p>
-<p>The following items to not comply with the WCAG 2.1 AA success criteria</p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Feedback
+and contact information</font></font></h2>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">If
+you need information on this website in a different format, including
+accessible PDF, large print, audio recording or braille please
+contact us:<br/>
+</font><br/>
+
+</p>
 <ul>
-    <li>Some parts may not be fully compatible with screen readers.</li>
-    <ul>
-        <li><a href="https://www.w3.org/TR/WCAG21/#non-text-content">1.1.1 Non Text Content</a></li>
-    </ul>
-    <li>Some parts may not be fully compatible with screen readers.</li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">By
+	using the IS Helpline online contact form:</font></p></li>
+</ul>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+<font color="#0563c1"><u><a href="https://www.ishelpline.ed.ac.uk/forms/"><font face="Arial, serif">IS
+Helpline contact form</font></a></u></font></p>
+<ul>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Or
+	phoning:</font></p></li>
+</ul>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+<font face="Arial, serif">+44 (0)131 651 5151</font></p>
+<ul>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Or
+	email:</font></p></li>
+</ul>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+<font color="#0563c1"><u><a href="mailto:Information.systems@ed.ac.uk"><font face="Arial, serif">Information.systems@ed.ac.uk</font></a></u></font><font face="Arial, serif">
+<br/>
+</font><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">British
+Sign Language (BSL) users can contact us via&nbsp;Contact Scotland
+BSL, the on-line BSL interpreting service:<br/>
+</font><br/>
+
+</p>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+<font color="#0563c1"><u><font face="Arial, serif"><a href="https://contactscotland-bsl.org/">Contact
+Scotland BSL</a><br/>
+</font></u></font><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">We’ll
+consider your request and get back to you in 5 working days.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Reporting
+accessibility problems with this website</font></font></h2>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif"><br/>
+We
+are always looking to improve the accessibility of this website. If
+you find any problems not listed on this page, or think we’re not
+meeting accessibility requirements, please contact us:&nbsp;<br/>
+</font><br/>
+
+</p>
+<ul>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">By
+	using the IS Helpline online contact form:</font></p></li>
+</ul>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+<font color="#0563c1"><u><a href="https://www.ishelpline.ed.ac.uk/forms/"><font face="Arial, serif">IS
+Helpline contact form</font></a></u></font></p>
+<ul>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Or
+	phoning:</font></p></li>
+</ul>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+<font face="Arial, serif">+44 (0)131 651 5151</font></p>
+<ul>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Or
+	email:</font></p></li>
+</ul>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+<font color="#0563c1"><u><a href="mailto:Information.systems@ed.ac.uk"><font face="Arial, serif">Information.systems@ed.ac.uk</font></a></u></font><font face="Arial, serif">
+<br/>
+</font><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><a name="_Hlk153453333"></a>
+<font face="Arial, serif">British Sign Language (BSL) users can
+contact us via&nbsp;Contact Scotland BSL, the on-line BSL
+interpreting service:<br/>
+</font><br/>
+
+</p>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+<font color="#0563c1"><u><font face="Arial, serif"><a href="https://contactscotland-bsl.org/">Contact
+Scotland BSL</a><br/>
+</font></u></font><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">We
+will consider your request and get back to you in 5 working days.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Enforcement
+procedure</font></font></h2>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif"><br/>
+The
+Equality and Human Rights Commission (EHRC) is responsible for
+enforcing the Public Sector Bodies (Websites and Mobile Applications)
+(No. 2) Accessibility Regulations 2018 (the ‘accessibility
+regulations’). If you’re not happy with how we respond to your
+complaint please contact the Equality Advisory and Support Service
+(EASS) directly:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://www.equalityadvisoryservice.com/"><font face="Arial, serif">Contact
+details for the Equality Advisory and Support Service (EASS)</font></a></u></font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">The
+government has produced information on how to report accessibility
+issues:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://www.gov.uk/reporting-accessibility-problem-public-sector-website"><font color="#346dbf"><font face="Arial, serif"><span style="background: #ffffff">Reporting
+an accessibility problem on a public sector website</span></font></font></a></u></font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Contacting
+us by phone using British Sign Language</font></font></h2>
+<p style="line-height: 100%; margin-top: 0.53cm; margin-bottom: 0.26cm">
+<font color="#000000"><font face="Arial, serif"><font size="4" style="font-size: 14pt"><span lang="en-US">British
+Sign Language service</span></font></font></font></p>
+<p style="line-height: 100%; margin-bottom: 0.26cm"><font face="Arial, serif"><span lang="en-US">Contact
+Scotland BSL runs a service for British Sign Language users and all
+of Scotland’s public bodies using video relay. This enables sign
+language users to contact public bodies and vice versa. The service
+operates from 8.00am to 12.00am, 7 days a week.</span></font></p>
+<p style="line-height: 100%; margin-bottom: 0.26cm"><a href="https://contactscotland-bsl.org/"><font color="#0563c1"><u><font face="Arial, serif"><span lang="en-US">Contact
+Scotland BSL service details</span></font></u></font><font color="#333333"><font face="Arial, serif"><span lang="en-US">.</span></font></font></a></p>
+<p style="line-height: 100%; margin-bottom: 0.26cm"><br/>
+<br/>
+
+</p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Technical
+information about this website’s accessibility</font></font></h2>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">The
+University of Edinburgh is committed to making its websites and
+applications accessible, in accordance with the Public Sector Bodies
+(Websites and Mobile Applications) (No. 2) Accessibility Regulations
+2018.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="4" style="font-size: 16pt"><span lang="en-US">Compliance
+Status</span></font></font></h2>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">This
+website is partially compliant with the Web Content Accessibility
+Guidelines (WCAG) 2.2 AA standard, due to the non-compliances listed
+below.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">The
+full guidelines are available at:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/"><font color="#346dbf"><font face="Arial, serif"><span style="background: #ffffff">Web
+Content Accessibility Guidelines (WCAG) 2.2 AA standard</span></font></font></a></u></font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Non
+accessible content</font></font></h2>
+<p style="line-height: 100%; margin: 0cm">
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">The
+content listed below is non-accessible for the following reasons.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h3 class="western"><font face="Arial, serif"><b>Noncompliance with
+the accessibility regulations<br/>
+</b></font><br/>
+
+</h3>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">The
+following items to not comply with the WCAG 2.2 AA success criteria:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Not
+	all non-text content had a text alternative</font></p></li>
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#non-text-content"><font face="Arial, serif">1.1.1
+	Non Text Content</font></a></u></font><br/></p></li>
+</ul>
+</ul>
+<p style="line-height: 100%; margin-left: 2.54cm; margin-bottom: 0cm">
+ 
+</p>
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">For
+	pre -recorded audio only there is no alternative </font>
+	</p>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0.42cm"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded"><font face="Arial, serif">1.2.1
+		- Audio Only and Video Only (prerecorded) </font></a></u></font><br/></p></li>
+	</ul>
+</ul>
+
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">None
+	of the audio content had transcriptions or audio descriptions</font></p></li>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0.42cm">
+		<font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded"><font face="Arial, serif">1.2.3
+		- Audio description or Alternative media content</font></a></u></font><br/></p></li>
+	</ul>
+</ul>
+
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Keyboard
+	navigation does not always follow a logical order</font></p>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0.42cm"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#meaningful-sequence"><font face="Arial, serif">1.3.2
+		- Meaningful Sequence</font></a></u></font><br/></p></li>
+	</ul>
+</ul>
+
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif">There
+	were several colour contrast issues</font></font></p></li>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum"><font face="Arial, serif">1.4.3
+		- Contrast (Minimum)</font></a></u></font><br/></p></li>
+	</ul>
+</ul>
+<p style="line-height: 100%; margin: 0cm"></p>
+
+</p>
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Reflow
+	is not enabled up to 400%</font></p>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0.42cm"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#reflow"><font face="Arial, serif">1.4.10
+		- Reflow</font></a></u></font><font color="#0563c1"><font face="Arial, serif"><u>
+		</u></font></font><br/></p></li>
+	</ul>
 </ul>
 <ul>
-    <li><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships">3.1 Info and Relationships</a></li>
-    <li><a href="https://www.w3.org/TR/WCAG21/#parsing">1.1 Parsing</a></li>
-    <li><a href="https://www.w3.org/TR/WCAG21/#name-role-value">1.2 Name, Role, Value</a></li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Tooltips
+	cannot be reached by keyboard navigation or with assistive
+	technology</font></p>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0cm"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus"><font face="Arial, serif">1.4.13
+		– Content on Hover or Focus</font></a></u></font></p></li>
+	</ul>
+</ul>
+<p style="line-height: 100%; margin-left: 1.27cm; margin-bottom: 0cm">
+
+</p>
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">There
+	is no skip to main content button in the website</font></p>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0.42cm"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#bypass-blocks"><font face="Arial, serif">2.4.1
+		- Bypass Blocks</font></a></u></font></p></li>
+	</ul>
 </ul>
 <ul>
-    <li>Some colour contrasts do not meet recommended guidance
-        <ul>
-            <li><a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast">4.3 -Contrast (Minimum)</a></li>
-        </ul>
-    </li>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif">When
+	navigating by keyboard it can be unclear where you have tabbed to</font></font></p></li>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#focus-visible" target="_blank"><font face="Arial, serif">2.4.7
+		- Focus Visible</font></a></u></font><font color="#0563c1"><u>
+		</u></font></font><br/></p></li>
+	</ul>
+</ul>
+
+<ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif">Some
+	hyperlinks open link in new tab/window, and some popups do not alert
+	the user</font></font></p></li>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><a href="https://www.w3.org/TR/WCAG22/#on-input" target="_blank"><font color="#0563c1"><font face="Arial, serif"><u>3.2.2
+		- On Input</u></font></font></a></font><br/></p></li>
+	</ul>
 </ul>
 <ul>
-    <li>Some of our page titles do not fully describe the page content</li>
-    <ul>
-        <li><a href="https://www.w3.org/TR/WCAG21/#page-titled">2.4.2 Page Titled</a></li>
-    </ul>
+	<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font face="Arial, serif">Not
+	all user interface components are labelled correctly resulting in
+	compatibility issues with assistive software </font></font>
+	</p></li>
+	<ul>
+		<li><p style="line-height: 100%; margin-bottom: 0cm"><font face="Times New Roman, serif"><font color="#0563c1"><u><a href="https://www.w3.org/TR/WCAG22/#name-role-value"><font face="Arial, serif">4.1.2
+		Name-Role-Value</font></a></u></font></font><br/></p></li>
+	</ul>
 </ul>
-<p>&nbsp;</p>
-<p>Unless specified otherwise, wherever possible a complete solution or significant improvement will be in place by July 2022 where the issues are within our control.</p>
-<h3>Disproportionate burden</h3>
-<p>We are not currently claiming that any&nbsp;accessibility problems would be a disproportionate burden to fix.&nbsp;</p>
-<h3>Content that is not within the Scope of the Accessibility Regulations</h3>
-<p>At this time we are not claiming any material is out of scope.</p>
-<h2>What we're doing to improve accessibility</h2>
-<p>We will continue to work with our in house developers to address these issues and deliver a solution or suitable workaround and correct issues directly where they are under our control.</p>
-<p>We will continue to monitor accessibility and will carry out further accessibility testing if significant changes are made to the user interface or if a service user raises an issue. To plan to resolve the issues that are within our control by July 2022. We plan to manual review the accessibility of the site and make improvements and update this statement before July 2022.Where we are unable to resolve an issue or where an issue is out with our control we will ensure reasonable adjustments are put in place to ensure no user is disadvantaged</p>
-<h3>Information Services and accessibility</h3>
-<p>Information Services (IS) has further information on accessibility including assistive technology, creating accessible documents, and services IS provides for disabled users.</p>
-<p><a href="https://www.ed.ac.uk/information-services/help-consultancy/accessibility">Assistive technology, creating accessible documents, and services IS provides for disabled users</a></p>
-<h2>&nbsp;Preparation of this accessibility statement</h2>
-<p><strong>This statement was prepared on 15<sup>th</sup> September 2021. It was last reviewed on 15<sup>th</sup> September 2021.</strong></p>
-<p>This website was last tested on 30<sup>th</sup> June 2020. The test was carried out by The University Library and University Collections Digital Library team using the automated LittleForest tool. The website is scheduled for manual testing by July 2022.</p>
-<p>We did not use sample pages for testing - all pages were run through LittleForest.</p>
-<p>Little Forrest claims it tests the following WCAG criteria either partially or wholly</p>
-<table width="449">
-<tbody>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.1.1</p>
-    </td>
-    <td width="250">
-        <p>Non-text Content</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.2.1</p>
-    </td>
-    <td width="250">
-        <p>Audio-only and Video-only (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.2.2</p>
-    </td>
-    <td width="250">
-        <p>Captions (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.2.3</p>
-    </td>
-    <td width="250">
-        <p>Audio Description or Media Alternative (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.3.1</p>
-    </td>
-    <td width="250">
-        <p>Info and Relationships</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.3.2</p>
-    </td>
-    <td width="250">
-        <p>Meaningful Sequence</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.3.3</p>
-    </td>
-    <td width="250">
-        <p>Sensory Characteristics</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.4.1</p>
-    </td>
-    <td width="250">
-        <p>Use of Color</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>1.4.2</p>
-    </td>
-    <td width="250">
-        <p>Audio Control</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.1.1</p>
-    </td>
-    <td width="250">
-        <p>Keyboard</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.1.2</p>
-    </td>
-    <td width="250">
-        <p>No Keyboard Trap</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.2.1</p>
-    </td>
-    <td width="250">
-        <p>Timing Adjustable</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.2.2</p>
-    </td>
-    <td width="250">
-        <p>Pause, Stop, Hide</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.3.1</p>
-    </td>
-    <td width="250">
-        <p>Three Flashes or Below Threshold</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.4.1</p>
-    </td>
-    <td width="250">
-        <p>Bypass Blocks</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.4.2</p>
-    </td>
-    <td width="250">
-        <p>Page Titled</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.4.3</p>
-    </td>
-    <td width="250">
-        <p>Focus Order</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>2.4.4</p>
-    </td>
-    <td width="250">
-        <p>Link Purpose (In Context)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.1.1</p>
-    </td>
-    <td width="250">
-        <p>Language of Page</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.2.1</p>
-    </td>
-    <td width="250">
-        <p>On Focus</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.2.2</p>
-    </td>
-    <td width="250">
-        <p>On Input</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.3.1</p>
-    </td>
-    <td width="250">
-        <p>Error Identification</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>3.3.2</p>
-    </td>
-    <td width="250">
-        <p>Labels or Instructions</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>4.4.1</p>
-    </td>
-    <td width="250">
-        <p>Parsing</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.0</p>
-    </td>
-    <td width="49">
-        <p>A</p>
-    </td>
-    <td width="76">
-        <p>4.4.2</p>
-    </td>
-    <td width="250">
-        <p>Name, Role, Value</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.2.4</p>
-    </td>
-    <td width="250">
-        <p>Captions (Live)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.2.5</p>
-    </td>
-    <td width="250">
-        <p>Audio Description (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.4.3</p>
-    </td>
-    <td width="250">
-        <p>Contrast (Minimum)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.4.4</p>
-    </td>
-    <td width="250">
-        <p>Resize Text</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.4.5</p>
-    </td>
-    <td width="250">
-        <p>Images of Text</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>2.4.5</p>
-    </td>
-    <td width="250">
-        <p>Multiple Ways</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>2.4.6</p>
-    </td>
-    <td width="250">
-        <p>Headings and Labels</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>2.4.7</p>
-    </td>
-    <td width="250">
-        <p>Focus Visible</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.1.2</p>
-    </td>
-    <td width="250">
-        <p>Language of Parts</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.2.3</p>
-    </td>
-    <td width="250">
-        <p>Consistent Navigation</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.2.4</p>
-    </td>
-    <td width="250">
-        <p>Consistent Identification</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.3.3</p>
-    </td>
-    <td width="250">
-        <p>Error Suggestion</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>3.3.4</p>
-    </td>
-    <td width="250">
-        <p>Error Prevention (Legal, Financial, Data)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.2.6</p>
-    </td>
-    <td width="250">
-        <p>Sign Language (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.2.7</p>
-    </td>
-    <td width="250">
-        <p>Extended Audio Description (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.2.8</p>
-    </td>
-    <td width="250">
-        <p>Media Alternative (Prerecorded)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.2.9</p>
-    </td>
-    <td width="250">
-        <p>Audio-only (Live)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.4.6</p>
-    </td>
-    <td width="250">
-        <p>Contrast (Enhanced)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.4.7</p>
-    </td>
-    <td width="250">
-        <p>Low or No Background Audio</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.4.8</p>
-    </td>
-    <td width="250">
-        <p>Visual Presentation</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>1.4.9</p>
-    </td>
-    <td width="250">
-        <p>Images of Text (No Exception)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.1.3</p>
-    </td>
-    <td width="250">
-        <p>Keyboard (No Exception)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.2.3</p>
-    </td>
-    <td width="250">
-        <p>No Timing</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.2.4</p>
-    </td>
-    <td width="250">
-        <p>Interruptions</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.2.5</p>
-    </td>
-    <td width="250">
-        <p>Re-authenticating</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.3.2</p>
-    </td>
-    <td width="250">
-        <p>Three Flashes</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.4.8</p>
-    </td>
-    <td width="250">
-        <p>Location</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.4.9</p>
-    </td>
-    <td width="250">
-        <p>Link Purpose (Link Only)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>2.4.10</p>
-    </td>
-    <td width="250">
-        <p>Section Headings</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.1.3</p>
-    </td>
-    <td width="250">
-        <p>Unusual Words</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.1.4</p>
-    </td>
-    <td width="250">
-        <p>Abbreviations</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.1.5</p>
-    </td>
-    <td width="250">
-        <p>Reading</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.1.6</p>
-    </td>
-    <td width="250">
-        <p>Pronunciation</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.2.5</p>
-    </td>
-    <td width="250">
-        <p>Change on Request</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.3.5</p>
-    </td>
-    <td width="250">
-        <p>Help</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AAA</p>
-    </td>
-    <td width="76">
-        <p>3.3.6</p>
-    </td>
-    <td width="250">
-        <p>Error Prevention (All)</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.3.4</p>
-    </td>
-    <td width="250">
-        <p>Orientation</p>
-    </td>
-</tr>
-<tr>
-    <td width="73">
-        <p>WCAG 2.1</p>
-    </td>
-    <td width="49">
-        <p>AA</p>
-    </td>
-    <td width="76">
-        <p>1.3.5</p>
-    </td>
-    <td width="250">
-        <p>Identify Input Purpose</p>
-    </td>
-</tr>
-</tbody>
-</table>
+
+<p style="line-height: 100%; margin: 0cm">
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">We
+aim to improve our websites accessibility on a regular and continuous
+basis. See the section below ('What we're doing to improve
+accessibility') on how we are improving our site accessibility. </font>
+</p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">We
+are working towards solving these problems and expect several
+improvements by February 2025. The site is fully within our control.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Disproportionate
+burden</font></font></h2>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">
+We are not currently claiming that any accessibility problems would be a disproportionate burden to fix.</font></p>
+<p style="line-height: 100%; margin: 0cm">
+	<br>
+</p>
+<h3 class="western"><font face="Arial, serif"><font size="5" style="font-size: 15pt">Content
+that’s not within the scope of the accessibility regulations</font></font></h3>
+
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">At
+this time we believe no content is outwith the scope of the
+accessibility regulations.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">What
+we’re doing to improve accessibility</font></font></h2>
+<p style="line-height: 100%; margin: 0cm">
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">We
+will continue to address and make adequate improvements to the
+accessibility issues highlighted. Unless specified otherwise, a
+complete solution or significant improvement will be in place by
+February 2025. </font>
+</p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">While
+we are in the process of resolving these accessibility issues we will
+ensure reasonable adjustments are in place to make sure no user is
+disadvantaged. As changes are made, we will continue to review
+accessibility and retest the accessibility of this website.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h2 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Preparation
+of this accessibility statement
+</font></font><br/>
+
+</h2>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif"><b>This
+statement was prepared on 24</b></font><sup><font face="Arial, serif"><b>th</b></font></sup><font face="Arial, serif"><b>
+of March 2023. It was last reviewed on 29</b></font><sup><font face="Arial, serif"><b>th</b></font></sup><font face="Arial, serif"><b>
+March 2024.</b></font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif"><b>The
+website was last tested on March 2024. The testing was carried out by
+the </b></font><font color="#000000"><font face="Arial, serif"><b><span style="background: #ffffff">Library
+and University Collections Directorate which is part of Information
+Services Group at the University of Edinburgh </span></b></font></font><font face="Arial, serif">using
+both automated and manual methods. The site was tested on a PC,
+primarily using Microsoft Edge alongside Mozilla Firefox and Google
+Chrome.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">Recent
+world-wide usage levels survey for different screen readers and
+browsers shows that Chrome, Mozilla Firefox and Microsoft Edge are
+increasing in popularity and Google Chrome is now the favoured
+browser for screen readers:</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><a href="https://webaim.org/projects/screenreadersurvey9/"><font color="#0563c1"><font face="Arial, serif"><u>WebAIM:
+Screen Reader User Survey</u></font></font></a></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">The
+aforementioned three browsers have been used in certain questions for
+reasons of breadth and variety.</font></p>
+<p style="line-height: 100%; margin: 0cm"></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">We
+ran automated testing using </font><a href="https://wave.webaim.org/"><font color="#0563c1"><font face="Arial, serif"><u>WAVE
+WebAIM</u></font></font></a><font face="Arial, serif"> and then
+manual testing that included:</font></p>
+<ul>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Spell
+	check functionality;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Scaling
+	using different resolutions and reflow;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Options
+	to customise the interface (magnification, font, background colour,
+	etc);</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Keyboard
+	navigation and keyboard traps;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Data
+	validation;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Warning
+	of links opening in new tab or window;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Information
+	conveyed in the colour or sound only;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Flashing,
+	moving or scrolling text;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Use
+	with screen reading software (for example JAWS);</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Assistive
+	software (TextHelp Read and Write, Windows Magnifier, ZoomText,
+	Dragon Naturally Speaking, TalkBack and VoiceOver);</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Tooltips
+	and text alternatives for any non-text content;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Time
+	limits;</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Compatibility
+	with mobile accessibility functionality (Android and iOS).</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Any
+	drag functionality and alternatives</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Consistent
+	help function</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">No
+	need to re enter data already submitted</font></p></li>
+	<li><p style="line-height: 108%; margin-bottom: 0.28cm"><font face="Arial, serif">Any
+	cognitive tests </font>
+	</p></li>
+</ul>
+<p style="line-height: 100%; margin: 0cm"></p>
+<h1 class="western"><font face="Arial, serif"><font size="5" style="font-size: 17pt">Change
+Log</font></font></h1>
+<p style="line-height: 100%; margin-bottom: 0cm"><font face="Arial, serif">March
+2024 – since publication of the initial statement we have
+undertaken extensive manual testing including with assistive software
+such as screen readers and voice recognition software in order to
+better understand the accessibility issues with the website.</font></p>
 </body>
 </html>

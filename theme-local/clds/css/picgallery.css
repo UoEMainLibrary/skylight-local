@@ -45,7 +45,6 @@ figure.clickbox > div::before {
 figure.clickbox h2 {
     word-spacing: -0.1em;
     font-weight: 400;
-    text-transform: uppercase;
     top: 0;
     opacity: 1;
     padding: 15px;

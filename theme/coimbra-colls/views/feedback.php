@@ -1,7 +1,7 @@
 
 <div class="information-container col-xs-12 col-md-8 col-md-offset-2">
     <b class="big-title">Feedback</b>
-    <div class="content">
+    <div class="content" id="content">
 
         <p>Please contact us with your suggestions or questions at info@coimbra-group.eu</p>
 
@@ -26,7 +26,7 @@
         <p>
             If you have any questions, please contact: <a href="mailto:info@coimbra-group.eu">info@coimbra-group.eu</a>
         </p>
-        <p><a href="https://www.ed.ac.uk/records-management/notice" target="_blank">University of Edinburgh privacy statement</a></p>
+        <p><a target="_blank" href="" data-toggle="modal" data-target="#newTabNotice" data-href="https://www.ed.ac.uk/about/website/privacy">University of Edinburgh privacy statement</a></p>
     </div>
 
 </div>

@@ -23,7 +23,7 @@
             EH8 9LJ<br />
             Phone: <a class="phone para-link" href="tel:+44131 650 8379">+44 (0)131 650 8379</a><br />
             Fax: <a class="phone para-link" href="tel:+44131 650 2922">+44 (0)131 650 2922</a><br />
-            Email: <a class="email para-link" href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a><br/>
+            Email: <a class="email para-link" href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a><br/>
             Web: <a class="para-link" href="https://www.ed.ac.uk/information-services/library-museum-gallery/cultural-heritage-collections/crc/about">https://www.ed.ac.uk/information-services/library-museum-gallery/cultural-heritage-collections/crc/about</a>
         </p>
         <br />
