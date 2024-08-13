@@ -48,7 +48,7 @@
         </p>
         <h1>Centre for Research Collections</h1>
         <p>
-            Further information about the <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank">Centre for Research Collections</a>.
+            Further information about the <a href="https://www.ed.ac.uk/visit/museums-galleries/heritage-collections" title="Centre for Research Collections" target="_blank">Centre for Research Collections</a>.
         </p>
         <h1>BBC Your Paintings</h1>
         <p>

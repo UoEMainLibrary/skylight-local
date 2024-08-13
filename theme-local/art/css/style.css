@@ -1003,3 +1003,8 @@ a:focus-visible .record-thumbnail-search{
         width: auto;
     }
 }
+
+.img-normal {
+    height: auto;
+    width: auto;
+}
