@@ -33,7 +33,8 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/flowplayer-7.0.4/skin/skin.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css">
+    <link tel="stylesheet" href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css">
+    
 
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <script src="<?php echo base_url()?>assets/modernizr/modernizr-1.7.min.js"></script>
@@ -44,15 +45,13 @@
     <script src="<?php echo base_url()?>assets/google-analytics/analytics.js"></script>
 
     <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','<?php echo base_url()?>assets/google-analytics/analytics.js','ga');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        ga('create', '<?php echo $ga_code ?>', 'auto');
-        ga('send', 'pageview');
-
+        gtag('config', '<?php echo $ga_code ?>');
     </script>
     <!-- End Google Analytics -->
 
@@ -88,21 +87,29 @@
 </head>
 
 <body>
-
+<!-- New tab notice script -->
+<script>
+    function warnNewTab() {
+        return confirm("This link will open in a new tab. Proceed?");
+    }
+</script>
+<div class="skip-links">
+    <a class="screen-reader-text" href="<?php echo current_url(); ?>#main">Skip to content</a>
+</div>
 <div id="container">
     <header>
         <div id="collection-title">
             <a href="<?php echo base_url(); ?>" class="oblogo" title="University of Edinburgh Open Books Collection Home">
-                <span onmouseover="this.style.background='#761400';this.style.color='#FFF'" onmouseout="this.style.background='#FFFFFF';this.style.color='#444f51'"><?php echo $site_title; ?></span>
+                <span><?php echo $site_title; ?></span>
             </a>
-            <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Home" target="_blank"></a>
+            <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Home" target="_blank" onclick="return warnNewTab()"></a>
         </div>
         <div id="collection-search">
             <form action="./redirect/" method="post">
                 <fieldset class="search">
                     <input type="text" name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q" />
                     <input type="submit" name="submit_search" class="btn" value="Search" id="submit_search" />
-                    <a href="./advanced" class="advanced">Advanced search</a>
+                    <div style="text-align:center;"><a href="./advanced" class="advanced">Advanced<br>search</a></div>
                 </fieldset>
             </form>
         </div>

@@ -63,18 +63,15 @@
     </script>
 
     <?php if ($ga_code != '') {?>
-        <script src="<?php echo base_url()?>assets/google-analytics/analytics.js"></script>
 
         <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
         <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','<?php echo base_url()?>assets/google-analytics/analytics.js','ga');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-            ga('create', '<?php echo $ga_code ?>', 'auto');
-            ga('send', 'pageview');
-
+            gtag('config', '<?php echo $ga_code ?>');
         </script>
         <!-- End Google Analytics -->
 
@@ -86,7 +83,6 @@
                 analytics: "<?php echo $ga_code ?>"
             };
         </script>
-		
 
     <?php } ?>
 
@@ -116,7 +112,7 @@
         <div class="col-lg-8 col-md-8 col-sm-9 hidden-xs">
             <div class="nav-logo">
                     <!-- WILL NEED CHANGED WHEN SWITCH TO LIVE -->
-                    <a class="nav-logo-link" href="https://test.stcecilias.ed.ac.uk" title="Return to the home page">
+                    <a class="nav-logo-link" href="https://www.stcecilias.ed.ac.uk" title="Return to the home page">
                         <img class="nav-logo-img" src="<?php echo base_url()?>theme/stcecilia/images/StCsNavLogo.png">
                     </a>
             </div>
@@ -134,24 +130,24 @@
             </form>
             <div class="navbar-right sch-link" id="full-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="xtra-smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
         </div>
         <div class="hidden-lg hidden-md hidden-sm col-xs-7">
             <div class="nav-logo">
                     <!-- WILL NEED CHANGED WHEN SWITCH TO LIVE -->
-                    <a class="nav-logo-link" href="https://test.stcecilias.ed.ac.uk">
+                    <a class="nav-logo-link" href="https://www.stcecilias.ed.ac.uk">
                         <img class="nav-logo-img" src="<?php echo base_url()?>theme/stcecilia/images/StCsNavLogo.png">
                     </a>
             </div>
@@ -169,17 +165,17 @@
             </form>
             <div class="navbar-right sch-link" id="full-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="xtra-smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="http://www.test.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
         </div>

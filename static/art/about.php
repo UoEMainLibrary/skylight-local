@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content container">
     <div class="content byEditor">
         <p>Our Art Collection supports the world-leading research and teaching that happens within the University.
             Comprised of an astonishing range of objects and ideas spanning two millennia and a multitude of artistic forms,
@@ -34,7 +34,7 @@
         <h1>Display, loan and access</h1>
 
         <p>A large portion of the Art Collection is on view throughout the University campus, and we actively lend to other venues where possible. Viewing works held in store,
-            or enquiring about borrowing a work, can be arranged by contacting <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a></p>
+            or enquiring about borrowing a work, can be arranged by contacting <a href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a></p>
 
         <h1>Online</h1>
 
@@ -52,17 +52,17 @@
             30 George Square,<br />
             Edinburgh,<br />
             EH8 9LJ<br />
-            <a class="email" href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a><br />
+            <a class="email" href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a><br />
         </p>
 
 
 
-        <p>Visit Centre for Research Collections <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank">webpage</a>
+        <p>Visit Centre for Research Collections <a href="https://www.ed.ac.uk/visit/museums-galleries/heritage-collections" title="Centre for Research Collections" target="_blank" onclick="return warnNewTab()">webpage</a>
             for further information about access.</p>
 
-        <a href="https://twitter.com/UoEArtArchives" title="Art Collections on Twitter" target="_blank">Art Collections on Twitter</a><br />
+        <a href="https://twitter.com/UoEArtArchives" title="Art Collections on Twitter" target="_blank" onclick="return warnNewTab()">Art Collections on Twitter</a><br />
 
-        <a href="https://artuk.org/visit/venues/university-of-edinburgh-5095"  title="Art Collections on ArtUK"  target="_blank">Art Collections on Art UK</a>
+        <a href="https://artuk.org/visit/venues/university-of-edinburgh-5095"  title="Art Collections on ArtUK"  target="_blank" onclick="return warnNewTab()">Art Collections on Art UK</a>
 
     </div>
 </div>

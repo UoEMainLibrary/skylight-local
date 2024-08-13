@@ -17,7 +17,7 @@
         </p>
         <h1>Centre for Research Collections</h1>
         <p>
-            Further information about the <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank" alt="link to the university of edinburghs centre for research collections">Centre for Research Collections</a>.
+            Further information about the <a href="https://www.ed.ac.uk/visit/museums-galleries/heritage-collections" title="Centre for Research Collections" target="_blank" alt="link to the university of edinburghs centre for research collections">Centre for Research Collections</a>.
         </p>
         <h1>Contact Details</h1>
         <p>
@@ -25,7 +25,7 @@
         </p>
         <h1>Centre for Research Collections</h1>
         <p>
-            Further information about the <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank" alt="link to the university of edinburghs centre for research collections">Centre for Research Collections</a>.
+            Further information about the <a href="https://www.ed.ac.uk/visit/museums-galleries/heritage-collections" title="Centre for Research Collections" target="_blank" alt="link to the university of edinburghs centre for research collections">Centre for Research Collections</a>.
         </p>
         <p alt="contact infomation for the univeristy library exhibitions department">
             Centre for Research Collections<br />
@@ -35,7 +35,7 @@
             EH8 9LJ<br />
             Tel:: +44(0)131 650 8379<br />
             Fax: +44(0)131 650 2922<br />
-            <a class="email" href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a><br />
+            <a class="email" href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a><br />
 
         </p>
     </div>

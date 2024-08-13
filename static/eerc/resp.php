@@ -29,7 +29,7 @@
 
         <img src="<?php echo base_url()?>/theme/eerc/images/resp-handwriting.png" alt="Part of a handwritten transcription from an interview" class="img-responsive center-block padded_images" style="margin-top: 1em; clear:both;" />
 
-        <p>Enquiries regarding the RESP Archive should be directed in the first instance to: <a href="mailto:is-crc@ed.ac.uk">is-crc@ed.ac.uk</a> Please address your enquiry to ‘<i>RESP Archive</i>’.</p>
+        <p>Enquiries regarding the RESP Archive should be directed in the first instance to: <a href="mailto:HeritageCollections@ed.ac.uk">HeritageCollections@ed.ac.uk</a> Please address your enquiry to ‘<i>RESP Archive</i>’.</p>
 
         <img src="<?php echo base_url()?>/theme/eerc/images/partnerships-resp.jpg" alt="Partnerships" width="300" class="img-responsive pull-right padded_images" style="margin-top: 1em; clear:both;" />
 

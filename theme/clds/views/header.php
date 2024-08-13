@@ -51,15 +51,14 @@
     <script src="<?php echo base_url()?>assets/google-analytics/analytics.js"></script>
 
     <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','<?php echo base_url()?>assets/google-analytics/analytics.js','ga');
-        ga('create', '<?php echo $ga_code ?>', 'auto');
-        ga('send', 'pageview');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    // End Google Analytics
+        gtag('config', '<?php echo $ga_code ?>');
+
     // global options
 
         if(typeof flowplayer !== 'undefined') {
@@ -68,6 +67,7 @@
             };
         }
     </script>
+    <!-- End Google Analytics -->
 
     <?php if (isset($solr)) { ?><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
         <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
@@ -90,11 +90,20 @@
 </head>
 <body>
 
+<script>
+    function warnNewTab() {
+      return confirm("This link will open in a new tab. Proceed?");
+    }
+  </script>
+
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
+        <div class="skip-links">
+            <a class="screen-reader-text" href="<?php echo current_url(); ?>#content">Skip to content</a>
+        </div>
         <div class="navbar-header">
             <div id="collection-title">
-                <a href="https://www.ed.ac.uk" class="navbar-brand logo" title="The University of Edinburgh Home" target="_blank"><img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/UoELogo.gif" alt="The University of Edinburgh Logo"/></a>
+                <a href="https://www.ed.ac.uk" class="navbar-brand logo" title="The University of Edinburgh Home" target="_blank" onclick="return warnNewTab()"><img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/UoELogo.gif" alt="The University of Edinburgh Logo"/></a>
                 <div id="navbar-word">
                     <a href="<?php echo base_url(); ?>" class="collectionslogo" title="University of Edinburgh Collections Home"></a>
                 </div>
@@ -110,28 +119,28 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav" id="navbar-middle">
-                <li><a href="#" title="University of Edinburgh Collections Home">HOME</a></li>
-                <li><a href="https://collections.ed.ac.uk/about" target="_blank" title="About Edinburgh University Collections">ABOUT</a></li>
-                <li><a href="https://collections.ed.ac.uk/feedback/" target="_blank" title="Provide feedback">FEEDBACK</a></li>
+                <li><a href="#" title="University of Edinburgh Collections Home">Home</a></li>
+                <li><a href="https://collections.ed.ac.uk/about" target="_blank" title="About Edinburgh University Collections" onclick="return warnNewTab()">About</a></li>
+                <li><a href="https://collections.ed.ac.uk/feedback/" target="_blank" title="Provide feedback" onclick="return warnNewTab()">Feedback</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right hidden-xs" id="navbar-right">
-                <li><a href="https://www.facebook.com/crc.edinburgh" target="_blank" title="CRC Facebook Page"><i id="social-fb" class="fa fa-facebook-square fa-3x social" aria-hidden="true"></i></a></li>
-                <li><a href="https://twitter.com/CRC_EdUni" target="_blank" title="CRC Twitter Feed"><i id="social-tw" class="fa fa-twitter-square fa-3x social" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.flickr.com/photos/crcedinburgh" target="_blank" title="CRC Flickr Page"><i id="social-fr" class="fa fa-flickr fa-3x social" aria-hidden="true"></i></a></li>
-                <li><a href="http://libraryblogs.is.ed.ac.uk/" target="_blank" title="University of Edinburgh Library Blogs"><i id="social-wp" class="fa fa-wordpress fa-3x social" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/crc.edinburgh" target="_blank" title="CRC Facebook Page" onclick="return warnNewTab()" data-toggle="tooltip" data-trigger="focus"><i id="social-fb" class="fa fa-facebook-square fa-3x social" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/CRC_EdUni" target="_blank" title="CRC Twitter Feed" onclick="return warnNewTab()" data-toggle="tooltip" data-trigger="focus"><i id="social-tw" class="fa fa-twitter-square fa-3x social" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.flickr.com/photos/crcedinburgh" target="_blank" title="CRC Flickr Page" onclick="return warnNewTab()" data-toggle="tooltip" data-trigger="focus"><i id="social-fr" class="fa fa-flickr fa-3x social" aria-hidden="true"></i></a></li>
+                <li><a href="http://libraryblogs.is.ed.ac.uk/" target="_blank" title="University of Edinburgh Library Blogs" onclick="return warnNewTab()" data-toggle="tooltip" data-trigger="focus"><i id="social-wp" class="fa fa-wordpress fa-3x social" aria-hidden="true"></i></a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<div class="tab-heading">
+<div id="content" class="tab-heading">
     <div class="container">
         <ul class="cldmenu" >
-            <li class="current" ><a href="https://collections.ed.ac.uk/search/*/Type:%22archives+%7C%7C%7C+Archives%22/Header:%22archives%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ARCHIVES" title="Archive and Manuscript Collections">ARCHIVES</a></li>
-            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22rare+books+%7C%7C%7C+Rare+Books%22/Header:%22rarebooks%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="RARE BOOKS" title="Rare Book Collections">RARE BOOKS</a></li>
-            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22mimed+%7C%7C%7C+MIMEd%22/Header:%22mimed%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSICAL INSTRUMENTS" title="Musical Instrument Collections">MUSICAL INSTRUMENTS</a></li>
-            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22art+%7C%7C%7C+Art%22/Header:%22art%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ART" title="Art Collections">ART</a></li>
-            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22museums+%7C%7C%7C+Museums%22/Header:%22museums%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSEUMS" title="Museums">MUSEUMS</a></li>
+            <li class="current" ><a href="https://collections.ed.ac.uk/search/*/Type:%22archives+%7C%7C%7C+Archives%22/Header:%22archives%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ARCHIVES" title="Archive and Manuscript Collections">Archives</a></li>
+            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22rare+books+%7C%7C%7C+Rare+Books%22/Header:%22rarebooks%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="RARE BOOKS" title="Rare Book Collections">Rare Books</a></li>
+            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22mimed+%7C%7C%7C+MIMEd%22/Header:%22mimed%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSICAL INSTRUMENTS" title="Musical Instrument Collections">Musical Instruments</a></li>
+            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22art+%7C%7C%7C+Art%22/Header:%22art%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ART" title="Art Collections">Art</a></li>
+            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22museums+%7C%7C%7C+Museums%22/Header:%22museums%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSEUMS" title="Museums">Museums</a></li>
         </ul>
     </div>
 </div>

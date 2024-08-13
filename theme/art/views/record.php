@@ -124,11 +124,11 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
             $bitstreamLink = $this->skylight_utilities->getBitstreamLink($bitstream);
             $bitstreamUri = $this->skylight_utilities->getBitstreamUri($bitstream);
             $manifest  = base_url().'art/record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
-            $jsonLink  = '<span class ="json-link-item"><a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest='.$manifest.'" target="_blank" class="uvlogo" title="View in UV"></a></span>';
-            $jsonLink .= '<span class ="json-link-item"><a target="_blank" href="https://librarylabs.ed.ac.uk/iiif/mirador/?manifest='.$manifest.'" class="miradorlogo" title="View in Mirador"></a></span>';
-            $jsonLink .= '<span class ="json-link-item"><a href="https://images.is.ed.ac.uk/luna/servlet/view/search?search=SUBMIT&q='.$accno.'" class="lunalogo" title="View in LUNA" target="_blank"></a></span>';
-            $jsonLink .= '<span class ="json-link-item"><a href="'.$manifest.'" target="_blank"  class="iiiflogo" title="View IIIF manifest"></a></span>';
-            //$jsonLink .= '<span class ="json-link-item"><a href="https://www.example.com/'.$manifest.'" target="_blank"  class="iiifdndlogo" title="Drag and drop IIIF manifest"></a></span>'; $jsonLink .= '<span class ="json-link-item"><a href="http://www.example.com/'.$manifest.'" target="_blank"  class="iiifdndlogo" title="Drag and drop IIIF manifest"></a></span>';
+            $jsonLink  = '<span class ="json-link-item"><a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest='.$manifest.'" target="_blank" onclick="return warnNewTab()" class="uvlogo" title="View in UV"></a></span>';
+            $jsonLink .= '<span class ="json-link-item"><a target="_blank" onclick="return warnNewTab()" href="'.base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/display.php?manifest='.$manifest.'" class="miradorlogo" title="View in Mirador"></a></span>';
+            $jsonLink .= '<span class ="json-link-item"><a href="https://images.is.ed.ac.uk/luna/servlet/view/search?search=SUBMIT&q='.$accno.'" class="lunalogo" title="View in LUNA" target="_blank" onclick="return warnNewTab()"></a></span>';
+            $jsonLink .= '<span class ="json-link-item"><a href="'.$manifest.'" target="_blank" onclick="return warnNewTab()"  class="iiiflogo" title="View IIIF manifest"></a></span>';
+            //$jsonLink .= '<span class ="json-link-item"><a href="https://www.example.com/'.$manifest.'" target="_blank" onclick="return warnNewTab()"  class="iiifdndlogo" title="Drag and drop IIIF manifest"></a></span>'; $jsonLink .= '<span class ="json-link-item"><a href="http://www.example.com/'.$manifest.'" target="_blank" onclick="return warnNewTab()"  class="iiifdndlogo" title="Drag and drop IIIF manifest"></a></span>';
         }
 
     }
@@ -181,214 +181,13 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
                 }
             }
 
-
-
-        echo "<div id='imageCounter' style='display:none;'>$imageCounter</div>";
-        echo "<div class ='imageContainer'>";
-        $divCounter = 0;
-        $freshIn = true;
-        while ($divCounter < $imageCounter) {
-
-            if (!$mainImage) {
-                $mainImageTest = true;
-                ?>
-                <div class="full-image">
-                    <div id="openseadragon<?php echo $divCounter; ?>" class="image-toggle"<?php if (!$freshIn) {
-                        echo ' style="display:none;"';
-                    } else {
-                        echo ' style="display:block;"';
-                    } ?>>
-                        <script type="text/javascript">
-                            OpenSeadragon({
-                                id: "openseadragon<?php echo $divCounter; ?>",
-                                prefixUrl: "<?php echo base_url();?>theme/mimed/images/buttons/",
-                                preserveViewport: false,
-                                visibilityRatio: 1,
-                                minZoomLevel: 0,
-                                defaultZoomLevel: 0,
-                                panHorizontal: true,
-                                sequenceMode: true,
-                                tileSources: ["<?php echo $tileSource[$divCounter]; ?>"]
-                            });
-                        </script>
-                    </div>
-                </div>
-
-
-                <?php
-            }
-            $divCounter++;
-            $freshIn = false;
-        }
-
-        echo '</div>';
-        if(isset($solr[$acc_no_field])) {
-            $accno =  $solr[$acc_no_field][0];
-        }
-
-        $numThumbnails = 0;
-        $imageset = false;
-        $thumbnailLink = array();
-        $countThumbnails = count($solr[$image_uri_field]);
-
-        $widthtotal = 0;
-        $i = 0;
-        foreach ($solr[$image_uri_field] as $imageURI)
-        {
-            $imageURI = str_replace('http://', 'https://', $imageURI);
-            $imagefull[$i] = $imageURI;
-            list($fullwidth, $fullheight) = getimagesize($imagefull[$i]);
-
-            if ($fullwidth > $fullheight) {
-                $parms = '/150,/0/';
-            } else {
-                $parms = '/,150/0/';
-            }
-
-            $imagesmall[$i] = str_replace('/full/0/', $parms, $imagefull[$i]);
-            //Insert Schema
-            echo '<span itemprop="thumbnailUrl" style="display:none;">'. $imagesmall[$i]. '</span>';
-            list($width, $height) = getimagesize($imagesmall[$i]);
-            $widthtotal = $widthtotal + $width;
-
-            $i++;
-        }
-        if ($countThumbnails > 1)
-        {
-            /*if ($widthtotal > 540)
-            {
-                echo '<div class="jcarousel-wrapper">
-               <div class="jcarousel" data-jcarousel="true">
-               <ul >';
-            }
-            else
-            {*/
-                echo ' <div class="thumb-strip">';
-            /*}*/
-
-            for ($numThumbnails = 0; $numThumbnails<$countThumbnails; $numThumbnails++)
-            {
-                /*if ($widthtotal > 540)
-                {
-                    $thumbnailLink[$numThumbnails] = '<li>';
-                }
-                else
-                {*/
-                    $thumbnailLink[$numThumbnails] = '';
-                /*}*/
-                $thumbnailLink[$numThumbnails] .= '<label class="image-toggler" data-image-id="#openseadragon' . $numThumbnails . '">';
-                $thumbnailLink[$numThumbnails] .= '<input type="radio" name="options" id="option' . $numThumbnails . '">';
-
-                $thumbnailLink[$numThumbnails] .= '<img src = "' . $imagesmall[$numThumbnails] . '" class="record-thumb-strip" title="' . $solr[$title_field][0];
-
-                $manifest = str_replace("iiif/", "iiif/m/", $imagefull[$numThumbnails]);
-                $manifest = str_replace("full/full/0/default.jpg", "manifest", $manifest);
-
-                $json = file_get_contents($manifest);
-
-                $jobj = json_decode($json, true);
-                //print_r ($jobj);
-                $error = json_last_error();
-                $jsonMD = $jobj['sequences'][0]['canvases'][0]['metadata'];
-                $rights = '';
-                $photographer = '';
-                $photoline = '';
-                foreach ($jsonMD as $jsonMDPair)
-                {
-
-                    if ($jsonMDPair['label'] == 'Repro Creator Name')
-                    {
-                        $photographer = str_replace("<span>", "", $jsonMDPair['value']);
-                        $photographer = str_replace("</span>", "", $photographer);
-                    }
-                    if ($jsonMDPair['label'] == 'Repro Rights Statement')
-                    {
-                        $rights = str_replace("<span>", "", $jsonMDPair['value']);
-                        $rights = 'Photograph '.str_replace("</span>", "", $rights);
-                    }
-
-                }
-                if ($photographer !== '')
-                {
-                    $photoline = ' Photo by '.$photographer;
-                }
-                $thumbnailLink[$numThumbnails] .= '. '. $photoline.' '.$rights.'"/></label>';
-
-                /*if ($widthtotal > 540)
-                {
-                    $thumbnailLink[$numThumbnails] .= '</li>';
-                }
-                else
-                {/*
-                    $thumbnailLink[$numThumbnails] .= '';
-                }*/
-                echo $thumbnailLink[$numThumbnails];
-
-                $imageset = true;
-
-            }
-
-            /*if ($widthtotal > 540)
-            {
-                echo '</ul>
-                </div>
-                <a class="jcarousel-control-prev" href="'.$_SERVER['REQUEST_URI'].'/#" data-jcarouselcontrol="true">‹</a>
-                <a class="jcarousel-control-next" href="'.$_SERVER['REQUEST_URI'].'/#" data-jcarouselcontrol="true">›</a>';
-            }*/
-            echo '</div>';
-        }
-
-        else
-        {
-
-            $imageUri = $solr[$image_uri_field] ;
-
-            $manifest = str_replace("iiif/", "iiif/m/", $imageURI);
-            $manifest = str_replace("full/full/0/default.jpg", "manifest", $manifest);
-
-            $json = file_get_contents($manifest);
-
-            $jobj = json_decode($json, true);
-            //print_r ($jobj);
-            $error = json_last_error();
-            $jsonMD = $jobj['sequences'][0]['canvases'][0]['metadata'];
-            $rights = '';
-            $photographer = '';
-            $photoline = '';
-            $mdexists = false;
-            foreach ($jsonMD as $jsonMDPair)
-            {
-
-                if ($jsonMDPair['label'] == 'Repro Creator Name')
-                {
-                    $photographer = str_replace("<span>", "", $jsonMDPair['value']);
-                    $photographer = ' Photo by '.str_replace("</span>", "", $photographer).' ';
-                    $mdexists = true;
-                }
-                if ($jsonMDPair['label'] == 'Repro Rights Statement')
-                {
-                    $rights = str_replace("<span>", "", $jsonMDPair['value']);
-                    $rights = "Photograph ". str_replace("</span>", "", $rights);
-                    $mdexists = true;
-                }
-                if ($jsonMDPair['label'] == 'Repro Link ID')
-                {
-                    $crowd_image = str_replace("<span>", "", $jsonMDPair['value']);
-                }
-            }
-            if ($mdexists)
-            {
-                echo '<div class="json-link">';
-                echo '<p>'.$photographer.$rights.'</p>';
-                echo '</div>';
-            }
-        }
-        ?>
-
-
-
-
-        <div class = "json-link">
+            ?>
+        
+        <div class="img-container">
+            <iframe calss="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
+        </div>
+        
+            <div class = "json-link">
             <p>
                 <?php if (isset($jsonLink)){echo $jsonLink;} ?>
             </p>
@@ -531,8 +330,8 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
 
             <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
                 <a href="<?php echo $solr[$sketchfab_field][0]?>" target="blank">See <?php echo $record_title?> at Sketchfab</a>
-                <!--<a href="https://sketchfab.com/openededinburgh?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">The University of Edinburgh</a>
-                <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>-->
+                <!--<a href="https://sketchfab.com/openededinburgh?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" onclick="return warnNewTab()" style="font-weight: bold; color: #1CAAD9;">The University of Edinburgh</a>
+                <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" onclick="return warnNewTab()" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>-->
             </p>
         </div>
         <?php
@@ -575,13 +374,13 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
         if ($crowd_image !== '') { ?>
             <div class="crowd-info">
                 <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php"
-                      target="_blank">
+                      target="_blank" onclick="return warnNewTab()">
                     <input type="hidden" name="image_id" value="<?php echo $crowd_image ?>">
                     <input type="hidden" name="theme" value="art">
                     Add more tags at <a href="#" onclick="document.forms[1].submit();return false;"
                                         title="University of Edinburgh, Library Labs Metadata Games">Library Labs
                         Games</a>
-                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" title="EASE Friend">Edinburgh
+                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" onclick="return warnNewTab()" title="EASE Friend">Edinburgh
                         Friend Account</a>)
                 </form>
             </div>
@@ -595,13 +394,13 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
         <div class="crowd-tags">
             <div class="crowd-info">
                 <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php"
-                      target="_blank">
+                      target="_blank" onclick="return warnNewTab()">
                     <input type="hidden" name="image_id" value="<?php echo $crowd_image ?>">
                     <input type="hidden" name="theme" value="art">
                     Add tags to this image at <a href="#" onclick="document.forms[1].submit();return false;"
                                                  title="University of Edinburgh, Library Labs Metadata Games">Library
                         Labs Games</a>
-                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" title="EASE Friend">Edinburgh
+                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" onclick="return warnNewTab()" title="EASE Friend">Edinburgh
                         Friend Account</a>)
                 </form>
             </div>
