@@ -120,7 +120,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             }
             $bitstreamLink = $this->skylight_utilities->getBitstreamLink($bitstream);
             $bitstreamUri = $this->skylight_utilities->getBitstreamUri($bitstream);
-            $manifest = base_url().$this->config->item('skylight_theme').'/record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
+            $manifest = base_url().$this->config->item('skylight_appname').'/record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
             $jsonLink  = '<span class ="json-link-item"><a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest='.$manifest.'" target="_blank" class="uvlogo" title="View in UV"></a></span>';
             $jsonLink .= '<span class ="json-link-item"><a target="_blank" href="https://librarylabs.ed.ac.uk/iiif/mirador/?manifest='.$manifest.'" class="miradorlogo" title="View in Mirador"></a></span>';
             $jsonLink .= '<span class ="json-link-item"><a href="https://images.is.ed.ac.uk/luna/servlet/view/search?search=SUBMIT&q='.$accno.'" class="lunalogo" title="View in LUNA" target="_blank"></a></span>';
@@ -149,10 +149,6 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
 </div>
 
 <div class="content">
-    <?php echo "manifest".$manifest; ?>
-        
-
-
     <?php ?>
     <div class="img-container">
         <iframe class="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
