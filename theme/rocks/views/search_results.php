@@ -169,7 +169,7 @@ else {
                     ?>
                     <?php
                     ?>
-                    <!-- this is where bitstream code i temporarily pasted out goes-->
+                    <!-- this is where bitstream code i temporarily pasted out goes. now pasted back in-->
                     <?php
 
                     $bitstream_array = array();
