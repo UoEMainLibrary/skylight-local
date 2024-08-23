@@ -46,6 +46,7 @@
                                         'ImageUri' => 'dc.identifier.imageUri.en',
                                         'ArchivesSpace Number' => 'dc.identifier.archive'
                                         );
+
     $config['skylight_date_filters'] = array();
     //added place to filter
     $config['skylight_filters'] = array('Author' => 'author_filter', 'Type' => 'type_filter', 'Place' => 'place_filter', 'Date' => 'date_filter');
@@ -58,7 +59,7 @@
                                               'Date' => 'dc.date.issued',
                                               'Type' => 'dc.type.en');
 //added accession number to display
-    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Place', 'Place Certainty','Measurements','Labels','Description','Other context','Related document','Accession Number');
+$config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Place', 'Place Certainty','Measurements','Labels','Description','Other context','Related document','Accession Number');
     $config['skylight_searchresult_display'] = array('Title','Author','Subject','Type','Abstract');
 
     $config['skylight_search_fields'] = array('Title' => 'dc.title.en',
