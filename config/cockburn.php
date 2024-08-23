@@ -30,7 +30,9 @@
                                         'Author' => 'dc.contributor.author.en',
                                         'Subject' => 'dc.subject.en',
                                         'Type' => 'dc.type.en',
+                                        'Measurements' => 'dc.format.extent.en',
                                         'Abstract' => 'dc.description.en',
+                                        'Other context' => 'dc.description.level1',
                                         //trying to recreate mimed's treatment of place
                                         'Place' => 'dc.coverage.spatial.en',
                                         'Date' => 'dc.date.issued',
