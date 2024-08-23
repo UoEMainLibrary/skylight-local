@@ -149,10 +149,8 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
 </div>
 
 <div class="content">
-    <?php echo "manifest".$manifest; ?>
+    <?php ?>
         
-
-
     <?php ?>
     <div class="img-container">
         <iframe class="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
