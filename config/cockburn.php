@@ -14,7 +14,7 @@
     $config['skylight_oaipmhcollection'] = 'hdl_10683_19104';
 
     // Container ID and the field used in solr index to store this ID. Used for restricting search/browse scope.
-    if (ENVIRONMENT == 'development') 
+    if (ENVIRONMENT == 'development')
     {
         $config['skylight_container_id'] = 'c7bc550e-8bb5-44aa-9ac3-128832466067';
         $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
@@ -31,10 +31,13 @@
                                         'Subject' => 'dc.subject.en',
                                         'Type' => 'dc.type.en',
                                         'Measurements' => 'dc.format.extent.en',
-                                        'Abstract' => 'dc.description.en',
-                                        'Other context' => 'dc.description.level1',
+                                        'Description' => 'dc.description.en',
+                                        'Labels' => 'dc.description.inscription.en',
+                                        'Other context' => 'dc.description.level1.en',
+                                        'Related document' => 'dc.relation.relateddocument.en',
                                         //trying to recreate mimed's treatment of place
                                         'Place' => 'dc.coverage.spatial.en',
+                                        'Place Certainty' => 'dc.coverage.spatialrole.en',
                                         'Date' => 'dc.date.issued',
                                         'Accession Number' => 'dc.identifier.en',
                                         'Accession Date' => 'dc.date.accessioned_dt',
@@ -56,8 +59,7 @@
                                               'Date' => 'dc.date.issued',
                                               'Type' => 'dc.type.en');
 //added accession number to display
-    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Abstract','Place', 'Accession Number');
-
+$config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Place', 'Place Certainty','Measurements','Labels','Description','Other context','Related document','Accession Number');
     $config['skylight_searchresult_display'] = array('Title','Author','Subject','Type','Abstract');
 
     $config['skylight_search_fields'] = array('Title' => 'dc.title.en',
