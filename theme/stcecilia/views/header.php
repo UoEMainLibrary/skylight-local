@@ -107,6 +107,14 @@
 </head>
 
 <body class="record">
+<script>
+    function warnNewTab() {
+        return confirm("This link will open in a new tab. Proceed?");
+    }
+</script>
+<div class="skip-links">
+    <a class="screen-reader-text" href="<?php echo current_url(); ?>#content">Skip to content</a>
+</div>
     <nav class="navbar navbar-default navbar-fixed-top">
 
         <div class="col-lg-8 col-md-8 col-sm-9 hidden-xs">
@@ -130,17 +138,17 @@
             </form>
             <div class="navbar-right sch-link" id="full-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">Visit St Cecilia's Hall</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">Visit St Cecilia's</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="xtra-smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">Visit Us</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
         </div>
@@ -165,17 +173,7 @@
             </form>
             <div class="navbar-right sch-link" id="full-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall</a>
-                <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-            </div>
-            <div class="navbar-right sch-link" id="smol-visit">
-                <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's</a>
-                <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-            </div>
-            <div class="navbar-right sch-link" id="xtra-smol-visit">
-                <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us</a>
+                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">Visit St Cecilia's Hall</a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
         </div>
@@ -195,5 +193,5 @@
 </form>
 <!-- SEARCH BAR FOR MOBILE/SMALL SCREENS END -->
 
-
+<div id="content"></div>
 

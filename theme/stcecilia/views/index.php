@@ -4,7 +4,7 @@
             <a href="https://www.stcecilias.ed.ac.uk/about/" title="About St Cecilia's Hall"><img class="img-responsive sch-logo" alt="St_Cecilias_Hall_logo" src="<?php echo base_url(); ?>theme/stcecilia/images/Instrument-Collection-logo.gif"></a>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 index">
         <div id="galleries" class="grid"<?php /* Prevent script from loading on homepage */ if($this->config->item('skylight_appname') != str_replace('/', '', $_SERVER['REQUEST_URI'])) { ?> data-masonry='{ "itemSelector": ".grid-item index-grid", "percentPosition": true, "columnWidth": .grid-sizer}'<?php } ?>>
             <div class="grid-sizer"></div>
             <a href="./search/%22Keyboard+grouping%22" title="Click to view all Keyboard instruments" alt="Click to view all Keyboard instruments"><div id="gallerykb" class="grid-item index-grid" ><div class="gallery-title"><h4>Keyboards</h4></div>

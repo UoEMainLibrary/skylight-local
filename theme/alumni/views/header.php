@@ -90,12 +90,19 @@
 </head>
 
 <body>
-
+<!-- New tab notice script -->
+<script>
+    function warnNewTab() {
+        return confirm("This link will open in a new tab. Proceed?");
+    }
+</script>
 <div id="container">
-
+<div class="skip-links">
+    <a class="screen-reader-text" href="<?php echo current_url(); ?>#main">Skip to content</a>
+</div>
         <header>
             <div id="collection-title">
-                <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Home" target="_blank"></a>
+                <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Home" target="_blank" onclick="return warnNewTab()"></a>
                 <a href="<?php echo base_url(); ?>alumni" class="logo" title="University of Edinburgh Historical Alumni Home"></a>
                 <a href="<?php echo base_url(); ?>alumni" class="menulogo" title="University of Edinburgh Historical Alumni  Home"></a>
             </div>

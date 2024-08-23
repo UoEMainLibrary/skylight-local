@@ -37,7 +37,7 @@
                         </script>
                     </div>
                 </div>-->
-                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~76101~393272/full/full/0/default.jpg" class="img-fluid">
+                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~76101~393272/full/full/0/default.jpg" class="img-fluid" alt="Secreting Myths (jade) - Alberta Whittle">
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
@@ -57,7 +57,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>PORTRAITS</h3>
+                    <h3>Portraits</h3>
                     <p class="desc-text">The portraits in the Art Collection represent historical figures connected with
                         the
                         University, with some rare recent examples.<br> <br>
@@ -74,14 +74,14 @@
                     </p></div>
             </div>
             <div class="col-lg-6">
-                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~5132~100011/full/full/0/default.jpg" class="img-fluid">
+                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~5132~100011/full/full/0/default.jpg" class="img-fluid" alt="Portrait of William Robertson (1721–1793) - Henry Raeburn (1756–1823)">
             </div>
             <div class="col-lg-6">
-                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~73315~164174/full/full/0/default.jpg" class="img-fluid">
+                <img src="https://images.is.ed.ac.uk/luna/servlet/iiif/UoEart~1~1~73315~164174/full/full/0/default.jpg" class="img-fluid" alt="The University of Edinburgh Art Collection Poster">
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>ECA COLLECTION</h3>
+                    <h3>ECA Collection</h3>
                     <p class="desc-text">
                         The Edinburgh College of Art (ECA) Collection is comprised of a diverse range of subjects and
                         genres, including painting, sculpture, film, animation, textiles and jewellery. The largest of
@@ -104,7 +104,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>SOUTH ASIAN ARTWORKS IN THE COLLECTIONS</h3>
+                    <h3>South Asian Artworks In The Collections</h3>
                     <p class="desc-text">A project initiated in 2023, in collaboration with Dr Yashaswini Chandra at Edinburgh 
                         College of Art, has sought to make visible significant examples of artworks produced in South Asia between 
                         the 17th and 19th centuries C.E. that are catalogued within the Manuscripts of the Islamicate World and South 
@@ -116,14 +116,14 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/PhotoLaurenceWinram_2.jpg" class="img-fluid">
+                <img src="<?php echo base_url(); ?>theme/art/images/PhotoLaurenceWinram_2.jpg" class="img-fluid" alt="Image of the book Diwan; Collected Poetical Works, f.90v">
             </div>
             <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/ECA_CAST.jpg" class="img-fluid">
+                <img src="<?php echo base_url(); ?>theme/art/images/ECA_CAST.jpg" class="img-fluid" alt="Sulpture court arches from the Edinburgh Cast Collection at the Edinburgh College of Art.">
             </div>
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>ECA CAST COLLECTION</h3>
+                    <h3>ECA Cast Collection</h3>
                     <p class="desc-text">The Cast Collection is comprised of 265 plaster casts of Antique, Renaissance,
                         and Gothic statues, bas reliefs, and architectural passages held at the ECA and the University
                         of Edinburgh. The plaster casts at ECA are displayed in an A-listed building, including a
@@ -136,7 +136,7 @@
             
             <div class="col-lg-6">
                 <div class="centered-text">
-                    <h3>MOVING IMAGE AND PERFORMANCE</h3>
+                    <h3>Moving Image And Performance</h3>
                     <p class="desc-text">Development of the range of media represented in the collection is a key area
                         of work, with a major part of this a collaborative project with the
                         <a href="https://www.nationalgalleries.org/">National Galleries of Scotland</a>. Funded via an
@@ -150,7 +150,7 @@
                     </p></div>
             </div>
             <div class="col-lg-6">
-                <img src="<?php echo base_url(); ?>theme/art/images/MOVING_IMAGE.jpg" class="img-fluid">
+                <img src="<?php echo base_url(); ?>theme/art/images/MOVING_IMAGE.jpg" class="img-fluid" alt="An image from the 2017 Market Gallery, Glasgow 'Bodybuilding' exhibition: 'Progressive' - Shona Macnaughton">
             </div>
         </div>
     </div>
