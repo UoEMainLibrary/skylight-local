@@ -149,15 +149,24 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
 </div>
 
 <div class="content">
-    <?php ?>
+    <?php
+    //Show mirador, but not if there is no manifest!
+    if (isset($manifest))
+    {
+    ?>
     <div class="img-container">
-        <iframe class="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
+            <iframe class="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
     </div>
     <div class = "json-link">
         <p>
-            <?php if (isset($jsonLink)){echo $jsonLink;} ?>
+            <?php
+            //Show strip of IIIF Links
+                if (isset($jsonLink)){echo $jsonLink;} ?>
         </p>
     </div>
+    <?php
+     }
+    ?>
 
     <table>
         <tbody>

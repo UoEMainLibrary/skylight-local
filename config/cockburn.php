@@ -30,6 +30,7 @@
                                         'Author' => 'dc.contributor.author.en',
                                         'Subject' => 'dc.subject.en',
                                         'Type' => 'dc.type.en',
+                                        'Abstract' => 'dc.description.abstract.en',
                                         'Measurements' => 'dc.format.extent.en',
                                         'Description' => 'dc.description.en',
                                         'Labels' => 'dc.description.inscription.en',
@@ -59,7 +60,7 @@
                                               'Date' => 'dc.date.issued',
                                               'Type' => 'dc.type.en');
 //added accession number to display
-$config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Place', 'Place Certainty','Measurements','Labels','Description','Other context','Related document','Accession Number');
+    $config['skylight_recorddisplay'] = array('Title','Author','Subject','Type','Place', 'Place Certainty','Measurements','Labels','Description','Other context','Related document','Accession Number');
     $config['skylight_searchresult_display'] = array('Title','Author','Subject','Type','Abstract');
 
     $config['skylight_search_fields'] = array('Title' => 'dc.title.en',
