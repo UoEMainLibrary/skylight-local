@@ -83,10 +83,10 @@ if(isset($solr[$type_field])) {
                 if ($Lunapos !== false)
                 {
 
-                    echo '<a href="'.$uri.'" title="Link to High resolution version of image" target="_blank">High resolution version of photo</a>';
+                    echo '<a href="'.$uri.'" title="Link to High resolution version of image" target="_blank" onclick="return warnNewTab()">High resolution version of photo</a>';
                 }
                 else{
-                    echo '<a href="'.$uri.'" title="Link to '.$uri.'" target="_blank">'.$uri.'</a>';
+                    echo '<a href="'.$uri.'" title="Link to '.$uri.'" target="_blank" onclick="return warnNewTab()">'.$uri.'</a>';
                 }
                 if($index < sizeof($solr[$uri_field]) - 1) {
                     echo '<br />';
