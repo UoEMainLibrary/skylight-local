@@ -143,10 +143,10 @@
             <div id="collection-search">
                 <form action="./redirect/" method="post">
                     <fieldset class="search">
-                        <input type="text" name="q"
+                        <input type="text" name="q" aria-label="Website searchbox"
                             value="<?php if (isset($searchbox_query))
                                 echo urldecode($searchbox_query); ?>" id="q" />
-                        <input type="submit" name="submit_search" class="btn" value="Search" id="submit_search" />
+                        <input type="submit" name="submit_search" class="btn" value="Search" id="submit_search" aria-label="Submit search button"/>
                         <a href="./advanced" class="advanced">Advanced<br>Search</a>
                     </fieldset>
                 </form>
