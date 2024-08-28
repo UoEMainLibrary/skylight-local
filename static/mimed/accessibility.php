@@ -102,10 +102,6 @@
         }
 
         .Title {
-<<<<<<< Updated upstream
-            line-height: normal;
-=======
->>>>>>> Stashed changes
             font-family: 'Calibri Light';
             font-size: 28pt;
             letter-spacing: -0.5pt;
@@ -408,17 +404,11 @@
                     class="Hyperlink" style="font-family:Arial">Information.systems@ed.ac.uk</span></a><span
                 style="font-family:Arial"> </span><br /><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span>
         </p>
-<<<<<<< Updated upstream
-        <p><a name="_Hlk153453333"><span style="font-family:Arial">British Sign Language (BSL) users can contact us
-                    via</span><span style="font-family:Arial">&#xa0;</span><span style="font-family:Arial">Contact
-                    Scotland BSL, the on-line BSL interpreting service:</span><br /><span
-                    style="font-family:Arial; -aw-import:ignore">&#xa0;</span></a></p>
-=======
+
         <p><span style="font-family:Arial">British Sign Language (BSL) users can contact us via</span><span
                 style="font-family:Arial">&#xa0;</span><span style="font-family:Arial">Contact Scotland BSL, the on-line
                 BSL interpreting service:</span><br /><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span>
         </p>
->>>>>>> Stashed changes
         <p style="margin-left:36pt"><a href="https://contactscotland-bsl.org/" style="text-decoration:none"><span
                     class="Hyperlink" style="font-family:Arial">Contact Scotland BSL</span></a><br /><span
                 style="font-family:Arial; -aw-import:ignore">&#xa0;</span></p>
@@ -493,19 +483,14 @@
                 </ul>
             </li>
         </ul>
-        <p style="margin-left:72pt"><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span></p>
         <ul type="disc" style="margin:0pt; padding-left:0pt">
-            <li class="paragraph"
-                style="margin-top:0pt; margin-left:27.6pt; margin-bottom:0pt; padding-left:8.4pt; font-family:serif; font-size:10pt; -aw-font-family:'Symbol'; -aw-font-weight:normal; -aw-number-format:''">
+            <li class="paragraph" style="margin-top:0pt; margin-left:27.6pt; margin-bottom:0pt; padding-left:8.4pt; font-family:serif; font-size:10pt; -aw-font-family:'Symbol'; -aw-font-weight:normal; -aw-number-format:''">
                 <span class="normaltextrun" style="font-family:Arial; font-size:12pt">Audio content does not have
                     transcripts/text alternative </span>
                 <ul type="circle" style="margin-right:0pt; margin-left:0pt; padding-left:0pt">
                     <li class="paragraph"
-<<<<<<< Updated upstream
-                        style="margin-top:0pt; margin-left:29pt; margin-bottom:12pt; padding-left:7pt; font-family:serif; font-size:10pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'">
-=======
+
                         style="margin-top:0pt; margin-left:29pt;  padding-left:7pt; font-family:serif; font-size:10pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'">
->>>>>>> Stashed changes
                         <a href="https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded"
                             style="text-decoration:none"><span class="Hyperlink"
                                 style="font-family:Arial; font-size:12pt">1.2.1 – Audio-only and Video-only
@@ -541,10 +526,6 @@
                 </ul>
             </li>
         </ul>
-<<<<<<< Updated upstream
-        <p style="margin-left:54pt"><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span></p>
-=======
->>>>>>> Stashed changes
         <ul type="disc" style="margin:0pt; padding-left:0pt">
             <li class="ListParagraph"
                 style="margin-left:27.6pt; padding-left:8.4pt; font-family:serif; font-size:10pt; -aw-font-family:'Symbol'; -aw-font-weight:normal; -aw-number-format:''">
@@ -561,8 +542,7 @@
             </li>
         </ul>
         <ul type="disc" style="margin:0pt; padding-left:0pt">
-            <li
-                style="margin-left:27.6pt; padding-left:8.4pt; font-family:serif; font-size:10pt; -aw-font-family:'Symbol'; -aw-font-weight:normal; -aw-number-format:''">
+            <li style="margin-left:27.6pt; padding-left:8.4pt; font-family:serif; font-size:10pt; -aw-font-family:'Symbol'; -aw-font-weight:normal; -aw-number-format:''">
                 <span style="font-family:Arial; font-size:12pt">Keyboard navigation does not follow a logical
                     order</span>
                 <ul type="circle" style="margin-right:0pt; margin-left:0pt; padding-left:0pt">
@@ -650,11 +630,8 @@
                     ordering</span>
                 <ul type="circle" style="margin-right:0pt; margin-left:0pt; padding-left:0pt">
                     <li
-<<<<<<< Updated upstream
-                        style="margin-left:28.85pt; margin-bottom:12pt; padding-left:6.85pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'">
-=======
-                        style="margin-left:28.85pt;  padding-left:6.85pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'">
->>>>>>> Stashed changes
+
+                        style="margin-left:28.85pt; padding-left:6.85pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'">
                         <a href="https://www.w3.org/TR/WCAG22/#focus-order" style="text-decoration:none"><span
                                 class="Hyperlink" style="font-family:Arial; font-size:12pt">2.4.3 - Focus
                                 Order</span></a></li>
@@ -681,11 +658,9 @@
                     heading levels</span>
                 <ul type="circle" style="margin-right:0pt; margin-left:0pt; padding-left:0pt">
                     <li
-<<<<<<< Updated upstream
-                        style="margin-left:28.85pt; margin-bottom:12pt; padding-left:6.85pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'">
-=======
+
                         style="margin-left:28.85pt;  padding-left:6.85pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'">
->>>>>>> Stashed changes
+
                         <a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" style="text-decoration:none"><span
                                 class="Hyperlink" style="font-family:Arial; font-size:12pt">2.4.6 - Headings and
                                 Labels</span></a></li>
@@ -701,11 +676,6 @@
                 <a href="https://www.w3.org/TR/WCAG22/#on-input" style="text-decoration:none"><span class="Hyperlink"
                         style="font-family:Arial">3.2.2. On Input</span></a></li>
         </ul>
-<<<<<<< Updated upstream
-        <p class="ListParagraph" style="margin-left:72pt"><span
-                style="font-family:Arial; -aw-import:ignore">&#xa0;</span></p>
-=======
->>>>>>> Stashed changes
         <ul type="disc" style="margin:0pt; padding-left:0pt">
             <li class="ListParagraph"
                 style="margin-left:27.6pt; padding-left:8.4pt; font-family:serif; font-size:10pt; -aw-font-family:'Symbol'; -aw-font-weight:normal; -aw-number-format:''">
@@ -724,7 +694,6 @@
         <p><span style="font-family:Arial">We aim to improve our websites accessibility on a regular and continuous
                 basis. See the section below ('What we're doing to improve accessibility') on how we are improving our
                 site accessibility. </span></p>
-        <p><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span></p>
         <p><span style="font-family:Arial">We are working towards solving these problems and expect significant
                 improvements by July 2025. The site is fully within our control.</span></p>
         <p><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span></p>
@@ -750,11 +719,7 @@
         <p><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span></p>
         <p><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span></p>
         <h2 style="font-size:20pt !important;"><span style="font-family:Arial">Preparation of this accessibility
-<<<<<<< Updated upstream
-                statement</span><br /><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span></h2>
-=======
                 statement</span><span style="font-family:Arial; -aw-import:ignore">&#xa0;</span></h2>
->>>>>>> Stashed changes
         <p><span style="font-family:Arial; font-weight:bold">This statement was prepared on 07</span><span
                 style="font-family:Arial; font-size:8pt; font-weight:bold; vertical-align:super">th</span><span
                 style="font-family:Arial; font-weight:bold"> August 2020. It was last reviewed on 19</span><span
