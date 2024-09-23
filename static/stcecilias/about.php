@@ -16,7 +16,7 @@
             ways for more visitors to engage, participate and learn about its world-class collection of instruments.</p>
 
         <p>The museum re-opened its doors to the public in May 2017. Find out more about visiting the museum at the
-         <a href="http://www.stcecilias.ed.ac.uk" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">St Cecilia's Hall website</a>.</p>
+         <a href="http://www.stcecilias.ed.ac.uk" title="Visit St Cecilia's Hall" target="_blank">St Cecilia's Hall website (opens in a new tab)</a>.</p>
 
     </div>
 

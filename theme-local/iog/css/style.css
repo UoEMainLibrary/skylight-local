@@ -144,7 +144,7 @@ header				{ position: relative; }
 .col-sidebar		{ float: left; width: 240px; margin-top: -66px; background: #ACDDEE; position: relative; z-index: 2; }
 .ie7 .col-sidebar	{ padding-bottom: 30px; }
 
-#menu                               { width: 940px; background-color: #333333; margin: 0 auto; height: 33px; }
+#menu                               { width: 940px; background-color: #333333; margin: 0 auto; display: flex; flex-wrap: wrap; padding: 5px 0;}
 .menu-links li					    { display: inline; float: right; height: 33px; padding-left: 0; padding-right: 0; }
 .menu-links li a 			        { font-weight: bold; font-size: 16px;  float: left; text-decoration: none; margin-left: 10px; color: #FFFFFF; display: inline-block; height: 33px; line-height: 2.5em; padding: 3px 20px 2px; text-align: center; }
 .menu-links li a:hover		        { background-color: #ffffff; color: #333333}
@@ -591,3 +591,11 @@ input:focus {
     clip-path: circle(100%);
     padding: 8px;
 }
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* Added to prevent text wrapping */
+  }

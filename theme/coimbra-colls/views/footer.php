@@ -2,7 +2,7 @@
 </div><!--END of container - move into col sidebar -->
 <div class="footer">
     <div class="hidden-xs col-md-2 text-center">
-        <a href="https://www.ed.ac.uk" title="Link to University of Edinburgh Home Page" target="_blank" href=""  data-toggle="modal" data-target="#newTabNotice" data-href="https://www.ed.ac.uk"> <img
+        <a href="https://www.ed.ac.uk" title="Link to University of Edinburgh Home Page" target="_blank" href="https://www.ed.ac.uk"> <img
                 style="height: 100px; width: 100px; position: relative; margin: 25px auto"
                 src="<?php echo base_url() ?>/theme/<?php echo $this->config->item('skylight_theme'); ?>/images/eduni-logo.png"
                 alt="University of Edinburgh Logo"></a>
@@ -13,7 +13,7 @@
 
             <li><a href="https://www.ed.ac.uk/about/website/privacy">Privacy &amp; cookies</a></li>
 
-            <li><a title="Website Accessibility Link" target="_blank" href=""  data-toggle="modal" data-target="#newTabNotice" data-href="./accessibility">Accessibility</a></li>
+            <li><a title="Website Accessibility Link" target="_blank" href="./accessibility">Accessibility (Opens in a new tab)</a></li>
 
             <li><a href="https://www.ed.ac.uk/about/website/freedom-information">Freedom of Information Publication
                     Scheme</a></li>

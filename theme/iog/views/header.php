@@ -85,12 +85,6 @@
 </head>
 
 <body>
-<!-- New tab notice script -->
-<script>
-    function warnNewTab() {
-        return confirm("This link will open in a new tab. Proceed?");
-    }
-</script>
 <div class="skip-links">
     <a class="screen-reader-text" href="<?php echo current_url(); ?>#main">Skip to content</a>
 </div>
@@ -98,12 +92,12 @@
     <header>
         <nav id="menu">
             <ul class="uoe-links">
-                <li><a href="https://www.ed.ac.uk"  target="_blank" onclick="return warnNewTab()" title="University of Edinburgh Home">University of Edinburgh</a></li>
+                <li><a href="https://www.ed.ac.uk"  target="_blank" title="University of Edinburgh Home">University of Edinburgh (opens in a new tab)</a></li>
             </ul>
             <ul class="menu-links">
-                <li><a href="http://scottishgovernmentyearbooks.wordpress.com" title="Blog" target="_blank" onclick="return warnNewTab()">Blog</a></li>
-                <li><a href=" http://www.era.lib.ed.ac.uk/" title="Edinburgh Research Archive" target="_blank" onclick="return warnNewTab()">ERA</a></li>
-                <li><a href=" http://www.sps.ed.ac.uk/" title="School of Social and Political Science" target="_blank" onclick="return warnNewTab()">SPS</a></li>
+                <li><a href="http://scottishgovernmentyearbooks.wordpress.com" title="Blog" target="_blank">Blog (opens in a new tab)</a></li>
+                <li><a href=" http://www.era.lib.ed.ac.uk/" title="Edinburgh Research Archive" target="_blank">ERA (opens in a new tab)</a></li>
+                <li><a href=" http://www.sps.ed.ac.uk/" title="School of Social and Political Science" target="_blank">SPS (opens in a new tab)</a></li>
                 <li><a href="./history/" title="History of the Scottish Government Yearbooks">History</a></li>
                 <li><a href="./about/" title="About this site">About</a></li>
             </ul>
