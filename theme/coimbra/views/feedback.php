@@ -26,7 +26,7 @@
         <p>
             If you have any questions, please contact: <a href="mailto:info@coimbra-group.eu">info@coimbra-group.eu</a>
         </p>
-        <p><a target="_blank" href="https://www.ed.ac.uk/records-management/notice">University of Edinburgh privacy statement (Opens in a new tab)</a></p>
+        <p><a href="" target="_blank" data-toggle="modal" data-target="#newTabNotice" data-href="https://www.ed.ac.uk/records-management/notice">University of Edinburgh privacy statement</a></p>
     </div>
 
 </div>

@@ -66,7 +66,7 @@
         </p>
         <p>
             <h6>
-            The Scottish Government Yearbook was succeeded in 1992 by the quarterly journal <a href="http://www.euppublishing.com/loi/scot" target="_blank" title="Scottish Affairs">Scottish Affairs (opens in a new tab)</a>.
+            The Scottish Government Yearbook was succeeded in 1992 by the quarterly journal <a href="http://www.euppublishing.com/loi/scot" target="_blank" onclick="return warnNewTab()" title="Scottish Affairs">Scottish Affairs</a>.
             It has continued the same editorial principles as the Yearbook, and maintained the same commitment to providing
             a forum for well-informed public discussion. Further information on the development of the Yearbook and Scottish Affairs
             is available <a href="./history">here</a>.

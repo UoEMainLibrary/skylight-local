@@ -31,7 +31,7 @@ input, select { vertical-align: middle; }
 /* Default Styles --------------------------------------------------------------------------------------------------------*/
 
 html 							{ -webkit-font-smoothing: antialiased; }
-body 							{ background: #EEEEEE; font-size: 16px;}
+body 							{ background: #EEEEEE; font-size: 22px;}
 body, select, input, textarea 	{ color: #555; font-family: 'Source Sans Pro', sans-serif; }
 
 h1, h2, h3, h4, h5, h6          { text-rendering: optimizeLegibility; color: #000000; font-weight: bold; }
@@ -109,7 +109,6 @@ header .container   { padding: 0;}
 
 .list-group-item>.badge {
     background-color: #3c3c3c;
-    font-size: 16px;
 }
 
 .text-muted {
@@ -354,11 +353,3 @@ input:focus,
     clip-path: circle(100%);
     padding: 8px;
 }
-
-.visually-hidden {
-    position: absolute !important;
-    height: 1px; width: 1px;
-    overflow: hidden;
-    clip: rect(1px, 1px, 1px, 1px);
-    white-space: nowrap; /* Added to prevent text wrapping */
-  }
