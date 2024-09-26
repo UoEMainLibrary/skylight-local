@@ -95,7 +95,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" title="Coimbra Group Website link" target="_blank" href="https://www.coimbra-group.eu/"><span class="visually-hidden"> (opens in a new tab)</span></a>
+                <a class="navbar-brand" href="" title="Coimbra Group Website link" target="_blank" data-toggle="modal" data-target="#newTabNotice" data-href="https://www.coimbra-group.eu/"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">

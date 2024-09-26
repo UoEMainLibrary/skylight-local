@@ -114,10 +114,10 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
             $bitstreamLink = $this->skylight_utilities->getBitstreamLink($bitstream);
             $bitstreamUri = $this->skylight_utilities->getBitstreamUri($bitstream);
             $manifest = 'https://test.collections.ed.ac.uk/art/record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
-            $jsonLink .= '<a target="_blank" href="'.$manifest.'"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" class="iiiflogo" title="IIIF manifest"> (opens in a new tab)</a>
-            <a target="_blank" href="https://images.is.ed.ac.uk/luna/servlet/view/search?search=SUBMIT&q='.$accno.'"><img src="https://images.is.ed.ac.uk/luna/images/LUNAIIIF80.png" class="lunaiiif" title="View in LUNA"> (opens in a new tab)</a>';
-            $jsonLink .='<a target="_blank" href ="https://librarylabs.ed.ac.uk/uv-examples/?manifest='.$manifest.'"><img src="http://digital.nls.uk/da/assets/graphics/misc/logo-uv-24-32.png" class="iiiflogo" title="View in UV"> (opens in a new tab)</a>';
-            $jsonLink .='<a target="_blank" href="http://tomcrane.github.io/scratch/mirador/?manifest='.$manifest.'"><img src="http://digital.nls.uk/da/assets/graphics/misc/logo-mirador-24-32.png" class="iiiflogo" title="View in Mirador"> (opens in a new tab)</a>';
+            $jsonLink .= '<a target="_blank" onclick="return warnNewTab()" href="'.$manifest.'"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" class="iiiflogo" title="IIIF manifest"></a>
+            <a target="_blank" onclick="return warnNewTab()" href="https://images.is.ed.ac.uk/luna/servlet/view/search?search=SUBMIT&q='.$accno.'"><img src="https://images.is.ed.ac.uk/luna/images/LUNAIIIF80.png" class="lunaiiif" title="View in LUNA"></a>';
+            $jsonLink .='<a target="_blank" onclick="return warnNewTab()" href ="https://librarylabs.ed.ac.uk/uv-examples/?manifest='.$manifest.'"><img src="http://digital.nls.uk/da/assets/graphics/misc/logo-uv-24-32.png" class="iiiflogo" title="View in UV"></a>';
+            $jsonLink .='<a target="_blank" onclick="return warnNewTab()" href="http://tomcrane.github.io/scratch/mirador/?manifest='.$manifest.'"><img src="http://digital.nls.uk/da/assets/graphics/misc/logo-mirador-24-32.png" class="iiiflogo" title="View in Mirador"></a>';
             $jsonLink .='<a href ="./iiif" title="What is this?">What is this?</a>';
 
         }
@@ -269,11 +269,11 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
                 echo '<span class="crowd-tag">' . '<a href="./search/*:*/Tags:%22'.$lower_orig_filter.'%7C%7C%7C'.$orig_filter.'%22" title="' . $tag . '"><i class="fa fa-tags fa-lg">&nbsp;</i>'.$tag.'</a>' . '</span>';
             } ?>
             <div class="crowd-info">
-                <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php" target="_blank">
+                <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php" target="_blank" onclick="return warnNewTab()">
                     <input type="hidden" name="image_id" value="<?php echo $image_id ?>">
                     <input type="hidden" name="theme" value="art">
                     Add more tags at <a href="#" onclick="document.forms[1].submit();return false;" title="University of Edinburgh, Library Labs Metadata Games">Library Labs Games</a>
-                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" title="EASE Friend">Edinburgh Friend Account (opens in a new tab)</a>)
+                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" onclick="return warnNewTab()" title="EASE Friend">Edinburgh Friend Account</a>)
                 </form>
             </div>
         </div>
@@ -283,11 +283,11 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
         ?>
         <div class="crowd-tags">
             <div class="crowd-info">
-                <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php" target="_blank">
+                <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php" target="_blank" onclick="return warnNewTab()">
                     <input type="hidden" name="image_id" value="<?php echo $image_id ?>">
                     <input type="hidden" name="theme" value="art">
                     Add tags to this image at <a href="#" onclick="document.forms[1].submit();return false;" title="University of Edinburgh, Library Labs Metadata Games">Library Labs Games</a>
-                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" title="EASE Friend">Edinburgh Friend Account (opens in a new tab)</a>)
+                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" onclick="return warnNewTab()" title="EASE Friend">Edinburgh Friend Account</a>)
                 </form>
             </div>
         </div>

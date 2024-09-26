@@ -2,7 +2,7 @@
     <div class="about-container">
 
         <div class="information-container col-xs-12 col-md-8 col-md-offset-2">
-            <b class="big-title">The Virtual Exhibition : <a style="color: white;" target="_blank" href="https://collections.ed.ac.uk/coimbra">https://collections.ed.ac.uk/coimbra (Opens in a new tab)</a></b>
+            <b class="big-title">The Virtual Exhibition : <a style="color: white;" target="_blank" href="" data-toggle="modal" data-target="#newTabNotice" data-href="https://collections.ed.ac.uk/coimbra">https://collections.ed.ac.uk/coimbra</a></b>
             <div class="content">
                 This online exhibition celebrates shared cultural heritage across the Coimbra Group of
                 European universities. To coincide with the June 2017 Coimbra Conference, hosted at the
@@ -40,7 +40,7 @@
                 practice through mutual exchange of experience.
                 <br><br>
                 <b>
-                    <a target="_blank" href="https://www.coimbra-group.eu/">More information on the Coimbra Group Website (Opens in a new tab)</a></b>
+                    <a target="_blank" href="" data-toggle="modal" data-target="#newTabNotice" data-href="https://www.coimbra-group.eu/">More information on the Coimbra Group Website</a></b>
             </div>
         </div>
     </div>

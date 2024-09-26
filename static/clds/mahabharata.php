@@ -38,9 +38,9 @@
 
 </p>
 <p>
-  The scroll has been made available to view online using <a href="https://iiif.io" title="International Image Interoperability Framework" target="_blank">IIIF (opens in a new tab)</a>
+  The scroll has been made available to view online using <a href="https://iiif.io" title="International Image Interoperability Framework" target="_blank" onclick="return warnNewTab()">IIIF</a>
   image and presentation APIs, that stitch the images together in realtime to enable you to scroll up and down. There is more information about the digitisation in a
-  <a href="http://libraryblogs.is.ed.ac.uk/diu/2018/06/22/a-stitch-in-time-mahabharata-delivered-online/" title="Digitisation Blog post" target="_blank">blog post (opens in a new tab)</a>.
+  <a href="http://libraryblogs.is.ed.ac.uk/diu/2018/06/22/a-stitch-in-time-mahabharata-delivered-online/" title="Digitisation Blog post" target="_blank" onclick="return warnNewTab()">blog post</a>.
         </div>
   </div>
 </div>

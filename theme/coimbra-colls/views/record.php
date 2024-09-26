@@ -92,7 +92,7 @@ if (isset($solr[$coverImageName][0]))
                                 $solr[$element][$n] = "https://". $solr[$element][$n];
                             }
 
-                            echo '<a title="URL Links for item" target="_blank" href="' . $solr[$element][$n] . '">' . $solr[$element][$n] . ' (Opens in a new tab)</a>';
+                            echo '<a title="URL Links for item" target="_blank" href="" data-toggle="modal" data-target="#newTabNotice" data-href="' . $solr[$element][$n] . '">' . $solr[$element][$n] . '</a>';
 
                         }
                         else
@@ -131,7 +131,7 @@ if (isset($solr[$coverImageName][0]))
                 $t_handle_id = preg_replace('/^.*\//', '',$t_handle);
                 $t_seq = $t_segments[4];
                 $t_uri = './record/' . $t_handle_id . '/' . $t_seq . '/' . $t_filename;
-                $LogoLink = '<a title="Link to Institution" target="_blank" href="' . $institutionUri . '"><img src = "' . $t_uri . '" class="uni-thumbnail" /><span class="visually-hidden"> (opens in a new tab)</span></a>';
+                $LogoLink = '<a title="Link to Institution" target="_blank" href="" data-toggle="modal" data-target="#newTabNotice" data-href="' . $institutionUri . '"><img src = "' . $t_uri . '" class="uni-thumbnail" /></a>';
 
                 echo $LogoLink;
             }

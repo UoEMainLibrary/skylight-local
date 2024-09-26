@@ -835,11 +835,3 @@ input:focus,
     outline: 4px solid #ffd900 !important;
     box-shadow: 0 0 0 8px #033a5f !important;
 }
-
-.visually-hidden {
-    position: absolute !important;
-    height: 1px; width: 1px;
-    overflow: hidden;
-    clip: rect(1px, 1px, 1px, 1px);
-    white-space: nowrap; /* Added to prevent text wrapping */
-  }
