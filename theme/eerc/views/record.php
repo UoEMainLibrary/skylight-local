@@ -223,8 +223,8 @@ $bitstreamLinks = array();
                                                 $trans .= '<img src="/theme/eerc/images/file-odt-icon.png" alt="Transcript of interiew ' . $do_title_short . ' in ODT format"></a>';
                                             }*/ else if (endsWith($do_file, ['.pdf'])) {
                                                 $do_title_short = substr($do_title_short, 0, -2);
-                                                $trans .= '<a href="' . $do_url . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank" onclick="return warnNewTab()">';
-                                                $trans .= '<img src="/theme/eerc/images/file-pdf-icon.png" alt="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '"></a>';
+                                                $trans .= '<a href="' . $do_url . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank">';
+                                                $trans .= '<img src="/theme/eerc/images/file-pdf-icon.png" alt="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '"><span class="visually-hidden"> (opens in a new tab)</span></a>';
                                                 //$trans .= $file_size;
                                             }
                                         }
@@ -282,7 +282,7 @@ $bitstreamLinks = array();
             <!--<tr><th>Consult at</th>
                     <?php
 
-                        /*echo '<td><a href="http://www.lhsa.lib.ed.ac.uk/" target="_blank" onclick="return warnNewTab()"
+                        /*echo '<td><a href="http://www.lhsa.lib.ed.ac.uk/" target="_blank"
                         title="Lothian Health Services Archive">Lothian Health Services Archive</a></td>';
                         */
                     ?>
@@ -302,13 +302,4 @@ $bitstreamLinks = array();
     <!--<div class="row">
 
     </div>-->
-        <!-- Warn new tab for embeded links -->
-    <script>
-        window.onload = function(){
-            const links = document.querySelectorAll('a[target="_blank"]:not([onclick="return warnNewTab()"])');
-            links.forEach(link => {
-            link.setAttribute('onclick', 'return warnNewTab()');
-            })
-        }
-    </script>
 </div>
