@@ -17,7 +17,7 @@
                     echo '<a href="./search/*:*/' . $key . ':%22' . $lower_orig_filter . '+%7C%7C%7C+' . $orig_filter . '%22" title="' . $metadatavalue . '">' . $metadatavalue . '</a>';
                 }
                 else if (stripos($element, "uri") !== FALSE) {
-                      echo '<a href="" title="URL Links for item" target="_blank" data-toggle="modal" data-target="#newTabNotice" data-href="' . $solr[$element][0] . '">' . $solr[$element][0] . '</a>';
+                      echo '<a href="" title="URL Links for item" target="_blank" href="' . $solr[$element][0] . '">' . $solr[$element][0] . ' (Opens in a new tab)</a>';
 
                 }
                 else {

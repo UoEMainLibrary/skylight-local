@@ -255,7 +255,7 @@ div.resized-image img.record-main-image {
     height: 50px;
     width: 150px;
     font-size: 18px;
-    text-transform: capitalize;
+    
 }
 .btn-primary:hover {
     background-color: #eeeeee;
@@ -347,7 +347,7 @@ input.btn {
     margin-left: 8px;
     padding: 0 18px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-    text-transform: capitalize;
+    
 }
 
 div.spacer {
@@ -663,7 +663,7 @@ div.spacer {
 }
 .navbar-nav>li>a {
     color: #650100;
-    text-transform: capitalize;
+    
     font-size: 16px;
 }
 
@@ -773,7 +773,7 @@ div.spacer {
 }
 .cnav-link {
     color: #650100;
-    text-transform: capitalize;
+    
     font-size: 16px;
 }
 .cnav-link:hover, .cnav-link:focus {
@@ -792,7 +792,7 @@ div.spacer {
     font-variant: normal;
     font-weight: bold;
     text-decoration: none;
-    text-transform: capitalize;
+    
     letter-spacing: 1px;
     line-height: 2.5;
 }
@@ -971,7 +971,7 @@ figcaption {
     font-size: 18px;
     font-weight: bold;
     width: 100%;
-    text-transform: capitalize;
+    
     letter-spacing: 2px;
     color: #650100;
 }
@@ -1001,7 +1001,7 @@ figcaption {
     font-size: 24px;
     color: #333;
     font-weight: bold;
-    text-transform: capitalize;
+    
     letter-spacing: 1px;
 }
 
@@ -1097,7 +1097,7 @@ figcaption {
     margin-bottom: 20px;
 }
 .link-capitalize {
-    text-transform: capitalize;
+    
     color: #650100;
     letter-spacing: 1px;
 }
@@ -1123,7 +1123,7 @@ figcaption {
     padding-right: 50px;
 }
 #side_facet h3 {
-    text-transform: capitalize;
+    
     font-weight: bolder;
     color: #222;
     margin-left: 12px;
@@ -1232,7 +1232,7 @@ body.record {
     text-align: center;
 }
 #stc-section1 h2 {
-    text-transform: capitalize;
+    
     font-weight: bold;
     background: none!important;
 }
@@ -1288,7 +1288,7 @@ body.record {
 }
 h3.inst-desc {
     font-size: 24px!important;
-    text-transform: capitalize;
+    
     letter-spacing: 1px;
     margin-bottom: 20px;
     margin-top: 0px;
@@ -1324,7 +1324,7 @@ audio {
 h2.itemtitle.hidden-sm.hidden-xs {
     font-size: 24px!important;
     padding: 20px;
-    text-transform: capitalize;
+    
     text-align: center;
 }
 #centered-grid {
@@ -1370,7 +1370,7 @@ h2.itemtitle.hidden-sm.hidden-xs {
                                 margin-top: 20px;
                                 margin-bottom: 20px;
                                 display: inline-block;
-                                text-transform: capitalize;
+                                
                                 letter-spacing: 2px;
                                 padding: 10px 15px;
                             }
@@ -1517,7 +1517,7 @@ div[id^="gallery"] {
     font-size: 18px;
     text-align: center;
     font-size: 20px;
-    text-transform: capitalize;
+    
     cursor: pointer;
     font-family: 'Hind', Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘DejaVu Sans Condensed’, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif
 
@@ -1548,7 +1548,7 @@ a:focus-visible div[id^="gallery"] .gallery-title {
     display: none;
     color: #fff;
     letter-spacing: 2px;
-    text-transform: capitalize;
+    
     background: rgb(101, 1, 0); /* Fallback for browsers that don't support RGBA */
     background: rgba(101, 1, 0, 0.8);
     padding: 0 10px;
@@ -2272,3 +2272,10 @@ input:focus,
     padding: 8px;
 }
 
+.visually-hidden {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* Added to prevent text wrapping */
+  }
