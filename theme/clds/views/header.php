@@ -117,8 +117,8 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav" id="navbar-middle">
                 <li><a href="#" title="University of Edinburgh Collections Home">Home</a></li>
-                <li><a href="https://collections.ed.ac.uk/about" target="_blank" title="About Edinburgh University Collections" onclick="return warnNewTab()">About</a></li>
-                <li><a href="https://collections.ed.ac.uk/feedback/" target="_blank" title="Provide feedback" onclick="return warnNewTab()">Feedback</a></li>
+                <li><a href="<?=base_url()?>about" target="_blank" title="About Edinburgh University Collections" onclick="return warnNewTab()">About</a></li>
+                <li><a href="<?=base_url()?>feedback/" target="_blank" title="Provide feedback" onclick="return warnNewTab()">Feedback</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right hidden-xs" id="navbar-right">
                 <li><a href="https://www.facebook.com/crc.edinburgh" target="_blank" title="CRC Facebook Page" onclick="return warnNewTab()" data-toggle="tooltip" data-trigger="focus"><i id="social-fb" class="fa fa-facebook-square fa-3x social" aria-hidden="true"></i></a></li>
@@ -133,17 +133,17 @@
 <div class="tab-heading">
     <div class="container">
         <ul class="cldmenu" >
-            <li class="current" ><a href="https://collections.ed.ac.uk/search/*/Type:%22archives+%7C%7C%7C+Archives%22/Header:%22archives%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ARCHIVES" title="Archive and Manuscript Collections">Archives</a></li>
-            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22rare+books+%7C%7C%7C+Rare+Books%22/Header:%22rarebooks%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="RARE BOOKS" title="Rare Book Collections">Rare Books</a></li>
-            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22mimed+%7C%7C%7C+MIMEd%22/Header:%22mimed%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSICAL INSTRUMENTS" title="Musical Instrument Collections">Musical Instruments</a></li>
-            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22art+%7C%7C%7C+Art%22/Header:%22art%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ART" title="Art Collections">Art</a></li>
-            <li><a href="https://collections.ed.ac.uk/search/*/Type:%22museums+%7C%7C%7C+Museums%22/Header:%22museums%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSEUMS" title="Museums">Museums</a></li>
+            <li class="current" ><a href="<?=base_url()?>search/*/Type:%22archives+%7C%7C%7C+Archives%22/Header:%22archives%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ARCHIVES" title="Archive and Manuscript Collections">Archives</a></li>
+            <li><a href="<?=base_url()?>search/*/Type:%22rare+books+%7C%7C%7C+Rare+Books%22/Header:%22rarebooks%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="RARE BOOKS" title="Rare Book Collections">Rare Books</a></li>
+            <li><a href="<?=base_url()?>search/*/Type:%22mimed+%7C%7C%7C+MIMEd%22/Header:%22mimed%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSICAL INSTRUMENTS" title="Musical Instrument Collections">Musical Instruments</a></li>
+            <li><a href="<?=base_url()?>search/*/Type:%22art+%7C%7C%7C+Art%22/Header:%22art%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="ART" title="Art Collections">Art</a></li>
+            <li><a href="<?=base_url()?>search/*/Type:%22museums+%7C%7C%7C+Museums%22/Header:%22museums%22?sort_by=cld.weighting_sort+desc,dc.title_sort+asc" data-hover="MUSEUMS" title="Museums">Museums</a></li>
         </ul>
     </div>
 </div>
 <div class="tab-heading">
     <div class="container">
-        <!--h2 class="tab-h2"><a class="address" href="https://collections.ed.ac.uk/" target="_blank">COLLECTIONS.ED.AC.UK</a></h2-->
+        <!--h2 class="tab-h2"><a class="address" href="<?=base_url()?>" target="_blank">COLLECTIONS.ED.AC.UK</a></h2-->
         <p class="tab-p">The University of Edinburgh's rare and unique collections catalogue online.</p>
         <div class="form-group hidden-xs">
             <form action="./redirect/" method="post">
