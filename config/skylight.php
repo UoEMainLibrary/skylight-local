@@ -12,8 +12,8 @@ $config['skylight_handle_prefixes'] = array(3 => "art", 11 => "mimed");
 // $config['skylight_solrbase'] = 'http://collectionssolr.is.ed.ac.uk/search/';
 // $config['skylight_solrbase'] = 'http://localhost:9123/solr/search/';
 // $config['skylight_solrbase'] = 'http://collectionsinternal.is.ed.ac.uk:8080/solr/search/';
-$config['skylight_solrbase'] = 'http://test.collectionsinternal.is.ed.ac.uk:8080/solr/search/';
-// Or http://test.collectionssolr.is.ed.ac.uk/search/ ?
+// $config['skylight_solrbase'] = 'http://test.collectionsinternal.is.ed.ac.uk:8080/solr/search/';
+$config['skylight_solrbase'] = 'http://test.collectionssolr.is.ed.ac.uk:8080/solr/search/';
 
 //DSpace handle server prefix
 $config['skylight_handle_prefix'] = '10683';
