@@ -12,7 +12,7 @@
 
         <p>The RESP is currently active in East Lothian, the North-East, Dundee, Edinburgh and Lewis and Harris.</p>
 
-        <p>Further information on the conduct of the RESP can be found here: <a href="https://www.regionalethnologyscotland.llc.ed.ac.uk/spoken-word" target="_blank">https://www.regionalethnologyscotland.llc.ed.ac.uk/spoken-word</a></p>
+        <p>Further information on the conduct of the RESP can be found here: <a href="https://www.regionalethnologyscotland.llc.ed.ac.uk/spoken-word" target="_blank">https://www.regionalethnologyscotland.llc.ed.ac.uk/spoken-word (opens in a new tab)</a></p>
 
         <div id="image-container-people"></div>
 

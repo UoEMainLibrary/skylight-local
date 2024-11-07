@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content" id="content">
     <div class="about-container">
 
         <div class="information-container col-xs-12 col-md-8 col-md-offset-2">
@@ -39,7 +39,7 @@
                 It is also the purpose of the Group to influence European educational policy and to develop best
                 practice through mutual exchange of experience.
                 <br/><br/>
-                <b><a href="https://www.coimbra-group.eu/" target="_blank">More information on the Coimbra Group Website</a></b>
+                <b><a target="_blank" href="https://www.coimbra-group.eu/">More information on the Coimbra Group Website (Opens in a new tab)</a></b>
             </div>
         </div>
     </div>

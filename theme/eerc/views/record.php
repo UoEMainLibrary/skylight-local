@@ -224,7 +224,7 @@ $bitstreamLinks = array();
                                             }*/ else if (endsWith($do_file, ['.pdf'])) {
                                                 $do_title_short = substr($do_title_short, 0, -2);
                                                 $trans .= '<a href="' . $do_url . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank">';
-                                                $trans .= '<img src="/theme/eerc/images/file-pdf-icon.png" alt="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '"></a>';
+                                                $trans .= '<img src="/theme/eerc/images/file-pdf-icon.png" alt="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '"><span class="visually-hidden"> (opens in a new tab)</span></a>';
                                                 //$trans .= $file_size;
                                             }
                                         }
@@ -254,7 +254,7 @@ $bitstreamLinks = array();
                                     $interview_summary .= '<p>' . $metadatavalue . '</p>';
 
                                     if(sizeof($solr[$element])-1 == $index) {
-                                        $value .= '<div id="intsum">' . $interview_summary . '</div><script>$("#intsum").readmore({"collapsedHeight": 50, "moreLink": \'<a href = "#" class="moreless" title="Click to expand the interview summary box">...read more </a>\', "lessLink": \'<a href = "#" title="Click to shrink the interview summary box" class="moreless" >...read less </a >\'});</script>';
+                                        $value .= '<div id="intsum">' . $interview_summary . '</div><script>$("#intsum").readmore({"collapsedHeight": 50, "moreLink": \'<div style="margin: 0;"><p style="margin: 0;">...</p><a href = "#" class="moreless" title="Click to expand the interview summary box">read more</a></div>\', "lessLink": \'<div style="margin: 0;"><a href = "#" title="Click to shrink the interview summary box" class="moreless">read less</a></div>\'});</script>';
                                     }
                                     //$value .= '<div>' . $metadatavalue . '</div><script>$("#intsum").readmore({"collapsedHeight": 50, "moreLink": \'<a href="#" class="moreless">...read more</a>\', "lessLink": \'<a href="#" class="moreless">...read less</a>\'});</script>';
                                 }

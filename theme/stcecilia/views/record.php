@@ -126,11 +126,11 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             $bitstreamLink = $this->skylight_utilities->getBitstreamLink($bitstream);
             $bitstreamUri = $this->skylight_utilities->getBitstreamUri($bitstream);
             $manifest  = base_url().'stcecilias/record/'.$b_handive_id.'/'.$b_seq.'/'.$b_filename;
-            $jsonLink  = '<span class ="json-link-item"><a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest='.$manifest.'" target="_blank" class="uvlogo" title="View in UV"></a></span>';
-            $jsonLink .= '<span class ="json-link-item"><a target="_blank" href="https://librarylabs.ed.ac.uk/iiif/mirador/?manifest='.$manifest.'" class="miradorlogo" title="View in Mirador"></a></span>';
-            $jsonLink .= '<span class ="json-link-item"><a href="https://images.is.ed.ac.uk/luna/servlet/view/search?search=SUBMIT&q='.$accno.'" class="lunalogo" title="View in LUNA"></a></span>';
-            $jsonLink .= '<span class ="json-link-item"><a href="'.$manifest.'" target="_blank"  class="iiiflogo" title="IIIF manifest"></a></span>';
-            $jsonLink .= '<span class ="json-link-item"><a href = "https://creativecommons.org/licenses/by/3.0/" class ="ccbylogo" title="All images CC-BY" target="_blank" ></a></span>';
+            $jsonLink  = '<span class ="json-link-item"><a href="https://librarylabs.ed.ac.uk/iiif/uv/?manifest='.$manifest.'" target="_blank" class="uvlogo" title="View in UV"> <span class="visually-hidden"> (opens in a new tab)</span></a></span>';
+            $jsonLink .= '<span class ="json-link-item"><a target="_blank" href="https://librarylabs.ed.ac.uk/iiif/mirador/?manifest='.$manifest.'" class="miradorlogo" title="View in Mirador"> <span class="visually-hidden"> (opens in a new tab)</span></a></span>';
+            $jsonLink .= '<span class ="json-link-item"><a href="https://images.is.ed.ac.uk/luna/servlet/view/search?search=SUBMIT&q='.$accno.'" target="_blank" class="lunalogo" title="View in LUNA"><span class="visually-hidden"> (opens in a new tab)</span></a></span>';
+            $jsonLink .= '<span class ="json-link-item"><a href="'.$manifest.'" target="_blank"  class="iiiflogo" title="IIIF manifest"> <span class="visually-hidden"> (opens in a new tab)</span></a></span>';
+            $jsonLink .= '<span class ="json-link-item"><a href = "https://creativecommons.org/licenses/by/3.0/" class ="ccbylogo" title="All images CC-BY" target="_blank" > <span class="visually-hidden"> (opens in a new tab)</span></a></span>';
         }
     }
 }
@@ -447,6 +447,7 @@ foreach($recorddisplay as $key)
     <p>
         <?php if (isset($jsonLink)){echo $jsonLink;} ?>
     </p>
+    <p style="color: black;">(Note: Each icon above opens in a new tab.)</p>
 </div>
 
 <!-- AUDIO FILE IF -->

@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content container">
     <div class="content byEditor">
         <p>Our Art Collection supports the world-leading research and teaching that happens within the University.
             Comprised of an astonishing range of objects and ideas spanning two millennia and a multitude of artistic forms,
@@ -57,12 +57,12 @@
 
 
 
-        <p>Visit Centre for Research Collections <a href="http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/crc" title="Centre for Research Collections" target="_blank">webpage</a>
+        <p>Visit Centre for Research Collections <a href="https://www.ed.ac.uk/visit/museums-galleries/heritage-collections" title="Centre for Research Collections" target="_blank">webpage (opens in a new tab)</a>
             for further information about access.</p>
 
-        <a href="https://twitter.com/UoEArtArchives" title="Art Collections on Twitter" target="_blank">Art Collections on Twitter</a><br />
+        <a href="https://twitter.com/UoEArtArchives" title="Art Collections on Twitter" target="_blank">Art Collections on Twitter (opens in a new tab)</a><br />
 
-        <a href="https://artuk.org/visit/venues/university-of-edinburgh-5095"  title="Art Collections on ArtUK"  target="_blank">Art Collections on Art UK</a>
+        <a href="https://artuk.org/visit/venues/university-of-edinburgh-5095"  title="Art Collections on ArtUK"  target="_blank">Art Collections on Art UK (opens in a new tab)</a>
 
     </div>
 </div>

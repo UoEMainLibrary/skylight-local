@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content" id="content">
     <div class="container">
         <h2>Licensing and Copyright Information</h2>
         <p>

@@ -94,7 +94,7 @@ input:invalid, textarea:invalid 							{ border-radius: 1px; -moz-box-shadow: 0p
 
 ::-moz-selection 	{ background: #771301; color: #fff; text-shadow: none; } /* These selection declarations have to be separate No text-shadow: twitter.com/miketaylr/status/12228805301 Also: hot pink! */
 ::selection 		{ background: #771301; color: #fff; text-shadow: none; }
-a:link 				{ -webkit-tap-highlight-color: #FF5E99; } /* j.mp/webkit-tap-highlight-color */
+a:link 				{ -webkit-tap-highlight-color: #254d32; } /* j.mp/webkit-tap-highlight-color */
 
 button 				{  width: auto; overflow: visible; } /* Make buttons play nice in IE: www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 .ie7 img 			{ -ms-interpolation-mode: bicubic; } /* Bicubic resizing for non-native sized IMG: code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
@@ -102,8 +102,9 @@ button 				{  width: auto; overflow: visible; } /* Make buttons play nice in IE:
 /* Default Styles --------------------------------------------------------------------------------------------------------*/
 
 html 							{ -webkit-font-smoothing: antialiased; }
-body 							{ background: #ffffff; }
-body, select, input, textarea 	{ color: #555; line-height: 18px; font-family: Arial, Helvetica, sans-serif; }
+
+body 							{ background: #ECF2F2; }
+body, select, input, textarea 	{ color: #000000; line-height: 18px; font-family: Arial, Helvetica, sans-serif; }
 
 h1, h2, h3, h4, h5, h6          { text-rendering: optimizeLegibility; color: #000000; font-weight: bold; }
 h1 								{ font-size: 18px; line-height: 24px; margin: 5px 0 17px 0px; position: relative; }
@@ -140,7 +141,8 @@ input.backbtn:hover				{ color: #fff; background: #71c53d; }
 #container 			{ width: 940px; margin: auto auto; }
 header				{ position: relative; width: 940px;}
 .col-main			{ float: left; margin-right: 40px; width: 660px; }
-.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #D6D3C4; position: relative; z-index: 2;}
+/*.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #F1D8D0; position: relative; z-index: 2;}*/
+.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #ECDAE1; position: relative; z-index: 2;}
 .ie7 .col-sidebar	{ padding-bottom: 30px; }
 
 /* Common Containers & Subclasses ----------------------------------------------------------------------------------------*/
@@ -181,10 +183,25 @@ header				{ position: relative; width: 940px;}
 .main-image                     { max-width: 660px; display: block; }
 .record-main-image              { max-width: 660px; max-height: 800px; }
 
+.img-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 700px;
+    width: 90%;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 audio[id^="audio-"]             { margin: 5px 0; }
 span[id^="video-"]              { margin: 5px 0; }
 
-.col-sidebar h4						{ color: #fff; line-height: 26px; font-weight: bold; text-transform: uppercase; font-size: 12px; margin-bottom: 17px; background: #771301; padding: 0 17px; }
+.col-sidebar h4						{ color: #ecf2f2; line-height: 26px; font-weight: bold; text-transform: uppercase; font-size: 12px; margin-bottom: 17px; background: #771301; padding: 0 17px; }
 .col-sidebar h4 a 					{
     background: #771301 url(../images/bg-arrows.png) no-repeat 100% -92px;
     display: block; color: #fff; text-decoration: none; width: 223px; padding-left: 17px; position: relative; left: -17px;
@@ -193,7 +210,7 @@ span[id^="video-"]              { margin: 5px 0; }
 .col-sidebar ul 					{ list-style-type: none; margin: 0 0 17px 0; font-size: 12px; }
 .col-sidebar ul li 					{ line-height: 16px; padding: 0 17px; }
 .col-sidebar ul a 					{ text-decoration: none; display: block;}
-.col-sidebar ul a:hover				{ text-decoration: underline; }
+.col-sidebar ul a:hover				{ text-decoration: underline; color:#254d32;}
 
 .col-sidebar ul.selected					{ background: #ffffff; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 7px 9px; margin: 0 17px 4px 17px; }
 .col-sidebar ul.selected li 				{ position: relative;}
@@ -201,13 +218,15 @@ span[id^="video-"]              { margin: 5px 0; }
 .col-sidebar ul.selected a:hover			{ background: none; }
 .col-sidebar ul.selected a.deselect			{ display: block; width: 13px; height: 13px; background: url(../images/bg-deselect.png) no-repeat 0px 0px; text-indent: -9999px; position: absolute; top: 0; right: 0; }
 .col-sidebar ul.selected a.deselect:hover	{ background-position: 0px -15px; }
-
-.col-sidebar ul.related li 					{ padding: 0 20px 0 20px; position: relative; margin-bottom: 18px; zoom: 1; }
+/* not sure why but changing col sidebar ul.related li down to 30 works on page but not through here*/
+.col-sidebar ul.related li 					{ padding: 0 5px 30px 10px; position: relative; margin-bottom: 18px; zoom: 1; }
 .col-sidebar ul.related li a 				{ padding: 0; }
 .col-sidebar ul.related li a:hover			{ background: none; text-decoration: underline; }
-.col-sidebar ul.related .tags				{ margin: 0px 0 0 0; }
-.col-sidebar ul.related .tags a 			{ padding: 2px 5px; display: inline-block; background: #ffffff; color: #771301;}
-.col-sidebar ul.related .tags a:hover		{ text-decoration: none; color: #ffffff; background: #771301; }
+.col-sidebar ul.related .tags				{ margin: 0px 0 0 0; float: left}
+.col-sidebar ul.related .tags a 			{ padding: 2px 5px; display: inline-block; background: #771301; color: #ecf2f2;}
+.col-sidebar ul.related .tags a:hover		{ text-decoration: none; color: #771301; background: #ecf2f2; }
+/* trying to fix related image previews*/
+.col-sidebar ul.related .thumbnail-image    { padding: 0; float: right; }
 
 .col-sidebar ul.related li a.related-record { font-size: 14px; padding-bottom: 5px;}
 
@@ -218,7 +237,7 @@ footer                  { display: block; border-bottom: 1px solid #71c53d; padd
 .site-links			    { display: block; padding-top: 10px; padding-bottom: 10px; width: 520px; float: left; height: 19px; }
 .site-links a 		    { font-size: 10px; text-transform: uppercase; color: #AAA79E  !important; text-decoration: none; font-weight: bold; border-right: 1px solid #cecece; padding-right: 15px; margin-right: 10px; }
 .site-links a.last	    { border: none; }
-.site-links a:hover	    { text-decoration: underline; color: #71c53d; }
+.site-links a:hover	    { text-decoration: underline; color: #254d32; }
 
 .social-links           { display: block; float: right; padding: 3px;}
 
@@ -380,5 +399,95 @@ table tr:last-child                 { border: 0; border-bottom: none; }
     @page { margin: 0.5cm; }
     p, h2, h3 { orphans: 3; widows: 3; }
     h2, h3{ page-break-after: avoid; }
+
+}
+/* Open Seadragon */
+
+div[id^="openseadragon"] {
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
 }
 
+#toolbarDiv {
+    z-index: 50;
+}
+
+.toolbarItem {
+    width: 51px;
+    height: 50px;
+}
+
+#zoom-in {
+    background-image: url(../images/buttons/zoomin_rest.png);
+}
+
+#zoom-out {
+    background-image: url(../images/buttons/zoomout_rest.png);
+}
+
+#home {
+    background-image: url(../images/buttons/home_rest.png);
+}
+
+#full-page {
+    background-image: url(../images/buttons/fullpage_rest.png);
+}
+
+#next {
+    display: inline-block;
+    position: relative;
+    background-image: url(../images/buttons/next_rest.png);
+}
+
+#prev {
+    display: inline-block;
+    position: relative;
+    background-image: url(../images/buttons/previous_rest.png);
+}
+
+.displayregion {
+    border: 2px solid #630d0d;
+}
+
+
+@media only screen and (max-width : 1800px) {
+
+    div[id^="openseadragon"] {
+        height: 600px;
+    }
+
+    div.grid-item[id^="gallery"]
+    {
+        width: 33.33%;
+        height: 450px;
+    }
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+    div[id^="openseadragon"] {
+        height: 600px;
+    }
+
+    div.grid-item[id^="gallery"]
+    {
+        width: 33.33%;
+        height: 400px;
+    }
+
+}
+
+.json-link
+{
+    vertical-align: middle;
+    margin: auto;
+    text-align:center;
+    padding-top: 15px;
+}
+.iiiflogo                        { display: inline-block; width: 50px; height: 50px;  background: url(../images/iiiflogo.png) no-repeat 0px 0px;}
+.ccbylogo                        { display: inline-block; width: 150px; height: 50px; background: url(../images/cc-by.png) no-repeat 0px 0px;}
+.lunalogo                        { display: inline-block; width: 50px; height: 50px;  background: url(../images/LUNAIIIF.png) no-repeat 0px 0px;}
+.uvlogo                          { display: inline-block; width: 50px; height: 50px;  background: url(../images/uv.png) no-repeat 0px 0px;}
+.miradorlogo                     { display: inline-block; width: 50px; height: 50px;  background: url(../images/mirador-logo.png) no-repeat 0px 0px;}

@@ -1,7 +1,6 @@
 /** added for UoE */
 * {
     font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif!important;
-    color: #222;
 }
 i{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
@@ -11,7 +10,13 @@ body
 {
     /*font-family: 'Hind', Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘DejaVu Sans Condensed’, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;*/
     padding-top: 50px;
+    font-size: 16px;
 }
+
+a {
+    text-decoration: underline;
+}
+
 .container-fluid {
     margin-top: 100px;
 }
@@ -118,7 +123,7 @@ body
 }
 
 .col-xs-8 .record-title {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .items-link {
@@ -250,7 +255,7 @@ div.resized-image img.record-main-image {
     height: 50px;
     width: 150px;
     font-size: 18px;
-    text-transform: capitalize;
+    
 }
 .btn-primary:hover {
     background-color: #eeeeee;
@@ -307,7 +312,7 @@ label, input[type="button"], input[type="submit"], input[type="image"], button {
 .feedback_form input[type="text"] {
     border: 1px solid #bbbbbc;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 16px;
     height: 28px;
     padding: 0 10px;
     width: 100%;
@@ -316,7 +321,7 @@ label, input[type="button"], input[type="submit"], input[type="image"], button {
 #feedback {
     border: 1px solid #bbbbbc;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 16px;
     padding: 0 10px;
     width: 100%;
 }
@@ -336,13 +341,13 @@ input.btn {
     border: medium none;
     border-radius: 5px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     height: 28px;
     margin-left: 8px;
     padding: 0 18px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-    text-transform: capitalize;
+    
 }
 
 div.spacer {
@@ -658,7 +663,7 @@ div.spacer {
 }
 .navbar-nav>li>a {
     color: #650100;
-    text-transform: capitalize;
+    
     font-size: 16px;
 }
 
@@ -768,7 +773,7 @@ div.spacer {
 }
 .cnav-link {
     color: #650100;
-    text-transform: capitalize;
+    
     font-size: 16px;
 }
 .cnav-link:hover, .cnav-link:focus {
@@ -786,10 +791,8 @@ div.spacer {
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
-    padding-top: 30px;
-    padding-right: 30px;
     text-decoration: none;
-    text-transform: capitalize;
+    
     letter-spacing: 1px;
     line-height: 2.5;
 }
@@ -829,6 +832,11 @@ div.spacer {
     font-size: 18px;
     height: 50px;
 }
+
+#uoe-search::placeholder {
+    color: #766d6d;
+}
+
 @media (max-width: 1250px)
 {
     #uoe-search
@@ -867,7 +875,7 @@ div.spacer {
 
 
 #uoe-search-sm {
-    font-size: 14px;
+    font-size: 16px;
     height: 35px;
 }
 
@@ -963,13 +971,13 @@ figcaption {
     font-size: 18px;
     font-weight: bold;
     width: 100%;
-    text-transform: capitalize;
+    
     letter-spacing: 2px;
     color: #650100;
 }
 
 .searchDate{
-    font-size: 15px;
+    font-size: 16px;
     width: 100%;
 }
 
@@ -993,7 +1001,7 @@ figcaption {
     font-size: 24px;
     color: #333;
     font-weight: bold;
-    text-transform: capitalize;
+    
     letter-spacing: 1px;
 }
 
@@ -1032,7 +1040,7 @@ figcaption {
     top: 60px;
     text-transform: none;
     letter-spacing: 0;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: normal;
 }
 
@@ -1055,7 +1063,7 @@ figcaption {
     position: absolute;
     left: 10px;
     top: 76px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .second-navbar{
@@ -1089,7 +1097,7 @@ figcaption {
     margin-bottom: 20px;
 }
 .link-capitalize {
-    text-transform: capitalize;
+    
     color: #650100;
     letter-spacing: 1px;
 }
@@ -1115,7 +1123,7 @@ figcaption {
     padding-right: 50px;
 }
 #side_facet h3 {
-    text-transform: capitalize;
+    
     font-weight: bolder;
     color: #222;
     margin-left: 12px;
@@ -1147,7 +1155,6 @@ figcaption {
 
 .panel-body a {
     color: #650100;
-    text-decoration: none!important;
 }
 .panel-body a:hover {
     text-decoration: none;
@@ -1225,7 +1232,7 @@ body.record {
     text-align: center;
 }
 #stc-section1 h2 {
-    text-transform: capitalize;
+    
     font-weight: bold;
     background: none!important;
 }
@@ -1264,7 +1271,7 @@ body.record {
 }
 /* description */
 .col-description {
-    text-align: justify;
+    text-align: left;
     margin: auto;
 }
 .desc-smol {
@@ -1281,7 +1288,7 @@ body.record {
 }
 h3.inst-desc {
     font-size: 24px!important;
-    text-transform: capitalize;
+    
     letter-spacing: 1px;
     margin-bottom: 20px;
     margin-top: 0px;
@@ -1317,7 +1324,7 @@ audio {
 h2.itemtitle.hidden-sm.hidden-xs {
     font-size: 24px!important;
     padding: 20px;
-    text-transform: capitalize;
+    
     text-align: center;
 }
 #centered-grid {
@@ -1363,7 +1370,7 @@ h2.itemtitle.hidden-sm.hidden-xs {
                                 margin-top: 20px;
                                 margin-bottom: 20px;
                                 display: inline-block;
-                                text-transform: capitalize;
+                                
                                 letter-spacing: 2px;
                                 padding: 10px 15px;
                             }
@@ -1510,7 +1517,7 @@ div[id^="gallery"] {
     font-size: 18px;
     text-align: center;
     font-size: 20px;
-    text-transform: capitalize;
+    
     cursor: pointer;
     font-family: 'Hind', Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘DejaVu Sans Condensed’, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif
 
@@ -1524,12 +1531,14 @@ div[id^="gallery"] .gallery-title{
     display: none;
 }
 
-div[id^="gallery"]:hover .gallery-title{
+div[id^="gallery"]:hover .gallery-title, 
+a:focus-visible div[id^="gallery"] .gallery-title {
     display: block;
     color: #fff;
     letter-spacing: 2px;
     background: rgb(101, 1, 0); /* Fallback for browsers that don't support RGBA */
     background: rgba(101, 1, 0, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 /* category title for mobile/tablet */
@@ -1539,7 +1548,7 @@ div[id^="gallery"]:hover .gallery-title{
     display: none;
     color: #fff;
     letter-spacing: 2px;
-    text-transform: capitalize;
+    
     background: rgb(101, 1, 0); /* Fallback for browsers that don't support RGBA */
     background: rgba(101, 1, 0, 0.8);
     padding: 0 10px;
@@ -1852,7 +1861,7 @@ label
     color:  #320604;
 }
 .table-text-justify {
-    text-align: justify;
+    text-align: left;
 }
 .maker {
     text-align: center;
@@ -1942,7 +1951,7 @@ dl {
     .index-grid h4,
     .mob-title h4 
     {
-        font-size: 14px!important;
+        font-size: 16px!important;
     }
     .gallery-title,
     .mob-title
@@ -1955,7 +1964,7 @@ dl {
     .index-grid h4,
     .mob-title h4  
     {
-        font-size: 12px!important;
+        font-size: 16px!important;
     }
 }
 @media (max-width: 830px)
@@ -1963,7 +1972,7 @@ dl {
     .index-grid h4,
     .mob-title h4 
     {
-        font-size: 10px!important;
+        font-size: 16px!important;
     }
 }
 @media (max-width: 768px)
@@ -1999,7 +2008,7 @@ dl {
     .index-grid h4,
     .mob-title h4 
     {
-        font-size: 14px!important;
+        font-size: 16px!important;
     }
     .gallery-title,
     .mob-title
@@ -2146,5 +2155,127 @@ dl {
     }
 }
 
+.bg-secondary {
+    background-color: #650100;
+    color: #fff !important;
+}
 
+.bg-secondary a {
+    color: #fff !important;
+}
 
+.bg-secondary span{
+    color: #fff !important;
+}
+
+.bg-secondary a:hover, .bg-secondary a:focus {
+    color: #ff9a9a !important;
+}
+
+.bg-secondary a:hover i, .bg-secondary a:focus i{
+    color: #650100 !important;
+}
+
+/* ---------------------
+
+        Hilighter
+
+------------------------*/
+
+.form-control:focus-visible, 
+button:focus-visible, 
+button:focus, 
+input:focus-visible, 
+a:focus-visible {
+    position: relative;
+}
+
+.form-control:focus-visible:after, 
+button:focus-visible:after, 
+button:focus:after, 
+input:focus-visible:after, 
+a:focus-visible:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    outline: 4px solid #ffd900;
+    outline-offset: -3px;
+    box-shadow: 0 0 0 4px rgb(175,31,36);
+    pointer-events: none;
+    z-index: 1;
+    display: block;
+}
+
+a:focus-visible {
+    display: inline-block;
+    overflow: visible;
+}
+
+a div:focus-visible {
+    outline: 4px solid #ffd900;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 8px rgb(175,31,36);
+}
+
+.form-control:focus-visible,
+input:focus-visible,
+select:focus-visible,
+input:focus,
+.nav-logo-link:focus-visible img,
+.index a:focus-visible div {
+    outline: 4px solid #ffd900;
+    box-shadow: 0 0 0 8px rgb(175,31,36);
+}
+
+.nav-logo-link:focus-visible, .nav-logo-link:focus,
+.index a:focus-visible, .index a:focus {
+    display: inline;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* ---------------------
+
+      Skip to Main
+
+------------------------*/
+.screen-reader-text {
+    position: absolute !important;
+    clip-path: circle(0%);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    word-wrap: normal!important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+    z-index: 100000;
+    top: 5px;
+    left: 5px;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: normal;
+    clip-path: circle(100%);
+    padding: 8px;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* Added to prevent text wrapping */
+  }

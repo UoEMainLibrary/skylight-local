@@ -49,6 +49,9 @@
         <script src="<?php echo base_url()?>assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="<?php echo base_url()?>assets/jquery-1.11.0/jcarousel/jquery.jcarousel.min.js"></script>
         <script src="<?php echo base_url()?>assets/google-analytics/analytics.js"></script>
+        <script src="<?php echo base_url()?>assets/openseadragon/openseadragon.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+        <script src="https://cdn.rawgit.com/mejackreed/Leaflet-IIIF/master/leaflet-iiif.js"></script>
 
         <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_code ?>"></script>

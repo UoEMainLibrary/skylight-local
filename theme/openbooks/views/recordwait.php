@@ -84,10 +84,10 @@ if(isset($solr[$type_field])) {
                 if ($primopos !== false)
                 {
 
-                    echo '<a href="'.$uri.'" title="Link to Library catalogue entry" target="_blank">Library Catalogue Entry</a>';
+                    echo '<a href="'.$uri.'" title="Link to Library catalogue entry" target="_blank">Library Catalogue Entry (opens in a new tab)</a>';
                 }
                 else{
-                    echo '<a href="'.$uri.'" title="Link to '.$uri.'" target="_blank">'.$uri.'</a>';
+                    echo '<a href="'.$uri.'" title="Link to '.$uri.'" target="_blank">'.$uri.' (opens in a new tab)</a>';
                 }
                 if($index < sizeof($solr[$uri_field]) - 1) {
                     echo '<br />';

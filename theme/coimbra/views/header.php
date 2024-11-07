@@ -84,9 +84,8 @@
 </head>
 
 <body>
-    <div id="loader">
-        <img class="logo" src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/logo.png"  alt="Coimbra Group Logo">
-        <h1>Coimbra Exhibition</h1>
+    <div class="skip-links">
+        <a class="screen-reader-text" href="<?php echo current_url(); ?>#content">Skip to content</a>
     </div>
     <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
@@ -96,7 +95,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="https://www.coimbra-group.eu/" title="Coimbra Group Website link" target="_blank"></a>
+                <a class="navbar-brand" title="Coimbra Group Website link" target="_blank" href="https://www.coimbra-group.eu/"><span class="visually-hidden"> (opens in a new tab)</span></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">

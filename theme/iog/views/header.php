@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
 
-    <base href="<?php echo base_url() . index_page(); if (index_page() !== '') { echo '/'; } ?>">
+    <base href="<?php echo base_url() . index_page(); if (index_page() !== '') { echo '/'; } echo $this->config->item('skylight_url_prefix'); echo '/' ?>">
 
     <title><?php echo $page_title; ?></title>
 
@@ -85,18 +85,19 @@
 </head>
 
 <body>
-
+<div class="skip-links">
+    <a class="screen-reader-text" href="<?php echo current_url(); ?>#main">Skip to content</a>
+</div>
 <div id="container">
     <header>
         <nav id="menu">
             <ul class="uoe-links">
-                <li><a href="https://www.ed.ac.uk"  target="_blank" title="University of Edinburgh Home">University of Edinburgh</a></li>
+                <li><a href="https://www.ed.ac.uk"  target="_blank" title="University of Edinburgh Home">University of Edinburgh (opens in a new tab)</a></li>
             </ul>
             <ul class="menu-links">
-                <li><a href="http://scottishgovernmentyearbooks.wordpress.com" title="Blog" target="_blank">Blog</a></li>
-                <li><a href=" http://www.era.lib.ed.ac.uk/" title="Edinburgh Research Archive" target="_blank">ERA</a></li>
-                <li><a href="http://www.institute-of-governance.org" title="Institute of Governance Home" target="_blank">IOG</a></li>
-                <li><a href=" http://www.sps.ed.ac.uk/" title="School of Social and Political Science" target="_blank">SPS</a></li>
+                <li><a href="http://scottishgovernmentyearbooks.wordpress.com" title="Blog" target="_blank">Blog (opens in a new tab)</a></li>
+                <li><a href=" http://www.era.lib.ed.ac.uk/" title="Edinburgh Research Archive" target="_blank">ERA (opens in a new tab)</a></li>
+                <li><a href=" http://www.sps.ed.ac.uk/" title="School of Social and Political Science" target="_blank">SPS (opens in a new tab)</a></li>
                 <li><a href="./history/" title="History of the Scottish Government Yearbooks">History</a></li>
                 <li><a href="./about/" title="About this site">About</a></li>
             </ul>
@@ -112,7 +113,7 @@
                 <fieldset class="search">
                     <input type="text" name="q" value="<?php if (isset($searchbox_query)) echo urldecode($searchbox_query); ?>" id="q" />
                     <input type="submit" name="submit_search" class="btn" value="Search" id="submit_search" />
-                    <a href="./advanced" class="advanced">Advanced search</a>
+                    <a href="./advanced" class="advanced">Advanced<br>search</a>
                 </fieldset>
             </form>
         </div>
