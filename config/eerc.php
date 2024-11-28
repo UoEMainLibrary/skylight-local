@@ -27,9 +27,9 @@ else {
     //    $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
 }
 
-$config['skylight_archivesspace_user'] = 'xxxxxxxx';
-$config['skylight_archivesspace_password'] = 'xxxxxxx';
-$config['skylight_archivesspace_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8089';
+$config['skylight_archivesspace_user'] = 'apiread';
+$config['skylight_archivesspace_password'] = 'Auxilium1';
+$config['skylight_archivesspace_url'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8089';
 $config['skylight_archivesspace_tree'] = '/repositories/15/resources/86984/tree';
 
 $config['skylight_repository_type'] = 'archivesspace'; // Demo 'dspace'

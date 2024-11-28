@@ -65,7 +65,21 @@ else {
     </div>
     <?php
     foreach ($docs as $index => $doc) {
+        $ancestors = $doc['ancestors'];
+        $skip = false;
+        foreach ($ancestors as $ancestor) {
+            if (($ancestor == "/repositories/15/archival_objects/190197") or ($ancestor == "/repositories/15/archival_objects/208190"))
+            {
+                $skip = true;
+
+            }
+        }
+        if ($skip == false)
+
+        {
+
         ?>
+
         <div class="row search-row">
             <h3><a href="./record/<?php echo $doc['id']?>/<?php echo $doc['types'][0]?>"><?php
 
@@ -158,6 +172,8 @@ else {
         <?php
 
     } // end for each search result
+    }
+
 
     ?>
     <div class="row">
@@ -170,6 +186,7 @@ else {
                         echo $pagelink;
                     }
                     ?>
+
                 </ul>
             </nav>
         </div>
