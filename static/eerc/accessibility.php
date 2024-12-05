@@ -171,7 +171,7 @@ ul
 
 <div class=WordSection1>
 
-<p class=MsoTitleCxSpMiddle><b><span lang=EN style='font-size:20.0pt;
+<p class=MsoTitleCxSpMiddle style="line-height:1;"><b><span lang=EN style='font-size:20.0pt;
 font-family:"Arial",sans-serif'>Accessibility statement for </span></b><strong><span
 lang=EN-GB style='font-size:20.0pt;font-family:"Arial",sans-serif;color:black;
 border:none windowtext 1.0pt;padding:0in;font-weight:normal'>–</span></strong><b><span
