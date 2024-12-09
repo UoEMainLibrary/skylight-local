@@ -566,7 +566,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Not all
 non-text items have alternative text </span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
 ><span lang=EN-GB style='font-family:"Courier New";
 color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
@@ -578,7 +578,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Some
 video content does not have transcript present</span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0.5in;text-indent:-.25in'><span
 ><span lang=EN-GB style='font-family:"Courier New";
 color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
@@ -591,7 +591,7 @@ lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Some
 audio content does not have human corrected captions</span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0.5in;text-indent:-.25in'><span
 ><span lang=EN-GB style='font-family:"Courier New";
 color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
@@ -603,7 +603,7 @@ lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>There is
 no audio description provided for audio-visual content</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
 ><span lang=EN-GB style='font-family:"Courier New";
 color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
@@ -616,7 +616,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span><span class=normaltextrun><span lang=EN-GB style='font-family:
 "Arial",sans-serif'>Some information is conveyed by colour only e.g. links</span></span></p>
 
-<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in;
+<p class=MsoListParagraph style='margin-left:0.5in;text-indent:-.25in;
 vertical-align:baseline'><span lang=EN-GB style='font-family:"Courier New"'>o<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
 lang=EN-GB><a href="https://www.w3.org/TR/WCAG22/#use-of-color"><span
@@ -628,7 +628,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span><span class=normaltextrun><span lang=EN-GB style='font-family:
 "Arial",sans-serif'>There were colour contrast issues</span></span></p>
 
-<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in;
+<p class=MsoListParagraph style='margin-left:0.5in;text-indent:-.25in;
 vertical-align:baseline'><span lang=EN-GB style='font-family:"Courier New"'>o<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
 lang=EN-GB><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum"><span
@@ -639,7 +639,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Readability
 of the content is affected when site is magnified beyond 150%</span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0.5in;text-indent:-.25in'><span
 lang=EN-GB style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span><span lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#resize-text"><span style='font-family:"Arial",sans-serif'>1.4.4
@@ -651,7 +651,7 @@ lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman
 items are examples of text as an image and do not contain the appropriate
 alternative text</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
 ><span lang=EN-GB style='font-family:"Courier New";
 color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
@@ -663,7 +663,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Reflow is
 not operational up to 400%</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'>o&nbsp;&nbsp;<span
+<p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'>o&nbsp;&nbsp;<span
 class=MsoHyperlink><span lang=EN-GB style='font-family:"Courier New";
 text-decoration:none'><span style='font:7.0pt "Times New Roman"'> </span></span></span><span
 lang=EN-GB style='font-family:"Arial",sans-serif'><a
@@ -674,7 +674,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Tooltips
 are not accessible by keyboard or assistive software</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
 lang=EN-GB style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span><span lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus"><span
@@ -689,7 +689,7 @@ style='font-family:"Arial",sans-serif'>Not all content can be reached by
 keyboard e.g. maps</span></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:1.0in;text-indent:-.25in;vertical-align:baseline'><span
+margin-left:0.5in;text-indent:-.25in;vertical-align:baseline'><span
 class=normaltextrun><span lang=EN-GB style='font-family:"Courier New"'>o<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><span
 lang=EN-GB><a href="https://www.w3.org/TR/WCAG22/#keyboard"><span
@@ -703,7 +703,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 the user of their target location</span></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:1.0in;text-indent:-.25in;vertical-align:baseline'>o&nbsp;&nbsp;<span
+margin-left:0.5in;text-indent:-.25in;vertical-align:baseline'>o&nbsp;&nbsp;<span
 class=MsoHyperlink><span lang=EN-GB style='font-family:"Courier New";
 text-decoration:none'><span style='font:7.0pt "Times New Roman"'></span></span></span><span
 class=normaltextrun><span lang=EN-GB style='font-family:"Arial",sans-serif;
@@ -718,7 +718,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 levels are missed, which affects screen reader software</span></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:1.0in;text-indent:-.25in;vertical-align:baseline'><span lang=EN-GB
+margin-left:0.5in;text-indent:-.25in;vertical-align:baseline'><span lang=EN-GB
 style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span><span lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#headings-and-labels"><span
@@ -733,7 +733,7 @@ website is not fully compatible with assistive software as not all items are
 coded correctly e.g. some buttons do not have discernible text and some elements
 use non supported ARIA attributes</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
 ><span lang=EN-GB style='font-family:"Courier New";
 color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
@@ -745,7 +745,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Not all
 PDF documents are fully accessible</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
 lang=EN-GB style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span><span lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#name-role-value"><span style='font-family:
