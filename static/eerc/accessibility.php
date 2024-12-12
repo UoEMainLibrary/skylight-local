@@ -4,6 +4,16 @@
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
+body > *:not(#content),  #content > *:not(.container-fluid), .container-fluid > *:not(.WordSection1) {
+    display: none;
+}
+
+#content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
 <!--
  /* Font Definitions */
  @font-face
@@ -112,7 +122,7 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	margin-left:.5in;
 	font-size:12.0pt;
 	font-family:"Calibri",sans-serif;}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
 	{margin-top:0in;
 	margin-right:0in;
 	margin-bottom:0in;
@@ -233,7 +243,7 @@ style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Experience
 no time limits when using the website</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-bottom:8.0pt;text-indent:-.25in;
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:8.0pt;text-indent:-.25in;
 line-height:107%'><span lang=EN-GB style='font-family:Symbol'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Use the
@@ -341,7 +351,7 @@ lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Site
 cannot be magnified beyond 150% without content overlap</span></p>
 
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span lang=EN-GB
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span lang=EN-GB
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=eop><span lang=EN-GB style='font-family:"Arial",sans-serif'>Reflow
 is not operational beyond 125%</span></span></p>
@@ -385,7 +395,7 @@ lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Some
 files on the site are in PDF format and are not fully accessible</span></p>
 
-<p class=MsoListParagraphCxSpLast><span lang=EN-GB style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+<p class=MsoListParagraphCxSpFirst><span lang=EN-GB style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
 
 <h2><span lang=EN-GB style='font-size:20.0pt;font-family:"Arial",sans-serif'>Feedback
 and contact information</span></h2>
@@ -409,7 +419,7 @@ lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Telephone:
 +44 (0)131 651 5151</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-bottom:7.5pt;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:7.5pt;text-indent:-.25in'><span
 lang=EN-GB style='font-family:Symbol;color:#333333'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>British
 Sign Language (BSL) users can contact us via </span><span lang=EN-GB><a
@@ -445,7 +455,7 @@ lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Telephone:
 +44 (0)131 651 5151</span></p>
 
-<p class=MsoListParagraphCxSpLast style='margin-bottom:7.5pt;text-indent:-.25in'><span
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:7.5pt;text-indent:-.25in'><span
 lang=EN-GB style='font-family:Symbol;color:#333333'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>British
 Sign Language (BSL) users can contact us via </span><span lang=EN-GB><a
@@ -562,120 +572,165 @@ following items to not comply with the WCAG 2.2 AA success criteria:</span></p>
 <p class=MsoNormal><span lang=EN-GB style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Not all
 non-text items have alternative text </span></p>
 
+<<<<<<< HEAD
+<p class=MsoListParagraphCxSpFirst style='margin-left:0.5in;text-indent:-.25in'><span
+=======
 <p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 ><span lang=EN-GB style='font-family:"Courier New";
-color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span></span><span class=MsoHyperlink lang=EN-GB><a
+color:#333;text-decoration:none'><span lang=EN-GB
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></span><span class=MsoHyperlink lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#non-text-content"><span style='font-family:
 "Arial",sans-serif'>1.1.1 – Non-text Content</span></a></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Some
 video content does not have transcript present</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:0.5in;text-indent:-.25in'><span
 ><span lang=EN-GB style='font-family:"Courier New";
-color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+color:#333;text-decoration:none'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded"><span
 style='font-family:"Arial",sans-serif'>1.2.1 - Audio-only and Video-only</span></a></span></p>
 
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Some
 audio content does not have human corrected captions</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:0.5in;text-indent:-.25in'><span
 ><span lang=EN-GB style='font-family:"Courier New";
-color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+color:#333;text-decoration:none'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#captions-prerecorded"><span
 style='font-family:"Arial",sans-serif'>1.2.2 - Captions</span></a></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>There is
 no audio description provided for audio-visual content</span></p>
 
+<<<<<<< HEAD
+<p class=MsoListParagraphCxSpFirst style='margin-left:0.5in;text-indent:-.25in'><span
+=======
 <p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 ><span lang=EN-GB style='font-family:"Courier New";
-color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+color:#333;text-decoration:none'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#audio-description-prerecorded"><span
 style='font-family:"Arial",sans-serif'>1.2.5 - Audio Description</span></a></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;text-indent:-.25in;vertical-align:baseline'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=normaltextrun><span lang=EN-GB style='font-family:
 "Arial",sans-serif'>Some information is conveyed by colour only e.g. links</span></span></p>
 
 <p class=MsoListParagraph style='margin-left:0.5in;text-indent:-.25in;
+<<<<<<< HEAD
+vertical-align:baseline'><span lang=EN-GB style='font-family:"Courier New"'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span
+=======
 vertical-align:baseline'><span lang=EN-GB style='font-family:"Courier New"'>o<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 lang=EN-GB><a href="https://www.w3.org/TR/WCAG22/#use-of-color"><span
 style='font-family:"Arial",sans-serif'>1.4.1 - Use of Color</span></a></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;text-indent:-.25in;vertical-align:baseline'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=normaltextrun><span lang=EN-GB style='font-family:
 "Arial",sans-serif'>There were colour contrast issues</span></span></p>
 
 <p class=MsoListParagraph style='margin-left:0.5in;text-indent:-.25in;
+<<<<<<< HEAD
+vertical-align:baseline'><span lang=EN-GB style='font-family:"Courier New"'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+=======
 vertical-align:baseline'><span lang=EN-GB style='font-family:"Courier New"'>o<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 lang=EN-GB><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum"><span
 style='font-family:"Arial",sans-serif'>1.4.3 - Contrast (Minimum)</span></a></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Readability
 of the content is affected when site is magnified beyond 150%</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:0.5in;text-indent:-.25in'><span
+<<<<<<< HEAD
+lang=EN-GB style='font-family:"Courier New"'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+=======
 lang=EN-GB style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 </span></span><span lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#resize-text"><span style='font-family:"Arial",sans-serif'>1.4.4
 – Resize Text</span></a></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Some
 items are examples of text as an image and do not contain the appropriate
 alternative text</span></p>
 
+<<<<<<< HEAD
+<p class=MsoListParagraphCxSpFirst style='margin-left:0.5in;text-indent:-.25in'><span
+=======
 <p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 ><span lang=EN-GB style='font-family:"Courier New";
-color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+color:#333;text-decoration:none'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#images-of-text"><span style='font-family:
 "Arial",sans-serif'>1.4.5 – Images of Text</span></a></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Reflow is
 not operational up to 400%</span></p>
 
+<<<<<<< HEAD
+<p class=MsoListParagraphCxSpFirst style='margin-left:0.5in;text-indent:-.25in'><span lang=EN-GB
+style='font-family:Symbol'>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+=======
 <p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'>o&nbsp;&nbsp;<span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 class=MsoHyperlink><span lang=EN-GB style='font-family:"Courier New";
 text-decoration:none'><span style='font:7.0pt "Times New Roman"'> </span></span></span><span
 lang=EN-GB style='font-family:"Arial",sans-serif'><a
 href="https://www.w3.org/TR/WCAG22/#reflow">1.4.10 – Reflow</a></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Tooltips
 are not accessible by keyboard or assistive software</span></p>
 
+<<<<<<< HEAD
+<p class=MsoListParagraphCxSpFirst style='margin-left:0.5in;text-indent:-.25in'><span
+lang=EN-GB style='font-family:"Courier New"'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+=======
 <p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
 lang=EN-GB style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 </span></span><span lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus"><span
 style='font-family:"Arial",sans-serif'>1.4.13 – Content on Hover or Focus</span></a></span></p>
@@ -683,27 +738,38 @@ style='font-family:"Arial",sans-serif'>1.4.13 – Content on Hover or Focus</spa
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;text-indent:-.25in;vertical-align:baseline'><span
 class=normaltextrun><span lang=EN-GB style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><span class=normaltextrun><span lang=EN-GB
 style='font-family:"Arial",sans-serif'>Not all content can be reached by
 keyboard e.g. maps</span></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:0.5in;text-indent:-.25in;vertical-align:baseline'><span
+<<<<<<< HEAD
+class=normaltextrun><span lang=EN-GB style='font-family:"Courier New"'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+=======
 class=normaltextrun><span lang=EN-GB style='font-family:"Courier New"'>o<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 lang=EN-GB><a href="https://www.w3.org/TR/WCAG22/#keyboard"><span
 style='font-family:"Arial",sans-serif'>2.1.1. - Keyboard</span></a></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;text-indent:-.25in;vertical-align:baseline'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=normaltextrun><span lang=EN-GB style='font-family:
 "Arial",sans-serif'>Some links do not contain meaningful hypertext to inform
 the user of their target location</span></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+<<<<<<< HEAD
+margin-left:0.5in;text-indent:-.25in;vertical-align:baseline'><span lang=EN-GB
+style='font-family:Symbol'>·</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+=======
 margin-left:0.5in;text-indent:-.25in;vertical-align:baseline'>o&nbsp;&nbsp;<span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 class=MsoHyperlink><span lang=EN-GB style='font-family:"Courier New";
 text-decoration:none'><span style='font:7.0pt "Times New Roman"'></span></span></span><span
 class=normaltextrun><span lang=EN-GB style='font-family:"Arial",sans-serif;
@@ -712,14 +778,19 @@ target="_blank">2.4.4 - Link Purpose in Context&nbsp;</a></span></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;text-indent:-.25in;vertical-align:baseline'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=normaltextrun><span lang=EN-GB style='font-family:
 "Arial",sans-serif'>Headings are not formatted correctly and some heading
 levels are missed, which affects screen reader software</span></span></p>
 
 <p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:0.5in;text-indent:-.25in;vertical-align:baseline'><span lang=EN-GB
+<<<<<<< HEAD
+style='font-family:"Courier New"'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+=======
 style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 </span></span><span lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#headings-and-labels"><span
 style='font-family:"Arial",sans-serif'>2.4.6 - Headings and Labels</span><span
@@ -727,26 +798,37 @@ style='font-family:"Arial",sans-serif'>&nbsp;</span></a></span></p>
 
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>The
 website is not fully compatible with assistive software as not all items are
 coded correctly e.g. some buttons do not have discernible text and some elements
 use non supported ARIA attributes</span></p>
 
+<<<<<<< HEAD
+<p class=MsoListParagraphCxSpFirst style='margin-left:0.5in;text-indent:-.25in'><span
+=======
 <p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 ><span lang=EN-GB style='font-family:"Courier New";
-color:windowtext;text-decoration:none'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+color:#333;text-decoration:none'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><span class=MsoHyperlink lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#name-role-value"><span style='font-family:
 "Arial",sans-serif'>4.1.2 - Name-Role-Value</span></a></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span lang=EN-GB
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-GB style='font-family:"Arial",sans-serif'>Not all
 PDF documents are fully accessible</span></p>
 
+<<<<<<< HEAD
+<p class=MsoListParagraphCxSpFirst style='margin-left:0.5in;text-indent:-.25in'><span
+lang=EN-GB style='font-family:"Courier New"'><span lang=EN-GB
+style='font-family:Symbol'>·</span><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+=======
 <p class=MsoListParagraphCxSpLast style='margin-left:0.5in;text-indent:-.25in'><span
 lang=EN-GB style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+>>>>>>> bb978d5cc58a2c343e3213e816c3357401900f22
 </span></span><span lang=EN-GB><a
 href="https://www.w3.org/TR/WCAG22/#name-role-value"><span style='font-family:
 "Arial",sans-serif'>4.1.2 - Name-Role-Value</span></a></span></p>
@@ -781,10 +863,12 @@ that’s not within the scope of the accessibility regulations</span></h3>
 <p class=MsoNormal><span lang=EN-GB style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
 
 <p class=MsoNormal><span lang=EN-GB style='font-family:"Arial",sans-serif'>The
-site contains a </span><span lang=EN-GB><a
-href="https://collections.ed.ac.uk/eerc/map"><span style='font-family:"Arial",sans-serif'>map</span></a></span><span
+site contains a </span><span lang=EN-GB><span style='font-family:"Arial",sans-serif'>map</span></span><span
 lang=EN-GB style='font-family:"Arial",sans-serif'> which is not fully keyboard
-accessible and is not fully compatible with assistive software. At present maps
+accessible and is not fully compatible with assistive software.<br> <a
+href="https://collections.ed.ac.uk/eerc/map">https://collections.ed.ac.uk/eerc/map </a></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Arial",sans-serif'>At present maps
 are exempt from </span><span lang=EN-GB><a
 href="https://www.legislation.gov.uk/uksi/2018/952/contents"><span
 style='font-family:"Arial",sans-serif'>The Public Sector Bodies (Websites and
