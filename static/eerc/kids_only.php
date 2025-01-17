@@ -31,10 +31,11 @@
                     <h1 class="itemtitle" style="text-align: center; font-family:'Comic Sans MS';font-size:3em;color:#0066FF;background-color:#CCFFFF;padding:em;">Kids Activity Zone</h1>
                     <br>
                     <p>
-                        Use these fun activity sheets to introduce you to some interesting items from
-                        the RESP collections of oral history interviews. There are lots of fun questions to answer
-                        and tasks to do. If you like the worksheets there are some ideas that might help you to explore
-                        the archive further and even suggestions for how to carry out your own Oral History Project.
+                        The activity sheets on this page are a great way to learn more about the recordings made by the RESP.
+                        There are lots of fun questions to answer and some creative tasks to do.  Chose any of the themes below
+                        and then click on the PDF link to get started.  If you like the worksheets there are some ideas
+                        that might help you to explore the archive further and even suggestions for how to carry out your
+                        own Oral History Project.
                     </p>
                 </td>
                 <td>
@@ -60,7 +61,7 @@
                     </td>
                     <td style="vertical-align: middle">
                         <?php
-                             $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/Farming_clip01_DG5-1-1-1.mp3";
+                             $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/farming_compilation_DG5-1-1-1_and_DG38-9-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
                              $audio .= '<source src="' . $do_url . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
@@ -182,8 +183,8 @@
                 </td>
                 <td style="vertical-align: middle">
                     <p style="font-family: wfont_000751_dde043c9cc214f9bbc15a2e74a9d960b, wf_dde043c9cc214f9bbc15a2e74, orig_montserrat_regular; font-size:20px; vertical-align: middle">
-                        Pupils from St Ninians's school who were interviewed by Flora Burns. You can listen to Hannah Green and Kali Hunter if you click on the link
-                        below. <br>
+                        Kalli Hunter and Hannah Green were 8 years old when they were interviewed by Flora Burns in 2014.  Click on the link below to hear them telling Flora all about
+                        their school day at St Ninians’s school in Dumfries. <br>
                         <br>
                         <a href='https://collections.ed.ac.uk/eerc/record/165204/archival_object' style='font-size:20px'>https://collections.ed.ac.uk/eerc/record/165204/archival_object</a><br>
                     </p>

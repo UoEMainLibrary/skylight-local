@@ -68,7 +68,7 @@ else {
         $ancestors = $doc['ancestors'];
         $skip = false;
         foreach ($ancestors as $ancestor) {
-            if (($ancestor == "/repositories/15/archival_objects/190197") or ($ancestor == "/repositories/15/archival_objects/208190"))
+            if (($ancestor == "/repositories/15/archival_objects/190197") or ($ancestor == "/repositories/15/archival_objects/208190") or ($ancestor == "/repositories/15/archival_objects/228537"))
             {
                 $skip = true;
 
