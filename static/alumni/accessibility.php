@@ -43,6 +43,7 @@
 		h2 { font-size: 20pt; }
 		h3 { font-size: 16pt; }
 		a:link, a:visited { color: #0563c1; text-decoration: underline }
+		b { font-weight: bold; }
 	</style>
 
 </head>
