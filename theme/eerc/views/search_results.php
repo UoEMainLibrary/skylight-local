@@ -64,29 +64,37 @@ else {
 
     </div>
     <?php
-    foreach ($docs as $index => $doc) {
+    foreach ($docs as $index => $doc)
+    {
         $ancestors = $doc['ancestors'];
-        $uris = $doc['uri'];
+        $uri = $doc['uri'];
         $skip = false;
-        foreach ($ancestors as $ancestor) {
+        if ($uri == "/repositories/15/archival_objects/190197"
+            or $uri == "/repositories/15/archival_objects/208190"
+            or $uri == "/repositories/15/archival_objects/228537")
+        {
+            $skip = true;
+        }
+        else
+        {
+          foreach ($ancestors as $ancestor)
+          {
             if (($ancestor == "/repositories/15/archival_objects/190197")
             or ($ancestor == "/repositories/15/archival_objects/208190")
-            or ($ancestor == "/repositories/15/archival_objects/228537")
-            or ($uri == "/repositories/15/archival_objects/190197")
-            or ($uri == "/repositories/15/archival_objects/208190")
-            or ($uri == "/repositories/15/archival_objects/228537")
-            )
-            $skip = true;}
-
-
-
+            or ($ancestor == "/repositories/15/archival_objects/228537"))
             {
-
+                $skip = true;
+            }
+          }
+        }
+    if (!$skip)
+    {
 
     ?>
     <div class="row search-row">
     <h3><a href="./record/<?php echo $doc['id']?>/<?php echo $doc['types'][0]?>">
     <?php
+
 
                     $strip_rec_title = strip_tags($doc[$title_field]);
 
@@ -177,7 +185,7 @@ else {
         <?php
 
     } // end for each search result
-    }
+   }
 
 
     ?>
