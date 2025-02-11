@@ -66,22 +66,27 @@ else {
     <?php
     foreach ($docs as $index => $doc) {
         $ancestors = $doc['ancestors'];
+        $uris = $doc['uri'];
         $skip = false;
         foreach ($ancestors as $ancestor) {
-            if (($ancestor == "/repositories/15/archival_objects/190197") or ($ancestor == "/repositories/15/archival_objects/208190") or ($ancestor == "/repositories/15/archival_objects/228537"))
+            if (($ancestor == "/repositories/15/archival_objects/190197")
+            or ($ancestor == "/repositories/15/archival_objects/208190")
+            or ($ancestor == "/repositories/15/archival_objects/228537")
+            or ($uri == "/repositories/15/archival_objects/190197")
+            or ($uri == "/repositories/15/archival_objects/208190")
+            or ($uri == "/repositories/15/archival_objects/228537")
+            )
+            $skip = true;}
+
+
+
             {
-                $skip = true;
 
-            }
-        }
-        if ($skip == false)
 
-        {
-
-        ?>
-
-        <div class="row search-row">
-            <h3><a href="./record/<?php echo $doc['id']?>/<?php echo $doc['types'][0]?>"><?php
+    ?>
+    <div class="row search-row">
+    <h3><a href="./record/<?php echo $doc['id']?>/<?php echo $doc['types'][0]?>">
+    <?php
 
                     $strip_rec_title = strip_tags($doc[$title_field]);
 
