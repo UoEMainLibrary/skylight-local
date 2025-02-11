@@ -496,6 +496,29 @@ Since our initial report, we have undertaken more extensive manual testing with 
 understanding of the accessibility issues on this website. This section will receive updates as and when accessibility 
 improvements are made to the website.</p>
 
+<h3>7th August 2024</h3>
+<p>
+</p>
+<ul>
+	<li>Ensured that all links were underlined.</li>
+    <p><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1 – Use of colour </a></p></ul>
+
+    <ul>
+	<li>All colour contrast issues have been resolved to meet WCAG 2.2 AA standards.</li>
+		<p><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p></ul>
+	
+	
+		<ul><li>Added a skip to main content button on each page.</li>
+		<p><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 Bypass Blocks</a></p></ul>
+		
+	<ul>
+	<li>Increased font size to at least 12pt.</li>
+	</ul>
+	
+	
+	
+<p>
+</p>
 
 
 </body>
