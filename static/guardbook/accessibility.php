@@ -500,16 +500,16 @@ improvements are made to the website.</p>
 <p>
 </p>
 <ul>
-	<li>Ensured that all links were underlined.</li></ul>
-    <p><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1 – Use of colour </a></p>
+	<li>Ensured that all links were underlined.</li>
+    <p><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1 – Use of colour </a></p></ul>
 
     <ul>
-	<li>All colour contrast issues have been resolved to meet WCAG 2.2 AA standards.</li></ul>
-		<p><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p>
+	<li>All colour contrast issues have been resolved to meet WCAG 2.2 AA standards.</li>
+		<p><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p></ul>
 	
 	
-	<li>Added a skip to main content button on each page.</li></ul>
-		<p><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 Bypass Blocks</a></p>
+		<ul><li>Added a skip to main content button on each page.</li>
+		<p><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 Bypass Blocks</a></p></ul>
 		
 	<ul>
 	<li>Increased font size to at least 12pt.</li>
