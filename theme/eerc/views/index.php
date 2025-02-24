@@ -7,6 +7,7 @@
         <p>This website provides access to the recordings made as part of the RESP. In order to encourage and facilitate access to this Collection, detailed summaries for each item are provided in the collections catalogue along with keyword, name and place search options.  Most of the interviews have been transcribed in full and those transcriptions are also available on this site. The collection can be browsed using the dedicated search options, by clicking on any one of the photographs on the left hand panel on this page , or the ‘People’ page, or can be explored using free-text searching.</p>
         <p>The ethos of the RESP is that the collection is the creation of those who have made the recordings. As such, it is a central aim of the RESP that the recordings are made freely available in an easily accessible way. This archive interface, along with making the resources available to download through a Creative Commons licence, are the main ways in which we seek to meet this objective.</p>
         <p>More information about the RESP and the EERC can be found here:<br/> <a href="https://www.regionalethnologyscotland.llc.ed.ac.uk/spoken-word" target="_blank">https://www.regionalethnologyscotland.llc.ed.ac.uk/spoken-word (opens in a new tab)</a>.</p>
+        <p>The blog for the Regional Ethnology of Scotland Project:<br/> <a href="https://libraryblogs.is.ed.ac.uk/resp/" target="_blank">https://libraryblogs.is.ed.ac.uk/resp/ (opens in a new tab)</a>.</p>
 
     </div>
 
