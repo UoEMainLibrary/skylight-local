@@ -6,6 +6,7 @@
                         <a href="https://www.ed.ac.uk" target="_blank" title="The University of Edinburgh"><div class="uoe-logo"></div><span class="visually-hidden"> (opens in a new tab)</span></a>
                         <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/cultural-heritage-collections/crc" target="_blank" title="Centre for Research Collections"><div class="crc-logo"></div><span class="visually-hidden"> (opens in a new tab)</span></a>
                         <a href="https://www.ed.ac.uk/literatures-languages-cultures/celtic-scottish-studies/research/eerc" target="_blank" title="Regional Ethnology of Scotland Project"><div class="eerc-logo-small"></div><span class="visually-hidden"> (opens in a new tab)</span></a>
+                        <a href="https://libraryblogs.is.ed.ac.uk/resp/" target="_blank" title="RESP Instagram"><div class="blogs-logo"></div><span class="visually-hidden"> (opens in a new tab)</span></a>
                         <a href="https://www.instagram.com/RESParchiveproject/" target="_blank" title="RESP Instagram"><div class="instagram-logo"></div><span class="visually-hidden"> (opens in a new tab)</span></a>
                     </div>
                 </div>
