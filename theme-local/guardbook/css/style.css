@@ -31,13 +31,17 @@ input, select { vertical-align: middle; }
 /* Default Styles --------------------------------------------------------------------------------------------------------*/
 
 html 							{ -webkit-font-smoothing: antialiased; }
+<<<<<<< HEAD
 body 							{ background: #EEEEEE; font-size: 16px;}
+=======
+body 							{ background: #EEEEEE; font-size: 12pt;}
+>>>>>>> master
 body, select, input, textarea 	{ color: #555; font-family: 'Source Sans Pro', sans-serif; }
 
 h1, h2, h3, h4, h5, h6          { text-rendering: optimizeLegibility; color: #000000; font-weight: bold; }
-h1 								{ font-size: 25px; line-height: 24px; margin: 18px 0 17px 0; position: relative; color: #373B41;}
-h2 								{ font-size: 23px; line-height: 36px; margin: 0 0 0 0; }
-h3 								{ color: #373B41; font-size: 21px; line-height: 18px; margin: 0 0 9px 0; }
+h1 								{ font-size: 24pt; line-height: 24px; margin: 18px 0 17px 0; position: relative; color: #373B41;}
+h2 								{ font-size: 20pt; line-height: 36px; margin: 0 0 0 0; }
+h3 								{ color: #373B41; font-size: 16pt; line-height: 18px; margin: 0 0 9px 0; }
 h5                              {font-size: 16px;}
 
 h1.itemtitle 					{ font-family: 'Special Elite', cursive; font-size: 27px; line-height: 30px;
@@ -48,11 +52,12 @@ h1.itemtitle 					{ font-family: 'Special Elite', cursive; font-size: 27px; line
 h1 a.heading-link               { color: #999; text-decoration: none; }
 h1 a.heading-link:hover         { text-decoration: underline; }
 
-p 								{ font-size: 22px; margin-bottom: 18px; }
+p 								{ font-size: 12pt; margin-bottom: 18px; }
 
 a                               {text-decoration: underline;}
 a, a:active, a:visited          { color: #163772; }
 a:hover 						{ text-decoration: underline; color: #999; }
+ul 								{ padding-left: 40px; }
 
 
 /* Site Css ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
