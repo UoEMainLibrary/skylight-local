@@ -138,17 +138,17 @@
             </form>
             <div class="navbar-right sch-link" id="full-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">Visit St Cecilia's Hall</a>
+                <a style="line-height: normal; text-align:center; display: block;" href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall </br> <span style="font-size:16px;">(opens in a new tab)</span></a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">Visit St Cecilia's</a>
+                <a style="line-height: normal; text-align:center; display: block;" href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's </br> <span style="font-size:16px;">(opens in a new tab)</span></a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
             <div class="navbar-right sch-link" id="xtra-smol-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">Visit Us</a>
+                <a style="line-height: normal; text-align:center; display: block;" href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit Us </br> <span style="font-size:16px;">(opens in a new tab)</span></a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
         </div>
@@ -173,7 +173,7 @@
             </form>
             <div class="navbar-right sch-link" id="full-visit">
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
-                <a href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank" onclick="return warnNewTab()">Visit St Cecilia's Hall</a>
+                <a style="line-height: normal; text-align:center; display: block;" href="https://www.stcecilias.ed.ac.uk/visit/" title="Visit St Cecilia's Hall" target="_blank">Visit St Cecilia's Hall </br><span style="font-size:16px;">(opens in a new tab)</span></a>
                 <!-- NEEDS TO BE ADJUSTED WHEN SWITCHING TO LIVE SERVER -->
             </div>
         </div>

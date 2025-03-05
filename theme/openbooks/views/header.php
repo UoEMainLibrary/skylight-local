@@ -102,7 +102,7 @@
             <a href="<?php echo base_url(); ?>" class="oblogo" title="University of Edinburgh Open Books Collection Home">
                 <span><?php echo $site_title; ?></span>
             </a>
-            <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Home" target="_blank" onclick="return warnNewTab()"></a>
+            <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Home" target="_blank"><span class="visually-hidden"> (opens in a new tab)</span></a>
         </div>
         <div id="collection-search">
             <form action="./redirect/" method="post">

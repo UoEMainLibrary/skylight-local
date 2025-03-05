@@ -29,7 +29,7 @@
         <p>
             If you have any questions, please contact: <a href="mailto:<?php echo $email_address ?>"><?php echo $email_address ?></a>
         </p>
-        <p><a href="https://www.ed.ac.uk/records-management/notice" target="_blank" onclick="return warnNewTab()">Unviersity privacy statement</a></p>
+        <p><a href="https://www.ed.ac.uk/records-management/notice" target="_blank">Unviersity privacy statement (opens in a new tab)</a></p>
 
 
     </div>

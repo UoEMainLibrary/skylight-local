@@ -118,13 +118,6 @@
 </head>
 
 <body>
-
-    <script>
-        function warnNewTab() {
-            return confirm("This link will open in a new tab. Proceed?");
-        }
-    </script>
-
     <div id="container">
         <div class="skip-links">
             <a class="screen-reader-text" href="<?php echo current_url(); ?>#main">Skip to content</a>
@@ -133,12 +126,12 @@
             <div id="collection-title">
                 <div class="logo-title-group">
                     <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh Homepage Link"
-                        target="_blank" onclick="return warnNewTab()"></a>
+                        target="_blank"><span class="visually-hidden"> (opens in a new tab)</span></a>
                     <a href="<?php echo base_url(); ?>mimed" class="mimedlogo"
                         title="Musical Instrument Museums Edinburgh Home"></a>
                 </div>
                 <a href="http://www.stcecilias.ed.ac.uk/" class="menulogo" title="St Cecilia's Hall Link"
-                    target="_blank" onclick="return warnNewTab()"></a>
+                    target="_blank"><span class="visually-hidden"> (opens in a new tab)</span></a>
             </div>
             <div id="collection-search">
                 <form action="./redirect/" method="post">
