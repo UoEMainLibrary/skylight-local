@@ -103,7 +103,7 @@
         </div>
         <div class="navbar-header">
             <div id="collection-title">
-                <a href="https://www.ed.ac.uk" class="navbar-brand logo" title="The University of Edinburgh Home" target="_blank"><img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/UoELogo.gif" alt="The University of Edinburgh Logo"/> (opens in a new tab)</a>
+                <a href="https://www.ed.ac.uk" class="navbar-brand logo" title="The University of Edinburgh Home" target="_blank"><img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/UoELogo.gif" alt="The University of Edinburgh Logo"/> <span class="sr-only">(opens in a new tab)</span> </a>
                 <div id="navbar-word">
                     <a href="<?php echo base_url(); ?>" class="collectionslogo" title="University of Edinburgh Collections Home"></a>
                 </div>
@@ -120,14 +120,14 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav" id="navbar-middle">
                 <li><a href="#" title="University of Edinburgh Collections Home">Home</a></li>
-                <li><a href="https://collections.ed.ac.uk/about" target="_blank" title="About Edinburgh University Collections">About (opens in a new tab)</a></li>
-                <li><a href="https://collections.ed.ac.uk/feedback/" target="_blank" title="Provide feedback">Feedback (opens in a new tab)</a></li>
+                <li><a href="https://collections.ed.ac.uk/about" target="_blank" title="About Edinburgh University Collections">About <span class="sr-only">(opens in a new tab)</span></a></li>
+                <li><a href="https://collections.ed.ac.uk/feedback/" target="_blank" title="Provide feedback">Feedback <span class="sr-only">(opens in a new tab)</span></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right hidden-xs" id="navbar-right">
-                <li><a href="https://www.facebook.com/crc.edinburgh" target="_blank" title="CRC Facebook Page" data-toggle="tooltip" data-trigger="focus"><i id="social-fb" class="fa fa-facebook-square fa-3x social" aria-hidden="true"></i> (opens in a new tab)</a></li>
-                <li><a href="https://twitter.com/CRC_EdUni" target="_blank" title="CRC Twitter Feed" data-toggle="tooltip" data-trigger="focus"><i id="social-tw" class="fa fa-twitter-square fa-3x social" aria-hidden="true"></i> (opens in a new tab)</a></li>
-                <li><a href="https://www.flickr.com/photos/crcedinburgh" target="_blank" title="CRC Flickr Page" data-toggle="tooltip" data-trigger="focus"><i id="social-fr" class="fa fa-flickr fa-3x social" aria-hidden="true"></i> (opens in a new tab)</a></li>
-                <li><a href="http://libraryblogs.is.ed.ac.uk/" target="_blank" title="University of Edinburgh Library Blogs" data-toggle="tooltip" data-trigger="focus"><i id="social-wp" class="fa fa-wordpress fa-3x social" aria-hidden="true"></i> (opens in a new tab)</a></li>
+                <li><a href="https://www.facebook.com/crc.edinburgh" target="_blank" title="CRC Facebook Page" data-toggle="tooltip" data-trigger="focus"><i id="social-fb" class="fa fa-facebook-square fa-3x social" aria-hidden="true"></i> <span class="sr-only">(opens in a new tab)</span></a></li>
+                <li><a href="https://twitter.com/CRC_EdUni" target="_blank" title="CRC Twitter Feed" data-toggle="tooltip" data-trigger="focus"><i id="social-tw" class="fa fa-twitter-square fa-3x social" aria-hidden="true"></i> <span class="sr-only">(opens in a new tab)</span></a></li>
+                <li><a href="https://www.flickr.com/photos/crcedinburgh" target="_blank" title="CRC Flickr Page" data-toggle="tooltip" data-trigger="focus"><i id="social-fr" class="fa fa-flickr fa-3x social" aria-hidden="true"></i> <span class="sr-only">(opens in a new tab)</span></a></li>
+                <li><a href="http://libraryblogs.is.ed.ac.uk/" target="_blank" title="University of Edinburgh Library Blogs" data-toggle="tooltip" data-trigger="focus"><i id="social-wp" class="fa fa-wordpress fa-3x social" aria-hidden="true"></i> <span class="sr-only">(opens in a new tab)</span></a></li>
             </ul>
         </div>
     </div>
