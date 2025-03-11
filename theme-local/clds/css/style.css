@@ -928,3 +928,75 @@ a:focus-visible {
 input:focus-visible {
     box-shadow: 0px 0px 0px 5px #C7002E;
 }
+
+/*
+Opens in a new tab icon
+*/
+
+/* For regular external links (excluding those with .logo class) */
+a[target="_blank"]:not(.logo):not(:has(.social))::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    right: -1px;
+    position: absolute;
+    font-size: 10pt;
+    top: 42%;
+}
+
+.footer a[target="_blank"][title="Takedown Policy"]:not(.logo):not(:has(.social))::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    right: 96px;
+    position: absolute;
+    font-size: 10pt;
+    top: 71%;
+}
+
+/* For links containing social elements */
+a[target="_blank"]:has(.social)::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    right: 4px;
+    position: absolute;
+    font-size: 10pt;
+    top: 38%;
+    /* Add transitions */
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a[target="_blank"]:has(.social:hover)::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    right: -2px;
+    position: absolute;
+    font-size: 10pt;
+    top: 38%;
+    /* Add transitions */
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.col-sm-6.col-xs-12 .clickbox > div > a[target="_blank"]::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    right: 6px;
+    position: absolute;
+    font-size: 20pt;
+    top: 0%;
+    color: white; /* White base color */
+    text-shadow: 
+        1px 1px 1px black,
+        -1px -1px 1px black,
+        1px -1px 1px black,
+        -1px 1px 1px black; /* Black outline effect */
+}
+
