@@ -25,7 +25,7 @@
 			width: 100%;
 			margin: 0 auto;
 		}
-
+		
 		@page { size: 21cm 29.7cm; margin: 2.54cm }
 		body, p { font-family: Arial, sans-serif; font-size: 12pt; line-height: 1.5; text-align: left; margin-bottom: 0.25cm; direction: ltr; background: transparent }
 		h1, h2, h3 { color: #2f5496; text-align: left; margin-bottom: 0.5cm; direction: ltr; background: transparent; page-break-after: avoid }
@@ -152,45 +152,20 @@ on SensusAccess</a></p>
 </p>
 <p>If
 you need information on this website in a different format, including
-accessible PDF, large print, audio recording or braille please
-contact us:
-
-
+accessible PDF, large print, audio recording or braille:
 </p>
 
-<!-- {{You may need to change the contact details}} -->
-<ul>
-	<li>By using the IS Helpline online contact form:</li>
-	<ul>
-		<li><a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline contact form</a></li>
-	</ul>
-</ul>
+<!-- {{You may need to change the contact details if the site is not within the control of L&UC}} -->
+
 
 <ul>
-	<li>Or phoning:</li>
-	<ul>
-		<li>+44 (0)131 651 5151</li>
-	</ul>
+	<li>Email: <a href="mailto:Information.systems@ed.ac.uk">Information.systems@ed.ac.uk</a></li>
+	<li>Telephone: +44 (0)131 651 5151</li>
+	<li>Use the <a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline online contact form</a></li>
+	<li>British Sign Language (BSL) users can contact us via <a href="https://contactscotland-bsl.org/">Contact
+Scotland BSL</a>, the on-line BSL interpreting service
 </ul>
 
-<ul>
-	<li>Or email:</li>
-	<ul>
-		<li><a href="mailto:Information.systems@ed.ac.uk">Information.systems@ed.ac.uk</a></li>
-	</ul>
-</ul>
-
-<p>British Sign Language (BSL) users can contact us via&nbsp;Contact Scotland
-BSL, the on-line BSL interpreting service:
-
-
-</p>
-<p>
-<a href="https://contactscotland-bsl.org/">Contact
-Scotland BSL</a>
-
-
-</p>
 <p>We’ll consider your request and get back to you in 5 working days.</p>
 <p>
 
@@ -199,49 +174,20 @@ Scotland BSL</a>
 <p>
 We are always looking to improve the accessibility of this website. If
 you find any problems not listed on this page, or think we’re not
-meeting accessibility requirements, please contact us:&nbsp;
+meeting accessibility requirements, please contact:&nbsp;
 
 
 </p>
 
-<!-- {{You may need to change the contact details}} -->
-<ul>
-	<li>By using the IS Helpline online contact form:</li>
-	<ul>
-		<li><a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline contact form</a></li>
-	</ul>
-</ul>
+<!-- {{You may need to change the contact details if the site is not within the control of L&UC}} -->
 
 <ul>
-	<li>Or phoning:</li>
-	<ul>
-		<li>+44 (0)131 651 5151</li>
-	</ul>
+	<li>Email: <a href="mailto:Information.systems@ed.ac.uk">Information.systems@ed.ac.uk</a></li>
+	<li>Telephone: +44 (0)131 651 5151</li>
+	<li>Use the <a href="https://www.ishelpline.ed.ac.uk/forms/">IS Helpline online contact form</a></li>
+	<li>British Sign Language (BSL) users can contact us via <a href="https://contactscotland-bsl.org/">Contact
+Scotland BSL</a>, the on-line BSL interpreting service.
 </ul>
-
-<ul>
-	<li>Or email:</li>
-	<ul>
-		<li><a href="mailto:Information.systems@ed.ac.uk">Information.systems@ed.ac.uk</a></li>
-	</ul>
-</ul>
-
-
-
-</p>
-<p>
-British Sign Language (BSL) users can
-contact us via&nbsp;Contact Scotland BSL, the on-line BSL
-interpreting service:
-
-
-</p>
-<p>
-<a href="https://contactscotland-bsl.org/">Contact
-Scotland BSL</a>
-
-
-</p>
 <p>We
 will consider your request and get back to you in 5 working days.</p>
 <p>
@@ -337,117 +283,76 @@ following items to not comply with the WCAG 2.2 AA success criteria:</p>
 <!-- Delete sections that do not apply to the statement -->
 <!-- Change the {{nonComDesc}} to whatever the statement is supposed to say -->
 
-	<ul>
-	<li>Not all non-text items presented to users has alternative text</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#non-text-content">1.1.1 - Non Text Content</a></li></ul>
-	</ul>
-<p>
-</p>
+	<ul><li>Not all non-text items presented to users has alternative text</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#non-text-content">1.1.1 - Non Text Content</a></p>
+
+
+    <ul><li>Some video content does not have transcript present</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded">1.2.1 - Audio-only and Video-only</a></p>
+		
+
+    <ul><li>Not all audio-visual content have human corrected captions</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#captions-prerecorded">1.2.2 - Captions (Prerecorded)</a></p>
 
     <ul>
-	<li>Some video content does not have transcript present</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded">1.2.1 - Audio-only and Video-only</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Not all video content have audio descriptions</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded">1.2.3 - Audio Description or Media Alternative (Prerecorded)</a></p>
 
     <ul>
-	<li>Not all audio-visual content have human corrected captions</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#captions-prerecorded">1.2.2 - Captions (Prerecorded)</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>There is use of colour as the sole means of conveying information</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#use-of-color">1.4.1 - Use of Colour</a></p>
+
 
     <ul>
-	<li>Not all video content have audio descriptions</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded">1.2.3 - Audio Description or Media Alternative (Prerecorded)</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>There were colour contrast issues</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p>
+
 
     <ul>
-	<li>There is use of colour as the sole means of conveying information</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#use-of-color">1.4.1 - Use of Colour</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Some items are examples of text as an image and do not contain the appropriate alternative text</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#images-of-text">1.4.5 - Images of Text</a></p>
+
 
     <ul>
-	<li>There were colour contrast issues</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Readability of the site is affected when magnified beyond 300% and reflow is not operational</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#reflow">1.4.10 - Reflow</a></p>
+
 
     <ul>
-	<li>Some items are examples of text as an image and do not contain the appropriate alternative text</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#images-of-text">1.4.5 - Images of Text</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Not all tooltips are not fully accessible </li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus">1.4.13 - Content on Hover or Focus</a></p>
+
 
     <ul>
-	<li>Readability of the site is affected when magnified beyond 300% and reflow is not operational</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#reflow">1.4.10 - Reflow</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Not all content can be reached by keyboard navigation alone</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#keyboard">2.1.1 - Keyboard</a></p>
+
 
     <ul>
-	<li>Not all tooltips are not fully accessible </li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus">1.4.13 - Content on Hover or Focus</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>There are examples of moving content which cannot be paused or start playing automatically</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#pause-stop-hide">2.2.2 - Pause, Stop, Hide</a></p>
+
 
     <ul>
-	<li>Not all content can be reached by keyboard navigation alone</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#keyboard">2.1.1 - Keyboard</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Some links do not contain meaningful hypertext to inform the user of their target location</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#link-purpose-in-context">2.4.4 - Link Purpose (In Context)</a></p>
+
+<ul>
+	<li>Some heading levels are missed, which affects screen reader software</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#headings-and-labels">2.4.6 - Headings and Labels</a></p>
 
     <ul>
-	<li>There are examples of moving content which cannot be paused or start playing automatically</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#pause-stop-hide">2.2.2 - Pause, Stop, Hide</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Some hyperlinks open link in new tab / window, and some pop-ups do not alert the user this will happen</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#on-input">3.2.2 - On Input</a></p>
 
     <ul>
-	<li>Some links do not contain meaningful hypertext to inform the user of their target location</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#link-purpose-in-context">2.4.4 - Link Purpose (In Context)</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Screen readers and Voice recognition software are not fully compatible with the system</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#name-role-value">4.1.2 - Name, Role, Value</a></p>
 
     <ul>
-	<li>Some heading levels are missed, which affects screen reader software</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#headings-and-labels">2.4.6 - Headings and Labels</a></li></ul>
-	</ul>
-<p>
-</p>
+	<li>Not all PDF documents are fully accessible</li></ul>
+		<p><a href="https://www.w3.org/TR/WCAG22/#name-role-value">4.1.2 - Name, Role, Value</a></p>
 
-    <ul>
-	<li>Some hyperlinks open link in new tab / window, and some pop-ups do not alert the user this will happen</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#on-input">3.2.2 - On Input</a></li></ul>
-	</ul>
-<p>
-</p>
-
-    <ul>
-	<li>Screen readers and Voice recognition software are not fully compatible with the system</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#name-role-value">4.1.2 - Name, Role, Value</a></li></ul>
-	</ul>
-<p>
-</p>
-
-    <ul>
-	<li>Not all PDF documents are fully accessible</li>
-		<ul><li><a href="https://www.w3.org/TR/WCAG22/#name-role-value">4.1.2 - Name, Role, Value</a></li></ul>
-	</ul>
-<p>
-</p>
 
 </p>
 <p>We
@@ -586,11 +491,8 @@ then manual testing that included:</p>
 	cognitive tests 
 	</li>
 </ul>
-
-
-
 <h2>Change Log</h2>
-<p>
-</p>
+<p
+
 </body>
 </html>
