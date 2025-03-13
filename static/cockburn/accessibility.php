@@ -27,6 +27,10 @@
 			margin: 0 auto;
 		}
 
+		b {
+			font-weight: bold;
+		}
+
 		@page { size: 21cm 29.7cm; margin: 2.54cm }
 		body, p { font-family: Arial, sans-serif; font-size: 12pt; line-height: 1.5; text-align: left; margin-bottom: 0.25cm; direction: ltr; background: transparent }
 		h1, h2, h3 { color: #2f5496; text-align: left; margin-bottom: 0.5cm; direction: ltr; background: transparent; page-break-after: avoid }
