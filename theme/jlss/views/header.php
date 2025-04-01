@@ -131,24 +131,18 @@
         </nav>
         <header>
             <div class="container">
-
                 <div class="header-normal">
-                    <a href="<?php echo base_url(); ?>" title="Click to return to home page">
-                        <div id="collection-title" alt="Website title">Scottish Jewish Archives Centre <br>
-                            <div id="collection-sub-title"alt="Website sub-title">Digital Collection </div>
-                        </div>
-                    </a>
-                        
                     <div id="collection-logo">
                         <a href="<?php echo base_url(); ?>" title="Click to return to home page">
                             <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/sjac_logo.png" alt="Scottish Jewish Archives Logo" class="img-responsive pull-right img-circle">
                         </a>
                     </div>
-                    
-                </div>
-
-                <div class="content-divider"><p>divider</p></div>
-                
+                    <a href="<?php echo base_url(); ?>" title="Click to return to home page">
+                        <div id="collection-title" alt="Website title">Scottish Jewish Archives Centre <br>
+                            <div id="collection-sub-title"alt="Website sub-title">Digital Collection </div>
+                        </div>
+                    </a>
+               </div>
             </div>
         </header>
 
