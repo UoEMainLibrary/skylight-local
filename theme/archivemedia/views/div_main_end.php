@@ -2,7 +2,6 @@
     <div class="footer-links">
         <div class="site-links">
             <a href="./"><?php echo $site_title; ?></a>
-            <a href="./about">About</a>
             <a href="./iiif">IIIF</a>
             <a href="./feedback" class="last">Feedback</a>
         </div>

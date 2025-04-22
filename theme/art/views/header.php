@@ -150,8 +150,6 @@
                     <div class="d-flex flex-grow-1">
                         <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
                         <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-                            <img src="//placehold.it/40?text=LOGO" alt="logo">
-                        </a>
                         <div class="w-100 text-right">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                                 <span class="navbar-toggler-icon"></span>

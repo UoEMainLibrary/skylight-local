@@ -109,12 +109,12 @@ error_reporting(0);
 <body>
   <?php
   //helper functions
-  function get_dspace_bitstream($collection_id, $item_id){
-    $url_prefix = "https://test.collectionsmanager.is.ed.ac.uk";
-    $primary_image = $url_prefix . "/" . "bitstream" . "/" . $collection_id ."/". $item_id . '/1/1.jpg';
-    $bitstreams = $primary_image;
-    return $bitstreams;
-  }
+//   function get_dspace_bitstream($collection_id, $item_id){
+//     $url_prefix = "https://test.collectionsmanager.is.ed.ac.uk";
+//     $primary_image = $url_prefix . "/" . "bitstream" . "/" . $collection_id ."/". $item_id . '/1/1.jpg';
+//     $bitstreams = $primary_image;
+//     return $bitstreams;
+//   }
   ?>
     <div id="loader"></div>
     <nav class="navbar navbar-fixed-top">

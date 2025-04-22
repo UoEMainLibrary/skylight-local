@@ -1,6 +1,5 @@
 <?php
 
-
 //Fast access to important variables
 $id = $this->skylight_utilities->getField("ID");
 $title = $this->skylight_utilities->getField("Title");
@@ -10,27 +9,124 @@ $location = $this->skylight_utilities->getField("Map Reference");
 $media_uri = $this->config->item("skylight_media_url_prefix");
 $bitstream_field = $this->skylight_utilities->getField("Bitstream");
 $thumbnail_field = $this->skylight_utilities->getField("Thumbnail");
-$iiifJson = isset( $solr[$imageURI] ) ? $solr[$imageURI][0] : "";
+$type = 'Unknown';
+$mainImage = false;
+$mainImageTest = false;
+$numThumbnails = 0;
+$bitstreamLinks = array();
+$image_id = "";
+$accno = '';
+//Insert Schema.org
+$schema = $this->config->item("skylight_schema_links");
 
-//Image setup
-if (isset( $solr[$coverImageName][0] )){
-    $image_name = $solr[$coverImageName][0];
-}
-else{
-    $collection_id = '10683';
-    $id = end(explode('/', $_SERVER['REQUEST_URI']));
-    $image_name = get_dspace_bitstream($collection_id, $id);
+if(isset($solr[$type_field])) {
+    $type = "media-" . strtolower(str_replace(' ','-',$solr[$type_field][0]));
 }
 
-$imageServer = $this->config->item('skylight_image_server');
 
-if($iiifJson != "") {
-    $coverImageJSON = str_replace($iiifJson, '/full/full/0/default.jpg', '/info.json');
-    $json = file_get_contents($iiifJson);
+if(isset($solr[$bitstream_field]) && $link_bitstream)
+{
+    foreach ($solr[$bitstream_field] as $bitstream_for_array)
+    {
+        $b_segments = explode("##", $bitstream_for_array);
+        $b_seq = $b_segments[4];
+        $bitstream_array[$b_seq] = $bitstream_for_array;
+    }
+    ksort($bitstream_array);
+    $mainImage = false;
+    $videoFile = false;
+    $audioFile = false;
+    $audioLink = "";
+    $videoLink = "";
+    $jsonLink = "";
+    $b_seq =  "";
+;
+    foreach($bitstream_array as $bitstream) {
+        $mp4ok = false;
+        $b_segments = explode("##", $bitstream);
+        $b_filename = $b_segments[1];
+        if($image_id == "")
+        {
+            $image_id = substr($b_filename,0,7);
+        }
+        $b_handle = $b_segments[3];
+        $b_seq = $b_segments[4];
+        $b_handle_id = preg_replace('/^.*\//', '',$b_handle);
+        $b_uri = './record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
+        if ((strpos($b_uri, ".mp3") > 0) or (strpos($b_uri, ".MP3") > 0))
+        {
+            //Insert Schema for deetcting Audio
+            echo '<div itemprop="audio" itemscope itemtype="https://schema.org/AudioObject"></div>';
+            $audioLink .= '<audio controls>';
+            $audioLink .= '<source src="' . $b_uri . '" type="audio/mpeg" />Audio loading...';
+            $audioLink .= '</audio>';
+            $audioFile = true;
+        }
+        else if ((strpos($b_filename, ".mp4") > 0) or (strpos($b_filename, ".MP4") > 0))
+        {
+            $b_uri = $media_uri.$b_handle_id.'/'.$b_seq.'/'.$b_filename;
+            // Use MP4 for all browsers other than Chrome
+            if (strpos($_SERVER['HTTP_USER_AGENT'], 'Chrome') == false)
+            {
+                $mp4ok = true;
+            }
+            //Microsoft Edge is calling itself Chrome, Mozilla and Safari, as well as Edge, so we need to deal with that.
+            else if (strpos($_SERVER['HTTP_USER_AGENT'], 'Edge') == true)
+            {
+                $mp4ok = true;
+            }
+            if ($mp4ok == true)
+            {
+                // Insert Schema for detecting Video
+                echo '<div itemprop="video" itemscope itemtype="https://schema.org/VideoObject"></div>';
+                $videoLink .= '<div class="flowplayer" data-analytics="' . $ga_code . '" title="' . $record_title . ": " . $b_filename . '">';
+                $videoLink .= '<video preload=auto loop width="100%" height="auto" controls preload="true" width="660">';
+                $videoLink .= '<source src="' . $b_uri . '" type="video/mp4" />Video loading...';
+                $videoLink .= '</video>';
+                $videoLink .= '</div>';
+                $videoFile = true;
+            }
+        }
+        else if ((strpos($b_filename, ".webm") > 0) or (strpos($b_filename, ".WEBM") > 0))
+        {
+            //Microsoft Edge needs to be dealt with. Chrome calls itself Safari too, but that doesn't matter.
+            if (strpos($_SERVER['HTTP_USER_AGENT'], 'Edge') == false)
+            {
+                if (strpos($_SERVER['HTTP_USER_AGENT'], 'Chrome') == true)
+                {
+                    // Insert Schema
+                    echo '<div itemprop="video" itemscope itemtype="https://schema.org/VideoObject"></div>';
+                    $b_uri = $media_uri . $b_handle_id . '/' . $b_seq . '/' . $b_filename;
+                    // if it's chrome, use webm if it exists
+                    $videoLink .= '<div class="flowplayer" data-analytics="' . $ga_code . '" title="' . $record_title . ": " . $b_filename . '">';
+                    $videoLink .= '<video preload=auto loop width="100%" height="auto" controls preload="true" width="660">';
+                    $videoLink .= '<source src="' . $b_uri . '" type="video/webm" />Video loading...';
+                    $videoLink .= '</video>';
+                    $videoLink .= '</div>';
+                    $videoFile = true;
+                }
+            }
+        }
+        else if ((strpos($b_uri, ".pdf") > 0) or (strpos($b_uri, ".PDF") > 0))
+        {
+            $bitstreamLink = $this->skylight_utilities->getBitstreamLink($bitstream);
+            $bitstreamUri = $this->skylight_utilities->getBitstreamUri($bitstream);
+            $pdfLink .= 'Click ' . $bitstreamLink . 'to download. (<span class="bitstream_size">' . getBitstreamSize($bitstream) . '</span>)';
+        }
+        else if ((strpos($b_uri, ".json") > 0) or (strpos($b_uri, ".JSON") > 0))
+        {
+            if(isset($solr[$acc_no_field])) {
+                $accno =  $solr[$acc_no_field][0];
+            }
+            $bitstreamLink = $this->skylight_utilities->getBitstreamLink($bitstream);
+            $bitstreamUri = $this->skylight_utilities->getBitstreamUri($bitstream);
+            $manifest  = base_url().'public-art/record/'.$b_handle_id.'/'.$b_seq.'/'.$b_filename;}
+    }
 }
-else {
-    $coverImageJSON = $image_name;
-}
+
+?>
+
+<?php
 if(isset($solr[$coverImageName][0])) {
   echo '<script>var imageSource = [];</script>';
   $imagetot = 0;
@@ -76,76 +172,7 @@ if(isset($solr[$coverImageName][0])) {
           </script>';
   }
 }
-else{
-    echo '<script>var imageSource = [];</script>';
-    $collection_id = '10683';
-    $id = end(explode('/', $_SERVER['REQUEST_URI']));
-    $image_name = get_dspace_bitstream($collection_id, $id);
-    $coverImage = '<img class="record-image" src ="' .$image_name .'"/>';
-    echo '
-    <script>
-    imageSource[0] = {
-      type: "image",
-      url:  "'.$image_name.'",
-      buildPyramid: true
-      };
-      </script>';
-}
-if(isset($solr[$bitstream_field]))
-{
-    foreach ($solr[$bitstream_field] as $bitstream_for_array)
-    {
-        $b_segments = explode("##", $bitstream_for_array);
-        $b_seq = $b_segments[4];
-        $bitstream_array[$b_seq] = $bitstream_for_array;
-    }
-    ksort($bitstream_array);
-    $mainImage = false;
-    $videoFile = false;
-    $audioFile = false;
-    $audioLink = "";
-    $videoLink = "";
-    $jsonLink = "";
-    $b_seq =  "";
-    foreach($bitstream_array as $bitstream) {
-        $mp4ok = false;
-        $b_segments = explode("##", $bitstream);
-        $b_filename = $b_segments[1];
-        if ($image_id == "") {
-            $image_id = substr($b_filename, 0, 7);
-        }
-        $b_handle = $b_segments[3];
-        $b_seq = $b_segments[4];
-        $b_handle_id = preg_replace('/^.*\//', '', $b_handle);
-        $b_uri = './record/' . $b_handle_id . '/' . $b_seq . '/' . $b_filename;
-
-        if ((strpos($b_filename, ".mp4") > 0) or (strpos($b_filename, ".MP4") > 0)) {
-            $b_uri = $media_uri . $b_handle_id . '/' . $b_seq . '/' . $b_filename;
-            // Use MP4 for all browsers other than Chrome
-            if (strpos($_SERVER['HTTP_USER_AGENT'], 'Chrome') == false) {
-                $mp4ok = true;
-            } //Microsoft Edge is calling itself Chrome, Mozilla and Safari, as well as Edge, so we need to deal with that.
-            else if (strpos($_SERVER['HTTP_USER_AGENT'], 'Edge') == true) {
-                $mp4ok = true;
-            }
-            if ($mp4ok == true) {
-                // Insert Schema for detecting Video
-                $videoSource = $b_uri;
-                $type = 'video/mp4';
-            }
-        } else if ((strpos($b_filename, ".webm") > 0) or (strpos($b_filename, ".WEBM") > 0)) {
-            //Microsoft Edge needs to be dealt with. Chrome calls itself Safari too, but that doesn't matter.
-            if (strpos($_SERVER['HTTP_USER_AGENT'], 'Edge') == false) {
-                if (strpos($_SERVER['HTTP_USER_AGENT'], 'Chrome') == true) {
-                    $videoSource = $b_uri;
-                    $type = 'video/webm';
-                }
-            }
-        }
-    }
-}
 ?>
-
 
 <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/scrollify.js"></script>
 <script>
