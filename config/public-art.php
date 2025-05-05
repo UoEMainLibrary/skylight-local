@@ -16,7 +16,9 @@ if (ENVIRONMENT == 'development') {
 }
 else {
     $config['skylight_ga_code'] = 'G-L20JS09H7H';
-    $config['skylight_container_id'] = '8c47f237-0884-4044-930b-61d574c63c50';
+    # $config['skylight_container_id'] = '8c47f237-0884-4044-930b-61d574c63c50';
+    $config['skylight_container_id'] = '1c1bf03e-f0bb-4b71-996e-31847bace90c';
+
 }
 
 $config['skylight_sitemap_type'] = 'internal';
