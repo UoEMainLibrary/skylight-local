@@ -929,27 +929,57 @@ input:focus-visible {
     box-shadow: 0px 0px 0px 5px #C7002E;
 }
 
+.img-title {
+    background-color: #000000DF;
+    border-radius: 5px;
+    display: inline-table;
+}
+
+.img-title.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: fit-content;
+}
+
+.glyphicon-camera {
+    font-weight: 400 !important;
+    padding-right: 15px;
+    font-size: large;
+    top: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fa-file-pdf-o {
+    padding: 0 !important;
+    padding-right: 15px !important;
+    font-size: large !important;
+    top: auto !important;
+    position: relative !important;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 /*
 Opens in a new tab icon
 */
 
 /* For regular external links (excluding those with .logo class) */
-a[target="_blank"]:not(.logo):not(:has(.social))::after {
+a[target="_blank"]:not(.logo):not(:has(.social)):not(.clickbox > * a)::after {
     content: "\f08e";
     font-family: FontAwesome;
     right: -1px;
-    position: absolute;
+    position: relative;
     font-size: 10pt;
-    top: 42%;
 }
 
 .footer a[target="_blank"][title="Takedown Policy"]:not(.logo):not(:has(.social))::after {
     content: "\f08e";
     font-family: FontAwesome;
-    right: 96px;
-    position: absolute;
+    position: relative;
     font-size: 10pt;
-    top: 71%;
 }
 
 /* For links containing social elements */
@@ -985,18 +1015,11 @@ a[target="_blank"]:has(.social:hover)::after {
     -o-transform: scale(1);
 }
 
-.col-sm-6.col-xs-12 .clickbox > div > a[target="_blank"]::after {
-    content: "\f08e";
-    font-family: FontAwesome;
-    right: 6px;
-    position: absolute;
-    font-size: 20pt;
-    top: 0%;
-    color: white; /* White base color */
-    text-shadow: 
-        1px 1px 1px black,
-        -1px -1px 1px black,
-        1px -1px 1px black,
-        -1px 1px 1px black; /* Black outline effect */
-}
 
+.fa-up-right-from-square {
+    font-size: small;
+    position: relative;
+    bottom: 10px;
+    top: auto;
+    padding: 1px;
+}
