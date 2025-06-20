@@ -6,6 +6,15 @@
   <title>Mirador 3 Viewer</title>
 </head>
 <body>
+  <?php
+  $input = $_GET['manifest'] ?? '';
+  $clean = strip_tags($input);
+  $clean = trim($clean);
+  $safe_output = htmlspecialchars($clean, ENT_QUOTES, 'UTF-8');
+  if (!filter_var($clean, FILTER_VALIDATE_URL)) {
+    $safe_output = '';
+  }
+  ?>
   
 <div id="viewer"/> 
 
@@ -13,13 +22,13 @@
 var mirador = Mirador.viewer({
   "id": "viewer",
   "manifests": {
-    "<?php echo $_GET['manifest']; ?>": {
+    "<?php echo $safe_output; ?>": {
       "provider": "University of Edinburgh"
     }
   },
   "windows": [
     {
-      "loadedManifest": "<?php echo $_GET['manifest']; ?>",
+      "loadedManifest": "<?php echo $safe_output; ?>",
       "canvasIndex": 2,
       "thumbnailNavigationPosition": 'far-bottom'
     }
