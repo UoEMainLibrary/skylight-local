@@ -105,7 +105,9 @@
             }
         } ?>
     </head>
-
+    <div class="skip-links" style="position: absolute;">
+        <a class="screen-reader-text" href="<?php echo current_url(); ?>#main">Skip to content</a>
+    </div>
     <body>
         <nav class="navbar navbar-default">
             <div class="container">
@@ -146,4 +148,4 @@
             </div>
         </header>
 
-        <div class="container content">
+        <div id="main" class="container content">
