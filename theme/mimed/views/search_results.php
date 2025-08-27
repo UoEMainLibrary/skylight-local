@@ -138,7 +138,22 @@
                         {
                             //change to stop LUNA erroring on redirect
                             $imageUri = str_replace('http://', 'https://', $imageUri);
-                            list($width, $height) = getimagesize($imageUri);
+                             // build IIIF info.json URL
+                            $infoUrl = preg_replace('#/full/0/.*$#', '/info.json', $imageUri);
+
+                            // fetch dimensions
+                            $json = @file_get_contents($infoUrl);
+                            if ($json === false) {
+                                continue; // skip if no metadata
+                            }
+                            $info = json_decode($json, true);
+
+                            if (!isset($info['width'], $info['height'])) {
+                                continue; // skip if malformed
+                            }
+
+                            $width  = $info['width'];
+                            $height = $info['height'];
                             //echo 'WIDTH'.$width.'HEIGHT'.$height
                             $portrait = true;
                             if ($width > $height)
