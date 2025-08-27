@@ -27,9 +27,9 @@ else {
     //    $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
 }
 
-$config['skylight_archivesspace_user'] = 'xxxxxxxx';
-$config['skylight_archivesspace_password'] = 'xxxxxxx';
-$config['skylight_archivesspace_url'] = 'http://lac-archivesspace-live1.is.ed.ac.uk:8089';
+$config['skylight_archivesspace_user'] = 'apiread';
+$config['skylight_archivesspace_password'] = 'Auxilium1';
+$config['skylight_archivesspace_url'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8089';
 $config['skylight_archivesspace_tree'] = '/repositories/15/resources/86984/tree';
 
 $config['skylight_repository_type'] = 'archivesspace'; // Demo 'dspace'
@@ -87,6 +87,7 @@ $config['skylight_fields'] = array('Title' => 'title',
     'Alternative Format' => 'altformavail',
     'Physical Description' => 'physdesc',
     'Audio links and images' => 'digital_object_uris',
+    'Processing Information' => 'processinfo',
 );
 
 $config['skylight_date_filters'] = array();
@@ -101,7 +102,7 @@ $config['skylight_meta_fields'] = array('Title' => 'title',
 
 $config['skylight_recorddisplay'] = array('Identifier','Interviewer','Dates','Extent','Extent Type','Notable persons / organisations','Subject',
     'Biographical history', 'Rights','Interview summary','Related','Bibliography','Physical','Access', 'Usage Statement', 'Alternative Format',
-    'Audio links and images', 'Language');
+    'Audio links and images', 'Language', 'Processing Information');
 
 $config['skylight_searchresult_display'] = array('Title','Interviewer','Subject','Notable persons/organisations', 'Identifier', 'Interview summary');
 

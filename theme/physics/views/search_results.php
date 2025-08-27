@@ -8,6 +8,7 @@
         $author_field = $this->skylight_utilities->getField('Author');
         $date_field = $this->skylight_utilities->getField('Date');
         $type_field = $this->skylight_utilities->getField('Type');
+        $description_field = $this->skylight_utilities->getField('Description');
         $bitstream_field = $this->skylight_utilities->getField('Bitstream');
         $thumbnail_field = $this->skylight_utilities->getField('Thumbnail');
         $abstract_field = $this->skylight_utilities->getField('Abstract');
@@ -131,7 +132,7 @@
                         $t_seq = $t_segments[4];
                         $handle_id = preg_replace('/^.*\//', '',$t_handle);
                         $t_uri = './record/'.$handle_id.'/'.$t_seq.'/'.$t_filename;
-                        $thumbnailLink = '<img src = "'.$t_uri.'" class="search-thumbnail" title="'. $doc[$title_field][0] .'" />';
+                        $thumbnailLink = '<img src = "'.$t_uri.'" class="search-thumbnail" title="'. $doc[$title_field][0] .'" alt="' . $doc[$description_field][0] .'" />';
                         echo $thumbnailLink;
                         break 2;
                        /* if ($t_filename == $b_filename.'.jpg') {

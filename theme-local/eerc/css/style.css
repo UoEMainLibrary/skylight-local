@@ -292,6 +292,20 @@ footer                          { padding-top: 10px; padding-bottom: 10px;}
     background: url(../images/twitter.jpg) no-repeat center;
 }
 
+.instagram-logo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: url(../images/instagram_small.png) no-repeat center;
+}
+
+.blogs-logo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: url(../images/blogs_icon.png) no-repeat center;
+}
+
 .index-img {
     padding-bottom: 20px;
 }

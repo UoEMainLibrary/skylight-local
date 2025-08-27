@@ -15,7 +15,7 @@
                         <i class="fa fa-external-link"></i>
                         <i class="ion-arrow-right-c"></i>
                         <div class="curl"></div>
-                        <a href="https://archives.collections.ed.ac.uk/" title="Archives" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="https://archives.collections.ed.ac.uk/" title="Archives" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -29,7 +29,7 @@
                         <i class="fa fa-camera"></i>
                         <i class="ion-arrow-right-c"></i>
                         <div class="curl"></div>
-                        <a href="https://collections.ed.ac.uk/art" title="Art Collection" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="https://collections.ed.ac.uk/art" title="Art Collection" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -46,7 +46,7 @@
                         <i class="ion-arrow-right-c"></i>
 
                         <div class="curl"></div>
-                        <a href="https://collections.ed.ac.uk/mimed" title="Musical Instruments" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="https://collections.ed.ac.uk/mimed" title="Musical Instruments" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -65,7 +65,7 @@
                         <i class="ion-arrow-right-c"></i>
 
                         <div class="curl"></div>
-                        <a href="https://collections.ed.ac.uk/iconics" title="Iconics Collection" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="https://collections.ed.ac.uk/iconics" title="Iconics Collection" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -561,7 +561,7 @@
                         <i class="ion-arrow-right-c"></i>
 
                         <div class="curl"></div>
-                        <a href="http://www.fairbairn.ac.uk/" title="Fairbairn" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="http://www.fairbairn.ac.uk/" title="Fairbairn" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -594,7 +594,7 @@
                         <i class="ion-arrow-right-c"></i>
 
                         <div class="curl"></div>
-                        <a href="https://collections.ed.ac.uk/towardsdolly" title="Towards Dolly" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="https://collections.ed.ac.uk/towardsdolly" title="Towards Dolly" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -609,7 +609,7 @@
                         <i class="ion-arrow-right-c"></i>
 
                         <div class="curl"></div>
-                        <a href="https://collections.ed.ac.uk/alumni" title="Alumni" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="https://collections.ed.ac.uk/alumni" title="Alumni" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -626,7 +626,7 @@
                         <i class="ion-arrow-right-c"></i>
 
                         <div class="curl"></div>
-                        <a href="https://collections.ed.ac.uk/guardbook" title="Guardbook" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="https://collections.ed.ac.uk/guardbook" title="Guardbook" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -643,7 +643,7 @@
                         <i class="ion-arrow-right-c"></i>
 
                         <div class="curl"></div>
-                        <a href="http://www.tobarandualchais.co.uk/" title="Tobar an Dualchais" target="_blank" onclick="return warnNewTab()"></a>
+                        <a href="http://www.tobarandualchais.co.uk/" title="Tobar an Dualchais" target="_blank"> </a>
                     </div>
                 </figure>
             </div>
@@ -865,7 +865,7 @@
                             <i class="ion-arrow-right-c"></i>
 
                             <div class="curl"></div>
-                            <a href="http://libraryblogs.is.ed.ac.uk/" title="Library BLogs" target="_blank" onclick="return warnNewTab()"></a>
+                            <a href="http://libraryblogs.is.ed.ac.uk/" title="Library BLogs" target="_blank"> </a>
                         </div>
                     </figure>
                 </div>
@@ -914,7 +914,7 @@
                             <i class="ion-arrow-right-c"></i>
 
                             <div class="curl"></div>
-                            <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/heritage-collections/skills-volunteers-interns-fellowships/volunteers-interns" title="Volunteering" target="_blank" onclick="return warnNewTab()"></a>
+                            <a href="https://www.ed.ac.uk/information-services/library-museum-gallery/heritage-collections/skills-volunteers-interns-fellowships/volunteers-interns" title="Volunteering" target="_blank"> </a>
                         </div>
                     </figure>
                 </div>
@@ -930,7 +930,7 @@
                             <i class="ion-arrow-right-c"></i>
 
                             <div class="curl"></div>
-                            <a href="https://librarylabs.ed.ac.uk/" title="Metadata Games" target="_blank" onclick="return warnNewTab()"></a>
+                            <a href="https://librarylabs.ed.ac.uk/" title="Metadata Games" target="_blank"> </a>
                         </div>
                     </figure>
                 </div>

@@ -142,7 +142,7 @@ input.backbtn:hover				{ color: #fff; background: #71c53d; }
 header				{ position: relative; width: 940px;}
 .col-main			{ float: left; margin-right: 40px; width: 660px; }
 /*.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #F1D8D0; position: relative; z-index: 2;}*/
-.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #d8b3c1; position: relative; z-index: 2;}
+.col-sidebar		{ float: left; width: 240px; margin-top: -34px; background: #ECDAE1; position: relative; z-index: 2;}
 .ie7 .col-sidebar	{ padding-bottom: 30px; }
 
 /* Common Containers & Subclasses ----------------------------------------------------------------------------------------*/
@@ -183,6 +183,21 @@ header				{ position: relative; width: 940px;}
 .main-image                     { max-width: 660px; display: block; }
 .record-main-image              { max-width: 660px; max-height: 800px; }
 
+.img-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 700px;
+    width: 90%;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 audio[id^="audio-"]             { margin: 5px 0; }
 span[id^="video-"]              { margin: 5px 0; }
 
@@ -191,11 +206,11 @@ span[id^="video-"]              { margin: 5px 0; }
     background: #771301 url(../images/bg-arrows.png) no-repeat 100% -92px;
     display: block; color: #fff; text-decoration: none; width: 223px; padding-left: 17px; position: relative; left: -17px;
 }
-.col-sidebar h4 a:hover             { background: #254d32 url(../images/bg-arrows.png) no-repeat 100% -92px; }
+.col-sidebar h4 a:hover             { background: #71c53d url(../images/bg-arrows.png) no-repeat 100% -92px; }
 .col-sidebar ul 					{ list-style-type: none; margin: 0 0 17px 0; font-size: 12px; }
 .col-sidebar ul li 					{ line-height: 16px; padding: 0 17px; }
 .col-sidebar ul a 					{ text-decoration: none; display: block;}
-.col-sidebar ul a:hover				{ text-decoration: underline; }
+.col-sidebar ul a:hover				{ text-decoration: underline; color:#254d32;}
 
 .col-sidebar ul.selected					{ background: #ffffff; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 7px 9px; margin: 0 17px 4px 17px; }
 .col-sidebar ul.selected li 				{ position: relative;}

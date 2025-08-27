@@ -102,7 +102,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             <!--<br>
             <iframe src="<?//php echo base_url(); ?>theme/<?php // echo $this->config->item('skylight_theme'); ?>/addons/PDF_Viewer/pdf_reader.php?url=<?php// echo base_url() .$this->config->item('skylight_theme')."/". $b_uri ?>" title="PDF Viewer" width="700" height="900"></iframe>
             <br>-->
-            Click <?php echo '<a href ="'.$bitstreamLink.'" target="_blank" onclick="return warnNewTab()">'.$b_filename.'</a>'?> to download.
+            Click <?php echo '<a href ="'.$bitstreamLink.'" target="_blank">'.$b_filename.' (opens in a new tab)</a>'?> to download.
             (<span class="bitstream_size"><?php echo getBitstreamSize($bitstream); ?></span>)<br><br>
             <?php
         }
@@ -113,7 +113,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
     <div class="clearfix"></div>
     <img src="<?php echo base_url()?>theme/guardbook/images/CC-BY_icon.png" alt="CC-BY attribution license" class="img-responsive" />
     <p>
-        The PDFs are supplied under a Creative Commons CC-BY License: you may share and adapt for any purpose as long as attribution is given to the University of Edinburgh. Further information is available at <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" onclick="return warnNewTab()">http://creativecommons.org/licenses/by/4.0/</a>
+        The PDFs are supplied under a Creative Commons CC-BY License: you may share and adapt for any purpose as long as attribution is given to the University of Edinburgh. Further information is available at <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">http://creativecommons.org/licenses/by/4.0/ (opens in a new tab)</a>
     </p>
     <div class="row">
         <button class="btn btn-info" onClick="history.go(-1);"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Back to Search Results</button>

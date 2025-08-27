@@ -19,8 +19,8 @@
             This collection makes use of IIIF. On the record page, you will notice we have embedded high resolution zooming, using the OpenSeadragon image viewer.
             This has been made possible by our high-resolution image platform, LUNA (<a href="http://images.is.ed.ac.uk">http://images.is.ed.ac.uk</a>), becoming IIIF-compliant.
 
-            If you are familiar with the IIIF viewers <a href="http://projectmirador.org/" title="Project Mirador Site " target="_blank" >Mirador</a>
-            and <a href="http://universalviewer.io/" title="Universal Viewer Project site" target="_blank">Universal Viewer</a>,
+            If you are familiar with the IIIF viewers <a href="http://projectmirador.org/" title="Project Mirador Site " target="_blank" >Mirador (opens in a new tab)</a>
+            and <a href="http://universalviewer.io/" title="Universal Viewer Project site" target="_blank">Universal Viewer (opens in a new tab)</a>,
             then you can add these images into these items by right-clicking on either of the logos to pick up the manifests.
         </p>
         <p>

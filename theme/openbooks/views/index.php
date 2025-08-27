@@ -6,6 +6,6 @@
         <img src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/images/rhino.jpg"/>
     </div>
     <p>
-        The images that have been created by the University's Cultural Heritage Digitisation Service are freely accessible to all, and most of the material is supplied under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" onclick="return warnNewTab()">Creative Commons CC BY License</a> (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" onclick="return warnNewTab()">http://creativecommons.org/licenses/by/4.0/</a>), meaning you can share and adapt for any purpose as long as attribution is given to the University of Edinburgh. Specific licence information is available on each item’s coversheet.
+        The images that have been created by the University's Cultural Heritage Digitisation Service are freely accessible to all, and most of the material is supplied under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons CC BY License (opens in a new tab)</a> (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">http://creativecommons.org/licenses/by/4.0/ (opens in a new tab)</a>), meaning you can share and adapt for any purpose as long as attribution is given to the University of Edinburgh. Specific licence information is available on each item’s coversheet.
     </p>
 </div>
