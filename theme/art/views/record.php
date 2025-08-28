@@ -165,6 +165,8 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
     $numThumbnails = 0;
     $imageCounter = 0;
     if (isset($solr[$image_uri_field])) {
+            //SR commenting out what is surely unnecessary computation now we have mirador.
+            /*
             foreach($solr[$image_uri_field] as $linkURI)
             {
                 if (strpos($linkURI, 'luna') > 0) {
@@ -180,6 +182,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream)
                     $imageCounter++;
                 }
             }
+            */
 
             ?>
         

@@ -129,40 +129,101 @@
 
                 <div class = "thumbnail-image">
                     <?php
+                    /*CACHING WORK SHOULD WE PURSUE IT
                     $numThumbnails = 0;
                     $imageset = false;
-                    $thumbnailLink = array();
-                    if (isset($doc[$image_uri_field]))
-                    {
-                        foreach ($doc[$image_uri_field] as $imageUri)
-                        {
-                            //change to stop LUNA erroring on redirect
+                    $thumbnailLink = [];
+                    $root_path = '/var/html/www/skylight';
+                    $imageCacheDir = $root_path . '/imagecache';
+                    $infoCacheDir  = $root_path . '/infocache';
+
+                    if (!is_dir($imageCacheDir)) mkdir($imageCacheDir, 0777, true);
+                    if (!is_dir($infoCacheDir))  mkdir($infoCacheDir, 0777, true);
+
+                    if (isset($doc[$image_uri_field])) {
+                        foreach ($doc[$image_uri_field] as $imageUri) {
+                            // force https
                             $imageUri = str_replace('http://', 'https://', $imageUri);
-                            list($width, $height) = getimagesize($imageUri);
-                            //echo 'WIDTH'.$width.'HEIGHT'.$height
-                            $portrait = true;
-                            if ($width > $height)
-                            {
-                                $parms = '/120,/0/';
-                            }
-                            else
-                            {
-                                $parms = '/,120/0/';
+
+                            // only process luna images
+                            if (strpos($imageUri, 'luna') === false) continue;
+
+                            // generate cache filenames
+                            $landscapeThumbFile = $imageCacheDir . '/' . md5(str_replace('/full/0/', '/120,/0/', $imageUri)) . '.jpg';
+                            $portraitThumbFile  = $imageCacheDir . '/' . md5(str_replace('/full/0/', '/,120/0/', $imageUri)) . '.jpg';
+
+                            // check for cached thumbnails first
+                            if (file_exists($landscapeThumbFile)) {
+                                $thumbnail = '/imagecache/' . basename($landscapeThumbFile);
+                            } elseif (file_exists($portraitThumbFile)) {
+                                $thumbnail = '/imagecache/' . basename($portraitThumbFile);
+                            } else {
+                                // neither thumbnail cached → check info.json cache
+                                $infoUrl       = preg_replace('#/full/0/.*$#', '/info.json', $imageUri);
+                                $infoCacheFile = $infoCacheDir . '/' . md5($infoUrl) . '.json';
+
+                                if (!file_exists($infoCacheFile)) {
+                                    // fetch info.json and save to cache
+                                    $ch = curl_init($infoUrl);
+                                    $fp = fopen($infoCacheFile, 'w');
+                                    curl_setopt($ch, CURLOPT_FILE, $fp);
+                                    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+                                    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+                                    curl_exec($ch);
+                                    curl_close($ch);
+                                    fclose($fp);
+                                }
+                                $data = file_get_contents($infoCacheFile);
+                                echo "Contents:\n";
+                                echo $data;
+                                $info = json_decode($data, true);
+                                if ($info === null) {
+                                    echo "\nJSON decode failed: " . json_last_error_msg();
+                                }
+                                $info = @json_decode(file_get_contents($infoCacheFile), true);
+
+
+                                var_dump($info);
+                                $parms = '/120,/0/'; // default
+                                if ($info && isset($info['width'], $info['height'])) {
+                                    echo ("reading this");
+                                    $parms = ($info['width'] > $info['height']) ? '/120,/0/' : '/,120/0/';
+                                }
+
+                                // build IIIF thumbnail URL
+                                $iiifurlsmall = str_replace('/full/0/', $parms, $imageUri);
+                                print($iiifurlsmall);
+
+                                // fetch thumbnail and store in cache
+                                $thumbFileName = $imageCacheDir . '/' . md5($iiifurlsmall) . '.jpg';
+                                if (!file_exists($thumbFileName)) {
+                                    $ch = curl_init($iiifurlsmall);
+                                    $fp = fopen($thumbFileName, 'w');
+                                    curl_setopt($ch, CURLOPT_FILE, $fp);
+                                    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+                                    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+                                    curl_exec($ch);
+                                    curl_close($ch);
+                                    fclose($fp);
+                                }
+                                $thumbnail = '/imagecache/' . basename($thumbFileName);
+
                             }
 
-                            if (strpos($imageUri, 'luna') > 0)
-                            {
-                                $iiifurlsmall = str_replace('/full/0/', $parms, $imageUri);
-                                $thumbnailLink[$numThumbnails]  = '<a title = "' . $doc[$title_field][0] . '" class="fancybox" rel="group" href="' . $imageUri . '"> ';
-                                $thumbnailLink[$numThumbnails] .= '<img src = "' . $iiifurlsmall . '" class="record-thumbnail-search" title="' . $doc[$title_field][0] . '" /></a>';
-                                $numThumbnails++;
-                                $imageset = true;
-                            }
                         }
-                        if ($imageset == true) {
+                        // render thumbnail HTML
+                        $thumbnailLink[$numThumbnails]  = '<a title="' . htmlspecialchars($doc[$title_field][0]) . '" class="fancybox" rel="group" href="' . $imageUri . '">';
+                        $thumbnailLink[$numThumbnails] .= '<img src="' . $thumbnail . '" class="record-thumbnail-search" title="' . htmlspecialchars($doc[$title_field][0]) . '" /></a>';
+
+                        $numThumbnails++;
+                        $imageset = true;
+                        // output first thumbnail if any
+                        if ($imageset) {
                             echo $thumbnailLink[0];
                         }
+
                     }
+                    */
                     ?>
                     <?php
                     ?>
