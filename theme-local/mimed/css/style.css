@@ -843,3 +843,19 @@ input:focus,
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap; /* Added to prevent text wrapping */
   }
+
+
+.img-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 700px;
+    width: 90%;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
