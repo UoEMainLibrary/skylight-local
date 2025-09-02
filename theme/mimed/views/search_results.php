@@ -224,6 +224,31 @@
 
                     }
                     */
+
+                    $numThumbnails = 0;
+                    $imageset = false;
+                    $thumbnailLink = array();
+                    if (isset($doc[$image_uri_field]))
+                    {
+                        foreach ($doc[$image_uri_field] as $imageUri)
+                        {
+                            //change to stop LUNA erroring on redirect
+                            $imageUri = str_replace('http://', 'https://', $imageUri);
+
+                            if (strpos($imageUri, 'luna') > 0)
+                            {
+                                $thumbnailLink[$numThumbnails]  = '<div class="thumbnail-placeholder"></div>';
+                                $thumbnailLink[$numThumbnails] .= '<a title = "' . $doc[$title_field][0] . '" class="fancybox" rel="group" href="' . $imageUri . '"> ';
+                                $thumbnailLink[$numThumbnails] .= '<img src = "' . $imageUri . '" class="record-thumbnail-search" title="' . $doc[$title_field][0] . '" loading="lazy"/></a>';
+                                $numThumbnails++;
+                                $imageset = true;
+                            }
+                        }
+                        if ($imageset == true) {
+                            echo $thumbnailLink[0];
+                        }
+                    }
+
                     ?>
                     <?php
                     ?>
@@ -248,3 +273,28 @@
             <strong><?php echo $rows ?></strong> results </span>
        <?php echo $pagelinks ?>
     </div>
+    
+    <script>
+        const thumbnailImages = document.querySelectorAll(".thumbnail-image")
+        thumbnailImages.forEach(div => {
+            const img = div.querySelector("img")
+            const placeholder = div.querySelector(".thumbnail-placeholder")
+
+            if (!img || !placeholder) {
+                console.log("no image found")
+                return;
+            }
+
+            function loaded() {
+                placeholder.style.display = "none";
+            }
+
+            if (img.complete) {
+                loaded()
+            } 
+            else {
+                img.addEventListener("load", loaded)
+            }
+
+        })
+    </script>
