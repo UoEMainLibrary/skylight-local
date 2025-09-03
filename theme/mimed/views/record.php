@@ -376,21 +376,23 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
          echo '</div>';
         }*/
         ?>
-
+        <div class="img-container">
+            <iframe class="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
+        </div>
+        
+        <div class = "json-link">
+            <p>
+                <?php if (isset($jsonLink)){echo $jsonLink;} ?>
+            </p>
+            <p>(Note: Each icon above opens in a new tab.)</p>
+        </div>
+        
 
     <?php } ?>
 
-    <div class="img-container">
-        <iframe class="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
-    </div>
 
-    <div class = "json-link">
-        <p>
-            <?php if (isset($jsonLink)){echo $jsonLink;} ?>
-        </p>
-        <p>(Note: Each icon above opens in a new tab.)</p>
-    </div>
     <div class="record-content">
+
     <?php
     if($numBitstreams > 0) { ?>
 
