@@ -119,7 +119,7 @@ if(isset($solr[$type_field])) {
                         $jpeg_thumb = strpos($t_filename, '.JPG.jpg');
                     }
                     if ($jpeg_thumb !== false) {
-                        $thumbnailLink = '<a title = "' . $solr[$title_field][0] . '" class="fancybox"' . ' href="' . $b_uri . '"><img src = "' . $t_uri . '" title="' . $solr[$title_field][0] . '" /></a> ';
+                        $thumbnailLink = '<a title = "' . $solr[$title_field][0] . '" class="fancybox"' . ' href="' . $b_uri . '"><img src = "' . $t_uri . '" title="' . $solr[$title_field][0] . '" alt="' . $solr[$this->skylight_utilities->getField('Description')][0] . '" /></a> ';
                         echo $thumbnailLink;
                     }
                 }

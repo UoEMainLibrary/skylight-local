@@ -155,9 +155,11 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
 
 
     <?php
+
     $numThumbnails = 0;
     $imageCounter = 0;
     if (isset($solr[$image_uri_field])) {
+        /*
         foreach($solr[$image_uri_field] as $linkURI)
         {
             if (strpos($linkURI, 'luna') > 0) {
@@ -173,6 +175,8 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
                 $imageCounter++;
             }
         }
+        */
+        /*
         echo "<div id='imageCounter' style='display:none;'>$imageCounter</div>";
         echo "<div class ='imageContainer'>";
         $divCounter = 0;
@@ -209,11 +213,15 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             $divCounter++;
             $freshIn = false;
         }
-        echo "</div>";
+        */
+
+        //echo "</div>";
         if(isset($solr[$acc_no_field])) {
             $accno =  $solr[$acc_no_field][0];
         }
 
+       //SR commenting all this out to replace with Mirador
+       /*
         $numThumbnails = 0;
         $imageset = false;
         $thumbnailLink = array();
@@ -222,6 +230,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
 
         $widthtotal = 0;
         $i = 0;
+
         foreach ($solr[$image_uri_field] as $imageURI)
         {
             $imageURI = str_replace('http://', 'https://', $imageURI);
@@ -365,11 +374,15 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             }
             echo '<p>'.$photoline.' '.$rights.'</p>';
          echo '</div>';
-        }
+        }*/
         ?>
 
 
     <?php } ?>
+
+    <div class="img-container">
+        <iframe class="img-frame" src= "<?php echo base_url().'theme/'.$this->config->item('skylight_theme').'/addons/mirador3/minimalist.php?manifest='.$manifest ?>" height="100%" width="100%" title="Image Showcase"></iframe>
+    </div>
 
     <div class = "json-link">
         <p>

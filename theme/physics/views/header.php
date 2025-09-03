@@ -100,13 +100,15 @@
 </head>
 
 <body>
-
+<div class="skip-links">
+    <a class="sr-only" href="<?php echo current_url(); ?>#main">Skip to content</a>
+</div>
 <div id="container">
     <header>
         <div id="collection-title">
-            <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh" target="_blank"></a>
+            <a href="https://www.ed.ac.uk" class="uoelogo" title="The University of Edinburgh (Link opens in a new tab)" target="_blank"><span class="sr-only"> (Opens in a new tab)</span></a>
             <a href="<?php echo base_url(); ?>" class="physicslogo" title="School of Physics & Astronomy Image Archive"></a>
-            <a href="http://www.ph.ed.ac.uk" class="menulogo" title="School of Physics & Astronomy" target="_blank"></a>
+            <a href="http://www.ph.ed.ac.uk" class="menulogo" title="School of Physics & Astronomy (Link opens in a new tab)" target="_blank"><span class="sr-only"> (Opens in a new tab)</span></a>
         </div>
         <div id="collection-search">
             <form action="./redirect/" method="post">

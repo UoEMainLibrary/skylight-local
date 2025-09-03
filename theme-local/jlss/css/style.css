@@ -91,7 +91,7 @@ input:invalid, textarea:invalid 							{ border-radius: 1px; -moz-box-shadow: 0 
 
 ::-moz-selection 	{ background: #0950a0; color: #fff; text-shadow: none; } /* These selection declarations have to be separate No text-shadow: twitter.com/miketaylr/status/12228805301 Also: hot pink! */
 ::selection 		{ background: #0950a0; color: #fff; text-shadow: none; }
-a:link 				{ -webkit-tap-highlight-color: #0950a0; } /* j.mp/webkit-tap-highlight-color */
+a:link 				{ -webkit-tap-highlight-color: #0950a0; text-decoration: underline !important;} /* j.mp/webkit-tap-highlight-color */
 
 button 				{  width: auto; overflow: visible; } /* Make buttons play nice in IE: www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 .ie7 img 			{ -ms-interpolation-mode: bicubic; } /* Bicubic resizing for non-native sized IMG: code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
@@ -120,11 +120,13 @@ p 								{ font-size: 17px; margin-bottom: 18px; }
 
 a, a:active, a:visited          { color: #163772; }
 a:hover 						{ text-decoration: underline; color: #999; }
+:focus, a:focus,
+.clickbox:focus-within           { box-shadow: rgba(255, 150, 0, 0.7) 0px 0px 10px 6px, rgb(255, 150, 0) 0px 0px 0px 2.5px; z-index: 9999; outline:none;}
 
 
 /* Site Css ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-/* Structure -------------------------------------------------------------------------------------------------------------*/
+/* Structure ------------------------------------------------------------------------------------------------------------*/
 .container 			{ background: #ffffff;}
 .content-divider    {    width: inherit;
                         margin-top: 10px;
@@ -171,7 +173,7 @@ header .container::after {
                                                                                         }
 
 .navbar-default     {  border: 0;  }
-.nav-link   {  color: #000;  }
+.nav-link, nav .navbar-nav>li>.nav-link   {  color: #000; text-decoration: none !important; }
 
 
 
@@ -333,7 +335,7 @@ footer                          { padding-top: 10px; padding-bottom: 10px;}
 
 .footer-logos                   { padding-bottom: 20px; }
 
-.footer-policies                { font-size: 17px; margin-bottom: 5px; margin-top: 15px; color: #0950a0;  text-align: center;}
+.footer-policies                { font-size: 17px; margin-bottom: 5px; margin-top: 15px; text-align: center;}
 
 .footer-policies a, a:active, a:visited         { color: #0950a0; text-decoration: none;}
 .footer-policies a:hover 						{ text-decoration: underline;}
@@ -352,13 +354,14 @@ footer                          { padding-top: 10px; padding-bottom: 10px;}
 /* Custom Containers & Subclasses ----------------------------------------------------------------------------------------*/
 
 .tags					            { margin-top: 5px;  }
-.tags a 				            { color: #fff; font-size: 15px; background: #999; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; margin-top: 6px; text-decoration: none; display:inline-block; }
+.tags a 				            { color: #fff; font-size: 15px; background: #555; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; margin-top: 6px; text-decoration: none; display:inline-block; }
 .tags a.bold			            { font-weight: bold; }
 .tags a:hover			            { background: #0950a0; color: #ffffff; text-decoration: none; }
 .tags a:visited			            { background: #999; color: #ffffff; text-decoration: none; }
 .tags a:visited:hover		        { background: #0950a0; color: #ffffff; text-decoration: none; }
 .tag a:focus                        { border: #0950a0; color: #ffffff; text-decoration: none; }
 
+.badge                              { background: #555; }
 
 /** pagination */
 .pagination > .active > span        { background-color: #0950a0; color: #ffffff;  }
@@ -659,4 +662,39 @@ div[id^="openseadragon"] {
 /* record page disclaimer */
 .image-disclaimer {
     font-size: 12px;
+}
+
+/* ---------------------
+
+      Skip to Main
+
+------------------------*/
+.screen-reader-text {
+    position: absolute !important;
+    clip-path: circle(0%);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    word-wrap: normal!important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+    z-index: 100000;
+    top: 5px;
+    left: 5px;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #00315F;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: normal;
+    clip-path: circle(100%);
+    padding: 8px;
 }

@@ -163,7 +163,10 @@ header                          { display: flex; flex-direction: column;}
 .iteminfo h3                    { font-size: 18px; margin-top: 5px; }
 .iteminfo .artist               { font-size: 16px; color: #58A09D; font-weight: bold; }
 
-.thumbnail-image                { display: block; text-align: center; width: 23%; float: right; }
+.thumbnail-image                { display: flex; text-align: center; width: 120px; height:120px; float: right; align-items: center; align-content: center; justify-content: center; flex-wrap: wrap; margin-right: 30px; position: relative;}
+.thumbnail-image img            { display: flex; justify-content: center; align-items: center; max-width: 120px; max-height: 120px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); border-radius: 5px;}
+.thumbnail-image img:hover      { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: all 0.3s ease; }
+.thumbnail-placeholder          { position: absolute; top: 0; left: 0; width: 120px; height: 120px; background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 37%, #f0f0f0 63%); background-size: 400% 100%; animation: shimmer 1.4s infinite; border-radius: 5px;}
 
 .thumbnail-strip                { max-width: 660px; display: block; }
 .thumbnail-tile                 { margin-top: 20px; margin-left: 20px; float: left; }
@@ -843,3 +846,20 @@ input:focus,
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap; /* Added to prevent text wrapping */
   }
+
+
+.img-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 700px;
+    width: 90%;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
