@@ -463,11 +463,11 @@ then manual testing that included:</p>
 <h2>Change Log</h2>
 <p>Since our first evaluation and statement, which was based on automated testing, we have undertaken extensive manual testing. This includes utilising a range of assistive technology to ensure we have a clear picture of the accessibility issues and how best to resolve them.</p>
 	<ul><li>Some colour contrast issues have been resolved to meet WCAG 2.2 AA standards. (12/08/2024).</li></ul>
-	<p><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p>
+	<p><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p>
 
 
 	<ul><li>A skip to main content button has been added on each page. (12/08/2024).</li></ul>
-	<p><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 - Bypass Blocks</a></p>
+	<p><a href="https://www.w3.org/TR/WCAG22/#bypass-blocks">2.4.1 - Bypass Blocks</a></p>
 
 
 	<ul><li>The results, sort and pagination in the ‘Search’ page now warps instead of overlapping. (12/08/2024).</li></ul>

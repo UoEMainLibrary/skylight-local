@@ -457,19 +457,19 @@ Since the previous test, the following fixes were implemented in August 2024 bas
 </p>
 
 <ul><li>The search bar colour contrast issues have been resolved to meet WCAG 2.2 AA standards. (16/08/2024). This partially but does not fully resolve the error:</li></ul>
-<p><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p>
+<p><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p>
 
 <ul><li>Changed the text alignment from justified to left aligned (16/08/2024)</li></ul>
 <p><a href="https://www.w3.org/TR/WCAG22/#visual-presentation">1.4.8 - Visual Presentation</a></p>
 
 <ul><li>Added a skip to main content button on each page. (16/08/2024)</li></ul>
-<p><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 - Bypass Blocks</a></p>
+<p><a href="https://www.w3.org/TR/WCAG22/#bypass-blocks">2.4.1 - Bypass Blocks</a></p>
 
 <ul><li>Implemented a consistent, high contrast focus highlighter function website wide. (16/08/2024)</li></ul>
 <p><a href="https://www.w3.org/TR/WCAG22/#focus-visible">2.4.7 - Focus Visible</a></p>
 
 <ul><li>Added a popup to notify users that a new tab is about to be opened after clicking on a link. (16/08/2024)</li></ul>
-<p><a href="https://www.w3.org/TR/WCAG21/#on-input">3.2.2 - On input</a></p>
+<p><a href="https://www.w3.org/TR/WCAG22/#on-input">3.2.2 - On input</a></p>
 
 <ul><li>Removed the transparency of the text over images. (16/08/2024)</li></ul>
 

@@ -16,6 +16,7 @@
 		a:link, a:visited { color: #0563c1; text-decoration: underline }
         body > *:not(#container), #container > *:not(#main), #main > *:not(div.col-main), div.col-main > footer{ display: none; }
         .col-main {width: 100%; margin:0;}
+		b {font-weight: bold;}
 	</style>
 
 </head>
@@ -444,19 +445,19 @@ Since the previous test, the following fixes were implemented in August 2024 bas
 </p>
 
 <ul><li>All colour contrast issues have been resolved to meet WCAG 2.2 AA standards. (August 16, 2024)</li></ul>
-<p><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p>
+<p><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum">1.4.3 - Contrast (Minimum)</a></p>
 
 <ul><li>Replaced the carousel with a grid of static images. (August 16, 2024)</li></ul>
-<p><a href="https://www.w3.org/TR/WCAG21/#pause-stop-hide">2.2.2 - Pause, Stop, Hide</a></p>
+<p><a href="https://www.w3.org/TR/WCAG22/#pause-stop-hide">2.2.2 - Pause, Stop, Hide</a></p>
 
 <ul><li>Added a skip to main content button on each page. (August 16, 2024)</li></ul>
-<p><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1 - Bypass Blocks</a></p>
+<p><a href="https://www.w3.org/TR/WCAG22/#bypass-blocks">2.4.1 - Bypass Blocks</a></p>
 
 <ul><li>Implemented a consistent, high contrast focus highlighter function website wide. (August 16, 2024)</li></ul>
 <p><a href="https://www.w3.org/TR/WCAG22/#focus-visible">2.4.7 - Focus Visible</a></p>
 
 <ul><li>Added notification to let users that a new tab is about to be opened after clicking on a link. (August 16, 2024)</li></ul>
-<p><a href="https://www.w3.org/TR/WCAG21/#on-input">3.2.2 - On input</a></p>
+<p><a href="https://www.w3.org/TR/WCAG22/#on-input">3.2.2 - On input</a></p>
 
 <ul><li>Removed all instances of continuous capitals and some instances of italic text that were not links. (August 16, 2024)</li></ul>
 
