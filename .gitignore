@@ -11,3 +11,8 @@ theme-local/pointsofarrival/images/logos/unnamed.png
 theme-local/pointsofarrival/images/logos/uoe-logo.psd
 theme-local/pointsofarrival/images/video-stills/stills-banner.psd
 theme-local/stcecilia/images/buttons/
+*.sync-conflict-*
+config/*
+skylight.php
+.gitignore
+config/skylight.php

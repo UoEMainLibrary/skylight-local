@@ -20,7 +20,7 @@
     <div id="main" role="main" class="clearfix">
         <div class="footer-disclaimer">
             <div class="footer-logo">
-                <a href="https://www.ed.ac.uk/schools-departments/information-services/about/organisation/library-and-collections" target="_blank" class="luclogo" title="Library &amp; University Collections Home"></a>
+                <a href="https://www.ed.ac.uk/schools-departments/information-services/about/organisation/library-and-collections" target="_blank" class="luclogo" title="Library &amp; University Collections Home (opens in a new tab)"><span class="sr-only">(Opens in a new tab)</span></a>
             </div>
             <div class="footer-policies">
                 <p>This collection is part of <a href="<?php echo base_url(); ?>" title="University Collections Home">University Collections</a>.</p>
@@ -31,7 +31,7 @@
                 <p>Unless explicitly stated otherwise, all material is copyright &copy; <?php echo date("Y"); ?> <a href="https://www.ed.ac.uk" title="University of Edinburgh Home" target="_blank">University of Edinburgh</a>.</p>
             </div>
             <div class="is-logo">
-                <a href="https://www.ed.ac.uk/information-services" target="_blank" class="islogo" title="University of Edinburgh Information Services Home"></a>
+                <a href="https://www.ed.ac.uk/information-services" target="_blank" class="islogo" title="University of Edinburgh Information Services Home (opens in a new tab)"><span class="sr-only">(Opens in a new tab)</span></a>
             </div>
         </div>
 </footer>
