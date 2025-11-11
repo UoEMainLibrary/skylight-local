@@ -14,6 +14,8 @@
 		h2 { font-size: 20pt; }
 		h3 { font-size: 16pt; }
 		a:link, a:visited { color: #0563c1; text-decoration: underline }
+		body > *:not(#container), #container > *:not(#main), #main > *:not(.col-main), .col-main > footer { display: none; }
+		.col-main { width: 95%; }
 	</style>
 
 </head>

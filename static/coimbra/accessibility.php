@@ -9,15 +9,17 @@
     <style type="text/css">
 		@page { size: 21cm 29.7cm; margin: 2.54cm }
 		body, p { font-family: Arial, sans-serif; font-size: 12pt; line-height: 1.5; text-align: left; margin-bottom: 0.25cm; direction: ltr; background: transparent }
-		h1, h2, h3 { color: #2f5496; text-align: left; margin-bottom: 0.5cm; direction: ltr; background: transparent; page-break-after: avoid }
+		h1, h2, h3 { color: rgb(0,120,0); text-align: left; margin-bottom: 0.5cm; direction: ltr; background: transparent; page-break-after: avoid }
 		h1 { font-size: 24pt; }
 		h2 { font-size: 20pt; }
 		h3 { font-size: 16pt; }
-		a:link, a:visited { color: #0563c1; text-decoration: underline }
+		a:link, a:visited { color: rgb(0,120,0); text-decoration: underline }
+		.footer > div > ul > li > a { color: #ccf5b2; text-decoration: underline }
+		body > div:nth-child(3) { margin: 0 5%;}
 	</style>
 
 </head>
-<body lang="en-GB" link="#0563c1" vlink="#954f72" dir="ltr">
+<body lang="en-GB" link="rgb(0,120,0)" vlink="#954f72" dir="ltr">
 
 
 <h1>Accessibility
