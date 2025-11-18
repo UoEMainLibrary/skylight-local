@@ -16,6 +16,7 @@
 		a:link, a:visited { color: #0563c1; text-decoration: underline }
 		body > *:not(#container), #container > *:not(#main), #main > *:not(.col-main), .col-main > footer { display: none; }
 		.col-main { width: 95%; }
+		b { font-weight: bold; }
 	</style>
 
 </head>
@@ -95,7 +96,7 @@ you are a member of University staff or a student, you can use the free SensusAc
 <p>
 
 </p>
-<p><a href="https://www.ed.ac.uk/student-disability-service/staff/supporting-students/accessible-technology">Information
+<p><a href="https://disability-learning-support-service.ed.ac.uk/staff/accessible-design-and-inclusive-learning-resources">Information
 on SensusAccess</a></p>
 <p>
 
@@ -375,7 +376,7 @@ browser for screen readers:</p>
 <p>
 
 </p>
-<p><a href="https://webaim.org/projects/screenreadersurvey9/">WebAIM:
+<p><a href="https://webaim.org/projects/screenreadersurvey10/">WebAIM:
 Screen Reader User Survey</a></p>
 <p>
 
