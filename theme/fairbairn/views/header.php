@@ -90,7 +90,9 @@
     </head>
 
     <body>
-
+        <div class="skip-links" style="position: absolute;">
+            <a class="sr-only" href="#main">Skip to content</a>
+        </div>
         <div id="container">
             <header>
                <div id="collection-title">
