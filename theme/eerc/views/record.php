@@ -192,12 +192,16 @@ $bitstreamLinks = array();
                                     // Iterate through all the digital objects as a PHP array
 
                                     foreach($json_array as $digital_obj)  {
+                                        //var_dump($digital_obj);
                                         try {
                                             $digital_obj = json_decode($digital_obj, TRUE);
 
+
                                             $do_file = $digital_obj['title'];
+                                            //var_dump($do_file);
                                             $do_title_short = substr($do_file, 0, strpos($do_file, '.'));
                                             $do_url = $digital_obj['file_versions'][0]['file_uri'];
+                                            $var_dump($do_url);
                                             $file_size = curl_get_file_size($do_url);
 
                                             if (endsWith($do_file, ['.wav', '.mp3'])) {
