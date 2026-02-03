@@ -110,11 +110,15 @@ $("div[id^='navigator-'].navigator").css("border", "medium none");
 $(".displayregion").css("border", "2px solid #630d0d");
 
 $('.accordion-toggle').click(function(){
+    // push the footer to the bottom for piccolo
+    var $footer = $('.footer-piccolo');
+    if (!$footer.length) {
+        return;
+    }
 
-// push the footer to the bottom for piccolo
     var docHeight = $(window).height();
-    var footerHeight = $('.footer-piccolo').height();
-    var footerTop = $('.footer-piccolo').position().top + footerHeight;
+    var footerHeight = $footer.height();
+    var footerTop = $footer.position().top + footerHeight;
 
     var footerMargin = docHeight - footerTop;
 
