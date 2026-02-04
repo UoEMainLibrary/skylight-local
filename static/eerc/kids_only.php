@@ -1,3 +1,20 @@
+<?php
+    function dp_proxy_url($do_url) {
+        // Parse the URL to get the path
+        $path = parse_url($do_url, PHP_URL_PATH);
+
+        // Split the path by slashes
+        $segments = explode('/', trim($path, '/'));
+
+        // Extract the part after the 4th slash
+        $fileId = $segments[3];
+        $fileName = end($segments);
+
+        // Construct the proxy URL
+        return site_url("dp_media/$fileId/$fileName");
+    }
+?>
+
 <div>
     <meta charset="utf-8">
     <style>
@@ -63,7 +80,7 @@
                         <?php
                              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/farming_compilation_DG5-1-1-1_and_DG38-9-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
-                             $audio .= '<source src="' . $do_url . '">';
+                             $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                              echo $audio;
                         ?>
@@ -80,7 +97,7 @@
                         <?php
                              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/School%20dinners_EL21-1-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
-                             $audio .= '<source src="' . $do_url . '">';
+                             $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                              echo $audio;
                         ?>
@@ -97,7 +114,7 @@
                         <?php
                              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/Travel%20and%20Transport_DG17-1-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
-                             $audio .= '<source src="' . $do_url . '">';
+                             $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                              echo $audio;
                         ?>
@@ -114,7 +131,7 @@
                         <?php
                              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/Sweets_EL20-2-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
-                             $audio .= '<source src="' . $do_url . '">';
+                             $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                              echo $audio;
                         ?>
@@ -131,7 +148,7 @@
                         <?php
                              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/Toys_DG14-8-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
-                             $audio .= '<source src="' . $do_url . '">';
+                             $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                              echo $audio;
                         ?>
@@ -148,7 +165,7 @@
                         <?php
                              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/shopping_DG4-19-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
-                             $audio .= '<source src="' . $do_url . '">';
+                             $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                              echo $audio;
                         ?>
@@ -165,7 +182,7 @@
                         <?php
                              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/57057/Playground%20games_DG31-3-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
-                             $audio .= '<source src="' . $do_url . '">';
+                             $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                              echo $audio;
                         ?>
