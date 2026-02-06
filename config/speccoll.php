@@ -17,7 +17,7 @@ if (ENVIRONMENT == 'development') {
     $config['skylight_manifest_endpoint'] = 'https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifest/';
 }
 else {
-    $config['skylight_ga_code'] = 'G-L20JS09H7H';
+    $config['skylight_ga_code'] = 'G-2S53K9QHRX';
     $config['skylight_container_id'] = '05a4fd68-f752-4d4e-a4fc-030d2642091c';
     //$config['skylight_manifest_endpoint'] = 'https://collectionsmedia.is.ed.ac.uk/iiif/';
     $config['skylight_manifest_endpoint'] = 'https://librarylabs.ed.ac.uk/iiif/speccollprototype/manifest/';
