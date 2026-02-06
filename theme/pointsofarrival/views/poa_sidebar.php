@@ -1,14 +1,14 @@
 <div class="poa-sidebar">
     <!-- HOME -->
-    <a href="./"><button class="non-accordion acc-btn">Home</button></a>
+    <a href="./" class="accordion acc-btn">Home</a>
     <!-- INTRO/HOW TO -->
-    <a href="./introduction"><button class="accordion acc-btn">Information</button></a>
+    <a href="./introduction" class="accordion acc-btn">Information</a>
     <!--<div class="panel">
         <a href="./introduction"><button class="accordion acc-btn">Introduction</button></a>
         <a href="./introduction#howto-title"><button class="accordion acc-btn">How to use this site</button></a>
     </div>-->
     <!-- FILMS -->
-    <a href="./films"><button class="accordion acc-btn">Points of Arrival Films</button></a>
+    <a href="./films" class="accordion acc-btn">Points of Arrival Films</a>
     <!--<div class="panel">
         <a href="./films"><button class="accordion acc-btn">Full Film List</button></a>
         <a href="../goldwag"><button class="accordion acc-btn">Hilda Goldwag Film</button></a>
@@ -18,7 +18,7 @@
         <a href="./wuga"><button class="accordion acc-btn">Henry Wuga Film</button></a>
     </div>-->
     <!-- THEMES -->
-    <a href="./themes"><button class="accordion acc-btn">Themes</button></a>
+    <a href="./themes" class="accordion acc-btn">Themes</a>
     <!--<div class="panel">
         <a href="./themes"><button class="accordion acc-btn">Full Theme List</button></a>
         <a href="./adnan"><button class="accordion acc-btn">Adnan Shamdin</button></a>
@@ -41,9 +41,9 @@
         <a href="./welfare"><button class="accordion acc-btn">Welfare</button></a>
     </div>-->
     <!-- RESOURCES -->
-    <a href="./resources"><button class="accordion acc-btn">Resource List</button></a>
+    <a href="./resources" class="accordion acc-btn">Resource List</a>
     <!-- CONTACT -->
-    <a href="./contact"><button class="accordion acc-btn">Contact</button></a>
+    <a href="./contact" class="accordion acc-btn">Contact</a>
 </div>
 
 <!-- Probably depricated since removal of accordion sidebar -->

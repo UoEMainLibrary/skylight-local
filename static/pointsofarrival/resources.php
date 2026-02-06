@@ -106,7 +106,7 @@
                     <a href="https://www.scojec.org/resources/education.html" rel="noopener" target="_blank"><i class="fa fa-eye"></i> Read More</a>
                 </p>
                 <p>
-                    In addition, the exhibition<a href="https://www.scojec.org/resources/files/jewish_experience.pdf" rel="noopener" target="_blank"><strong>The Jewish Experience in Scotland</strong></a> 
+                    In addition, the exhibition <a href="https://www.scojec.org/resources/files/jewish_experience.pdf" rel="noopener" target="_blank"><strong>The Jewish Experience in Scotland</strong></a> 
                     can be viewed online.
                     <br>
                     <a href="https://www.scojec.org/resources/files/jewish_experience.pdf" rel="noopener" target="_blank"><i class="fa fa-eye"></i> Read More</a>

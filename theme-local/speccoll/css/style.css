@@ -4,6 +4,7 @@ body
 {
     font-family: 'Hind', Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘DejaVu Sans Condensed’, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
     padding-top: 50px;
+    font-size: 16px;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -77,7 +78,7 @@ body
 }
 
 .col-xs-8 .record-title {
-    font-size: 15px;
+    font-size: 16px;
 }
 .cat-link
 {
@@ -99,7 +100,6 @@ body
 }
 
 a:focus, a:hover {
-    color: #333;
     text-decoration: underline;
 }
 
@@ -237,7 +237,7 @@ label, input[type="button"], input[type="submit"], input[type="image"], button {
 .feedback_form input[type="text"] {
     border: 1px solid #bbbbbc;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 16px;
     height: 28px;
     padding: 0 10px;
     width: 100%;
@@ -246,7 +246,7 @@ label, input[type="button"], input[type="submit"], input[type="image"], button {
 #feedback {
     border: 1px solid #bbbbbc;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 16px;
     padding: 0 10px;
     width: 100%;
 }
@@ -266,7 +266,7 @@ input.btn {
     border: medium none;
     border-radius: 5px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     height: 28px;
     margin-left: 8px;
@@ -321,11 +321,6 @@ div.spacer {
     color: #EEEEEE;
     text-decoration: none;
 }
-.nav > li > a:hover,
-.nav > li > a:focus {
-    background-color: #630d0d;
-    text-decoration: none;
-}
 
 .navbar-form {
     border: 0 none;
@@ -359,9 +354,10 @@ div.spacer {
     font-size: 24px;
     font-style: normal;
     font-variant: normal;
-    padding-top: 30px;
-    padding-right: 30px;
+    padding-right: 5px;
     text-decoration: none;
+    white-space: nowrap;
+    float: right;
 }
 
 .sch-link-sm {
@@ -370,13 +366,18 @@ div.spacer {
     margin-top: 12px;
 }
 
+.sch-link-xs a {
+    white-space: normal;
+    font-size: 18px;
+}
+
 .sch-link-sm a {
-    padding-right: 30px;
+    padding-right: 5px;
     font-size: 20px;
 }
 
 .sch-link a:hover {
-    color: #666666;
+    color: #b5b5b5;
 }
 
 #uoe-search {
@@ -386,7 +387,7 @@ div.spacer {
 }
 
 #uoe-search-sm {
-    font-size: 14px;
+    font-size: 16px;
     height: 35px;
 }
 
@@ -401,7 +402,7 @@ div.spacer {
 }
 
 .home-icon:hover, .home-icon:active {
-    color: #666;
+    color: #b5b5b5;
 }
 
 .record-tabs > ul > li > a > i.fa-inactive {
@@ -459,6 +460,12 @@ div.spacer {
     padding-left: 10px;
 }
 
+.grid-item:hover, .grid-item:focus-within {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: scale(1.015);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
 .grid-item-content {
     height: 100%;
     padding-bottom: 20px;
@@ -466,6 +473,7 @@ div.spacer {
 
 .grid-item-container {
     text-align: center;
+    padding-top: 10px;
 }
 
 figcaption {
@@ -475,13 +483,13 @@ figcaption {
 }
 
 .searchTitle{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     width: 100%;
 }
 
 .searchDate{
-    font-size: 15px;
+    font-size: 16px;
     width: 100%;
 }
 
@@ -530,7 +538,7 @@ figcaption {
     top: 60px;
     text-transform: none;
     letter-spacing: 0;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: normal;
 }
 
@@ -553,7 +561,7 @@ figcaption {
     position: absolute;
     left: 10px;
     top: 76px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .second-navbar{
@@ -583,27 +591,65 @@ figcaption {
 
 /** Facets */
 
-.facet_title{
-    font-size: 16px;
+.facet_title a{
+    font-size: 20px;
+    color: #fff !important;
+    display: block;
+    text-decoration: none;
+}
+
+.facet_title a:hover, .facet_title a:focus-visible {
+    text-decoration: underline;
+}
+
+.facet_title > a > i{
+    float: right;
+    transform: translateY(-3px);
+    transition: transform 0.2s ease-in-out;
 }
 
 .collapse.in {
     display: block;
 }
 
+.panel:has(.panel-collapse.in) .facet_title > a > i {
+    transform: rotate(180deg);
+}
+
 .panel-facets {
     color: #777;
     border: none;
     box-shadow: none;
+    line-height: 1;
 }
 
-.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+.panel-collapse {
+    transform: translateX(10px);
+}
+
+.panel-heading {
+    background-color: #333333;
+    border: none;
+    box-shadow: none;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.panel-group {
+    border: #ddd 1px solid;
+    border-radius: 5px;
+}
+
+.panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
     border: none;
 }
 
 .description {
     padding: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .straight-borders
@@ -715,7 +761,7 @@ figcaption {
 }
 
 .stc-tags                   { margin-top: 5px; margin: 0; display: inline;}
-.stc-tags a                 { font-size: 13px; color: #fff;background: #630d0d; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; margin-top: 5px; text-decoration: none; display:inline-block; }
+.stc-tags a                 { font-size: 16px; color: #fff;background: #630d0d; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 2px 6px; line-height: 20px; margin-right: 8px; margin-top: 5px; text-decoration: none; display:inline-block; }
 .stc-tags a.bold            { font-weight: bold; }
 .stc-tags a:hover           { background: #333; color: #ffffff; }
 .stc-tags a.maker           { display:inline-block; line-height: 15px; margin-bottom: 5px; }
@@ -988,6 +1034,10 @@ div[id^="openseadragon"] {
 
 @media only screen and (max-width : 767px) {
 
+    .container-fluid {
+        padding-top: 5px;
+    }
+
     div[id^="openseadragon"] {
         height: 600px;
     }
@@ -1015,6 +1065,10 @@ div[id^="openseadragon"] {
 }
 
 @media only screen and (max-width : 480px) {
+
+    .container-fluid {
+        padding-top: 10px;
+    }
 
     div[id^="openseadragon"] {
         height: 400px;
@@ -1129,4 +1183,164 @@ sup a
     /*border-top: solid 15px #000;
     border-bottom: solid 15px #000;*/
     background-color: #000;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 5px 12px;
+}
+
+.pagination-sm>li>a, .pagination-sm>li>span {
+    font-size: 16px;
+}
+
+/* -------------------------------------
+
+      Focus Outline & Link Underline
+
+--------------------------------------*/
+
+/* Ensure images inside links are block to ensure that the focus ring surrounds the image */
+a img {
+  display: block;
+}
+
+/* Default focus-visible for all elements: add a glowing box-shadow */
+:focus-visible {
+  box-shadow: rgba(255, 150, 0, 0.7) 0px 0px 10px 6px, rgb(255, 150, 0) 0px 0px 0px 2.5px;
+  z-index: 9999;
+  outline: none;
+}
+
+/* Enhanced focus-visible for input fields: smaller box-shadow to avoid overwhelming the input */
+input:focus-visible {
+  box-shadow: rgba(255, 150, 0, 0.7) 0px 0px 5px 2px, rgb(255, 150, 0) 0px 0px 0px 1px !important;
+  z-index: 9999;
+  outline: none;
+}
+
+/* Enhanced focus-visible for links: scale up and add transition 
+This makes it more visible when focusing on links that are images only */
+a:focus-visible {
+  box-shadow: rgba(255, 150, 0, 0.7) 0px 0px 10px 6px, rgb(255, 150, 0) 0px 0px 0px 2.5px;
+  z-index: 9999;
+  outline: none;
+  transform: scale(1.05); /* Lifts the element up */
+  transition: transform 0.2s cubic-bezier(.4,0,.2,1), box-shadow 0.2s;
+}
+
+/* Underline links with a bit of offset and thickness */
+a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    transition: text-underline-offset 0.2s cubic-bezier(.4,0,.2,1), text-decoration-thickness 0.2s, transform 0.2s cubic-bezier(.4,0,.2,1), box-shadow 0.2s;
+}
+
+/* Thicker underline on hover and focus-visible */
+a:hover, a:focus-visible {
+    text-underline-offset: 1px;
+    text-decoration-thickness: 2px;
+    transition: text-underline-offset 0.2s cubic-bezier(.4,0,.2,1), text-decoration-thickness 0.2s;
+}
+
+/* Ensure parent containers allow overflow for focus-visible. 
+This rule is necessary to prevent clipping of the focus ring. */
+:has(a:focus-visible) {
+  overflow: visible !important;
+}
+
+.nav-pills a:focus {
+    color: #333;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+#record-navbar a:hover, #record-navbar a:focus {
+    color: #333;
+}
+
+/* ----------------------
+
+      New Tab Icon
+
+------------------------*/
+/* Ensure that links with icons (like external links) have some spacing between text and icon */
+a {
+  display: inline-flex;
+  gap: 0.15em;
+}
+
+/* Indicate links that open in a new tab/window 
+Adds an icon 'arrow-up-right-from-square' from font awesome to the end of the link
+Adds text to indicate the link opens in a new tab and hides it (so that screen reader users know that it opens in a new tab) */
+a[target="_blank"]::after {
+  content: ' (opens in a new tab)';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjAuMSBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI1IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0zODQgNjRDMzY2LjMgNjQgMzUyIDc4LjMgMzUyIDk2QzM1MiAxMTMuNyAzNjYuMyAxMjggMzg0IDEyOEw0NjYuNyAxMjhMMjY1LjMgMzI5LjRDMjUyLjggMzQxLjkgMjUyLjggMzYyLjIgMjY1LjMgMzc0LjdDMjc3LjggMzg3LjIgMjk4LjEgMzg3LjIgMzEwLjYgMzc0LjdMNTEyIDE3My4zTDUxMiAyNTZDNTEyIDI3My43IDUyNi4zIDI4OCA1NDQgMjg4QzU2MS43IDI4OCA1NzYgMjczLjcgNTc2IDI1Nkw1NzYgOTZDNTc2IDc4LjMgNTYxLjcgNjQgNTQ0IDY0TDM4NCA2NHpNMTQ0IDE2MEM5OS44IDE2MCA2NCAxOTUuOCA2NCAyNDBMNjQgNDk2QzY0IDU0MC4yIDk5LjggNTc2IDE0NCA1NzZMNDAwIDU3NkM0NDQuMiA1NzYgNDgwIDU0MC4yIDQ4MCA0OTZMNDgwIDQxNkM0ODAgMzk4LjMgNDY1LjcgMzg0IDQ0OCAzODRDNDMwLjMgMzg0IDQxNiAzOTguMyA0MTYgNDE2TDQxNiA0OTZDNDE2IDUwNC44IDQwOC44IDUxMiA0MDAgNTEyTDE0NCA1MTJDMTM1LjIgNTEyIDEyOCA1MDQuOCAxMjggNDk2TDEyOCAyNDBDMTI4IDIzMS4yIDEzNS4yIDIyNCAxNDQgMjI0TDIyNCAyMjRDMjQxLjcgMjI0IDI1NiAyMDkuNyAyNTYgMTkyQzI1NiAxNzQuMyAyNDEuNyAxNjAgMjI0IDE2MEwxNDQgMTYweiIvPjwvc3ZnPg") no-repeat center;
+  mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjAuMSBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI1IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0zODQgNjRDMzY2LjMgNjQgMzUyIDc4LjMgMzUyIDk2QzM1MiAxMTMuNyAzNjYuMyAxMjggMzg0IDEyOEw0NjYuNyAxMjhMMjY1LjMgMzI5LjRDMjUyLjggMzQxLjkgMjUyLjggMzYyLjIgMjY1LjMgMzc0LjdDMjc3LjggMzg3LjIgMjk4LjEgMzg3LjIgMzEwLjYgMzc0LjdMNTEyIDE3My4zTDUxMiAyNTZDNTEyIDI3My43IDUyNi4zIDI4OCA1NDQgMjg4QzU2MS43IDI4OCA1NzYgMjczLjcgNTc2IDI1Nkw1NzYgOTZDNTc2IDc4LjMgNTYxLjcgNjQgNTQ0IDY0TDM4NCA2NHpNMTQ0IDE2MEM5OS44IDE2MCA2NCAxOTUuOCA2NCAyNDBMNjQgNDk2QzY0IDU0MC4yIDk5LjggNTc2IDE0NCA1NzZMNDAwIDU3NkM0NDQuMiA1NzYgNDgwIDU0MC4yIDQ4MCA0OTZMNDgwIDQxNkM0ODAgMzk4LjMgNDY1LjcgMzg0IDQ0OCAzODRDNDMwLjMgMzg0IDQxNiAzOTguMyA0MTYgNDE2TDQxNiA0OTZDNDE2IDUwNC44IDQwOC44IDUxMiA0MDAgNTEyTDE0NCA1MTJDMTM1LjIgNTEyIDEyOCA1MDQuOCAxMjggNDk2TDEyOCAyNDBDMTI4IDIzMS4yIDEzNS4yIDIyNCAxNDQgMjI0TDIyNCAyMjRDMjQxLjcgMjI0IDI1NiAyMDkuNyAyNTYgMTkyQzI1NiAxNzQuMyAyNDEuNyAxNjAgMjI0IDE2MEwxNDQgMTYweiIvPjwvc3ZnPg") no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  vertical-align: middle;
+
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Slight icon lift on hover and focus-visible */
+a:hover[target="_blank"]::after,
+a:focus-visible[target="_blank"]::after {
+    transform: translate(1px, -2px);
+    transition: transform  0.2s cubic-bezier(.4, 0, .2, 1);
+}
+
+.miradorlogo, .uvlogo, .iiiflogo {
+    margin-right: 20px;
+}
+
+.miradorlogo::after, .uvlogo::after, .iiiflogo::after {
+    margin-left: 53px;
+}
+
+/* -----------------------------
+
+      Screen Reader Only Text
+
+------------------------------*/
+.sr-only {
+    position: absolute !important;
+    clip-path: circle(0%);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    word-wrap: normal!important;  
+}
+
+.sr-only:hover, .sr-only:active, .sr-only:focus {
+    z-index: 100000;  
+    top: 5px;
+    left: 5px;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #00315F;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: normal;
+    clip-path: unset;
+    clip: unset;
+    padding: 8px;
+    text-wrap: nowrap;
 }
