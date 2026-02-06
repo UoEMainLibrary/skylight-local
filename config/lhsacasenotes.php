@@ -21,7 +21,7 @@ if(ENVIRONMENT == 'development') {
     }
 }
 else {
-    $config['skylight_ga_code'] = 'G-L20JS09H7H';
+    $config['skylight_ga_code'] = 'G-974QNLBL9Q';
     $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
     $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
 }
