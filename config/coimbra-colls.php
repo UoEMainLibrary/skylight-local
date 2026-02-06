@@ -7,7 +7,7 @@ if (ENVIRONMENT == 'development') {
     $config['skylight_image_server'] = 'https://test.cantaloupe.is.ed.ac.uk';
 }
 else {
-    $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
+    $config['skylight_ga_code'] = 'G-FDPW8PE32C';
     $config['skylight_container_id'] = 'ff66d5b2-78da-4ab7-9f6f-b2d0c17d55ad';
     $config['skylight_image_server'] = 'https://cantaloupe.is.ed.ac.uk';
 }
