@@ -111,10 +111,10 @@ if(isset($solr[$type_field])) {
                 if ($primopos !== false)
                 {
 
-                    echo '<a href="'.$uri.'" title="Link to Library catalogue entry" target="_blank" onclick="return warnNewTab()">Library Catalogue Entry</a>';
+                    echo '<a href="'.$uri.'" title="Link to Library catalogue entry" target="_blank">Library Catalogue Entry (opens in a new tab)</a>';
                 }
                 else{
-                    echo '<a href="'.$uri.'" title="Link to '.$uri.'" target="_blank" onclick="return warnNewTab()">'.$uri.'</a>';
+                    echo '<a href="'.$uri.'" title="Link to '.$uri.'" target="_blank">'.$uri.' (opens in a new tab)</a>';
                 }
                 if($index < sizeof($solr[$uri_field]) - 1) {
                     echo '<br />';
@@ -253,7 +253,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             <br>
             <iframe src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/addons/PDF_Viewer/pdf_reader.php?url=<?php echo base_url() . $b_uri ?>" title="PDF Viewer" width="700" height="900"></iframe>
             <br>
-            Click <?php echo '<a href ="'.$bitstreamLink.'" target="_blank" onclick="return warnNewTab()">'.$b_filename.'</a>' ?> to download.
+            Click <?php echo '<a href ="'.$bitstreamLink.'" target="_blank">'.$b_filename.' (opens in a new tab)</a>' ?> to download.
             (<span class="bitstream_size"><?php echo getBitstreamSize($bitstream); ?></span>)<br><br>
 
             <?php

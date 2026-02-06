@@ -291,7 +291,7 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
                             echo '<tr><th>Zoomable Image(s)</th><td>';
                         }
 
-                        echo '<a href="'. $linkURI . '" target="_blank" onclick="return warnNewTab()"><i class="fa fa-file-image-o fa-lg">&nbsp;</i></a>';
+                        echo '<a href="'. $linkURI . '" target="_blank"><i class="fa fa-file-image-o fa-lg">&nbsp;</i> <span class="visually-hidden"> (opens in a new tab)</span></a>';
 
                         $i++;
                     }
@@ -321,11 +321,11 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
             echo '<span class="crowd-tag">' . '<a href="./search/*:*/Tags:%22'.$lower_orig_filter.'+%7C%7C%7C+'.$orig_filter.'%22"><i class="fa fa-tags fa-lg">&nbsp;</i>'.$tag.'</a>' . '</span>';
          } ?>
             <div class="crowd-info">
-                <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php" target="_blank" onclick="return warnNewTab()">
+                <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php" target="_blank">
                     <input type="hidden" name="image_id" value="<?php echo $image_id ?>">
                     <input type="hidden" name="theme" value="art">
                     Add more tags at <a href="#" onclick="document.forms[1].submit();return false;" title="University of Edinburgh, Library Labs Metadata Games">Library Labs Games</a>
-                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" onclick="return warnNewTab()" title="EASE Friend">Edinburgh Friend Account</a>)
+                    (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" title="EASE Friend">Edinburgh Friend Account (opens in a new tab)</a>)
                 </form>
             </div>
         </div>
@@ -337,11 +337,11 @@ if(isset($solr[$bitstream_field]) && $link_bitstream) {
     ?>
     <div class="crowd-tags">
         <div class="crowd-info">
-            <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php" target="_blank" onclick="return warnNewTab()">
+            <form id="libraylabs" method="get" action="https://librarylabs.ed.ac.uk/games/gameCrowdSourcing.php" target="_blank">
                 <input type="hidden" name="image_id" value="<?php echo $image_id ?>">
                 <input type="hidden" name="theme" value="art">
                 Add tags to this image at <a href="#" onclick="document.forms[1].submit();return false;" title="University of Edinburgh, Library Labs Metadata Games">Library Labs Games</a>
-                (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" onclick="return warnNewTab()" title="EASE Friend">Edinburgh Friend Account</a>)
+                (Create a login at <a href="https://www.ease.ed.ac.uk/friend/" target="_blank" title="EASE Friend">Edinburgh Friend Account (opens in a new tab)</a>)
             </form>
         </div>
     </div>

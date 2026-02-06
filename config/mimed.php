@@ -14,7 +14,7 @@ if (ENVIRONMENT == 'development') {
     $config['skylight_ga_code'] = 'G-8VP4HF0K5M';
 }
 else {
-    $config['skylight_ga_code'] = 'G-L20JS09H7H';
+    $config['skylight_ga_code'] = 'G-853NEHRWWB';
 }
 
 $config['skylight_adminemail'] = 'schgals@ed.ac.uk';

@@ -185,7 +185,7 @@
     foreach(getTree($as_base_url, $as_url, $as_user, $as_password)['children'] as $index => $branch) {
         //print($index);
         /* <li class="overview_list" style="margin: 0.5em; font-size: 18px;"><button class="plus-button" onclick="toggleButton(this, '#ul_<?= $index ?>');">+</button>&nbsp;<?= cleanTitle($branch['title']) ?></li> */
-        if($index == 0 || $index == 1) { ?>
+        if($index == 0 || $index == 1 || $index == 2 || $index == 3 || $index == 4) { ?>
         <li class="overview_list" style="margin: 0.5em; font-size: 18px; font-weight: bold;"><button class="plus-button" onclick="toggleButton(this, '#ul_<?= $index ?>');">+</button>&nbsp;<?= cleanTitle($branch['title']) ?></li>
         <?= getChildren($branch, $index, null) ?>
 

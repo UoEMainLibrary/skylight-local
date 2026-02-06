@@ -928,3 +928,98 @@ a:focus-visible {
 input:focus-visible {
     box-shadow: 0px 0px 0px 5px #C7002E;
 }
+
+.img-title {
+    background-color: #000000DF;
+    border-radius: 5px;
+    display: inline-table;
+}
+
+.img-title.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: fit-content;
+}
+
+.glyphicon-camera {
+    font-weight: 400 !important;
+    padding-right: 15px;
+    font-size: large;
+    top: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fa-file-pdf-o {
+    padding: 0 !important;
+    padding-right: 15px !important;
+    font-size: large !important;
+    top: auto !important;
+    position: relative !important;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*
+Opens in a new tab icon
+*/
+
+/* For regular external links (excluding those with .logo class) */
+a[target="_blank"]:not(.logo):not(:has(.social)):not(.clickbox > * a)::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    right: -1px;
+    position: relative;
+    font-size: 10pt;
+}
+
+.footer a[target="_blank"][title="Takedown Policy"]:not(.logo):not(:has(.social))::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    position: relative;
+    font-size: 10pt;
+}
+
+/* For links containing social elements */
+a[target="_blank"]:has(.social)::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    right: 4px;
+    position: absolute;
+    font-size: 10pt;
+    top: 38%;
+    /* Add transitions */
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a[target="_blank"]:has(.social:hover)::after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    right: -2px;
+    position: absolute;
+    font-size: 10pt;
+    top: 38%;
+    /* Add transitions */
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+
+.fa-up-right-from-square {
+    font-size: small;
+    position: relative;
+    bottom: 10px;
+    top: auto;
+    padding: 1px;
+}
