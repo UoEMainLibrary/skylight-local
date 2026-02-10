@@ -53,7 +53,7 @@ function curl_get_file_size( $url ) {
 
     $curl = curl_init( $url );
 
-    curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 1);
+    curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 5);
     //curl_setopt($curl, CURLOPT_CONNECTTIMEOUT_MS, 1000);
 
     // Issue a HEAD request and follow any redirects.
