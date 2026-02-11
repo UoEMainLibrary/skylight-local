@@ -144,7 +144,7 @@ function request($url, $data = null, $post = true, $session = null)    {
 
 <?php
 
-$url = base_url() . "/apps/www/fend/files/subjects_out.csv";
+$url = "/apps/www/fend/files/subjects_out.csv";
 
 $data = file_get_contents($url);
 
