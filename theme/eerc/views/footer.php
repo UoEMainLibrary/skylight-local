@@ -23,5 +23,6 @@
         </div>
     </div>
     <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dc14a4cd089c947"></script>
+   <script src="<?php echo base_url(); ?>theme/<?php echo $this->config->item('skylight_theme'); ?>/js/lazy-load.js"></script> 
     </body>
 </html>
