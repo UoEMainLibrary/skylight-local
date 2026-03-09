@@ -22,20 +22,6 @@ function endsWith( $haystack, $needles ) {
     return false;
 }
 
-function dp_proxy_url($do_url) {
-    // Parse the URL to get the path
-    $path = parse_url($do_url, PHP_URL_PATH);
-
-    // Split the path by slashes
-    $segments = explode('/', trim($path, '/'));
-
-    // Extract the part after the 4th slash
-    $fileId = $segments[3];
-    $fileName = end($segments);
-
-    // Construct the proxy URL
-    return site_url("dp_media/$fileId/$fileName");
-}
 
 function humanFileSize($size,$unit="") {
     if( (!$unit && $size >= 1<<30) || $unit == "GB")
@@ -98,28 +84,28 @@ function curl_get_file_size( $url ) {
     else {
         return "";
     }
-
-
-    function dp_proxy_url($do_url) {
-        // Parse the URL to get the path
-        $path = parse_url($do_url, PHP_URL_PATH);
-
-        // Split the path by slashes
-        $segments = explode('/', trim($path, '/'));
-
-        // Extract the part after the 4th slash
-        $fileId = $segments[3];
-        $fileName = end($segments);
-
-        // Construct the proxy URL
-        //return site_url("dp_media/$fileId/$fileName");
-        echo $do_url;
-        $proxy_url = str_replace("https://digitalpreservation.is.ed.ac.uk", base_url(), $do_url);
-        echo $proxy_url;
-        return $proxy_url;
-    }
-?>
 }
+
+function dp_proxy_url($do_url) {
+    // Parse the URL to get the path
+    $path = parse_url($do_url, PHP_URL_PATH);
+
+    // Split the path by slashes
+    $segments = explode('/', trim($path, '/'));
+
+    // Extract the part after the 4th slash
+    $fileId = $segments[3];
+    $fileName = end($segments);
+
+    // Construct the proxy URL
+    //return site_url("dp_media/$fileId/$fileName");
+    echo $do_url;
+    $proxy_url = str_replace("https://digitalpreservation.is.ed.ac.uk", base_url(), $do_url);
+    echo $proxy_url;
+    return $proxy_url;
+}
+?>
+
 
 
 $author_field = $this->skylight_utilities->getField("Creator");
