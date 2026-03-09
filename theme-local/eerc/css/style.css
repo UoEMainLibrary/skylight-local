@@ -560,3 +560,94 @@ video:focus-visible {
     outline: 4px solid #ffd900;
     box-shadow: 0 0 0 8px #00526F;
 }
+
+/* Skeleton loading animation */
+@keyframes skeleton-loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+.skeleton-image,
+.skeleton-audio,
+.skeleton-video {
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Optional: Add a subtle pulse effect */
+.skeleton-image::after,
+.skeleton-audio::after,
+.skeleton-video::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    animation: skeleton-shimmer 2s infinite;
+}
+
+@keyframes skeleton-shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Image wrapper for proper layout */
+.image-wrapper {
+    vertical-align: top;
+}
+
+/* Error state styling */
+.image-load-error {
+    background: #fee;
+    border: 2px dashed #faa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c33;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+
+#media-loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #4CAF50;
+    transition: width 0.3s ease;
+}

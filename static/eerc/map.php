@@ -144,7 +144,8 @@ function request($url, $data = null, $post = true, $session = null)    {
 
 <?php
 
-$url = base_url() . "files/subjects_out.csv";
+$url = "/apps/www/fend/files/subjects_out.csv";
+
 $data = file_get_contents($url);
 
 //use the "/s"(ubject) part in the .csv to separate rows and allow parsing

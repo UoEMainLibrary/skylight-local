@@ -22,6 +22,21 @@ function endsWith( $haystack, $needles ) {
     return false;
 }
 
+function dp_proxy_url($do_url) {
+    // Parse the URL to get the path
+    $path = parse_url($do_url, PHP_URL_PATH);
+
+    // Split the path by slashes
+    $segments = explode('/', trim($path, '/'));
+
+    // Extract the part after the 4th slash
+    $fileId = $segments[3];
+    $fileName = end($segments);
+
+    // Construct the proxy URL
+    return site_url("dp_media/$fileId/$fileName");
+}
+
 function humanFileSize($size,$unit="") {
     if( (!$unit && $size >= 1<<30) || $unit == "GB")
         return number_format($size/(1<<30),2)."GB";
@@ -38,7 +53,7 @@ function curl_get_file_size( $url ) {
 
     $curl = curl_init( $url );
 
-    curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 1);
+    curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 5);
     //curl_setopt($curl, CURLOPT_CONNECTTIMEOUT_MS, 1000);
 
     // Issue a HEAD request and follow any redirects.
@@ -213,13 +228,14 @@ $bitstreamLinks = array();
                                     // Iterate through all the digital objects as a PHP array
 
                                     foreach($json_array as $digital_obj)  {
+                                        //var_dump($digital_obj);
                                         try {
                                             $digital_obj = json_decode($digital_obj, TRUE);
 
                                             $do_file = $digital_obj['title'];
+                                            //var_dump($do_file);
                                             $do_title_short = substr($do_file, 0, strpos($do_file, '.'));
                                             $do_url = $digital_obj['file_versions'][0]['file_uri'];
-                                            $file_size = curl_get_file_size($do_url);
 
                                             if (endsWith($do_file, ['.wav', '.mp3'])) {
                                                 $audio .= '<audio controls src="' . dp_proxy_url($do_url) . '" title="Embedded audio file ' . $do_file . $file_size . '">';
@@ -250,6 +266,7 @@ $bitstreamLinks = array();
                                             }
                                         }
                                         catch (Exception $e) {
+
                                             // Something was wrong in the digital object data
                                             // but well log it
                                             // echo 'Caught exception: ',  $e->getMessage(), "\n";
