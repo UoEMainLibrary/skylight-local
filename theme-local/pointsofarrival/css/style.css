@@ -10,12 +10,13 @@ a {
     color: 
 #393e3f;
 }
-a:focus, a:hover,
-.film-info p a:focus, .film-info p a:hover {
+a:hover,
+.film-info p a:hover {
     color:#758c92!important;
     text-decoration: none!important;
     -webkit-box-shadow: inset 0 0 0 rgba(18, 19, 19, 0), 0 3px 0  rgba(117,140,146, 1)!important;
     box-shadow: inset 0 0 0 rgb(19,67,79,0), 0 3px 0  rgba(117,140,146, 1)!important;  
+    transition: all 0.2s ease-in-out;
 }
 a:hover .fa.fa-eye
 {
@@ -468,12 +469,12 @@ div.spacer {
 }
 .right-nav img {
     width: 60px;
-    margin-right: 30px;
+    margin-right: 2.50px;
 }
 #uog {
     width: 120px;
     height: 110px;
-    margin-left: -20px;
+    margin: 0 -20px;
 }
 #uoe {
     width: 90px;
@@ -2025,7 +2026,6 @@ p.film-themes-p {
     font: normal normal normal 14px/1 FontAwesome!important;
     color:#393e3f;
     font-size: 20px!important;
-    margin-top: 10px;
 }
 /* -----> Themes END <----- */
 
@@ -2217,3 +2217,124 @@ p.theme-info {
 }
 /* -----> Quick Back Links END <----- */
 /* GLOBAL FUNCTIONALITY CUSTOMISATIONS END */
+
+/* -------------------------------------
+
+      Focus Outline & Link Underline
+
+--------------------------------------*/
+
+/* Ensure images inside links are block to ensure that the focus ring surrounds the image */
+a img {
+  display: block;
+}
+
+.right-nav a img {
+  display: inline-block;
+}
+
+/* Default focus-visible for all elements: add a glowing box-shadow */
+:focus-visible {
+  box-shadow: rgba(255, 150, 0, 0.7) 0px 0px 10px 6px, rgb(255, 150, 0) 0px 0px 0px 2.5px;
+  z-index: 9999;
+  outline: none;
+}
+
+/* Enhanced focus-visible for input fields: smaller box-shadow to avoid overwhelming the input */
+input:focus-visible {
+  box-shadow: rgba(255, 150, 0, 0.7) 0px 0px 5px 2px, rgb(255, 150, 0) 0px 0px 0px 1px !important;
+  z-index: 9999;
+  outline: none;
+}
+
+/* Enhanced focus-visible for links: scale up and add transition 
+This makes it more visible when focusing on links that are images only */
+a:focus-visible {
+  box-shadow: rgba(255, 150, 0, 0.7) 0px 0px 10px 6px, rgb(255, 150, 0) 0px 0px 0px 2.5px !important;
+  z-index: 9999;
+  outline: none;
+  text-decoration: underline !important;
+  transform: scale(1.05); /* Lifts the element up */
+  transition: transform 0.2s cubic-bezier(.4,0,.2,1), box-shadow 0.2s;
+}
+
+a:has(.landing-background):focus-visible .landing-background{
+  box-shadow: rgba(255, 150, 0, 0.7) 0px 0px 10px 6px, rgb(255, 150, 0) 0px 0px 0px 2.5px !important;
+  z-index: 9999;
+  outline: none;
+  text-decoration: underline !important;
+  transform: scale(1.05); /* Lifts the element up */
+  transition: transform 0.2s cubic-bezier(.4,0,.2,1), box-shadow 0.2s;
+}
+
+/* Underline links with a bit of offset and thickness */
+a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    transition: text-underline-offset 0.2s cubic-bezier(.4,0,.2,1), text-decoration-thickness 0.2s, transform 0.2s cubic-bezier(.4,0,.2,1), box-shadow 0.2s;
+}
+
+/* Ensure parent containers allow overflow for focus-visible. 
+This rule is necessary to prevent clipping of the focus ring. */
+:has(a:focus-visible) {
+  overflow: visible !important;
+}
+
+/* ----------------------
+
+      New Tab Icon
+
+------------------------*/
+/* Ensure that links with icons (like external links) have some spacing between text and icon */
+a:not(.right-nav a, .poa-sidebar a, #galleries a) {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+}
+
+.poa-sidebar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.poa-sidebar a:hover, .poa-sidebar a:focus, .right-nav a:hover {
+    color: #fff !important;
+}
+
+/* Indicate links that open in a new tab/window 
+Adds an icon 'arrow-up-right-from-square' from font awesome to the end of the link
+Adds text to indicate the link opens in a new tab and hides it (so that screen reader users know that it opens in a new tab) */
+a[target="_blank"]::after {
+  content: ' (opens in a new tab)';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjAuMSBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI1IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0zODQgNjRDMzY2LjMgNjQgMzUyIDc4LjMgMzUyIDk2QzM1MiAxMTMuNyAzNjYuMyAxMjggMzg0IDEyOEw0NjYuNyAxMjhMMjY1LjMgMzI5LjRDMjUyLjggMzQxLjkgMjUyLjggMzYyLjIgMjY1LjMgMzc0LjdDMjc3LjggMzg3LjIgMjk4LjEgMzg3LjIgMzEwLjYgMzc0LjdMNTEyIDE3My4zTDUxMiAyNTZDNTEyIDI3My43IDUyNi4zIDI4OCA1NDQgMjg4QzU2MS43IDI4OCA1NzYgMjczLjcgNTc2IDI1Nkw1NzYgOTZDNTc2IDc4LjMgNTYxLjcgNjQgNTQ0IDY0TDM4NCA2NHpNMTQ0IDE2MEM5OS44IDE2MCA2NCAxOTUuOCA2NCAyNDBMNjQgNDk2QzY0IDU0MC4yIDk5LjggNTc2IDE0NCA1NzZMNDAwIDU3NkM0NDQuMiA1NzYgNDgwIDU0MC4yIDQ4MCA0OTZMNDgwIDQxNkM0ODAgMzk4LjMgNDY1LjcgMzg0IDQ0OCAzODRDNDMwLjMgMzg0IDQxNiAzOTguMyA0MTYgNDE2TDQxNiA0OTZDNDE2IDUwNC44IDQwOC44IDUxMiA0MDAgNTEyTDE0NCA1MTJDMTM1LjIgNTEyIDEyOCA1MDQuOCAxMjggNDk2TDEyOCAyNDBDMTI4IDIzMS4yIDEzNS4yIDIyNCAxNDQgMjI0TDIyNCAyMjRDMjQxLjcgMjI0IDI1NiAyMDkuNyAyNTYgMTkyQzI1NiAxNzQuMyAyNDEuNyAxNjAgMjI0IDE2MEwxNDQgMTYweiIvPjwvc3ZnPg") no-repeat center;
+  mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjAuMSBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI1IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0zODQgNjRDMzY2LjMgNjQgMzUyIDc4LjMgMzUyIDk2QzM1MiAxMTMuNyAzNjYuMyAxMjggMzg0IDEyOEw0NjYuNyAxMjhMMjY1LjMgMzI5LjRDMjUyLjggMzQxLjkgMjUyLjggMzYyLjIgMjY1LjMgMzc0LjdDMjc3LjggMzg3LjIgMjk4LjEgMzg3LjIgMzEwLjYgMzc0LjdMNTEyIDE3My4zTDUxMiAyNTZDNTEyIDI3My43IDUyNi4zIDI4OCA1NDQgMjg4QzU2MS43IDI4OCA1NzYgMjczLjcgNTc2IDI1Nkw1NzYgOTZDNTc2IDc4LjMgNTYxLjcgNjQgNTQ0IDY0TDM4NCA2NHpNMTQ0IDE2MEM5OS44IDE2MCA2NCAxOTUuOCA2NCAyNDBMNjQgNDk2QzY0IDU0MC4yIDk5LjggNTc2IDE0NCA1NzZMNDAwIDU3NkM0NDQuMiA1NzYgNDgwIDU0MC4yIDQ4MCA0OTZMNDgwIDQxNkM0ODAgMzk4LjMgNDY1LjcgMzg0IDQ0OCAzODRDNDMwLjMgMzg0IDQxNiAzOTguMyA0MTYgNDE2TDQxNiA0OTZDNDE2IDUwNC44IDQwOC44IDUxMiA0MDAgNTEyTDE0NCA1MTJDMTM1LjIgNTEyIDEyOCA1MDQuOCAxMjggNDk2TDEyOCAyNDBDMTI4IDIzMS4yIDEzNS4yIDIyNCAxNDQgMjI0TDIyNCAyMjRDMjQxLjcgMjI0IDI1NiAyMDkuNyAyNTYgMTkyQzI1NiAxNzQuMyAyNDEuNyAxNjAgMjI0IDE2MEwxNDQgMTYweiIvPjwvc3ZnPg") no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  vertical-align: middle;
+
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+a[target="_blank"]:has(h2)::after {
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+/* Slight icon lift on hover and focus-visible */
+a:hover[target="_blank"]::after,
+a:focus-visible[target="_blank"]::after {
+    transform: translate(1px, -2px);
+    transition: transform  0.2s cubic-bezier(.4, 0, .2, 1);
+}
+
+.film-info {
+
+}

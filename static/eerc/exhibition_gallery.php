@@ -1,20 +1,5 @@
 <?php
     $title_field = $this->skylight_utilities->getField('Title');
-
-    function dp_proxy_url($do_url) {
-        // Parse the URL to get the path
-        $path = parse_url($do_url, PHP_URL_PATH);
-
-        // Split the path by slashes
-        $segments = explode('/', trim($path, '/'));
-
-        // Extract the part after the 4th slash
-        $fileId = $segments[3];
-        $fileName = end($segments);
-
-        // Construct the proxy URL
-        return site_url("dp_media/$fileId/$fileName");
-    }
 ?>
 
 
@@ -203,7 +188,7 @@
     <br>
     <div style="text-align: center">
         <?php
-              $do_url = "https://digitalpreservation.is.ed.ac.uk/bitstream/handle/20.500.12734/56448/MILLS-revised-720.mp4";
+              $do_url = base_url()."/bitstream/handle/20.500.12734/56448/MILLS-revised-720.mp4";
 
               $audio = '<video controls width="600" preload="auto" title="MILLS-revised" poster="/theme/eerc/images/MILLS-revised-720.png">';
               $audio .= '<source src="' . dp_proxy_url($do_url) . '">';

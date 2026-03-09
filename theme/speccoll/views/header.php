@@ -110,6 +110,9 @@
 </head>
 
 <body class="record">
+    <div class="skip-links" style="position: absolute;">
+        <a class="sr-only" href="#main" onclick="event.preventDefault(); document.getElementById('main').focus();">Skip to content</a>
+    </div>
     <nav class="navbar navbar-default navbar-fixed-top">
 
         <div class="col-lg-8 col-md-8 col-sm-9 hidden-xs">
@@ -156,6 +159,6 @@
             </div>
         </div>
     </nav><!-- end of header container -->
-
+    <div id="main" tabindex="-1">
 
 
