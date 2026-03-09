@@ -83,6 +83,27 @@ function curl_get_file_size( $url ) {
     else {
         return "";
     }
+
+
+    function dp_proxy_url($do_url) {
+        // Parse the URL to get the path
+        $path = parse_url($do_url, PHP_URL_PATH);
+
+        // Split the path by slashes
+        $segments = explode('/', trim($path, '/'));
+
+        // Extract the part after the 4th slash
+        $fileId = $segments[3];
+        $fileName = end($segments);
+
+        // Construct the proxy URL
+        //return site_url("dp_media/$fileId/$fileName");
+        echo $do_url;
+        $proxy_url = str_replace("https://digitalpreservation.is.ed.ac.uk", base_url(), $do_url);
+        echo $proxy_url;
+        return $proxy_url;
+    }
+?>
 }
 
 
@@ -201,18 +222,18 @@ $bitstreamLinks = array();
                                             $file_size = curl_get_file_size($do_url);
 
                                             if (endsWith($do_file, ['.wav', '.mp3'])) {
-                                                $audio .= '<audio controls src="' . $do_url . '" title="Embedded audio file ' . $do_file . $file_size . '">';
+                                                $audio .= '<audio controls src="' . dp_proxy_url($do_url) . '" title="Embedded audio file ' . $do_file . $file_size . '">';
                                                 $audio .= 'Your browser does not support the <code>audio</code> element.</audio>';
                                                 //$audio .= $file_size;
                                             } else if (endsWith($do_file, ['.mp4','.mov', '.m4v'])) {
                                                 $audio .= '<video controls width="480" preload="metadata" title="Embedded video file ' . $do_file . $file_size . '">';
-                                                $audio .= '<source src="' . $do_url . '">';
+                                                $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
                                                 $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                                                 //$audio .= $file_size;
                                             } else if (endsWith($do_file, ['.jpg','.jpeg'])) {
                                                 log_message('debug', print_r($digital_obj, true));
-                                                $photo .= '<a href="' . $do_url . '" title="Photograph ' . $do_title_short .  $file_size . '">';
-                                                $photo .= '<img src="' . $do_url . '" alt="Photograph ' . $do_title_short .  $file_size . '" class="photos" style="width: 300px; padding: 8px;"></a>';
+                                                $photo .= '<a href="' . dp_proxy_url($do_url) . '" title="Photograph ' . $do_title_short .  $file_size . '">';
+                                                $photo .= '<img src="' . dp_proxy_url($do_url) . '" alt="Photograph ' . $do_title_short .  $file_size . '" class="photos" style="width: 300px; padding: 8px;"></a>';
                                             } /*else if (endsWith($do_file, ['.doc'])) {
                                                 $do_title_short = substr($do_title_short, 0, -2);
                                                 $trans .= '<a href="' . $do_url . '" title="Transcript of interview ' . $do_title_short . ' in Microsoft Word format">';
@@ -223,7 +244,7 @@ $bitstreamLinks = array();
                                                 $trans .= '<img src="/theme/eerc/images/file-odt-icon.png" alt="Transcript of interiew ' . $do_title_short . ' in ODT format"></a>';
                                             }*/ else if (endsWith($do_file, ['.pdf'])) {
                                                 $do_title_short = substr($do_title_short, 0, -2);
-                                                $trans .= '<a href="' . $do_url . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank" onclick="return warnNewTab()">';
+                                                $trans .= '<a href="' . dp_proxy_url($do_url) . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank" onclick="return warnNewTab()">';
                                                 $trans .= '<img src="/theme/eerc/images/file-pdf-icon.png" alt="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '"></a>';
                                                 //$trans .= $file_size;
                                             }
