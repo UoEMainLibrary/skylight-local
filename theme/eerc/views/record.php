@@ -22,7 +22,6 @@ function endsWith( $haystack, $needles ) {
     return false;
 }
 
-
 function humanFileSize($size,$unit="") {
     if( (!$unit && $size >= 1<<30) || $unit == "GB")
         return number_format($size/(1<<30),2)."GB";
@@ -39,7 +38,7 @@ function curl_get_file_size( $url ) {
 
     $curl = curl_init( $url );
 
-    curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 5);
+    curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 1);
     //curl_setopt($curl, CURLOPT_CONNECTTIMEOUT_MS, 1000);
 
     // Issue a HEAD request and follow any redirects.
@@ -104,8 +103,6 @@ function dp_proxy_url($do_url) {
     echo $proxy_url;
     return $proxy_url;
 }
-?>
-
 
 
 $author_field = $this->skylight_utilities->getField("Creator");
@@ -214,28 +211,27 @@ $bitstreamLinks = array();
                                     // Iterate through all the digital objects as a PHP array
 
                                     foreach($json_array as $digital_obj)  {
-                                        //var_dump($digital_obj);
                                         try {
                                             $digital_obj = json_decode($digital_obj, TRUE);
 
                                             $do_file = $digital_obj['title'];
-                                            //var_dump($do_file);
                                             $do_title_short = substr($do_file, 0, strpos($do_file, '.'));
                                             $do_url = $digital_obj['file_versions'][0]['file_uri'];
+                                            $file_size = curl_get_file_size($do_url);
 
                                             if (endsWith($do_file, ['.wav', '.mp3'])) {
-                                                $audio .= '<audio controls src="' . dp_proxy_url($do_url) . '" title="Embedded audio file ' . $do_file . $file_size . '">';
+                                                $audio .= '<audio controls src="' .  dp_proxy_url($do_url) . '" title="Embedded audio file ' . $do_file . $file_size . '">';
                                                 $audio .= 'Your browser does not support the <code>audio</code> element.</audio>';
                                                 //$audio .= $file_size;
                                             } else if (endsWith($do_file, ['.mp4','.mov', '.m4v'])) {
                                                 $audio .= '<video controls width="480" preload="metadata" title="Embedded video file ' . $do_file . $file_size . '">';
-                                                $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
+                                                $audio .= '<source src="' .  dp_proxy_url($do_url) . '">';
                                                 $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                                                 //$audio .= $file_size;
                                             } else if (endsWith($do_file, ['.jpg','.jpeg'])) {
                                                 log_message('debug', print_r($digital_obj, true));
-                                                $photo .= '<a href="' . dp_proxy_url($do_url) . '" title="Photograph ' . $do_title_short .  $file_size . '">';
-                                                $photo .= '<img src="' . dp_proxy_url($do_url) . '" alt="Photograph ' . $do_title_short .  $file_size . '" class="photos" style="width: 300px; padding: 8px;"></a>';
+                                                $photo .= '<a href="' .  dp_proxy_url($do_url) . '" title="Photograph ' . $do_title_short .  $file_size . '">';
+                                                $photo .= '<img src="' .  dp_proxy_url($do_url) . '" alt="Photograph ' . $do_title_short .  $file_size . '" class="photos" style="width: 300px; padding: 8px;"></a>';
                                             } /*else if (endsWith($do_file, ['.doc'])) {
                                                 $do_title_short = substr($do_title_short, 0, -2);
                                                 $trans .= '<a href="' . $do_url . '" title="Transcript of interview ' . $do_title_short . ' in Microsoft Word format">';
@@ -246,13 +242,12 @@ $bitstreamLinks = array();
                                                 $trans .= '<img src="/theme/eerc/images/file-odt-icon.png" alt="Transcript of interiew ' . $do_title_short . ' in ODT format"></a>';
                                             }*/ else if (endsWith($do_file, ['.pdf'])) {
                                                 $do_title_short = substr($do_title_short, 0, -2);
-                                                $trans .= '<a href="' . dp_proxy_url($do_url) . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank" onclick="return warnNewTab()">';
+                                                $trans .= '<a href="' .  dp_proxy_url($do_url) . '" title="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '" target="_blank" onclick="return warnNewTab()">';
                                                 $trans .= '<img src="/theme/eerc/images/file-pdf-icon.png" alt="Transcript of interview ' . $do_title_short . ' in PDF format' . $file_size . '"></a>';
                                                 //$trans .= $file_size;
                                             }
                                         }
                                         catch (Exception $e) {
-
                                             // Something was wrong in the digital object data
                                             // but well log it
                                             // echo 'Caught exception: ',  $e->getMessage(), "\n";
