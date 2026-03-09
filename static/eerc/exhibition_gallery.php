@@ -191,7 +191,7 @@
               $do_url = base_url()."/bitstream/handle/20.500.12734/56448/MILLS-revised-720.mp4";
 
               $audio = '<video controls width="600" preload="auto" title="MILLS-revised" poster="/theme/eerc/images/MILLS-revised-720.png">';
-              $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
+              $audio .= '<source src="' . $do_url . '">';
               $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
               echo $audio;
         ?>
