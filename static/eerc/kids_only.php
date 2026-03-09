@@ -64,7 +64,7 @@
                         <?php
                              $do_url = base_url()."/bitstream/handle/20.500.12734/57057/farming_compilation_DG5-1-1-1_and_DG38-9-1-1.mp3";
                              $audio = '<audio controls width="300" preload="metadata" title="CV7-quiet.mp4" >';
-                             $audio .= '<source src="' . dp_proxy_url($do_url) . '">';
+                             $audio .= '<source src="' . $do_url . '">';
                              $audio .= 'Sorry, your browser doesn\'t support embedded videos.</video>';
                              echo $audio;
                         ?>
