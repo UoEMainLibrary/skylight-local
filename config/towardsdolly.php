@@ -11,17 +11,17 @@ $config['skylight_url_prefix'] = 'towardsdolly';
 if(ENVIRONMENT == 'development') {
     if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
         $config['skylight_ga_code'] = '';
-        $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live5.is.ed.ac.uk:8983/';
         $config['skylight_link_url'] = 'http://lac-archivesspace-test4.is.ed.ac.uk:8081';
     } else if (strpos($_SERVER['HTTP_HOST'], "test") !== false) {
         $config['skylight_ga_code'] = '';
-        $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
+        $config['skylight_solrbase'] = 'http://lac-archivesspace-live5.is.ed.ac.uk:8983/';
         $config['skylight_link_url'] = 'http://lac-archivesspace-test4.is.ed.ac.uk:8081';
     }
 }
 else {
     $config['skylight_ga_code'] = 'G-3DSGX7YDRF';
-    $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live5.is.ed.ac.uk:8983/';
     $config['skylight_link_url'] = 'http://archives.collections.ed.ac.uk';
 }
 
