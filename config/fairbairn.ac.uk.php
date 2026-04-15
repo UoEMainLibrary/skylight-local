@@ -10,12 +10,12 @@ $config['skylight_solr_core'] = 'solr/archivesspace';
 if (ENVIRONMENT == 'development') {
     $config['base_url'] = 'https://test.fairbairn.ac.uk/';
     $config['skylight_ga_code'] = 'G-X4CRLZFCQM';
-    $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live5.is.ed.ac.uk:8983/';
 }
 else {
     $config['base_url'] = 'https://www.fairbairn.ac.uk/';
     $config['skylight_ga_code'] = 'G-1HP342X330';
-    $config['skylight_solrbase'] = 'http://lac-archivesspace-live4.is.ed.ac.uk:8983/';
+    $config['skylight_solrbase'] = 'http://lac-archivesspace-live5.is.ed.ac.uk:8983/';
 }
 
 $config['skylight_repository_type'] = 'archivesspace'; // Demo 'dspace'

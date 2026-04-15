@@ -1,7 +1,7 @@
         <footer>
             <div class="footer-links">
                 <div class="site-links">
-                    <a href="./">Musical Instruments Museusms Edinburgh</a>
+                    <a href="./">Musical Instruments Museums Edinburgh</a>
                     <a href="./about">About this Collection</a>
                     <a href="./iiif">IIIF</a>
                     <a href="./feedback" class="last">Feedback</a>
